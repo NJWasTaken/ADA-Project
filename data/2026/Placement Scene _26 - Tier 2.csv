@@ -1,0 +1,60 @@
+Company,Role,Internship,Compensation (LPA),,OA Date,Shortlisted Interview,Presentation,Placed,,,GPA Cutoff,Note
+,,,Base,CTC,,,,Internship,FTE,Both,,
+Deloitte,USI,,6,7.6,13/09/25,17/09/25,,,40,,6,"Company asked for role preference
+but shortlisted according to
+business requirements"
+,AI ,,,,,,,,,,,
+,Oracle,,,,,,,,9,,,
+,CSAD,,,,,,,,3,,,
+,EDA ADMM,,,,,,,,11,,,
+,PDICSM,,,,,,,,5,,,
+,ET&P SAP,,,,,,,,10,,,
+,ET&P FT GBS,,,,,,,,8,,,
+,EAD QE,,,,,,,,7,,,
+British Telecom ( BT Group ),,50000,7.64,10.64,19/09/25,19/09/25,,,10,,,CTC given by the company is 7.64 while 10.64 is the money received post retention and joining bonus. So considered 10.64 as CTC with 7.64 as base
+"DTICI (Daimler Truck 
+Innovation Center India)",CS - Graduate Trainee,,,10,16/09/25,TBD,,,2,,,
+,ECE/EEE - Gradute Trainee,,,10,,,,,,,,
+Collins Aerospace,Graduate Engineer Trainee,20000,,8,,,,,,,,
+Tejas Networks,Software Engineer,30000,,10,29/09/25,29/09/25,,,,5,,
+,Hardware Engineer,30000,,10,,,,,,2,,
+EY,Associate Consultant,21200,7.5,9.2,,,,,,22,,
+KPMG,Tech Transformation DEQ,20000,6,,20/09/25,24/09/25,,,,3,6.5,"CTC: Total Earning Potential will be Base + Variable + Other benefits [Variable Pay - which depends on the individual’s performance, service line’s performance and the firm’s performance + Other Benefits (Gratuity & Insurance)]"
+,Digital Soln- Strategy & Insight - CB,20000,6,,,,,,,1,,
+,GRCS TMT,20000,6,,,,,,,5,,
+,TE_SAP,20000,5,,09/11/25,,,,,,,
+,Digital Trust - Cyber Assurance,20000,5,7,20/09/25,25/09/25,,,,4,,2 are under waitlist
+Telstra,Associate Software Engineer,25000,9.43,10,03/10/25,09/10/25,,,14,,8,There are other allowances that might be provided which is not part of the CTC. Only a few have been offered the itnernship
+Applied Materials,,55000,10,11.92,13/10/25,15/10/25,15/10/25,,,3,,Additional 6000 USD stocks
+Toshiba,Associate Software Engineer,45000,10,11.5,07/10/25,08/10/25,,,,5,,Shortlisted 8.2+ for CSE 
+Broadridge Financial Solutions,SDE,30000,,10,16/10/25,17/10/25,16/10/25,,,,,Additional 5 lacs medical insurance
+,Automation Testing & SDET,30000,,10,,,,,,,,
+HP,Transformation Intern,40000,,9,,10/10/25,,,,,,Hiring for internship only with PBC
+Havells,Software Engineer,25000,8,11.5,17/11/25,,,,,,,
+,Core Engineer,25000,7,9.5,,,,,,,,
+7-eleven,Associate Software Engineer,,10,11.5,,,,,,,,"10 inclusive of fixed + variable, Additional 1.5 JB"
+Hourglass,Patent Associate,,7.22,7.5,27/10/25,27/10/25,,,8,,,
+Insight Global Staffing Services,Software Engineer Trainee,,,6,24/10/25,24/10/25,,,,,,
+PwC,Associate Engineer,35000,,6,,,,,,10,,
+phData,Associate Engineer,,,7,10/11/25,15/11/25,,,,,,
+Oracle (OFSS),Associate Consultant,,,9.82,08/11/25,08/11/25,,,,,,
+ITC Infotech,4 roles,15000,,8.5,,,,,,,,
+HPE,IT Developer,30000,8,8.42,29/10/25,04/11/25,29/10/25,,,8,,
+Consecure Technologies,Software Engineer,20000,,8,06/11/25,07/11/25,06/11/25,,,14,,
+Maersk GSC India Pvt. Ltd,Data Analyst Intern,50000,,10.84,,,,,,,,Internship with PBC. Internship duration - 6 months to 1 Yr
+Winman,Software Engineer L2,15000,,6,,,,,,,,
+,Product Engineer,20000,,8,,,,,,,,
+Leadsquared,,,,11,,,,,,,,
+Swiggy,SDE,,,11,,,,,,,,
+Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,20000,,5,,,,,,,,ECE & EEE Only
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Total Visited,27,,,,,,Total Placed(T2),0,127,82,,
+,,,,,,,Grand Total,209,,,,
+,,,,,,,,,,,,
+Highest CTC,11.92,Highest Base,10,Companies with 10+ Recruitment,,6,,,,,,
+ Average CTC,9.07625,Average Base,7.424375,,,,,,,,,
+Median CTC,9.66,Median Base,7.36,Mass Recruitment Companies,,1,,,,,,
+Wt. Average CTC,TBD Error with formula,Wt. Average Base,TBD,Companies that ditched so far,,1,,,"prev formula:        ""formula : =SUMPRODUCT(E3:E38, ARRAYFORMULA(I3:I38 + J3:J38 + K3:K38)) / I40
+""                ",,,
+Wt. Median CTC,7.6,Wt. Median Base,6,,,,,,,,,

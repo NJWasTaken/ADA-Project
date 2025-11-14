@@ -1,0 +1,111 @@
+#,Company Name,Job Role,Internship,Compensation (LPA),,Placed,,,Final CGPA Cut-off
+,,,,Base,CTC,FTE Only,FTE + Intern,Intern (PBC),
+1,Infosys,Specialist Programmer,,,9.5,8,,,
+2,Bluebird,Software Engineer,25000,6,10,,,,7
+3,Bain,Analyst,40000,9.9,11,,,8,6
+4,Deloitte,Analyst - Analytics & Technology,,6,7.5,10,,,6
+,,US India Analyst,,,,27,,,
+5,Deloitte India,ET&P Oracle - Analyst,25000,6,7.5,,6,,
+,,ET&P SAP - Analyst,,,,,6,,
+,,ET&P - Finance Transformation Analyst,,,,,5,,
+,,PDICMS ,,,,,5,,
+,,EAD – ADMM,,,,,9,,
+6,Eurofins,Associate Software Engineer,,,10.75,,9,,
+7,Tejas Networks,NMS,30000,8.97,10,,0,,
+,,Hardware,30000,8.97,10,,2,,
+,,Software ,30000,,10,,3,,7.5
+8,Toshiba Software,Associate Software Engineer,45000,10,11.5,,7,,7
+9,KPMG,Digital Solns. - Digital Next,,,,,2,,
+,,TT - DEQ,,,,,3,,
+,,GRCS Telecom,20000,6,7,,4,,6
+,,Digital Trust,20000,5,7,,11,,6
+,,Analyst (Tax Technology),,5,7,,,,6
+10,Dover,Software Engineer,25000,,11,,2,,8
+11,Telstra,,,9.43,10,,10,,
+12,Crestron,,30000,,8,,,,8
+13,Broadridge,,30000,,10,,5,,7
+14,Conga,,12000,,10.44,,,,
+15,IDfy,,25000,,10,,1,,6
+16,Jones Lang Lasalle Technologies,,35000,,9,,9,,8
+17,Aptiv,,25000,,8.5,,,,7
+18,Consilio,Associate,,5,8,15,,,
+19,AstraZeneca,,25000,,8.43,,5,,
+20,Nouveau Labs,Software Engineer,25000,,6-9,,,,
+21,Bounteous x Accolite,,20000,,8,,,,6
+22,Havells India Limited ,IoT and Software Roles,25000,8,11.5,,2,,6.5
+,,Power Electronics and Solar Roles,25000,7,9.5,,1,,6.5
+23,HP,GIT Role,30000,,8,,3,,
+,,Managed Services,20000,,7.48,,7,,7
+24,EY India,,,7.5,8.59,18,,,6.5
+25,Celstream,Software Engineer,30000,,8,,,,
+26,RSM USI,,,,7.7,,,,6
+27,Fluidyn,,20000,,6,,,,7.5
+28,DeltaX,,0,,7,,,,5
+29,Relx Group,,,,,,,,7
+30,L7 Informatics,,25000,3.25,6.5,,,,8.5
+31,Consuma,Analyst,40000,6,10,,,,6.5
+32,Mphasis,,20000,,7,,,,7
+33,PhData,Consultant,,6.39,7,21,,,7
+34,Hourglass,,20000,,7,,,,7
+35,ConSecure ,Software Engineer (Next-Gen Cybersecurity),20000,,8,,7,,6.5
+,,PreSales,15000,,6,,2,,
+36,Cognizant,GenC,,,6.5,11,,,
+37,Sun Life,Gradute Engineer Trainee,,,7.25,,,,
+38,Columbia Sportswear Company,Software Engineer Trainee,,,6.26,,,,7
+39,Cubic Logics,Software Development Engineer,15000,4.5,6,,,,7
+40,Oracle,Associate Consultant,50000,9.34,10,,9,,7
+41,Evam Labs,DS/DE/FS/UI,30000,7.2,,,,,
+42,Volvo,Associate Graduate Engineer,,,7.5,0,,,6.5
+43,Bizom,Sales Developement Representative,25000,,7,,4,,
+,,Business Development Manager,,,7.5,,1,,
+,,Presales,,,8,,2,,
+,,Marketing,,,6,,1,,
+,,Product Trainee,35000,,10,,3,,
+44,UST,,,,10,,,,6
+45,Emids,Associate Software Engineer,,,7,,,,
+46,EPAM,Junior Software Engineer,25000,,8,,,,
+47,GW DeepConnect Technologies,Software Engineer,20000,5,6.48,,,,
+48,Azentio,Software Development Engineer in Test,50000,,10,,,,8
+49,BlackBuck,Associate Software Engineer,30000,,8,,,,
+50,SecPod,Test automation Engineer,25000,,6,,,,
+51,JSW Group,Graduate Engineer Trainee,,6.8,8,2,,,6
+52,PeopleBox,Software Engineer,20000,8,9,,,,
+53,Emplay,Associate Data Scientist,20000,,9,,,,
+54,Embitel Technologies,Trainee Engineer,30000,,8,,,,6.5
+55,KPMG, Analyst,,5,7,17,,,6
+56,Think 41,Full Stack Engineer,25000,,7,,,,
+57,Superleap,Technical Product Analyst,25000,6,11,,,,
+58,GKN Aerospace,Graduate Trainee,,,10,2,,,8
+59,Webknot Technologies,Software Developer Trainee,15000,6,7,,,,
+60,Krazybee Services,Software Engineer,25000,7,8,,,,8
+61,Digital.ai,,25000,,8,,,,7.5
+62,Jar App,Data Analyst,,8.1,10,,,,
+63,Media.net,Web Application Developer,,,8,,,,6
+64,Tsalla Aerospace,Junior Engineer,25000,4.2,6,,4,,6
+65,KreditBee,Software Engineer,25000,,8,,,,8
+66,Tyfone,Software Engineer,,,8,5,,,
+,,QA Engineer,,,7,,,,
+67,Merkle,Software Engineer,,7,8.5,,,,8.5
+,,Analyst,,,,,,,
+68,CreditAccess Grameen Limited,Data Analyst,,5.2,6,,,,6
+69,Goldman Sachs,Engineering Analyst,,,,,,,6.5
+70,Snapmint,Junior Analyst,,5,6,,,,7.5
+71,BCE Global Tech,Dev,,4,6,,,,7
+72,Esyasoft Technologies,Software Engineer Trainee,,,8,2,,,7.5
+73,AccioJob,Data Engineer,,,11.1,,,,7
+,,Infrastructure Engineer,,,,,,,
+74,Thoucentric,Supply Chain Consultant,,,7.5,,,,7
+75,Happiest Minds Technologies,Software Engineer,,,7,,,,8
+76,Edu-versity,Business Development Specialist,30000,,8,,,,6
+77,Orange Business,Graduate Engineer Trainee,,,6.5,,,,6
+78,Edu-versity,Business Development Specialist,30000,,8,,,,
+79,Gnani.ai,Backend Developer (Python),,,9,,,,
+80,Scaler,Business Development Associate,,,10,,,,
+81,Infosys,Specialist Programmer,,,9.5,,,,6
+,,Digital Specialist Engineer,,,6.25,,,,
+82,Cevo Technology,Software Engineer,,8.5,9,,,,7
+83,CloudInvent,Full Stack Developer,40000,,8,,,,
+,,Python Developer,,,,,,,
+84,Sonata Software,Trainee Digital Technology Specialist,,,6,,,,6
+85,Whitefield Careers,Graduate Engineer Trainee,,3.6,6,,,,6
+86,Trigent,Associate Software Engineer,,,10,,,,8

@@ -1,0 +1,138 @@
+#,Company Name,Job Role,Internship,Compensation (LPA),,Intern (PBC),Final CGPA Cut-off,"Date of Visit
+"
+,,,,Base,CTC,,,
+1,Apple,Software Development Intern (IS&T),90000,,,20,8,Aug 2024
+,,Software Development Intern (Ops),,,,1,9,Sept 2024
+,,Data Science and ML Intern (Ops),,,,1,9,Sept 2024
+,,Software Development Intern (Wireless),,,,2,9,Oct 2024
+,,Software Engineering ML Intern (AppleCare),,,,1,8,Nov 2024
+2,Siemens,Technical Intern,25000,,,5,7,Aug 2024
+,,Analog Intern,50000,,,,8,Oct 2024
+,,Data Engineer Intern,,,,,6.5,Jan 2025
+3,NVIDIA,Hardware Engineering Intern,80000,,,0,7.8,Sept 2024
+,,Software Engineering Intern,,,,0,,Oct 2024
+4,Goldman Sachs,Analyst - GMLM,70000,,,2,6.5,Sept 2024
+,,Analyst - Operations,,,,8,,
+5,StockX,Product Intern,50000,,,,,Sept 2024
+6,ZScaler,Software Development Intern,75000,,,2,7,Sept 2024
+7,Boomi,Software Engineer Intern,45000,,12,3,7.5,Sept 2024
+,,Cloud Intern,,,,1,,
+,,Solutions Consulting Intern,,,,1,,
+,,Data Science Intern,,,,1,,
+8,Guidewire,Software Developer Intern,75000,,,7,8,Sept 2024
+,,Product Security Intern,50000,,,1,,Oct 2024
+,,SecOps Intern,50000,,,1,,Nov 2024
+9,Confluent,Data Engineering Intern,100000,,,2,7,Sept 2024
+,,Business Intelligence Intern,100000,,,2,,
+,,Cloud Infrastructure Engineer Intern,75000,,,1,,
+,,Applications Engineer Intern,75000,,,1,,
+10,Oracle,Project Intern,50000,,,3,7,Sept 2024
+11,MediBuddy,Engineering Intern,25000,,,0,8.5,Oct 2024
+12,Align,Engineer Intern,50000,,,,,Oct 2024
+13,Datacore,Software Intern,35000,,,,7,Oct 2024
+14,Zebra Technologies,Intern,33600,,,30,7.5,Oct 2024
+15,Wayfair,Software Engineering Intern,75000,,,1,7,Oct 2024
+16,Swiggy,"Intern (iOS, DS, Engineering)",40000,,,,7.5,Oct 2024
+,,Engineering Intern,,,,14,,Dec 2024
+,,Product Management Intern,,,,,,Feb 2025
+,,Product Analytics Intern (Lynk),,,,1,,Mar 2025
+,,Product Innovation Intern - CEO's Office,,,,,,Jul 2025
+17,Juniper Networks,Software Engineer Intern,40000,,17.5,16,7.5,Oct 2024
+,,AIDE Intern (Juniper Mist),,,,1,,Dec 2024
+18,Textron,,25000,,6.25,2,,Oct 2024
+19,Kimberly Clark,Graduate Engineering Intern,25000,,,,8,Oct 2024
+20,Hevo Data,Software Development Engineer Intern,50000,,,,8,Oct 2024
+21,AMD,Software Engineer Intern,34000,,,2,,Oct 2024
+22,Garrett Motion,Cybersecurity Engineer Intern,30000,,,4,8,Oct 2024
+23,Harman,Intern,40000,,,1,8,Oct 2024
+24,Infloblox,Graduate Apprentice,35000,,,15,7,Nov 2024
+25,Shadowfax,Software Development Engineer Intern,20000,,8,5,8,Nov 2024
+26,Altair,Intern,30000,,,6,,Nov 2024
+27,Nokia,Intern,25000,,,1,8,Nov 2024
+28,F5 ,Software Engineer Intern,75000,,20,6,8,Nov 2024
+29,Zynga,Software Engineer Intern,80000,,,1,7.5,Nov 2024
+,,Cloud Engineer Intern,,,,1,7,
+30,Evam Labs,Intern,30000,,7.2,3,7,Nov 2024
+31,Alcon,Intern,25000,,,2,8,Nov 2024
+32,Zeta,Engineering Intern,60000,,,5,7.5,Nov 2024
+33,Aptos,Dev Intern,35000,,,1,7.5,Nov 2024
+34,Moengage,,50000,,,3,8,Nov 2024
+35,Walmart ,Cybersecurity Intern,100000,,,4,7,Nov 2024
+36,AT&T,Intern,49620,,,13,8,Nov 2024
+37,Zanskar,Software Engineer Intern,40000,,,,8.5,Nov 2024
+38,KPMG,Consultant Intern,20000,,8,16,6,Nov 2024
+39,Ninjacart,Tech Intern,15000,,7,,7,Nov 2024
+40,Nibrus Technologies,Software Engineer Intern,15000,6.5,8.2,,,Nov 2024
+41,Bizom,Sales Development Representative Intern,25000,,7,6,,Nov 2024
+,,Business Development Manager Intern,,,7.5,1,,
+,,Presales Intern,,,8,2,,
+,,Marketing Intern,,,6,1,,
+,,Product Trainee,35000,,10,3,,
+42,Ather Energy,Product Analyst Intern,30000,,,2,,Nov 2024
+,,Ride Experience Analyst Intern,,,,,,
+43,Udaan,Software Development Engineer Intern,55000,,,4,7,Nov 2024
+44,O9 Solutions,SDET Intern,30000,,8,10,7,Nov 2024
+45,3rdiTech,Student Intern,25000,,,1,,Dec 2024
+46,Target,Apprentice,30000,,,1,7,Dec 2024
+47,Raining Code Technologies,,20000,,,,8.5,Dec 2024
+48,Harman,,40000,,,,,Dec 2024
+49,Drongo AI,,30000,,,1,,Dec 2024
+50,AB InBev,Intern,30000,,,2,,Dec 2024
+51,Allo Health,Software Engineering Intern,30000,,,7,,Dec 2024
+52,Cashfree Payments,DevOps Intern,42000,,11,,7.5,Dec 2024
+53,Keysight,Software Intern,50000,,,1,,Dec 2024
+54,MatreComm,C++ Software Engineering Intern,25000,,,4,,Dec 2024
+55,Arcesium,Site Reliability Engineer Intern,100000,,,4,8.5,Dec 2024
+56,Amuse Labs,Software Developement Intern,40000,,,,,Dec 2024
+57,Nike,Intern,75000,,,,7,Dec 2024
+58,Victoria's Secret,Data Scientist Intern,45000,,,,7.5,Jan 2025
+59,Zoomcar,DevOps Intern,25000,,10,,,Jan 2025
+60,Collins Aerospace,Intern,20000,,,,,Jan 2025
+61,Multiplier,Associate Product Manager Internship,80000,,,,,Jan 2025
+62,FinSynth AI,Software Developement Intern,35000,,,,,Jan 2025
+63,Gnani,AI Engineer Intern,30000,,12,,7,Jan 2025
+64,MyYogaTeacher,Software Engineer Intern,20000,,,,6.5,Jan 2025
+65,Toshiba (Japan),Software Engineer Intern,,,,,7.5,Feb 2025
+66,Digital Blanket,Engineering Intern,25000,,,,,Feb 2025
+67,7-Eleven GSC,Cybersecurity Intern,30000,,7,,,Feb 2025
+68,msg,,22000,,,,7,Feb 2025
+69,Energy Exemplar,Software Developement Intern,40000,,11,1,7,Feb 2025
+70,Morphle Labs,Software Testing Intern,25000,5,8,,7,Feb 2025
+71,Zepto,Quality Assurance Specialist Intern,25000,,,1,7.5,Feb 2025
+,,Category Management Intern,25000,,7,,,Jul 2025
+,,Business Analyst,35000,,7,,,Jul 2025
+,,Product Analyst,35000,,7,,,Jul 2025
+72,Blue Hat Solutions,Android Development Intern,20000,,,,6.5,Feb 2025
+,,Embedded Systems Development Intern,,,,,,
+73,Purple Block,Data Science Intern,25000,,12,,,Mar 2025
+74,Practsphere,Software Intern,50000,,,,,Mar 2025
+75,Progress,Business Development Representative Intern,40000,,,,,Apr 2025
+,,Software Development Intern,33000,,,,,May 2025
+76,Lumber,Full Stack Developer Intern,55000,,14,,8,May 2025
+77,FrontM,Frontend Intern,25000,,,,,May 2025
+78,Kenscio,Software Developer Intern,25000,,5,,,May 2025
+,,,30000,,,,,Jul 2025
+79,Meeraq,Software Intern,30000,,8,,,May 2025
+80,Safran,ML Intern,,,,,,May 2025
+81,6D Technologies,AI & Data Science Engineering Intern,18000,,6,,,May 2025
+82,Healthi,Production Support Engineer Intern,18000,,,,,May 2025
+83,ANZ,Apprenticeship,22500,,,20,,May 2025
+84,Catalina Systems,Software Testing Intern,40000,,12,,,May 2025
+85,Greenlight,Associate Software Engineer,50000,,,,7,Jun 2025
+86,Emids,Associate Software Engineer Intern,10000,,,,,Jun 2025
+87,QNX,Student Intern,55000,,,,8,Jun 2025
+88,OutFlo,Full-Stack Developer Intern,25000,,,,,Jun 2025
+89,The Lonely Bag,DevOps Intern,,10,14,,,Jun 2025
+,,Revenue Ops Intern,,,,,,
+,,QE Intern,,,,,,
+90,Thinkerbell Labs,Software Development Intern,25000,,,,,Jun 2025
+91,Superleap,Backend Engineer,25000,,,,,Jun 2025
+92,Agratas,IT Intern,40000,,,,7,Jun 2025
+93,HyperNorm AI,Software Development Intern,30000,,10,,7,Jun 2025
+94,Target,Apprenticeship,30000,,,,7,Jul 2025
+95,Manhattan Associates,Software Trainee,40000,,,,7.5,Jul 2025
+96,NewWave,Intern,0,,3.5,,,Jul 2025
+97,75F Smart Innovations,Intern,15300,,,,7,Jul 2025
+98,Pod.ai,Full Stack Engineer,25000,,8,,,Jul 2025
+99,Tarana Wireless,Software Engineer Intern,50000,,,,,Jul 2025
+100,SeedlingLabs,Engineering Intern,30000,,,,7.5,Jul 2025
