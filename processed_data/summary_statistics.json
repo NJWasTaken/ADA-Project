@@ -1,0 +1,55 @@
+{
+  "total_records": 1641,
+  "total_companies": 1073,
+  "batches_covered": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "colleges": [
+    "PES"
+  ],
+  "avg_ctc": 3.7247333333333335,
+  "median_ctc": 0.28500000000000003,
+  "max_ctc": 50.0,
+  "min_ctc": 0.01,
+  "total_placements": 774.0,
+  "avg_cgpa_cutoff": 7.2802034428794995,
+  "records_by_year": {
+    "2022": 445,
+    "2023": 182,
+    "2024": 604,
+    "2025": 351,
+    "2026": 59
+  },
+  "records_by_tier": {
+    "Dream": 6,
+    "Internship": 19,
+    "Internship-Spring": 314,
+    "Internship-Summer": 53,
+    "Tier 1": 129,
+    "Tier 2": 92,
+    "Tier 3": 11,
+    "Tier-1": 430,
+    "Tier-2": 387,
+    "Tier-3": 177,
+    "nan": 23
+  },
+  "records_by_college": {
+    "PES": 1641
+  },
+  "top_10_recruiters": {
+    "Ibm (General)": 50.0,
+    "Ltimindtree": 41.0,
+    "Deloitte India": 31.0,
+    "Ibm (Female Only)": 28.0,
+    "Zebra Technologies": 25.0,
+    "Apple (India)": 20.0,
+    "Kpmg (T3)": 20.0,
+    "Phdata": 20.0,
+    "Ey India": 18.0,
+    "Juniper Network": 16.0
+  }
+}
