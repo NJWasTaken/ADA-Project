@@ -1,0 +1,544 @@
+batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,salary_category,role_type,academic_year
+2022,PES,Companies_list - Tier-3.csv,Quest Global,Trainee Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Tcs (Ninja Hiring),nan,Tier-3,,,,,,,nan,nan,nan,OTI - One time incentive,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,The Math Company,nan,Tier-3,,,,,,7.0,"15-08-21
+15-10-21","17-08-21
+18-10-21",14-08-21,"4.5 1st year
+ctc over 5 years is 41 with 12L esops(based on performance)
+25% increment every year",,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Mu Sigma,nan,Tier-3,,,,,,,28-08-21,nan,nan,"3 base with 50 bonus 1st year
+ctc over 4 years is 30
+bonus not fixed, may increase based on performance",,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Cognizant,GenC Elevate,Tier-3,,,,103.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Infosys,Systems Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Robert Bosch,nan,Tier-3,,,,53.0,,,16-09-21,17-09-21,15-09-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"L&T Technology
+Services Limited",nan,Tier-3,,,,,,,"20-09-21
+21-09-21
+22-09-21
+23-09-21
+24-09-21",nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Ey,Tech Consulting - Cyber,Tier-3,,,,,,,21-10-21,23-10-21,22-10-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Eox Vantage,Jr Developer,Tier-3,,,,,,2.0,12-10-21,13-10-21,13-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Deevia Software,Software Engineer,Tier-3,,,,1.0,2.0,,13-11-21,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Hcl,"GET - Identity and 
+Access Management",Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Atos,Trainee,Tier-3,,,,,,,05-12-21,07-12-21,05-12-21,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Kofluence,Operations,Tier-3,,,,,,2.0,24-11-21,27-11-21,-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Atos Global,Software Engineer,Tier-3,,,,,,,05-12-21,07-12-21,05-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Cgi,Software Engineer,Tier-3,,,,,,,09-12-21,15-12-21,09-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Prodapt Solutions,Software Engineer,Tier-3,,,,,,,18-12-21,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Infobell It Solutions,Jr. Systems Engineer,Tier-3,,,,,,,21-12-21,21-12-21,21-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Face Prep,Placement Mentor,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Moonraft
+ Innovation Labs",Software Engineer,Tier-3,,,,5.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Pk Global,"Software Engineer
+Level 2",Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Vrize,Associate Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Sasken,Associate Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Bristlecone,Associate Consultant,Tier-3,,,,,,,31-03-22,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Renault Nissan 
+Technology Business 
+Centre India",Graduate Engineer Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Databeat,Data Analysts (.NET),Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Data Analyst,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Maveric Systems,"Technical Associate 
+ Core Banking",Tier-3,,,,,,,19-01-22,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Diatoz Solutions,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Apexon,Associate Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Infoview,Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Utthunga Technologies,Project Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Birlasoft,Trainee Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Titan,Graduate Engineer Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Anora,Graduate trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Billsafe Technologies,Tech Development intern,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Turingminds.Ai,ML Analyst,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Mountblue Technologies,Software Engineer Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Nivetti Systems,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Neosoft Technologies,Trainee Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Ericsson,Associate Engineer Trainee,Tier-3,,,,,,12.0,03-03-22,04-03-22,03-03-22,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Simplilearn,Software Development Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Altisource,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Itc Infotech,Associate IT consultant,Tier-3,,,,2.0,,,nan,01-04-22,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Axiscades,Graduate Engineer Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,7Edge,SDET,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Tata Technologies,Graduate Engineer Trainee,Tier-3,,,,15.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Monocept,Trainee Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,H3Mart,Sales,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Valued Epistemics,Graduate Sales Trainee,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Pentagon Space,Full Stack Developer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Ditto Insurance,Insurance Advisor,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Merkle Sokrati,Associate Business Analyst,Tier-3,,,,,,,nan,nan,nan,10k for first 6 months following which pay will become 38.3k,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Kibbcom,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Bosch Automotive
+ Electronics",Graduate Apprentice,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Pepper Cloud,Full Stack Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Careerlabs Technologies,Full Stack Java Developer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Specbee,Software Developer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Mastek,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Acemicromatic 
+Manufacturing 
+Intelligence Technologies",Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Dxc Technology,"Senior Assistant Service 
+Delivery Coordinator",Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Mastek,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Nsoft 
+Services Pvt Ltd",Dot Net Developer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Weir Ensci,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Stratogent Technology 
+Services",Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Cube,"Business Development
+ Executive",Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Bhanzu,"Marketing Strategic
+ Partnership -Executive",Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Bosch Global 
+Software Technologies",Embedded development,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Apar Peopleworld,Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Miller Knoll,Trainee Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Synchronoss 
+Technologies",Trainee Software Engineer,Tier-3,,,,,,,nan,nan,nan,2 year bond,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Onedirect,"Associate, Client Care",Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,Square Yards,Associate Investment manager,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-3.csv,"Ntt Data Fa 
+Insurance Systems",Software Engineer,Tier-3,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,American Express,Technology Intern,Internship-Spring,,,,,,,03-09-21,08-09-21,03-09-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Amazon,SDE Intern,Internship-Spring,,,,,,,25-10-21,nan,-,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Zoom,Security Engineer,Internship-Spring,,,,,,,02-10-21,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,"Samsung 
+Semiconductor",Student Trainee Software,Internship-Spring,,,,,,,17-10-21,18-10-21,-,,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Nvidia,Hardware Intern,Internship-Spring,,,,,,,29-10-21,nan,-,,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Hpe,Digital Transformation Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Infoblox,Software Engineer Intern,Internship-Spring,,,,,,,"16-11-21
+16-11-21",17-11-21,16-11-21,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Digicert,Associate Software Engineer,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Publicis Sapient,Engineering Intern,Internship-Spring,,,,,,,12-12-21,15-12-21,09-12-21,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Zebra Technologies,Intern,Internship-Spring,,,,,,,-,15-11-21,10-11-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Textron,Intern,Internship-Spring,,,,,,,01-11-21,08-11-21,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Juniper Networks,Intern,Internship-Spring,,,,,,,10-11-21,12-11-21,-,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Intel,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,At&T India,Technical Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Ey Gds,Intern - GDS Assurance Digital,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Autodesk,"Intern Software Developer
+ Data and Process Management",Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Data,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Kimberly Clark,Integration,Internship-Spring,,,,,,,18-11-21,22-11-21,18-11-21,,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Hiver,Application Support Engineer,Internship-Spring,,,,,,,21-11-21,22-11-21,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Uber,Software Engineering Intern,Internship-Spring,,,,,,,29-11-21,06-12-21,-,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Brane Enterprises,Intern,Internship-Spring,,,,,,,nan,22-12-21,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Quicken Software,Intern,Internship-Spring,,,,,,,26-11-21,nan,26-11-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,​Matrecomm Technologies,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Yahoo!,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Matrecomm,Intern,Internship-Spring,,,,,,,30-11-21,nan,30-11-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Hackerearth,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Garrett Motion,Intern,Internship-Spring,,,,,,,04-12-21,06-12-21,04-12-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Rakuten,Technical Intern,Internship-Spring,,,,,,,05-12-21,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Signify (Females Only),Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Johnson Controls,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Grant Thornton,Intern,Internship-Spring,,,,,,,12-01-22,13-01-22,"-
+27-01-22",,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Cisco,Intern,Internship-Spring,,,,,,,08-12-21,"15-12-21
+16-12-21",-,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Zscaler,Data Scientist Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Data Scientist,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Delta X Automotive,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Logmein,"Associate Software Engineering
+ Intern",Internship-Spring,,,,,,,13-12-21,15-12-21,13-12-21,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Iqvia,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Inmobi,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Texas Instruments,Digital,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Nxp Semiconductors,Cyber Security Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Ge Healthcare,Intern,Internship-Spring,,,,,,,12-11-21,nan,12-11-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Confluent Technologies,"Technical Program Manager, Intern",Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Airender,3D Graphics Software Interns,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Soroco,Software Engineer,Internship-Spring,,,,,,,30-12-21,04-01-22,-,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Delightful Gourmet,Intern,Internship-Spring,,,,,,,03-01-22,04-01-22,03-01-22,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Drongo Ai,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Better Half,Intern,Internship-Spring,,,,,,,31-12-21,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Datazymes.Com,Data Analyst,Internship-Spring,,,,,,,05-01-22,nan,nan,,,,,,,,,,,,False,False,False,,Data Analyst,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Victoria'S Secret,Intern,Internship-Spring,,,,,,,11-01-22,nan,-,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Telio.Vn,Software Engineer Intern,Internship-Spring,,,,,,,19-01-22,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Verana Networks,Software Engineer Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Progress,Software Engineer Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Automation Anywhere,Intern,Internship-Spring,,,,,,,nan,nan,08-02-22,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Easyecom,Management Trainee,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Keysight Technologies,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Infinera,VLSI/FPGA Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Hiver,Frontend Engineer Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Akamai,Software Engineer,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Knudge.Me,Software Engineer Frontend,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Nichesoft,Software Engineer,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Moveinsync,Software Engineer,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Liferay,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Kepsla,Frontend Intern,Internship-Spring,,,,,,,"26-02-22
+27-02-22",28-02-22,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Tecplix Technologies,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Celstream,Software Engineer,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Allgovision,Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Nova,Product Support Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Orange Health,Software Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Spring Internship(2022).csv,Analyttica Datalab Inc,Devops Intern,Internship-Spring,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Hpe (Through Project),nan,Tier-1,,,,6.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Morgan Stanley(Through Summer Internship),nan,Tier-1,,,,16.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Groww(Through Summer Internship),nan,Tier-1,,,,2.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Akamai(Through Summer Internship),nan,Tier-1,,,,13.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Cisco(Ppo),nan,Tier-1,,,,3.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Dell(Through Summer Internship),nan,Tier-1,,,,1.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Goldman Sachs(Through Summer Internship),nan,Tier-1,,,,5.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Intuit(Through Summer Internship),nan,Tier-1,,,,3.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Jp Morgan(Through Summer Internship),nan,Tier-1,,,,9.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Pronisi(Through Summer Internship),nan,Tier-1,,,,7.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Samsung(Through Summer Internship),nan,Tier-1,,,,5.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Sap Labs(Through Summer Internship),nan,Tier-1,,,,2.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Visa(Through Summer Internship),nan,Tier-1,,,,6.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Walmart(Through Summer Internship),nan,Tier-1,,,,3.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Zscaler,nan,Tier-1,,,,4.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Ansys,nan,Tier-1,,,,,,1.0,nan,nan,nan,Only ECE,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Cred,Backend Dev,Tier-1,,,,,,2.0,15-08-21,16-08-21,13-08-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Ibm,Software Dev,Tier-1,,,,,7.0,10.0,"17-08-21
+ 21-08-21",30-08-21,14-08-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Intuit,Software Engineer,Tier-1,,,,,,1.0,17-08-21,18-08-21,17-08-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Gameskraft,Software Engineer,Tier-1,,,,,,1.0,16-08-21,-,16-08-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Couchbase,Software Engineer R&D,Tier-1,,,,,,2.0,-,20-08-21,19-08-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Commvault System,Associate Engineer,Tier-1,,,,,4.0,4.0,20-08-21,23-08-21,20-08-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Razorpay,Software Dev Engineer,Tier-1,,,,,,2.0,22-08-21,24-08-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Hevo Data,Software Dev Engineer 1,Tier-1,,,,,3.0,7.0,21-08-21,21-08-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Udaan,Software Engineer,Tier-1,,,,,,3.0,"22-08-21 
+23-08-21 ",25-08-21 ,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Morgan Stanley,Technnology Analyst,Tier-1,,,,,,3.0,25-08-21,27-08-21,25-08-21,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Citrix,Software Engineer 1,Tier-1,,,,,5.0,3.0,29-08-21,31-08-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Hpe,SDE(R&D),Tier-1,,,,,10.0,9.0,28-08-21,03-09-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Codenation 
+Innovation Labs",SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Goldman Sachs,Software Engineer,Tier-1,,,,,,1.0,29-08-21,02-09-2021,02-09-2021,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Clumio,Member of Techinal Staff,Tier-1,,,,,,,31-08-21,01-09-21,31-08-21,RSU - Restricted Stock Units,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Navi Technologies,SDE - 1,Tier-1,,,,1.0,,3.0,01-09-21,04-09-21,01-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Komprise,Software Engineer,Tier-1,,,,,,1.0,04-09-21,07-09-21,04-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Visa,Software Engineer,Tier-1,,,,,,9.0,02-09-21,06-09-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Cisco,Software Engineer,Tier-1,,,,,32.0,10.0,06-09-21,14-09-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Zscaler,Developer,Tier-1,,,,,,2.0,09-09-21,13-09-21,09-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Vm Ware,Member of Techinal Staff,Tier-1,,,,,1.0,14.0,12-09-21,"15-09-21
+16-09-21",-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Walmart,Software Engineer 2,Tier-1,,,,,2.0,8.0,17-09-21,20-09-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Playsimple,Associate Software Engineer,Tier-1,,,,,,,19-09-21,21-09-21,21-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Cloudera,Software Engineer,Tier-1,,,,,,3.0,24-09-21,29-09-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Epsilon,Software Engineer,Tier-1,,,,,,14.0,12-09-21,20-09-21,15-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Sandvine 
+Technologies",Software Engineer,Tier-1,,,,,,3.0,20-09-21,22-09-21,18-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Ushur,Software Developer,Tier-1,,,,,3.0,2.0,24-09-21,26-09-21,24-09-21,RSU - Restricted Stock Units,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Sixt R&D,SDE - 1,Tier-1,,,,,,3.0,22-09-21,23-09-21,22-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Arista Networks,Software Engineer,Tier-1,,,,3.0,,,27-09-21,30-09-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Amagi Media Labs,Software Engineer,Tier-1,,,,,,7.0,30-09-21,02-10-21,29-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Vymo,Member of Techinal Staff,Tier-1,,,,,,7.0,01-10-21,06-10-21,-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Makemytrip,Software Engineer,Tier-1,,,,,,4.0,02-10-21,06-10-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Pwc,Technology Consulting,Tier-1,,,,,,67.0,05-10-21,07-10-21,05-10-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Cure.Fit,Software Engineer,Tier-1,,,,1.0,,,06-10-21,08-10-21,06-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Akamai Technologies,Software Engineer,Tier-1,,,,,,1.0,09-10-21,12-10-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Infibeam,Software Engineer,Tier-1,,,,,,2.0,07-10-21,09-10-21,07-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Pluribus Networks,SDE,Tier-1,,,,,,1.0,08-10-21,11-10-21,08-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Hiver (Female Only),Software Engineer,Tier-1,,,,,,2.0,13-10-21,"13-10-21
+14-10-21",-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Amadeus Labs,Software Engineer,Tier-1,,,,,1.0,3.0,"18-10-21
+18-10-21",19-10-21,18-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Schneider Electric,(Multiple Roles),Tier-1,,,,6.0,,20.0,20-10-21,26-10-21,20-10-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Lam Research,SDE,Tier-1,,,,,,2.0,18-10-21,20-10-21,13-10-21,"Only CSE, ECE",,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Samsung R&D,Advanced Dev (Senior Engineer),Tier-1,,,,,10.0,10.0,13-10-21,20-10-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Natwest (Female Only),Software Engineer,Tier-1,,,,,,18.0,16-10-21,21-10-21,21-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Affinsys Ai,Software Engineer,Tier-1,,,,,,5.0,15-10-21,"17-10-21
+18-10-21",-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Mercedes Benz R&D,Graduate Engineer Trainee,Tier-1,,,,2.0,,17.0,24-10-21,27-10-21,19-10-21,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Zee Entertainment
+Enterprises Limited","Associate Software 
+Development Engineer",Tier-1,,,,11.0,,18.0,23-10-21,03-11-21,22-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Shadowfax
+Technologies",SDE (Back end),Tier-1,,,,,,4.0,25-10-21,28-10-21,25-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Sling Media,Software Engineer,Tier-1,,,,,,8.0,23-10-21,25-10-21,23-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Idfc First Bank,Application Engineer,Tier-1,,,,5.0,,,26-10-21,30-10-21,26-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,​Infineon Technologies,Engineer,Tier-1,,,,,,,28-10-21,29-10-21,28-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Mentor Graphics,Member Technical Staff,Tier-1,,,,,,1.0,30-10-21,30-10-21,30-10-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Hfcl,Graduate Engineer Trainee,Tier-1,,,,6.0,,,06-11-21,09-11-21,-,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Newfold Digital,Operations Engineer,Tier-1,,,,,,1.0,"01-11-21
+01-11-21",02-11-21,01-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Slice,SDE - 1,Tier-1,,,,4.0,,,09-11-21,11-11-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Carl Zeiss,Software Engineer,Tier-1,,,,5.0,,,10-11-21,12-11-21,12-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Genpact,Business Analyst,Tier-1,,,,42.0,,,9-11-21,12-11-21,-,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Phonepe,Software Engineer - Testing,Tier-1,,,,1.0,,3.0,08-11-21,10-11-21(9am),08-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Ather Energy,Graduate Engineer Trainee,Tier-1,,,,2.0,,,06-12-21,nan,04-12-21,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Amagi,SDET,Tier-1,,,,,,1.0,02-11-21,09-11-21,nan,nan,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Dover,Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Anz Operations 
+& Technology",Cloud and Data Engineer,Tier-1,,,,13.0,,,nan,nan,04-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Data,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Wissen Technology,Analyst,Tier-1,,,,,,2.0,10-11-21,13-11-21,10-11-21,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,G2.Com,Software Engineer - 1,Tier-1,,,,,,3.0,nan,nan,12-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Infoworks,Software Engineer,Tier-1,,,,,1.0,1.0,14-11-21,"15-11-21
+16-11-21",-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Zoom,Security Engineer,Tier-1,,,,,,6.0,19-11-21,nan,17-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Apple India,Network / Systems Engineer,Tier-1,,,,,,,18-11-21,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Oracle Advanced 
+Customer Services",Analyst,Tier-1,,,,15.0,,,17-11-21,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Gigsky,Software Engineer,Tier-1,,,,,,4.0,25-11-21,26-11-21,25-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Zopsmart,Software Engineer,Tier-1,,,,,,3.0,07-12-21,09-12-21,09-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Cashfree,SDET,Tier-1,,,,,,3.0,30-11-21,02-12-21,29-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Rapido,Associate Product Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Uipath,RA Developer,Tier-1,,,,,,,13-01-22,nan,13-01-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Perfios,SDE,Tier-1,,,,,,1.0,29-11-21,01-12-21,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Byju'S,Software Engineer Trainee - QA,Tier-1,,,,5.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Microchip 
+Technology",Protocol System Test Engineer,Tier-1,,,,1.0,,10.0,08-12-21,"09-12-21
+10-12-21",nan,nan,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Grab Greco Llp,Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Instabase,Solutions Engineer,Tier-1,,,,,,,13-12-21,20-12-21,17-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Eagleview,Software Engineer 1,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Commscope,Software Engineer,Tier-1,,,,,,,12-12-21,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Target,Data Engineer,Tier-1,,,,5.0,,,"12-12-21
+29-12-21",16-12-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Data,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Games24X7,SDE,Tier-1,,,,,1.0,11.0,14-12-21,17-12-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Yahoo,Associate Software Dev Engineer,Tier-1,,,,,,1.0,20-12-21,22-12-21,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Instamojo,Software Engineer,Tier-1,,,,,,1.0,18-12-21,nan,18-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Netapp,Member technical Staff,Tier-1,,,,,,,14-01-22,nan,-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Nxp Semiconductors,Analog VLSI / DFT Enginee,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Tiger Analytics,Analyst - Data Science,Tier-1,,,,,,6.0,"10-10-21
+10-10-21",nan,nan,nan,,,,,,,,,,,False,False,False,,Data Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Ola,SDE,Tier-1,,,,5.0,,,24-12-21,27-12-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"New Street Technologies 
+Private Limited",Software Engineer,Tier-1,,,,,,10.0,03-01-22,"05-01-22
+06-01-22",03-01-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Betterplace,"Associate Software 
+Development Engineer",Tier-1,,,,,,4.0,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Thinkerbell Labs,Software Dev,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Societe Generale,Software Engineer,Tier-1,,,,16.0,,,"07-01-22
+08-04-22",10-01-22,07-01-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Sprinklr,Associate DevOps Engineer,Tier-1,,,,1.0,,2.0,"08-01-22
+31-03-22","10-01-22
+11-01-22
+05-04-22",07-01-22,nan,,,,,,,,,,,False,False,False,,SDE-DevOps/SRE,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Whatfix,"Associate Technical 
+Implementation Consultant",Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Lookout,Software Engineer,Tier-1,,,,,,,25-01-22,27-01-22,25-01-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Medibuddy,SDE - 1,Tier-1,,,,,,,27-01-22,nan,27-01-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Ninjacart,SDE,Tier-1,,,,,,,01-02-22,nan,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Fractal Analytics,Imagineer,Tier-1,,,,,,,nan,nan,nan,31 over 3 years,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Dover,Design Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Unbxd,Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Dell Technologies,Sales Operations Analyst,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Symphonyai,Full-Stack Developer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Zwayam,Software Engineer,Tier-1,,,,1.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Trilogy Innovations,SDE,Tier-1,,,,,,,30-01-22,nan,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Kreditbee,Software Engineer,Tier-1,,,,,,,09-02-22,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Amazon,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Verse,ML Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Instawork,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Unbxd,Software Engineer,Tier-1,,,,,,,nan,nan,11-02-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Landmark Group,Trainee Data Scientist,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Data Scientist,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Bain & Company,Analyst,Tier-1,,,,2.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Netradyne,Software Engineer,Tier-1,,,,,,,10-03-22,11-03-22,10-03-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Kyndryl,Automation Engineer,Tier-1,,,,,,,05-03-22,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Prosimo,Member of Technical Staff,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Palo Alto Networks,Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Tila.Com,Associate Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Infinera,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Oaknorth,Associate Technology Analyst,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Synopsys,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Infoedge (Female Only),Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Innovaccer,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Commscope,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Tata Medical And 
+Diagnostics Ltd",Graduate Engineer Trainee,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Wells Fargo,Program Associate,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Capillary,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Metro Global,Chatbot Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Bel,Probationary Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Goodworker,Associate Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Commscope,SDE,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Symphonyai,Associate Software Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Aster Dm Healthcare,Associate Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Google,Software Engineer,Tier-1,,,,1.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Dpdzero,Full Stack Engineer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Dyeus,Web3 Developer,Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,E6Data,"Performance and 
+Research Engineer",Tier-1,,,,,,,24-05-22,nan,24-05-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Compute Edge Wireless
+(Edgeq)","5G Systems and 
+Communications Algorithm 
+Engineering",Tier-1,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,Lookout,Software Engineer,Tier-1,,,,,,,nan,nan,nan,2500 ESOP Units,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-1.csv,"Exiger 
+Technologies","CPU Architecture 
+Verification Engineer",Tier-1,,,,,,,nan,nan,nan,2 years bond worth 2 lakhs,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Infosys,Specialist Programmer,Tier-2,,,,,,,08-08-2021,nan,-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Cognizant
+ (Genc Next)",Advanced Developer,Tier-2,,,,,,40.0,14-08-21,19-08-21,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Capgemini,Senior Analyst,Tier-2,,,,67.0,,,nan,nan,27-08-21,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Abb,Management Trainee,Tier-2,,,,,,,nan,nan,16-09-21,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Ushur,SDET,Tier-2,,,,,,,24-09-21,26-09-21,24-09-21,RSU - Restricted Stock Units,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Ibm (Gbs),Associate Developer,Tier-2,,,,,,14.0,nan,nan,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Subex,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Csg International,Software Development,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Wipro Turbo,Project Engineer,Tier-2,,,,130.0,,,24-09-21,"27-09-21
+28-09-21",24-09-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Deloitte Usi,"Technology Analyst - 
+USI Risk & Financial Advisory",Tier-2,,,,20.0,,,29-09-21,04-10-21,22-09-21,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Pwc,Associate,Tier-2,,,,,,8.0,nan,nan,06-10-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Kpmg,Analyst - Digital Trust,Tier-2,,,,,,,16-10-21,22-10-21,14-10-21,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Kpmg Gsd,Analyst,Tier-2,,,,12.0,,,29-10-21,29-10-21,29-10-21,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Oracle,Associate Consultant,Tier-2,,,,22.0,,,24-10-21,25-10-21,-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Accenture,"Advanced Application
+ Engineering Analyst",Tier-2,,,,,,,24-10-21,"28-10-21
+29-10-21",22-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Eox Vantage,Jr Developer,Tier-2,,,,,,4.0,12-10-21,13-10-21,13-10-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Deloitte India,SAP Consulting,Tier-2,,,,,,,22-10-21,"26-10-21
+27-10-21",21-10-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Collins Aerospace,GET,Tier-2,,,,,30.0,,"26-10-21
+03-03-22",27-10-21,26-10-21,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Conga,Software Engineer,Tier-2,,,,,,,27-10-21,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Talent Recruit 
+Software Pvt. Ltd",Software Engineer,Tier-2,,,,,,,02-11-21,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,314E It Solutions,Software Engineer,Tier-2,,,,,1.0,,02-11-21,03-11-21,02-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Microchip
+Technology",ERP - BaaN,Tier-2,,,,,,3.0,18-11-21,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Micron,Associate Engineer,Tier-2,,,,,,,16-11-21,24-11-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Havells,IoT/AIML Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Signify Innovation,Data Specialist,Tier-2,,,,,,,07-01-22,nan,07-01-22,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Viacom18,GET - Frontend,Tier-2,,,,7.0,,,25-11-21,"29-11-21
+30-11-21",-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Yara Digital 
+Farming India",Software Engineering,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Zensar,Software Developer,Tier-2,,,,6.0,,,23-11-21,25-11-21,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Nextuple,Associate Software Engineer,Tier-2,,,,,,,27-11-21,nan,26-11-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Tavant Technologies,Software Engineer Trainee,Tier-2,,,,3.0,,,01-12-21,03-12-21,01-12-21,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Visteon Corporation,Software Engineer,Tier-2,,,,,,,04-12-21,06-12-21,04-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Jsw,GET,Tier-2,,,,8.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Secpod Technologies,Software Engineer – Systems,Tier-2,,,,1.0,,3.0,06-12-21,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Consilio,Associate Engineer,Tier-2,,,,,,,15-12-21,nan,15-12-21,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Hdfc Bank,Executive / Management Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Scaler Academy,Business Development Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Cerner Corporation,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Netcracker,Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Applied Materials,Performance Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Edgeverve Systems,Product Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Pelatro Solutions,Trainee Engineer,Tier-2,,,,,,,04-01-22,"05-01-22
+06-01-22",04-01-22,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Tekenlight Solutions,Java Developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Tejas Networks,Product Verification,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Vrize,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Citiustech,Trainee Software Engineer,Tier-2,,,,6.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Npci,Graduate Engineer Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Allstate,Associate Consultant,Tier-2,,,,,,,11-01-22,nan,-,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Coffeebeans Consulting,Associate Consultant,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Yara Digital Farming,Software Engineer,Tier-2,,,,,,,17-01-22,nan,17-01-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Byteridge,Software Development Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Mphasis,Associate Software Engineer,Tier-2,,,,,,,19-01-22,"25-01-22
+27-01-22",nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Indegene,SDE,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Wakefit,Associate Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Tata Iq,Analyst Analytics Services,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Tata Power,GET,Tier-2,,,,,,,nan,nan,22-01-22,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Axis Bank,IT Deputy Manager,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Adani Group,GET.,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Freightdeck,Product Delivery,Tier-2,,,,,,,03-02-22,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Uptycs,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Krypt,Associate Analyst,Tier-2,,,,,,,31-01-22,nan,31-01-22,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Y Media Labs,Associate Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Ischoolconnect,Full stack,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Temenos,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Kreditbee,Software Engineer,Tier-2,,,,,12.0,7.0,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Vlinder Labs,Associate Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Wakefit,Associate Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Manhattan Associates,Software Engineer,Tier-2,,,,,,,29-02-22,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Sonata,"Trainee Digital 
+Technology Specialist",Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Hardware/Embedded,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Alshaya,Application systems engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Byju'S,Associate - Content Development,Tier-2,,,,,,,09-02-22,10-02-22,09-02-22,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Infovity,Software Engineer,Tier-2,,,,,,,15-02-22,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Harman 
+Connected Services",Associate Developer,Tier-2,,,,,,3.0,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Prodapt Solutions,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Krishworks,SDE 1,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Justdial,QA Testing,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Dell Technologies,Sales Operations Analyst,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Coditas Solutions Llp,Associate Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Prodapt Solutions,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,More Retail,Engineering Trainee,Tier-2,,,,3.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Skuad Lab,Software Developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Iopex Technologies,Trainee Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Just Energy,Business Analyst Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Skypoint Cloud,Data Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Data,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Neos Healthtech,Backend Developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Elsevier,Software Engineer 1,Tier-2,,,,,,,nan,nan,31-03-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Relevance Labs,Junior Developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Freshworks,Software Engineer - Development,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Esi Software,Software Development Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Ivy,Trainee Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Bluebird,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Microland,Graduate Engineering Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Star Health And
+ Allied Insurance",Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Wns Global Services,"Data Engineering /
+ Ingestion Team",Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Data,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Sigma Oss Systems,Associate Business Analyst,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Piramal Group,Graduate Engineer Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Ecom Shopping 
+Solutions Llp",Web Development,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Ge Healthcare,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Larsen & Toubro,Graduate Engineer Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Aakash Institute,Teacher,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Federal Bank,"Associate in Non-Officer 
+(Clerical) Cadre for 
+Branch Banking Role",Tier-2,,,,,,,21-04-22,"25-04-22
+26-04-22",21-04-22,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Alshaya,Application systems engineer,Tier-2,,,,,,,18-04-22,"18-04-22
+19-04-22",18-04-22,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Magna Electronics,Trainee Engineer,Tier-2,,,,,,,04-05-22,04-05-22,04-05-22,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Tek Systems,Candidate Manager,Tier-2,,,,,,,28-05-22,28-05-22,28-05-22,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,L&T Financial Services,Test Automation Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Test,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Phable,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Indegene,Analysts,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Intersoft,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Codeyoung,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Augmont  Goldtech  
+Private Limited",Software Developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Hevo Data,Technical Writer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Latentview Analytics,Analyst L1 Entry,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Cambium Networks,Software Engineer,Tier-2,,,,,,,26-04-22,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Tata Elxsi,Engineer,Tier-2,,,,,,,nan,nan,nan,"5.5 For RR campus
+3.5 For other campus'",,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,"Bitslash Technologies
+(Factors.Ai)",Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Dyeus,Frontend Developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Carestack,DevOps Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-DevOps/SRE,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Novo Nordisk,"Associate Clinical 
+Data Programmer",Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Ecolab Digital Center,Trainee – Software developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Publicis Sapient,Junior Associate Technology,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Infrrd,Trainee Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Flexera,Associate Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Atos Origin,Junior Associate,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Greenlight Planet,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Page Industries,Master Data,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Cambium Networks,Software Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Toshiba,Trainee Engineer,Tier-2,,,,,,,nan,nan,18-06-22,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Nokia,Graduate Engineer Trainee,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Kestone,Junior Developer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Logisticsnow,Full Stack Developer,Tier-2,,,,,,,nan,nan,nan,"Salary based on interview 
+performance",,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Inmobi,Analyst,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022
+2022,PES,Companies_list - Tier-2.csv,Flock,Product Support Engineer,Tier-2,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Morgan Stanley,Summer Intern,Internship-Summer,,,,,,,21-10-20,22-10-20,21-10-20,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Goldman Sachs,Software Engineer Intern,Internship-Summer,,,,,,,30-10-20,03-11-20,03-11-20,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Intuit,Summer Intern,Internship-Summer,,,,,,,31-10-20,04-11-20,-,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Samsung,Student Trainee R&D,Internship-Summer,,,,,,,02-11-20,06-11-20,02-11-20,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Walmart,Software Engineer - 2 Intern,Internship-Summer,,,,,,,17-11-20,18-11-20,17-11-20,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Sap Labs,Intern,Internship-Summer,,,,,,,06-11-20,09-11-20,06-11-20,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Groww,Summer Intern,Internship-Summer,,,,,,,08-11-20,10-11-20,08-11-20,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Standard Chartered,Summer Intern,Internship-Summer,,,,,,,"12-11-20
+13-11-20",17-11-20,-,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Akamai,Software Engineer Intern,Internship-Summer,,,,,,,28-11-20,"01-12-20
+02-12-20",28-11-20,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Visa,Software Engineering Intern,Internship-Summer,,,,,,,05-12-20,10-12-20,-,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Dell Technologies,Summer Intern,Internship-Summer,,,,,,,-,05-02-20,-,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Autodesk,Summer Intern,Internship-Summer,,,,,,,-,-,-,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Target,Summer Intern Data Scientist,Internship-Summer,,,,,,,-,12-05-21,-,,,,,,,,,,,,False,False,False,,Data Scientist,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Zscaler,Intern,Internship-Summer,,,,,,,20-04-21,21-04-21,20-04-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Soroco,Summer Intern,Internship-Summer,,,,,,,05-05-21,07-05-21,04-05-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Epsilon,Intern,Internship-Summer,,,,,,,24-05-21,25-05-21,24-05-21,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Cisco,Software Engineer Intern,Internship-Summer,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Jp Morgan,Software Engineering Intern,Internship-Summer,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Summer Internship(2021).csv,Pronisi,Intern,Internship-Summer,,,,,,,nan,nan,nan,,,,,,,,,,,,False,False,False,,Intern/Trainee,2018-2022
+2022,PES,Companies_list - Dream.csv,Apple India,Software Engineer,Dream,,,,,,5.0,16-11-21,24-11-21,-,nan,,,,,,,,,,,False,False,False,,SDE-Core,2018-2022
+2022,PES,Companies_list - Dream.csv,Eightfold.Ai,Business Analyst,Dream,,,,,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Business Analyst,2018-2022

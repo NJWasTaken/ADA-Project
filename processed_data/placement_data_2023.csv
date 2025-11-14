@@ -1,0 +1,183 @@
+batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,salary_category,role_type,academic_year
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Digicert,Software Engineer Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Glance,Business/SDE/Product Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Texas Instruments,Embedded Software/Analog Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Arm Embedded Technology,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Infoblox,Software Engineering Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Hrlytics,Developer Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Rakuten,Technical Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Goldman Sachs,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Mahindra,Data Analytics Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Kimberly Clark,Graduate Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Wabtec,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Sensehq,Software Engineer Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Intel,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Zebra Technologies,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Drongo Ai,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,Centre For Smart Governance,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Spring Internships.csv,British Telecom,Intern,Internship-Spring,,,,,,,,,,,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Adobe (Ppo),Associate Technical Consultant,Tier-2,,,,,,,,,,This was a result of an external competition,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Bosch (Ppo),Eminent,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Infosys,Specialist Programmer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Tcs,Digital,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Hardware/Embedded,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Mindtree,Graduate Engineer Trainee,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Ibm,Cloud Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Deloitte Usi,USI Risk and Financial Advisory,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Pwc,Risk Consulting,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Wipro,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Schneider Electric,Graduate Engineer Trainee,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Adobe Systems,Associate Technical Consultant,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Hiver,Software Development Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Ather Energy,Electrical Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Juspay Technology,Technical Product Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Oracle Acs,Technical Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Affinsys,Solution Consultant,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Volvo,GET & PGET,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Kpmg,Analyst TE - MS,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Subex,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Cynlr,Application Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Deloitte India,Senior Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Amadeus Labs,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Csg India,SDE Grad,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Nextuple,Associate Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Genpact,Business Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,At&T,Technical Intern,Tier-2,,,,,,,,,,"Internship only, possible conversion to FTE ",,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Brane Enterprises,Associated Solution Leader Trainee,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Microchip Technology,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Wissen Technology,Associate Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Hdfc Bank,Functional / Technical Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Broadridge Financial Solutions,Member Technical,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Cognizant,GenC Elevate,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Ey India,Analytics Consultant,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Collins Aerospace,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Nokia,Graduate Engineer Trainee,Tier-2,,,,,,,,,,CTC = 8.2 LPA + Gratuity + Mediclaim,,,,,,,,,,,False,False,False,,SDE-ML/AI,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Abb,Software Engineer,Tier-2,,,,,,,,,,FTE Only,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Perfios,Software Development Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Mercedes Benz R&D,Graduate Intern Trainee,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Piramal Group,Data Scientist ( Support ),Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Data Scientist,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Elsevier India Technology,SWE I,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,314E Corporation,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Hfcl,Graduate Engineer Trainee,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Skylar Drones,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Exl Service,Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Havells,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Standard Chartered,Development Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Jsw,Graduate Engineer Trainee,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Harman International,Associate Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Hexaware Technologies,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Conga,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Phdata,Associate Data Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Data,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Fractal Analytics,Imagineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Dell,Associate Sales Engineer Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Tvs Motor Company,Data Engineer/Data Scientist,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Data,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Alcon Laboratories,Associate Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Lseg,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Wns,Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Sonata,Trainee Digital Technology Specialist,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Hardware/Embedded,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Zopsmart,SDE-I,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 2.csv,Applied Materials,Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Tcs,Ninja,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Capgemini,Software Analyst,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Mindtree,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Kpit,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-ML/AI,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Trigyn Fintech,Cyber Security Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Cognizant,GenC,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Allstate Solutions,Associate Consultant,Tier-3,,,,,,,,,, Java / dotnet / React JS / Power BI / SAP,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,The Math Company,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 3.csv,Brane Enterprises,Associate Process Leader - Trainee,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Morgan Stanley (Ppo),Technology Analyst,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Natwest Group (Ppo),Software Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Akamai (Ppo),Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Akamai (2Nd Time),nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Adobe (Ppo),Member of Technical Staff,Tier-1,,,,,,,,,,Offered to one student via off-campus opportunity,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Groww (Ppo),Software Development Engineer 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Bosch (Ppo),Niche,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Gigsky (Ppo),nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Sorocco (Ppo),nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Epsilon (Ppo),SDE,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Goldman Sachs (Ppo),nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Jp Morgan Chase (Code For Good),Software Engineer,Tier-1,,,,,,,,,,"CFG is JPMC's only hiring event, no placements.",,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Palo Alto,Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Intuit,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Morgan Stanley,Technology Analyst,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Gameskraft,Game Development,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Trilogy Innovations,Software Development Engineer 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Couchbase,Software Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Walmart,Software Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Urban Company,Software Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Curefit,Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Cisco,Software Engineer  - Engineering,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Pure Storage,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Arista Network,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Unbxd,Software Engineer 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Advanced Micro Devices,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Sap Labs,Associate,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Makemytrip,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Hpe,R&D division,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Komprise,Software Dev Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Dealshare,Software Dev Engineer Tester,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Test,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Simply Vyapar Apps,Software Engineer – 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Sandvine,Networking SW Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Games24×7,SDE Fresher,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Bny Mellon,Software Developer,Tier-1,,,,,,,,,,Darshil's interview experience,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Cloudera,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Egnyte,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Idfc Bank,Application Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Zynga,Software Engineer 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Appdynamics,Software Tester,Tier-1,,,,,,,,,,$25000 RSUs,,,,,,,,,,,False,False,False,,SDE-Test,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Commvault,SDE,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Mathworks,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Bain Capability Network,Analyst,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Sprinklr,Devops Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-DevOps/SRE,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Visa,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Gsk,Data Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Data,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Atlassian,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Enphase,Associate Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Infibeam Avenues Limited,Software Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Epsilon,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Samsung Semiconductor India,Hardware,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Hardware/Embedded,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Microchip Technology,CAD Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Amagi Media Labs,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Zscaler,C Developer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Zscaler (2Nd Time),nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Zscaler (3Nd Time),nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Fractal Analytics,Imagineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Sixt R&D,Software Development Engineer - 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Lam Research,Electrical Engineer - 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Oracle,Member Technical Staff,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Info Edge,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Ather Energy,Firmware Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Juspay Technology,SDE,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Amazon,nan,Tier-1,,,,,,,,,,Hiring Freeze,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Affinsys,Software Engineer Team 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Swymn Technologies,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Cynlr,Design & Development,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Hiver,Software Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Newfold Digital,Database Administrator,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Fidelity Investments,Full Stack Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Paypal,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Mckinsey & Co.,Junior Engineer/Analyst,Tier-1,,,,,,,,,,Internship stipend includes PF,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Nvidia,Hardware Engineering Intern,Tier-1,,,,,,,,,,Only internship,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Arcesium,Software Engineer Intern,Tier-1,,,,,,,,,,Only internship + Benefits of approx 1L,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Zee Entertainment,Associate Software Development Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Western Digital,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Dish Network Technologies,Engineer,Tier-1,,,,,,,,,,Final cutoff - 8.4,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Natwest Group,Software Engineer,Tier-1,,,,,,,,,,CTC = base + performance bonus + gratuity + benefits,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Expedia Group,Mobile Engineering,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Cohesity,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Kickdrum,Software Developer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Lookout India Technologies,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Juniper Networks,Software Engineer 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Ge Healthcare,SDE/SDET,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Test,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Hevodata,nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Logmein (Goto),nan,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Whatfix,nan,Tier-1,,,,,,,,,,interview held at whatfix office in hsr,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Target,Data Engineer,Tier-1,,,,,,,,,,women only drive,,,,,,,,,,,False,False,False,,SDE-Data,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Bluebird,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Trinet Zenefits,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Supermind,nan,Tier-1,,,,,,,,,,Startup- 14 member team,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Landmark,Frontend/ Backend/ Automation Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Cashfree,SDE(Frontend)/SDET,Tier-1,,,,,,,,,,"CS/Minor in CS grads only eligible, GPA cutoff-8",,,,,,,,,,,False,False,False,,SDE-Test,2019-2023
+2023,PES,PESU Placements 2023 - Tier 1.csv,Tredence Analytics,Analyst,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2019-2023
+2023,PES,PESU Placements 2023 - Dream Tier.csv,Apple India (?),nan,Dream,,,,,9.0,,nan,nan,nan,90k stipend+ 10k housing+ flight tickets+ 70k one time,,,,,,,,,,,False,False,False,,Other,2019-2023
+2023,PES,PESU Placements 2023 - Dream Tier.csv,Atlassian,nan,Dream,,,,1.0,,,nan,nan,nan,nan,,,,,,,,,,,False,False,False,,Other,2019-2023
