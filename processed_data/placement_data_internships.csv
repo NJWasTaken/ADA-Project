@@ -1,288 +1,288 @@
-batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,salary_category,role_type,academic_year
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bluebird,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bain,Analyst,Tier-2,40000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Deloitte India,ET&P Oracle - Analyst,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Tejas Networks,NMS,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Toshiba Software,Associate Software Engineer,Tier-2,45000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Dover,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Crestron,nan,Tier-2,30000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Broadridge,nan,Tier-2,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Conga,nan,Tier-2,12000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Idfy,nan,Tier-2,25000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Jones Lang Lasalle Technologies,nan,Tier-2,35000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Aptiv,nan,Tier-2,25000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Astrazeneca,nan,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Nouveau Labs,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bounteous X Accolite,nan,Tier-2,20000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Havells India Limited,IoT and Software Roles,Tier-2,25000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Hp,GIT Role,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Celstream,Software Engineer,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Fluidyn,nan,Tier-2,20000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Deltax,nan,Tier-2,0.0,,,,,,,,,,,,5.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,L7 Informatics,nan,Tier-2,25000.0,,,,,,,,,,,,8.5,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Consuma,Analyst,Tier-2,40000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Mphasis,nan,Tier-2,20000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Hourglass,nan,Tier-2,20000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Consecure,Software Engineer (Next-Gen Cybersecurity),Tier-2,20000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Cubic Logics,Software Development Engineer,Tier-2,15000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Oracle,Associate Consultant,Tier-2,50000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Evam Labs,DS/DE/FS/UI,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bizom,Sales Developement Representative,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Epam,Junior Software Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Gw Deepconnect Technologies,Software Engineer,Tier-2,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Azentio,Software Development Engineer in Test,Tier-2,50000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Blackbuck,Associate Software Engineer,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Secpod,Test automation Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Peoplebox,Software Engineer,Tier-2,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Emplay,Associate Data Scientist,Tier-2,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Data Scientist,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Embitel Technologies,Trainee Engineer,Tier-2,30000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Think 41,Full Stack Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Superleap,Technical Product Analyst,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Webknot Technologies,Software Developer Trainee,Tier-2,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Krazybee Services,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Digital.Ai,nan,Tier-2,25000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Tsalla Aerospace,Junior Engineer,Tier-2,25000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Kreditbee,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Edu-Versity,Business Development Specialist,Tier-2,30000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Edu-Versity,Business Development Specialist,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Cloudinvent,Full Stack Developer,Tier-2,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Phonepe,Software Engineer,Tier-1,80000.0,,,,,,,,,,,,6.0,Jul 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Couchbase,Dev,Tier-1,125000.0,,,,,,,,,,,,8.0,Jul 2024,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cisco,Software Engineer,Tier-1,98000.0,,,,,,,,,,,,,Jul 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Zomato,Software Development Engineer - 1,Tier-1,60000.0,,,,,,,,,,,,9.0,Jul 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Stockx,Associate Software Engineer,Tier-1,60000.0,,,,,,,,,,,,9.5,Jul 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Vyapar App,Software Engineer - 1,Tier-1,50000.0,,,,,,,,,,,,9.0,Jul 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Okta,Software Engineer,Tier-1,100000.0,,,,,,,,,,,,8.0,Jul 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Idfc First Bank,Application Engineer,Tier-1,40000.0,,,,,,,,,,,,6.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Arista Networks,Software Engineer,Tier-1,65000.0,,,,,,,,,,,,7.5,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cbx1,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Ibm,Software Developer (Systems),Tier-1,30000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Societe Generale,Software Engineer,Tier-1,32500.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Jpmorgan Chase & Co.,Software Engineer,Tier-1,75000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cloudera,Software Engineer - 1,Tier-1,45000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Schneider Electric,Graduate Engineer Trainee,Tier-1,35000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Singularity Dynamics,Software Development Engineer,Tier-1,30000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Walmart,Software Development Engineer - 2,Tier-1,100000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Typeface,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Egnyte,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,7.5,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Infibeam,Software Development Engineer,Tier-1,20000.0,,,,,,,,,,,,8.7,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Netradyne,Software Development Engineer in Test,Tier-1,35000.0,,,,,,,,,,,,7.5,Aug 2024,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,D. E. Shaw,Software Development Engineer in Test,Tier-1,150000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Meesho,Software Development Engineer,Tier-1,45000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Commvault,Software Development Engineer,Tier-1,50000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Sap Labs,Dev,Tier-1,35000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Sixt,Software Development Engineer - 1,Tier-1,40000.0,,,,,,,,,,,,8.65,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Signify Innovation Lab,Assistant Development Engineer,Tier-1,32000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cynlr,Software Developer,Tier-1,30000.0,,,,,,,,,,,,7.75,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Inmobi,Software Development Engineer - 1,Tier-1,45000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Baxter Healthcare,Software Engineer - 1 (Digital),Tier-1,30000.0,,,,,,,,,,,,8.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Ge Healthcare,Edison Engineering Developer,Tier-1,40000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Hpe,Software Engineer (R&D),Tier-1,40000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Amadeus,Software Development Engineer - 1,Tier-1,30000.0,,,,,,,,,,,,7.5,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Epsilon,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Urban Company,Software Development Engineer - 1,Tier-1,50000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Superjoin,Engineering Explorer,Tier-1,30000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Dish Networks,Engineer,Tier-1,25000.0,,,,,,,,,,,,8.5,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Samsung Semiconductors,Software Engineer (Embedded),Tier-1,50000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Nxp Semiconductors,Software Engineer,Tier-1,42500.0,,,,,,,,,,,,7.5,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Komprise,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Renesas,Analog Engineer,Tier-1,45000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Inube,Software Analyst,Tier-1,30000.0,,,,,,,,,,,,8.5,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Mckinsey,Software Development Engineer,Tier-1,75000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Bt Group,Software Engineering Professional,Tier-1,60000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Elitmus,Software Developer,Tier-1,29000.0,,,,,,,,,,,,8.5,Sept 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Aurva,Software Engineer,Tier-1,40000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Applied Materials,IT Solutions Management,Tier-1,37500.0,,,,,,,,,,,,8.2,Oct 2024,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Dezerv,Software Engineer,Tier-1,75000.0,,,,,,,,,,,,8.5,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Prime Numbers,Software Engineer - 1,Tier-1,30000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Coinbase,Software Development Engineer - 1,Tier-1,140000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Amazon,AWS Cloud Support Associate,Tier-1,50000.0,,,,,,,,,,,,6.5,Oct 2024,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Visa,Software Engineer,Tier-1,90000.0,,,,,,,,,,,,8.0,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,American Express,Engineer Trainee - Software,Tier-1,100000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Licious,Software Engineer,Tier-1,40000.0,,,,,,,,,,,,,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cars24,Software Development Engineer,Tier-1,30000.0,,,,,,,,,,,,8.0,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Consecure,Software Engineer - NextGen Intelligence,Tier-1,25000.0,,,,,,,,,,,,7.5,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Netcore,Associate Software Engineer,Tier-1,15000.0,,,,,,,,,,,,6.0,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Gameberry Labs,Software Development Engineer,Tier-1,50000.0,,,,,,,,,,,,8.5,Oct 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Consuma,Software Engineer (Backend),Tier-1,35000.0,,,,,,,,,,,,6.5,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Truva,Software Engineer,Tier-1,60000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cleartrip,Software Development Engineer - 1,Tier-1,100000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Logik,Software Development Engineer,Tier-1,35000.0,,,,,,,,,,,,,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Gigsky,Software Engineer,Tier-1,40000.0,,,,,,,,,,,,8.0,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Makemytrip,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,7.0,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Mckesson,Software Development Engineer (Data),Tier-1,60000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,,SDE-Data,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cimpress,Software Engineer,Tier-1,45000.0,,,,,,,,,,,,7.0,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Palo Alto Networks,Software Engineer,Tier-1,100000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Akamai Technologies,Software Engineer,Tier-1,35000.0,,,,,,,,,,,,7.0,Dec 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Dealshare,Software Development Engineer,Tier-1,50000.0,,,,,,,,,,,,8.0,Dec 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Körber,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,7.9,Dec 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Multiplier,Associate Software Engineer,Tier-1,80000.0,,,,,,,,,,,,8.0,Dec 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Bitgo,Software Engineer,Tier-1,42000.0,,,,,,,,,,,,,Dec 2024,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Qest,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,,Jan 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Onecap,Software Development Engineer,Tier-1,25000.0,,,,,,,,,,,,,Jan 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Wokelo,Data Scientist,Tier-1,25000.0,,,,,,,,,,,,7.5,Jan 2025,,,,,,,True,False,False,,Data Scientist,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Serko,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,6.0,Jan 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Candescent,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,7.0,Jan 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Rakuten,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,7.5,Jan 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Jar App,Software Development Engineer - 1,Tier-1,35000.0,,,,,,,,,,,,7.5,Jan 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Phillips,Software Engineer,Tier-1,45000.0,,,,,,,,,,,,7.0,Jan 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Physics Wallah,Software Development Trainee,Tier-1,35000.0,,,,,,,,,,,,7.0,Feb 2025,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Flipkart,Software Development Engineer - 1,Tier-1,100000.0,,,,,,,,,,,,,Mar 2025,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Talkdesk,nan,Tier-1,100000.0,,,,,,,,,,,,6.0,Apr 2025,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Connectex,nan,Tier-1,30000.0,,,,,,,,,,,,,Jul 2025,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Consecure,Software Engineer - Full Stack Dev,Tier-3,12000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Simplyfi Softech,Innovation Trainee & Innovation Engineer,Tier-3,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Harman,nan,Tier-3,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Peoplebox,SDET,Tier-3,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Tsalla Aerospace,Junior Engineer,Tier-3,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Greenway Health India,Associate Software Engineer,Tier-3,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Winman Software,Software Engineer - L1,Tier-3,15000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Everestims Technologies,Associate Software Engineer,Tier-3,12000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Apple,Software Development Intern (IS&T),Internship-Spring,90000.0,,,,20.0,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Siemens,Technical Intern,Internship-Spring,25000.0,,,,5.0,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nvidia,Hardware Engineering Intern,Internship-Spring,80000.0,,,,0.0,,,,,,,,7.8,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Goldman Sachs,Analyst - GMLM,Internship-Spring,70000.0,,,,2.0,,,,,,,,6.5,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Stockx,Product Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zscaler,Software Development Intern,Internship-Spring,75000.0,,,,2.0,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Boomi,Software Engineer Intern,Internship-Spring,45000.0,,,,3.0,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Guidewire,Software Developer Intern,Internship-Spring,75000.0,,,,7.0,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Confluent,Data Engineering Intern,Internship-Spring,100000.0,,,,2.0,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Data,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Oracle,Project Intern,Internship-Spring,50000.0,,,,3.0,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Medibuddy,Engineering Intern,Internship-Spring,25000.0,,,,0.0,,,,,,,,8.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Align,Engineer Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Datacore,Software Intern,Internship-Spring,35000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zebra Technologies,Intern,Internship-Spring,33600.0,,,,30.0,,,,,,,,7.5,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Wayfair,Software Engineering Intern,Internship-Spring,75000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Swiggy,"Intern (iOS, DS, Engineering)",Internship-Spring,40000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Juniper Networks,Software Engineer Intern,Internship-Spring,40000.0,,,,16.0,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Textron,nan,Internship-Spring,25000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Kimberly Clark,Graduate Engineering Intern,Internship-Spring,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Hevo Data,Software Development Engineer Intern,Internship-Spring,50000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Amd,Software Engineer Intern,Internship-Spring,34000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Garrett Motion,Cybersecurity Engineer Intern,Internship-Spring,30000.0,,,,4.0,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Harman,Intern,Internship-Spring,40000.0,,,,1.0,,,,,,,,8.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Infloblox,Graduate Apprentice,Internship-Spring,35000.0,,,,15.0,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Shadowfax,Software Development Engineer Intern,Internship-Spring,20000.0,,,,5.0,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Altair,Intern,Internship-Spring,30000.0,,,,6.0,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nokia,Intern,Internship-Spring,25000.0,,,,1.0,,,,,,,,8.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,F5,Software Engineer Intern,Internship-Spring,75000.0,,,,6.0,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zynga,Software Engineer Intern,Internship-Spring,80000.0,,,,1.0,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Evam Labs,Intern,Internship-Spring,30000.0,,,,3.0,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Alcon,Intern,Internship-Spring,25000.0,,,,2.0,,,,,,,,8.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zeta,Engineering Intern,Internship-Spring,60000.0,,,,5.0,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Aptos,Dev Intern,Internship-Spring,35000.0,,,,1.0,,,,,,,,7.5,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Moengage,nan,Internship-Spring,50000.0,,,,3.0,,,,,,,,8.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Walmart,Cybersecurity Intern,Internship-Spring,100000.0,,,,4.0,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,At&T,Intern,Internship-Spring,49620.0,,,,13.0,,,,,,,,8.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zanskar,Software Engineer Intern,Internship-Spring,40000.0,,,,,,,,,,,,8.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Kpmg,Consultant Intern,Internship-Spring,20000.0,,,,16.0,,,,,,,,6.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Ninjacart,Tech Intern,Internship-Spring,15000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nibrus Technologies,Software Engineer Intern,Internship-Spring,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Bizom,Sales Development Representative Intern,Internship-Spring,25000.0,,,,6.0,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Ather Energy,Product Analyst Intern,Internship-Spring,30000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Udaan,Software Development Engineer Intern,Internship-Spring,55000.0,,,,4.0,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,O9 Solutions,SDET Intern,Internship-Spring,30000.0,,,,10.0,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,3Rditech,Student Intern,Internship-Spring,25000.0,,,,1.0,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Target,Apprentice,Internship-Spring,30000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Raining Code Technologies,nan,Internship-Spring,20000.0,,,,,,,,,,,,8.5,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Harman,nan,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Drongo Ai,nan,Internship-Spring,30000.0,,,,1.0,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Ab Inbev,Intern,Internship-Spring,30000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Allo Health,Software Engineering Intern,Internship-Spring,30000.0,,,,7.0,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Cashfree Payments,DevOps Intern,Internship-Spring,42000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Keysight,Software Intern,Internship-Spring,50000.0,,,,1.0,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Matrecomm,C++ Software Engineering Intern,Internship-Spring,25000.0,,,,4.0,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Arcesium,Site Reliability Engineer Intern,Internship-Spring,100000.0,,,,4.0,,,,,,,,8.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Amuse Labs,Software Developement Intern,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nike,Intern,Internship-Spring,75000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Victoria'S Secret,Data Scientist Intern,Internship-Spring,45000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,,Data Scientist,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zoomcar,DevOps Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Collins Aerospace,Intern,Internship-Spring,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Multiplier,Associate Product Manager Internship,Internship-Spring,80000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Finsynth Ai,Software Developement Intern,Internship-Spring,35000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Gnani,AI Engineer Intern,Internship-Spring,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Myyogateacher,Software Engineer Intern,Internship-Spring,20000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Digital Blanket,Engineering Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,7-Eleven Gsc,Cybersecurity Intern,Internship-Spring,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Msg,nan,Internship-Spring,22000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Energy Exemplar,Software Developement Intern,Internship-Spring,40000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Morphle Labs,Software Testing Intern,Internship-Spring,25000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zepto,Quality Assurance Specialist Intern,Internship-Spring,25000.0,,,,1.0,,,,,,,,7.5,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Blue Hat Solutions,Android Development Intern,Internship-Spring,20000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Purple Block,Data Science Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Data Scientist,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Practsphere,Software Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Progress,Business Development Representative Intern,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Lumber,Full Stack Developer Intern,Internship-Spring,55000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Frontm,Frontend Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Kenscio,Software Developer Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Meeraq,Software Intern,Internship-Spring,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,6D Technologies,AI & Data Science Engineering Intern,Internship-Spring,18000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Data,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Healthi,Production Support Engineer Intern,Internship-Spring,18000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Anz,Apprenticeship,Internship-Spring,22500.0,,,,20.0,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Catalina Systems,Software Testing Intern,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Test,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Greenlight,Associate Software Engineer,Internship-Spring,50000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Emids,Associate Software Engineer Intern,Internship-Spring,10000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Qnx,Student Intern,Internship-Spring,55000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Outflo,Full-Stack Developer Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Thinkerbell Labs,Software Development Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Superleap,Backend Engineer,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Agratas,IT Intern,Internship-Spring,40000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Hypernorm Ai,Software Development Intern,Internship-Spring,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Target,Apprenticeship,Internship-Spring,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Manhattan Associates,Software Trainee,Internship-Spring,40000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Newwave,Intern,Internship-Spring,0.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,75F Smart Innovations,Intern,Internship-Spring,15300.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Pod.Ai,Full Stack Engineer,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Tarana Wireless,Software Engineer Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Seedlinglabs,Engineering Intern,Internship-Spring,30000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Trilogy Innovations,Software Development Engineer Intern,Internship-Summer,75000.0,,,,0.0,,,,,,,,,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Intuit,Software Engineer Intern,Internship-Summer,100000.0,,,,0.0,,,,,,,,8.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Arista Networks,Software Engineer Intern,Internship-Summer,65000.0,,,,4.0,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Fidelity Investments,Data Engineering Intern,Internship-Summer,35000.0,,,,6.0,,,,,,,,,,,,,,,,True,False,False,,SDE-Data,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Morgan Stanley,Summer Analyst,Internship-Summer,87000.0,,,,6.0,,,,,,,,8.5,,,,,,,,True,False,False,,Business Analyst,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Gigsky,nan,Internship-Summer,35000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Upl,NextGen Intern,Internship-Summer,40000.0,,,,2.0,,,,,,,,9.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Adobe,Technical Consultant Intern,Internship-Summer,60000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Jpmorgan Chase & Co.,Software Engineer Intern,Internship-Summer,75000.0,,,,6.0,,,,,,,,8.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Oracle,Project Intern,Internship-Summer,50000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Expedia Group,Mobile Engineering Intern,Internship-Summer,35000.0,,,,6.0,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Akamai Technologies,nan,Internship-Summer,35000.0,,,,6.0,,,,,,,,7.5,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Paypal,Software Engineer Intern,Internship-Summer,100000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Dover,Graduate Engineer Trainee,Internship-Summer,25000.0,,,,4.0,,,,,,,,7.5,,,,,,,,True,False,False,,SDE-ML/AI,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Aveva,Software Developer Intern,Internship-Summer,50000.0,,,,8.0,,,,,,,,8.5,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,G2,nan,Internship-Summer,40000.0,,,,3.0,,,,,,,,,,,,,,,,True,False,False,,Other,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Sahaj Ai,Software Developer Intern,Internship-Summer,20000.0,,,,1.0,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Bosch,Software Intern,Internship-Summer,35000.0,,,,3.0,,,,,,,,8.0,,,,,,,,True,False,False,,SDE-Core,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Ziroh Labs,Swift Development Intern,Internship-Summer,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Kapiva,Intern,Internship-Summer,15000.0,,,,4.0,,,,,,,,,,,,,,,,True,False,False,,Intern/Trainee,2021-2025
-2026,PES,Placement Scene _26 - Tier 2.csv,British Telecom ( Bt Group ),nan,Tier-2,50000.0,,,,50000.0,,,,,CTC given by the company is 7.64 while 10.64 is the money received post retention and joining bonus. So considered 10.64 as CTC with 7.64 as base,,,,,19/09/25,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Collins Aerospace,Graduate Engineer Trainee,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,SDE-ML/AI,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Tejas Networks,Software Engineer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/09/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Ey,Associate Consultant,Tier-2,21200.0,,,,21200.0,,,,,nan,,,,,nan,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Kpmg,Tech Transformation DEQ,Tier-2,20000.0,,,,20000.0,,,,,"CTC: Total Earning Potential will be Base + Variable + Other benefits [Variable Pay - which depends on the individual’s performance, service line’s performance and the firm’s performance + Other Benefits (Gratuity & Insurance)]",,,6.5,,20/09/25,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Telstra,Associate Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,There are other allowances that might be provided which is not part of the CTC. Only a few have been offered the itnernship,,,8.0,,03/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Applied Materials,nan,Tier-2,55000.0,,,,55000.0,,,,,Additional 6000 USD stocks,,,,,13/10/25,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Toshiba,Associate Software Engineer,Tier-2,45000.0,,,,45000.0,,,,,Shortlisted 8.2+ for CSE ,,,,,07/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Broadridge Financial Solutions,SDE,Tier-2,30000.0,,,,30000.0,,,,,Additional 5 lacs medical insurance,,,,,16/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Hp,Transformation Intern,Tier-2,40000.0,,,,40000.0,,,,,Hiring for internship only with PBC,,,,,nan,,,,,,True,False,False,,Intern/Trainee,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Havells,Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,nan,,,,,17/11/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Pwc,Associate Engineer,Tier-2,35000.0,,,,35000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Itc Infotech,4 roles,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Hpe,IT Developer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Consecure Technologies,Software Engineer,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,06/11/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Maersk Gsc India Pvt. Ltd,Data Analyst Intern,Tier-2,50000.0,,,,50000.0,,,,,Internship with PBC. Internship duration - 6 months to 1 Yr,,,,,nan,,,,,,True,False,False,,Data Analyst,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Winman,Software Engineer L2,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,Tier-2,20000.0,,,,20000.0,,,,,ECE & EEE Only,,,,,nan,,,,,,True,False,False,,SDE-ML/AI,2022-2026
+batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,is_internship_record,fte_ctc,internship_stipend_monthly,salary_category,role_type,academic_year
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Apple,Software Development Intern (IS&T),Internship-Spring,90000.0,,,,20.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,90000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Siemens,Technical Intern,Internship-Spring,25000.0,,,,5.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nvidia,Hardware Engineering Intern,Internship-Spring,80000.0,,,,0.0,,,,,,,,7.8,,,,,,,,True,False,False,True,,80000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Goldman Sachs,Analyst - GMLM,Internship-Spring,70000.0,,,,2.0,,,,,,,,6.5,,,,,,,,True,False,False,True,,70000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Stockx,Product Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,50000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zscaler,Software Development Intern,Internship-Spring,75000.0,,,,2.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Boomi,Software Engineer Intern,Internship-Spring,45000.0,,,,3.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Guidewire,Software Developer Intern,Internship-Spring,75000.0,,,,7.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Confluent,Data Engineering Intern,Internship-Spring,100000.0,,,,2.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,100000.0,,SDE-Data,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Oracle,Project Intern,Internship-Spring,50000.0,,,,3.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,50000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Medibuddy,Engineering Intern,Internship-Spring,25000.0,,,,0.0,,,,,,,,8.5,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Align,Engineer Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Datacore,Software Intern,Internship-Spring,35000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zebra Technologies,Intern,Internship-Spring,33600.0,,,,30.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,33600.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Wayfair,Software Engineering Intern,Internship-Spring,75000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Swiggy,"Intern (iOS, DS, Engineering)",Internship-Spring,40000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,True,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Juniper Networks,Software Engineer Intern,Internship-Spring,40000.0,,,,16.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Textron,nan,Internship-Spring,25000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Kimberly Clark,Graduate Engineering Intern,Internship-Spring,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Hevo Data,Software Development Engineer Intern,Internship-Spring,50000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Amd,Software Engineer Intern,Internship-Spring,34000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,True,,34000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Garrett Motion,Cybersecurity Engineer Intern,Internship-Spring,30000.0,,,,4.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Harman,Intern,Internship-Spring,40000.0,,,,1.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,40000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Infloblox,Graduate Apprentice,Internship-Spring,35000.0,,,,15.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,35000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Shadowfax,Software Development Engineer Intern,Internship-Spring,20000.0,,,,5.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Altair,Intern,Internship-Spring,30000.0,,,,6.0,,,,,,,,,,,,,,,,True,False,False,True,,30000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nokia,Intern,Internship-Spring,25000.0,,,,1.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,F5,Software Engineer Intern,Internship-Spring,75000.0,,,,6.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zynga,Software Engineer Intern,Internship-Spring,80000.0,,,,1.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,80000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Evam Labs,Intern,Internship-Spring,30000.0,,,,3.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,30000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Alcon,Intern,Internship-Spring,25000.0,,,,2.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zeta,Engineering Intern,Internship-Spring,60000.0,,,,5.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,60000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Aptos,Dev Intern,Internship-Spring,35000.0,,,,1.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,35000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Moengage,nan,Internship-Spring,50000.0,,,,3.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,50000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Walmart,Cybersecurity Intern,Internship-Spring,100000.0,,,,4.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,100000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,At&T,Intern,Internship-Spring,49620.0,,,,13.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,49620.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zanskar,Software Engineer Intern,Internship-Spring,40000.0,,,,,,,,,,,,8.5,,,,,,,,True,False,False,True,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Kpmg,Consultant Intern,Internship-Spring,20000.0,,,,16.0,,,,,,,,6.0,,,,,,,,True,False,False,True,,20000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Ninjacart,Tech Intern,Internship-Spring,15000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,15000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nibrus Technologies,Software Engineer Intern,Internship-Spring,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,15000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Bizom,Sales Development Representative Intern,Internship-Spring,25000.0,,,,6.0,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Ather Energy,Product Analyst Intern,Internship-Spring,30000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,True,,30000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Udaan,Software Development Engineer Intern,Internship-Spring,55000.0,,,,4.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,55000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,O9 Solutions,SDET Intern,Internship-Spring,30000.0,,,,10.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,30000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,3Rditech,Student Intern,Internship-Spring,25000.0,,,,1.0,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Target,Apprentice,Internship-Spring,30000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Raining Code Technologies,nan,Internship-Spring,20000.0,,,,,,,,,,,,8.5,,,,,,,,True,False,False,True,,20000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Harman,nan,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,40000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Drongo Ai,nan,Internship-Spring,30000.0,,,,1.0,,,,,,,,,,,,,,,,True,False,False,True,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Ab Inbev,Intern,Internship-Spring,30000.0,,,,2.0,,,,,,,,,,,,,,,,True,False,False,True,,30000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Allo Health,Software Engineering Intern,Internship-Spring,30000.0,,,,7.0,,,,,,,,,,,,,,,,True,False,False,True,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Cashfree Payments,DevOps Intern,Internship-Spring,42000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,True,,42000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Keysight,Software Intern,Internship-Spring,50000.0,,,,1.0,,,,,,,,,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Matrecomm,C++ Software Engineering Intern,Internship-Spring,25000.0,,,,4.0,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Arcesium,Site Reliability Engineer Intern,Internship-Spring,100000.0,,,,4.0,,,,,,,,8.5,,,,,,,,True,False,False,True,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Amuse Labs,Software Developement Intern,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Nike,Intern,Internship-Spring,75000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,75000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Victoria'S Secret,Data Scientist Intern,Internship-Spring,45000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,True,,45000.0,,Data Scientist,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zoomcar,DevOps Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Collins Aerospace,Intern,Internship-Spring,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,20000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Multiplier,Associate Product Manager Internship,Internship-Spring,80000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,80000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Finsynth Ai,Software Developement Intern,Internship-Spring,35000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Gnani,AI Engineer Intern,Internship-Spring,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,30000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Myyogateacher,Software Engineer Intern,Internship-Spring,20000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,True,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Digital Blanket,Engineering Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,7-Eleven Gsc,Cybersecurity Intern,Internship-Spring,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,30000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Msg,nan,Internship-Spring,22000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,22000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Energy Exemplar,Software Developement Intern,Internship-Spring,40000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Morphle Labs,Software Testing Intern,Internship-Spring,25000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,25000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Zepto,Quality Assurance Specialist Intern,Internship-Spring,25000.0,,,,1.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Blue Hat Solutions,Android Development Intern,Internship-Spring,20000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,True,,20000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Purple Block,Data Science Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,Data Scientist,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Practsphere,Software Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Progress,Business Development Representative Intern,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,40000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Lumber,Full Stack Developer Intern,Internship-Spring,55000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,True,,55000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Frontm,Frontend Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Kenscio,Software Developer Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Meeraq,Software Intern,Internship-Spring,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,6D Technologies,AI & Data Science Engineering Intern,Internship-Spring,18000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,18000.0,,SDE-Data,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Healthi,Production Support Engineer Intern,Internship-Spring,18000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,18000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Anz,Apprenticeship,Internship-Spring,22500.0,,,,20.0,,,,,,,,,,,,,,,,True,False,False,True,,22500.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Catalina Systems,Software Testing Intern,Internship-Spring,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,40000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Greenlight,Associate Software Engineer,Internship-Spring,50000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Emids,Associate Software Engineer Intern,Internship-Spring,10000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,10000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Qnx,Student Intern,Internship-Spring,55000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,True,,55000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Outflo,Full-Stack Developer Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Thinkerbell Labs,Software Development Intern,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Superleap,Backend Engineer,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Agratas,IT Intern,Internship-Spring,40000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,40000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Hypernorm Ai,Software Development Intern,Internship-Spring,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Target,Apprenticeship,Internship-Spring,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Manhattan Associates,Software Trainee,Internship-Spring,40000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,True,,40000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Newwave,Intern,Internship-Spring,0.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,0.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,75F Smart Innovations,Intern,Internship-Spring,15300.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,15300.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Pod.Ai,Full Stack Engineer,Internship-Spring,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Tarana Wireless,Software Engineer Intern,Internship-Spring,50000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Spring Internship.csv,Seedlinglabs,Engineering Intern,Internship-Spring,30000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,True,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Trilogy Innovations,Software Development Engineer Intern,Internship-Summer,75000.0,,,,0.0,,,,,,,,,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Intuit,Software Engineer Intern,Internship-Summer,100000.0,,,,0.0,,,,,,,,8.5,,,,,,,,True,False,False,True,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Arista Networks,Software Engineer Intern,Internship-Summer,65000.0,,,,4.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,65000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Fidelity Investments,Data Engineering Intern,Internship-Summer,35000.0,,,,6.0,,,,,,,,,,,,,,,,True,False,False,True,,35000.0,,SDE-Data,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Morgan Stanley,Summer Analyst,Internship-Summer,87000.0,,,,6.0,,,,,,,,8.5,,,,,,,,True,False,False,True,,87000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Gigsky,nan,Internship-Summer,35000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,35000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Upl,NextGen Intern,Internship-Summer,40000.0,,,,2.0,,,,,,,,9.0,,,,,,,,True,False,False,True,,40000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Adobe,Technical Consultant Intern,Internship-Summer,60000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,True,,60000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Jpmorgan Chase & Co.,Software Engineer Intern,Internship-Summer,75000.0,,,,6.0,,,,,,,,8.5,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Oracle,Project Intern,Internship-Summer,50000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,True,,50000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Expedia Group,Mobile Engineering Intern,Internship-Summer,35000.0,,,,6.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Akamai Technologies,nan,Internship-Summer,35000.0,,,,6.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,35000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Paypal,Software Engineer Intern,Internship-Summer,100000.0,,,,1.0,,,,,,,,7.0,,,,,,,,True,False,False,True,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Dover,Graduate Engineer Trainee,Internship-Summer,25000.0,,,,4.0,,,,,,,,7.5,,,,,,,,True,False,False,True,,25000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Aveva,Software Developer Intern,Internship-Summer,50000.0,,,,8.0,,,,,,,,8.5,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,G2,nan,Internship-Summer,40000.0,,,,3.0,,,,,,,,,,,,,,,,True,False,False,True,,40000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Sahaj Ai,Software Developer Intern,Internship-Summer,20000.0,,,,1.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Bosch,Software Intern,Internship-Summer,35000.0,,,,3.0,,,,,,,,8.0,,,,,,,,True,False,False,True,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Ziroh Labs,Swift Development Intern,Internship-Summer,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,True,,20000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Summer Internship.csv,Kapiva,Intern,Internship-Summer,15000.0,,,,4.0,,,,,,,,,,,,,,,,True,False,False,True,,15000.0,,Intern/Trainee,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Phonepe,Software Engineer,Tier-1,80000.0,,,,,,,,,,,,6.0,Jul 2024,,,,,,,True,False,False,False,,80000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Couchbase,Dev,Tier-1,125000.0,,,,,,,,,,,,8.0,Jul 2024,,,,,,,True,False,False,False,,125000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cisco,Software Engineer,Tier-1,98000.0,,,,,,,,,,,,,Jul 2024,,,,,,,True,False,False,False,,98000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Zomato,Software Development Engineer - 1,Tier-1,60000.0,,,,,,,,,,,,9.0,Jul 2024,,,,,,,True,False,False,False,,60000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Stockx,Associate Software Engineer,Tier-1,60000.0,,,,,,,,,,,,9.5,Jul 2024,,,,,,,True,False,False,False,,60000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Vyapar App,Software Engineer - 1,Tier-1,50000.0,,,,,,,,,,,,9.0,Jul 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Okta,Software Engineer,Tier-1,100000.0,,,,,,,,,,,,8.0,Jul 2024,,,,,,,True,False,False,False,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Idfc First Bank,Application Engineer,Tier-1,40000.0,,,,,,,,,,,,6.0,Aug 2024,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Arista Networks,Software Engineer,Tier-1,65000.0,,,,,,,,,,,,7.5,Aug 2024,,,,,,,True,False,False,False,,65000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cbx1,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Ibm,Software Developer (Systems),Tier-1,30000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Societe Generale,Software Engineer,Tier-1,32500.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,32500.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Jpmorgan Chase & Co.,Software Engineer,Tier-1,75000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,False,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cloudera,Software Engineer - 1,Tier-1,45000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,False,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Schneider Electric,Graduate Engineer Trainee,Tier-1,35000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,35000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Singularity Dynamics,Software Development Engineer,Tier-1,30000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Walmart,Software Development Engineer - 2,Tier-1,100000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,False,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Typeface,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Egnyte,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,7.5,Aug 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Infibeam,Software Development Engineer,Tier-1,20000.0,,,,,,,,,,,,8.7,Aug 2024,,,,,,,True,False,False,False,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Netradyne,Software Development Engineer in Test,Tier-1,35000.0,,,,,,,,,,,,7.5,Aug 2024,,,,,,,True,False,False,False,,35000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,D. E. Shaw,Software Development Engineer in Test,Tier-1,150000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,150000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Meesho,Software Development Engineer,Tier-1,45000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Commvault,Software Development Engineer,Tier-1,50000.0,,,,,,,,,,,,8.5,Aug 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Sap Labs,Dev,Tier-1,35000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,35000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Sixt,Software Development Engineer - 1,Tier-1,40000.0,,,,,,,,,,,,8.65,Aug 2024,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Signify Innovation Lab,Assistant Development Engineer,Tier-1,32000.0,,,,,,,,,,,,9.0,Aug 2024,,,,,,,True,False,False,False,,32000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cynlr,Software Developer,Tier-1,30000.0,,,,,,,,,,,,7.75,Aug 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Inmobi,Software Development Engineer - 1,Tier-1,45000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Baxter Healthcare,Software Engineer - 1 (Digital),Tier-1,30000.0,,,,,,,,,,,,8.0,Aug 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Ge Healthcare,Edison Engineering Developer,Tier-1,40000.0,,,,,,,,,,,,7.0,Aug 2024,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Hpe,Software Engineer (R&D),Tier-1,40000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Amadeus,Software Development Engineer - 1,Tier-1,30000.0,,,,,,,,,,,,7.5,Sept 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Epsilon,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Urban Company,Software Development Engineer - 1,Tier-1,50000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Superjoin,Engineering Explorer,Tier-1,30000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Dish Networks,Engineer,Tier-1,25000.0,,,,,,,,,,,,8.5,Sept 2024,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Samsung Semiconductors,Software Engineer (Embedded),Tier-1,50000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Nxp Semiconductors,Software Engineer,Tier-1,42500.0,,,,,,,,,,,,7.5,Sept 2024,,,,,,,True,False,False,False,,42500.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Komprise,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Renesas,Analog Engineer,Tier-1,45000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,False,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Inube,Software Analyst,Tier-1,30000.0,,,,,,,,,,,,8.5,Sept 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Mckinsey,Software Development Engineer,Tier-1,75000.0,,,,,,,,,,,,7.0,Sept 2024,,,,,,,True,False,False,False,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Bt Group,Software Engineering Professional,Tier-1,60000.0,,,,,,,,,,,,8.0,Sept 2024,,,,,,,True,False,False,False,,60000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Elitmus,Software Developer,Tier-1,29000.0,,,,,,,,,,,,8.5,Sept 2024,,,,,,,True,False,False,False,,29000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Aurva,Software Engineer,Tier-1,40000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Applied Materials,IT Solutions Management,Tier-1,37500.0,,,,,,,,,,,,8.2,Oct 2024,,,,,,,True,False,False,False,,37500.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Dezerv,Software Engineer,Tier-1,75000.0,,,,,,,,,,,,8.5,Oct 2024,,,,,,,True,False,False,False,,75000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Prime Numbers,Software Engineer - 1,Tier-1,30000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Coinbase,Software Development Engineer - 1,Tier-1,140000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,False,,140000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Amazon,AWS Cloud Support Associate,Tier-1,50000.0,,,,,,,,,,,,6.5,Oct 2024,,,,,,,True,False,False,False,,50000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Visa,Software Engineer,Tier-1,90000.0,,,,,,,,,,,,8.0,Oct 2024,,,,,,,True,False,False,False,,90000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,American Express,Engineer Trainee - Software,Tier-1,100000.0,,,,,,,,,,,,7.0,Oct 2024,,,,,,,True,False,False,False,,100000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Licious,Software Engineer,Tier-1,40000.0,,,,,,,,,,,,,Oct 2024,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cars24,Software Development Engineer,Tier-1,30000.0,,,,,,,,,,,,8.0,Oct 2024,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Consecure,Software Engineer - NextGen Intelligence,Tier-1,25000.0,,,,,,,,,,,,7.5,Oct 2024,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Netcore,Associate Software Engineer,Tier-1,15000.0,,,,,,,,,,,,6.0,Oct 2024,,,,,,,True,False,False,False,,15000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Gameberry Labs,Software Development Engineer,Tier-1,50000.0,,,,,,,,,,,,8.5,Oct 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Consuma,Software Engineer (Backend),Tier-1,35000.0,,,,,,,,,,,,6.5,Nov 2024,,,,,,,True,False,False,False,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Truva,Software Engineer,Tier-1,60000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,False,,60000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cleartrip,Software Development Engineer - 1,Tier-1,100000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,False,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Logik,Software Development Engineer,Tier-1,35000.0,,,,,,,,,,,,,Nov 2024,,,,,,,True,False,False,False,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Gigsky,Software Engineer,Tier-1,40000.0,,,,,,,,,,,,8.0,Nov 2024,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Makemytrip,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,7.0,Nov 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Mckesson,Software Development Engineer (Data),Tier-1,60000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,False,,60000.0,,SDE-Data,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Cimpress,Software Engineer,Tier-1,45000.0,,,,,,,,,,,,7.0,Nov 2024,,,,,,,True,False,False,False,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Palo Alto Networks,Software Engineer,Tier-1,100000.0,,,,,,,,,,,,7.5,Nov 2024,,,,,,,True,False,False,False,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Akamai Technologies,Software Engineer,Tier-1,35000.0,,,,,,,,,,,,7.0,Dec 2024,,,,,,,True,False,False,False,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Dealshare,Software Development Engineer,Tier-1,50000.0,,,,,,,,,,,,8.0,Dec 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Körber,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,7.9,Dec 2024,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Multiplier,Associate Software Engineer,Tier-1,80000.0,,,,,,,,,,,,8.0,Dec 2024,,,,,,,True,False,False,False,,80000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Bitgo,Software Engineer,Tier-1,42000.0,,,,,,,,,,,,,Dec 2024,,,,,,,True,False,False,False,,42000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Qest,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,,Jan 2025,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Onecap,Software Development Engineer,Tier-1,25000.0,,,,,,,,,,,,,Jan 2025,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Wokelo,Data Scientist,Tier-1,25000.0,,,,,,,,,,,,7.5,Jan 2025,,,,,,,True,False,False,False,,25000.0,,Data Scientist,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Serko,Software Engineer,Tier-1,50000.0,,,,,,,,,,,,6.0,Jan 2025,,,,,,,True,False,False,False,,50000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Candescent,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,7.0,Jan 2025,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Rakuten,Software Engineer,Tier-1,30000.0,,,,,,,,,,,,7.5,Jan 2025,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Jar App,Software Development Engineer - 1,Tier-1,35000.0,,,,,,,,,,,,7.5,Jan 2025,,,,,,,True,False,False,False,,35000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Phillips,Software Engineer,Tier-1,45000.0,,,,,,,,,,,,7.0,Jan 2025,,,,,,,True,False,False,False,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Physics Wallah,Software Development Trainee,Tier-1,35000.0,,,,,,,,,,,,7.0,Feb 2025,,,,,,,True,False,False,False,,35000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Flipkart,Software Development Engineer - 1,Tier-1,100000.0,,,,,,,,,,,,,Mar 2025,,,,,,,True,False,False,False,,100000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Talkdesk,nan,Tier-1,100000.0,,,,,,,,,,,,6.0,Apr 2025,,,,,,,True,False,False,False,,100000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 1.csv,Connectex,nan,Tier-1,30000.0,,,,,,,,,,,,,Jul 2025,,,,,,,True,False,False,False,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bluebird,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bain,Analyst,Tier-2,40000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,False,,40000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Deloitte India,ET&P Oracle - Analyst,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Tejas Networks,NMS,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Toshiba Software,Associate Software Engineer,Tier-2,45000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,45000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Dover,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Crestron,nan,Tier-2,30000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,False,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Broadridge,nan,Tier-2,30000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Conga,nan,Tier-2,12000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,12000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Idfy,nan,Tier-2,25000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,False,,25000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Jones Lang Lasalle Technologies,nan,Tier-2,35000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,False,,35000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Aptiv,nan,Tier-2,25000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,25000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Astrazeneca,nan,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Nouveau Labs,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bounteous X Accolite,nan,Tier-2,20000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,False,,20000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Havells India Limited,IoT and Software Roles,Tier-2,25000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Hp,GIT Role,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Celstream,Software Engineer,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Fluidyn,nan,Tier-2,20000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,False,,20000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Deltax,nan,Tier-2,0.0,,,,,,,,,,,,5.0,,,,,,,,True,False,False,False,,0.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,L7 Informatics,nan,Tier-2,25000.0,,,,,,,,,,,,8.5,,,,,,,,True,False,False,False,,25000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Consuma,Analyst,Tier-2,40000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,False,,40000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Mphasis,nan,Tier-2,20000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,20000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Hourglass,nan,Tier-2,20000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,20000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Consecure,Software Engineer (Next-Gen Cybersecurity),Tier-2,20000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,False,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Cubic Logics,Software Development Engineer,Tier-2,15000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,15000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Oracle,Associate Consultant,Tier-2,50000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,50000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Evam Labs,DS/DE/FS/UI,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Bizom,Sales Developement Representative,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Epam,Junior Software Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Gw Deepconnect Technologies,Software Engineer,Tier-2,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Azentio,Software Development Engineer in Test,Tier-2,50000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,False,,50000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Blackbuck,Associate Software Engineer,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,30000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Secpod,Test automation Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Peoplebox,Software Engineer,Tier-2,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Emplay,Associate Data Scientist,Tier-2,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,20000.0,,Data Scientist,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Embitel Technologies,Trainee Engineer,Tier-2,30000.0,,,,,,,,,,,,6.5,,,,,,,,True,False,False,False,,30000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Think 41,Full Stack Engineer,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Superleap,Technical Product Analyst,Tier-2,25000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,25000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Webknot Technologies,Software Developer Trainee,Tier-2,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,15000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Krazybee Services,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Digital.Ai,nan,Tier-2,25000.0,,,,,,,,,,,,7.5,,,,,,,,True,False,False,False,,25000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Tsalla Aerospace,Junior Engineer,Tier-2,25000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Kreditbee,Software Engineer,Tier-2,25000.0,,,,,,,,,,,,8.0,,,,,,,,True,False,False,False,,25000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Edu-Versity,Business Development Specialist,Tier-2,30000.0,,,,,,,,,,,,6.0,,,,,,,,True,False,False,False,,30000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Edu-Versity,Business Development Specialist,Tier-2,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,30000.0,,Business Analyst,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 2.csv,Cloudinvent,Full Stack Developer,Tier-2,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Consecure,Software Engineer - Full Stack Dev,Tier-3,12000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,12000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Simplyfi Softech,Innovation Trainee & Innovation Engineer,Tier-3,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,15000.0,,SDE-ML/AI,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Harman,nan,Tier-3,30000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,30000.0,,Other,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Peoplebox,SDET,Tier-3,15000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,15000.0,,SDE-Test,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Tsalla Aerospace,Junior Engineer,Tier-3,20000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,20000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Greenway Health India,Associate Software Engineer,Tier-3,40000.0,,,,,,,,,,,,,,,,,,,,True,False,False,False,,40000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Winman Software,Software Engineer - L1,Tier-3,15000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,15000.0,,SDE-Core,2021-2025
+2025,PES,PESU CSE Placements 2025 Batch - Tier 3.csv,Everestims Technologies,Associate Software Engineer,Tier-3,12000.0,,,,,,,,,,,,7.0,,,,,,,,True,False,False,False,,12000.0,,SDE-Core,2021-2025
 2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Oracle (Ofss),Associate Application Developer,Internship,50000.0,,,,50000.0,,,,,"4 got PPO ( 1 of them rejected offer)
-CTC = ~40LPA (Not exactly 40) -> RSUs worth Rs 16L + 8L Insurance and other Benefits",,,,,,,,,,,True,False,False,,SDE-Core,2022-2026
+CTC = ~40LPA (Not exactly 40) -> RSUs worth Rs 16L + 8L Insurance and other Benefits",,,,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2022-2026
 2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Jpmc (Summer Internship),Software Engineer,Internship,75000.0,,,,75000.0,,,,,"13L Base + 1.5L JB + 1.25L Relocation 
-+ 4L  Annual Incentive Compensation (Performace Based)",,,,,,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,G2,nan,Internship,40000.0,,,,40000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Intuit,nan,Internship,120000.0,,,,120000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,One App,nan,Internship,75000.0,,,,75000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Fs Investments,nan,Internship,125000.0,,,,125000.0,,,,,3 of the 4 were given the offer and all 3 accepted it,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Razorpay,nan,Internship,50000.0,,,,50000.0,,,,,2L Signing Bonus + Includes ESOPs worth 15L,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Visa,nan,Internship,90000.0,,,,90000.0,,,,,Benefits included such as free cab and stuff. Additional 1.25L for Relocation Bonus,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Walmart,nan,Internship,110000.0,,,,110000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Paypal,nan,Internship,100000.0,,,,100000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Cisco,nan,Internship,98000.0,,,,98000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
++ 4L  Annual Incentive Compensation (Performace Based)",,,,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,G2,nan,Internship,40000.0,,,,40000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,40000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Intuit,nan,Internship,120000.0,,,,120000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,120000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,One App,nan,Internship,75000.0,,,,75000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,75000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Fs Investments,nan,Internship,125000.0,,,,125000.0,,,,,3 of the 4 were given the offer and all 3 accepted it,,,,,,,,,,,True,False,False,True,,125000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Razorpay,nan,Internship,50000.0,,,,50000.0,,,,,2L Signing Bonus + Includes ESOPs worth 15L,,,,,,,,,,,True,False,False,True,,50000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Visa,nan,Internship,90000.0,,,,90000.0,,,,,Benefits included such as free cab and stuff. Additional 1.25L for Relocation Bonus,,,,,,,,,,,True,False,False,True,,90000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Walmart,nan,Internship,110000.0,,,,110000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,110000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Paypal,nan,Internship,100000.0,,,,100000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,100000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Cisco,nan,Internship,98000.0,,,,98000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,98000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,British Telecom ( Bt Group ),nan,Tier-2,50000.0,,,,50000.0,,,,,CTC given by the company is 7.64 while 10.64 is the money received post retention and joining bonus. So considered 10.64 as CTC with 7.64 as base,,,,,19/09/25,,,,,,True,False,False,False,,50000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Collins Aerospace,Graduate Engineer Trainee,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,20000.0,,SDE-ML/AI,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Tejas Networks,Software Engineer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/09/25,,,,,,True,False,False,False,,30000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Ey,Associate Consultant,Tier-2,21200.0,,,,21200.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,21200.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Kpmg,Tech Transformation DEQ,Tier-2,20000.0,,,,20000.0,,,,,"CTC: Total Earning Potential will be Base + Variable + Other benefits [Variable Pay - which depends on the individual’s performance, service line’s performance and the firm’s performance + Other Benefits (Gratuity & Insurance)]",,,6.5,,20/09/25,,,,,,True,False,False,False,,20000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Telstra,Associate Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,There are other allowances that might be provided which is not part of the CTC. Only a few have been offered the itnernship,,,8.0,,03/10/25,,,,,,True,False,False,False,,25000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Applied Materials,nan,Tier-2,55000.0,,,,55000.0,,,,,Additional 6000 USD stocks,,,,,13/10/25,,,,,,True,False,False,False,,55000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Toshiba,Associate Software Engineer,Tier-2,45000.0,,,,45000.0,,,,,Shortlisted 8.2+ for CSE ,,,,,07/10/25,,,,,,True,False,False,False,,45000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Broadridge Financial Solutions,SDE,Tier-2,30000.0,,,,30000.0,,,,,Additional 5 lacs medical insurance,,,,,16/10/25,,,,,,True,False,False,False,,30000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Hp,Transformation Intern,Tier-2,40000.0,,,,40000.0,,,,,Hiring for internship only with PBC,,,,,nan,,,,,,True,False,False,False,,40000.0,,Intern/Trainee,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Havells,Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,nan,,,,,17/11/25,,,,,,True,False,False,False,,25000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Pwc,Associate Engineer,Tier-2,35000.0,,,,35000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,35000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Itc Infotech,4 roles,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,15000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Hpe,IT Developer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/10/25,,,,,,True,False,False,False,,30000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Consecure Technologies,Software Engineer,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,06/11/25,,,,,,True,False,False,False,,20000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Maersk Gsc India Pvt. Ltd,Data Analyst Intern,Tier-2,50000.0,,,,50000.0,,,,,Internship with PBC. Internship duration - 6 months to 1 Yr,,,,,nan,,,,,,True,False,False,False,,50000.0,,Data Analyst,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Winman,Software Engineer L2,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,15000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,Tier-2,20000.0,,,,20000.0,,,,,ECE & EEE Only,,,,,nan,,,,,,True,False,False,False,,20000.0,,SDE-ML/AI,2022-2026

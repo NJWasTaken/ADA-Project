@@ -1,0 +1,17 @@
+{
+    "total_records": 1641,
+    "years_covered": "2022-2026",
+    "unique_companies": 1073,
+    "unique_colleges": 1,
+    "avg_ctc": 3.7247333333333335,
+    "median_ctc": 0.28500000000000003,
+    "max_ctc": 50.0,
+    "top_recruiter": "Ibm (General)",
+    "top_recruiter_offers": 50.0,
+    "highest_paying": "Thorogood Associates",
+    "highest_avg_ctc": 14.81,
+    "most_common_role": "SDE-Core",
+    "avg_cgpa": 7.2802034428794995,
+    "data_quality_ctc": 14.625228519195613,
+    "data_quality_cgpa": 38.93967093235832
+}

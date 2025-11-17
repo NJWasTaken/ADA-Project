@@ -1,607 +1,350 @@
-batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,salary_category,role_type,academic_year
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Confluent,Data Infra,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Makemytrip,Software Engineer,Internship-Spring,,,,,,,,,,"Performance Based FTE,Shortlisted 7.95+",,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Nvidia,System Software Intern | Hardware Engineering Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+(Came again for women for S/W role and NEXT Program for H/W role),,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Siemens Eda,Member Of Technical Staff,Internship-Spring,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Sap Labs,Associate Developer|DevOps|Support|QA,Internship-Spring,,,,,,,,,,"Performance Based FTE,They shortlisted 8+",,,7.0,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Samsung Semiconductors,Software Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zynga,Software Engineer,Internship-Spring,,,,,,,,,,"Only Internship,Shortlisted 7.5+",,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Intel,Intern,Internship-Spring,,,,,,,,,,"Offered as Tie-Up with CIE,Resume Based Shortlisting",,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Juniper Networks,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Samsung Electronics,Software R&D Intern,Internship-Spring,,,,,,,,,,Only Internship+Shortlisted 8.5+,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Intel,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+Resume Based Shortlisting,,,8.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,At&T,Technical Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Endor Labs,Intern,Internship-Spring,,,,,,,,,,"Performance Based FTE,Shortlisted by taking avg of 10th,12th and CGPA,8.85+ cutoff ",,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Garrett Motion,Engg IT,Internship-Spring,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Infoblox,Software Engineer Intern,Internship-Spring,,,,,,,,,,Internship Only,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Keysight,"Connectivity,SDET,R&D,Dev (1,2,3),IT,Simulation ROQ,SE (1,2),MST-LC,Hema",Internship-Spring,,,,,,,,,,Performance Based FTE+8.5 CGPA Cutoff,,,7.5,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Miq Digital,"AI,Analytics,Product Analytics",Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Walmart,SDE Intern,Internship-Spring,,,,,,,,,,Internship Only,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Bnp Paribas,Application Development,Internship-Spring,,,,,,,,,,Internship Only,,,6.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Drongo Ai,Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Gsk Gcc,D&T Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Alcon India,"Business Analysis, Data Scientists, Business Intelligence",Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Data Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,F5 Innovation,Software Engineer-1,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Udaan,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Groww,SDE Intern - Backend,Internship-Spring,,,,,,,,,,Performance Based FTE+Shortlisted 8+,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Scaler,Business Development Trainee,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Digicert,"ASE,QA,DEV BACKEND,FRONTEND,UX DESIGNER",Internship-Spring,,,,,,,,,,Internship Only,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Q2,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Uidai,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,6.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Quicken,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Astr Defense Pvt Ltd,COMPUTER VISION INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Aptos,SOFTWARE INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,L7 India,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Philips,"SOFTWARE,CYBERSECURITY,ELECTRONICS,PROJECT MANAGEMENT",Internship-Spring,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Target,TECH INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,6.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Victoria Secret,DATA SCIENCE INTERN,Internship-Spring,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Data Scientist,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Triomics,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Rattle,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Matrecomm,SOFTWARE DEVELOPER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Flatworld,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Biocliq,Deep Learning Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Meritic,SDE,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Iqvia,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Cmti,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,7.75,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Medibuddy,INTERN,Internship-Spring,,,,,,,,,,Internship Only+Shortlisted 8+,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Progress Residential,"SE SRE,FS,RPA,SALESFORCE,DATA ENGG,DATA ANALYST INTERN",Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Data Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hakimo.Ai,INTERN,Internship-Spring,,,,,,,,,,Resume Based Shortlist,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ab Inbev,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Cbx1,SOFTWARE INTERN,Internship-Spring,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Saaspay,PROGRAM MANAGEMENT INTERN,Internship-Spring,,,,,,,,,,"90% in 10th,80% in 12th",,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Allo Health,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Bigbasket,LEAD GENERATION INTERN,Internship-Spring,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Fluidyn,SOFTWARE DEVELOPMENT INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Byjus,INSIDE SALES INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Propheus.Ai,ENGINEERING/DATA SCIENCE INTERN,Internship-Spring,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,,SDE-Data,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Optiv,CYBER STRATEGY INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Equinix,SERVICENOW INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Argoid.Ai,DATA SCIENCE/JAVA INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,7.5,,,,,,,,False,False,False,,Data Scientist,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Rohde And Schwarz,INTERN,Internship-Spring,,,,,,,,,,Internship Only+2 years Bond,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Metalmann,Mobile App Developer - Android,Internship-Spring,,,,,,,,,,Performance Based FTE+Resume Based Shortlisting,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Covrzy,FOUNDER'S OFFCICE INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Origin Medical,PRODUCT ANALYST,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Confidential,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Finvolv,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE+85% in Boards,,,8.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Rakuten,TECHNICAL INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Foundit,Content writer Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Intrnforte,Business development intern,Internship-Spring,,,,,,,,,,Internship Only,,,7.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Unisys,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Msg Global,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Blockmagix,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hypergro.Ai,PRODUCT DESIGN INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ovii,FRONTEND DEVELOPER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Anko,INTERN,Internship-Spring,,,,,,,,,,Internship Only+Shortlisted Female Only,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Senara.Tv,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,8.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Kshana.Ai,BACKEND DEV INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,8.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Decathlon,JUNIOR SOFTWARE ARTIST,Internship-Spring,,,,,,,,,,Internship Only,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Meesho,SOFTWARE DEVELOPMENT INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Pwc,INTERN,Internship-Spring,,,,,,,,,,nan,,,1.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,O9 Solutions,ASSOCIATE SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,9.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Photon Interactive,AI INTERN,Internship-Spring,,,,,,,,,,Unpaid Internship,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Abell Ventures,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Aidash,DEVOPS INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Nike Itc,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zysk Tech,SOFTWARE DEVELOPER INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Practo Tech,BUSINESS ANALSYT INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,6.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Soroco,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Lg Soft India,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+ 8-12 Months Internship,,,6.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ca Grameen,Analyst Intern,Internship-Spring,,,,,,,,,,Internship Only,,,6.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Siemens,Intern,Internship-Spring,,,,,,,,,,Internship Only,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Xperin,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ansys,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Karboncard,Growth Operations - Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,4Good.Ai,Software Devleoper/Data Engineer/Mobile Developer,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Data,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Fidler.Ai,SDET Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+Women Only Drive,,,8.0,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Lemnisk,SE Intern,Internship-Spring,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Iqnext,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ap Moller Maersk Gsc,Data Science Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Data Scientist,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Phronetic.Ai,Data & ML Engineering/AI Technology Research/AI Business & Product Analysis,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Data,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Airbus India,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Indee Software Pvt Ltd,VIDEO ENG/FRONTEND/BACKEND/AUTOMATION ENG,Internship-Spring,,,,,,,,,,Internship Only,,,8.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Wework,BUSINESS ANALYST,Internship-Spring,,,,,,,,,,Internship Only,,,7.5,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ford Business Solutions,Embedded Software/Hardware Intern/HIL SImulation Testing Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Beyondsquare,Software Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ziroh Labs,Swift Intern/Java Intern/C# Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Newron.Ai,Java/Python/Gen Ai Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Singularity,Verification Engineer Intern,Internship-Spring,,,,,,,,,,Internship Only,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Wokelo.Ai,Backend Develoepr Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Manastu Space Tech,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zeta,Customer Success Engineer - Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Catalina Systems,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,7.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Sentinelone,SWE/MALWARE/WINDOWS INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Multilex Tech,SDE INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Niro,Risk & Data Analytics,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Basal Analytics,Junior Python/AI Developer,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,75F Smart Innnovations,Manual Testing,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Wedez,Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Needibay,Business Development Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Blinkit,Assistant Store Manager,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Moengage,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.9,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hevo,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ntt Data,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Primenumbers Tech,Python Devloper/Software Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zluri,SDE/SDET,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Impact Analytics,Software Engineering Backend Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Symphony Ai,Full Stack/AI Engineer/Devops/Perf Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hyperverge,Billings and Receivable /TA/Operation Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Sifive,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Froker,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Informatica,Associate Software Engineer Apprentice,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Blowhorn,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Jpmc,Software Engineer,Tier-1,,,,,,,,,,Code for Good Hackathon,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Intuit,Engineer,Tier-1,,,,,,,,,,They shortlisted only 9 cgpa,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Commvault,Engineer,Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Urban Company,Software Development Engineer - I,Tier-1,,,,,,,,,,They shortlisted only 8 cgpa,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Pure Storage,Engineer,Tier-1,,,,,,,,,,They shortlisted only 9 cgpa,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Ring Central,Associate Software Engineer,Tier-1,,,,,,,,,,They asked 90% in boards,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Couchbase,Dev,Tier-1,,,,,,,,,,8cgpa+Resume Shortlisting,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Deutshce Bank,Graduate Analyst,Tier-1,,,,,,,,,,They shortlisted only 8.5 cgpa,,,7.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Swym Tech Pvt Ltd,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Lam Research,Software Engineer,Tier-1,,,,,,,,,,Shortlisted 8+ for Dev role,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sandvine,Software Engineer/Test Engineer,Tier-1,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cynlr,Design and Development Associate,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Hyperface,SDE 1,Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Newfold Digital,Operations Engineer,Tier-1,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Tesco,Graduate Software Developer Engineer,Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Arista Networks,Software Engineer,Tier-1,,,,,,,,,,They shortlisted only 8 cgpa,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cisco,Technical Consultant,Tier-1,,,,,,,,,,It was for women only as part of Boost 3.0 program,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Egnyte,Software Engineer I,Tier-1,,,,,,,,,,They shortlisted 8+,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cloudera,Software Engineer I,Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Baxter,Engineer Trainee,Tier-1,,,,,,,,,,They shortlisted 8+,,,7.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sahaj,Solution Consultant,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Kickdrum,Software Developer,Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Epsilon,Software Engineer-1,Tier-1,,,,,,,,,,They shortlisted 8.5+,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cisco,Cloud Application Developer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Natwest,Software Engineer,Tier-1,,,,,,,,,,Shortlisted 9+ cgpa for Male and 8 cgpa for Female,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Schneider Electric,Graduate Engineer Trainee (GET),Tier-1,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Hpe R&D | Aruba|Cty,Software Developer|Software Automation and Quality Assurance,Tier-1,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Amadeus,SDE-1,Tier-1,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Dish Technologies,Engineer,Tier-1,,,,,,,,,,They shortlisted 8.75+,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sprinklr,Devops Engineer,Tier-1,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-DevOps/SRE,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Bain Capability Network,Analyst,Tier-1,,,,,,,,,,Resume Shortlisting,,,,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Societe Generale,Software Engineer,Tier-1,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Ibm Isl Security,Software Developer,Tier-1,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Thorogood,Data & Analytics Consultant,Tier-1,,,,,,,,,,They shortlisted 8.4+,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Morgan Stanley,Technology Analyst,Tier-1,,,,,,,,,,They shortlisted above 8.5 cgpa,,,8.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,British Telecom,GET Intern,Tier-1,,,,,,,,,,They shortlisted 8.6+,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sap Labs,Associate Developer|DevOps|Support|QA,Tier-1,,,,,,,,,,They shortlisted 8+,,,7.0,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Dover,GET Intern,Tier-1,,,,,,,,,,They shortlisted 8.6+,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Infibeam,Software Development Engineer,Tier-1,,,,,,,,,,Shortlisted 8.5+,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Aurva.Io,Software Engineer-1,Tier-1,,,,,,,,,,Prefer Open Source Contributors,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Microchip Tech,"App (1,2,3,4,5),SDE(0,1),SE(Test,Quality),Firmware Testing,SW/FW Design",Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Blue Yonder,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Microchip Tech,"Software 1,2,3 ,Baan QA,Dynamics AX Analyst,Web Dev,ServiceNow Dev",Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Idfc First Bank,Application Engineer,Tier-1,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Netradyne,"Cloud-SDET,Embedded QA Engineer-SDET,QA IOT,Data Analyst,Bizz Systems",Tier-1,,,,,,,,,,Shortlisted 8.4+,,,7.5,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Reltio,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Akamai,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Observe.Ai,Software Engineer,Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Jar App,SDE Intern - Backend,Tier-1,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Netcore Cloud,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cohesity,Member of Technical Staff(R&D),Tier-1,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Palo Alto,Software Engineer -IT,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Rtbrick,Software Developer,Tier-1,,,,,,,,,,"90% in 10th,85% in 12th",,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Kangasys,Junior Software Developer,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Zscaler,Associate Security Researcher,Tier-1,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Lowe'S India,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Bitgo,Backend Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Flexera,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Tata Communications,Product Manager/Cyber Security/Software Engineer,Tier-1,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Gameskraft,Software Engineer Full Stack,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Coinswitch,SDE-1,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Motorola,Associate Software Engineer,Tier-1,,,,,,,,,,Shortlisted 8.5+ and 90% in Boards,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Amagi,SDET,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,8.0,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Rtcamp,Software Engineer Trainee,Tier-1,,,,,,,,,,Remote Work+Resume Based Shortlist,,,,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Aveva,Software Engineer,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Myntra,Software Engineer,Tier-1,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Meesho,Business Analyst,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Deloitte Usi,Analyst,Tier-2,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Deloitte India,ET&P F&P,Tier-2,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Applied Materials,IT Solutions Management,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ey,Associate Consultant,Tier-2,,,,,,,,,,Shortlisted (8.1-8.3)+,,,6.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Truminds,SDE-1,Tier-2,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Arup India Pvt Ltd,SOFTWARE DEVELOPER,Tier-2,,,,,,,,,,Shortlisted 8+,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Pwc India,ASSOCIATE TECHNOLOGY CONSULTANT,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Eli Lilly Services Pvt Ltd,ANALYST,Tier-2,,,,,,,,,,Shortlisted above 8 GPA and 90% in 10th and 12th,,,,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Broadridge,MEMBER TECHNICAL,Tier-2,,,,,,,,,,"Male - 9 GPA,Female - 8.5 GPA",,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Goldman Sachs,ANALYST,Tier-2,,,,,,,,,,Performance Based FTE,,,6.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Subex,SOFTWARE ENGINEER,Tier-2,,,,,,,,,,Performance Based FTE,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Kpmg,Analyst GRCS - Digital Trust,Tier-2,,,,,,,,,,Performance Based FTE,,,6.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Collins Aerospace,Graduate Engineer Trainee,Tier-2,,,,,,,,,,Resume Based Shortlisting +  Only Female + GPA,,,7.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Pratt & Whitney,Graduate Engineer Trainee,Tier-2,,,,,,,,,,Resume Based Shortlisting +  Only Female + GPA,,,7.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hiver,Software Development Engineer 1,Tier-2,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Tejas Networks,Engineer R&D(Java),Tier-2,,,,,,,,,,Shortlisted 8+,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Perfios,Software Development Engineer,Tier-2,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hpe,Global Operations Role,Tier-2,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Idfy,Labs-Bangalore,Tier-2,,,,,,,,,,Performance Based FTE,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Astrazenca,Junior Engineer,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Zebra Tech Corp,Intern,Tier-2,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Crk Gida Tech,Software Engineer,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Nextuple,Associate Software Engineer,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Mercedes Benz R&D,Graduate Engineer Trainee,Tier-2,,,,,,,,,,Only for Females,,,7.5,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Havells,Software Engineer,Tier-2,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Berkadia,Associate Software Engineer,Tier-2,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Conde Nast,Technical Project Management,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Cyware Labs,Software Engineer Intern,Tier-2,,,,,,,,,,Performance Based FTE,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Aurigo,SDET,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Celstream,Developer/Software Engineer,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Shadowfax,SDE-1,Tier-2,,,,,,,,,,Shortlisted 8+ CGPA,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Innover,Associate Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Jll Tech,Software Engineer,Tier-2,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Consilio Llc,Associate Software Engineer,Tier-2,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Oracle,Associate Consultant / Cloud Analyst,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ph Data,Associate Data Engineer,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Data,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Aptiv,Associate Embedded Software Engineer,Tier-2,,,,,,,,,,Women Only Drive,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Deltax,Associate Product Engineer,Tier-2,,,,,,,,,,4 Months Training Bootcamp Included,,,5.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Newstreet Tech,Engineering Intern,Tier-2,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Conga,Associate Software Engineer,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Creditnirvana,Product Engineer,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Atkins Realis,Graduate Engineer,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Dell,Technical Content Developer 1,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Onmobile,nan,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Accolite,Software Engineer,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hello24 Digicom,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Bizom,Associate Product Manager,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Health Asyst,Trainee Developer,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Birla Pivot,Software Engineer,Tier-2,,,,,,,,,,Top 20% Students+80% in Boards,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Infosys,Specialist Programmer,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Parablu,Junior Software Developer,Tier-2,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Testsigma,nan,Tier-2,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Falabella,Intern,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Palle Tech,Software Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Gkn Aerospace,Graduate Trainee,Tier-2,,,,,,,,,,Female Only Drive,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Turing,Delivery Data Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Data Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Tcs,Ninja,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Svasthiya Tech,SWE/SALES,Tier-2,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Transition Vc,RESEARCH ANALYST,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ushur Tech,nan,Tier-2,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Course5,JUNIOR AI SCIENTIST,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Epam,ENGINEER,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hfcl,Graduate Engineer Trainee,Tier-2,,,,,,,,,,"12 LPA in Second Year,15 LPA in Third Year",,,7.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Adecco,Junior Automation Analyst/Engineer,Tier-2,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Flipkart,Application Engineer,Tier-2,,,,,,,,,,Female Only Drive,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ribbon Communication,Intern,Tier-2,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Thoughtworks,Graduate Application Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Openmynz Sotlabs,Software Engineer,Tier-2,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Cube,B2B Account Manager,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Think41,Full Stack Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Exiger,Verification Engineer,Tier-2,,,,,,,,,,2 Years Bond,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Gnani.Ai,AIML ENGINEER/NLP ENGINEER/FROTNEND DEV/BACKEND DEV,Tier-2,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Jebpo,Trainee Business Analyst,Tier-2,,,,,,,,,,nan,,,8.5,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Blackbuck,Associate SDE,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Mavenir,Graduate Engineer Trainee,Tier-2,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Kaynes Tech,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Volvo,Associate Engineer,Tier-2,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Zscaler(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Jpmc(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Goldman Sachs(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Gigsky(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Paypal(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Intuit(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Visa(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Pronisi(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Morgan Stanley(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Expedia,nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Adobe(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Fidelity(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Dream Tier.csv,Apple,IS&T,Dream,,,,,,,,,,Shortlisted 9.5+,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Dream Tier.csv,De Shaw,SDET,Dream,,,,,,,,,,Shortlisted 8.3+ ,,,8.0,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Accenture,Associate Software Engineer,Tier-3,,,,,,,,,,Another drive was conducted for PWD students also,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Dxc,Associate Professional,Tier-3,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Secpod,Product Content Marketer,Tier-3,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ibm-Cic,Associate System Engineer,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Gyansys,Associate Consultant/Software Engineer,Tier-3,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cubic Logics,Software/Support Specialist,Tier-3,,,,,,,,,,Performance Based FTE,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Microland,Engineering Trainee,Tier-3,,,,,,,,,,2 Year Bond,,,6.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Publicis Sapient,Trainee Technology,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ls Davar,Patent Engineer,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Rendered Ideas,Game Developer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Hcl,Graduate Engineer Trainee,Tier-3,,,,,,,,,,1 Year Bond,,,,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Obhan & Associates,Technical Consultant,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Dexian,Tech Roles,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Miller Knoll,TRAINEE ENGINEER,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Hso,nan,Tier-3,,,,,,,,,,Second Year - 7.2 CTC,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Mphasis,Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Sagility,ASE/Analytics/Automation,Tier-3,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Logixal,Trainee Software Engineer,Tier-3,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Iqgateway,Associate Software Developer,Tier-3,,,,,,,,,,"2.4 LPA in first 3 Months,6 LPA afterwards+2 years Bond",,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Great Learning,Senior Executive Digital Marketing,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Hardware/Embedded,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Bigbasket,Associate Consultant,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Federal Bank,Associate in Non-Officer (Clerical) Cadre for Branch Banking Role,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Tech Mahindra,Graduate Trainee,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Intern/Trainee,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ascendion,Associate Engineer,Tier-3,,,,,,,,,,nan,,,6.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Gnani.Ai,AI Engineer,Tier-3,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Sophistex,Junior Software Engineer,Tier-3,,,,,,,,,,nan,,,7.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cgi,Associate Software Enigneer,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Right Prompt Tech,nan,Tier-3,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Eximietas,Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Adapt Ready,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Siemens Gamesa,BI Developer,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Coforge,nan,Tier-3,,,,,,,,,,2 Years Bond for 1.5 Lakhs,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Pedalstart,Full Stack Developers/Graphic Designers/Social Media Manager,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Terralogic Sw Soln,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Tech Mahindra,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Skydo Tech,Customer Success Associate,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Rupeek,ARM,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Deltax,Customer Success/Support,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Humanetics,Software Engineer,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Eviden(Atos),Board Design Engineer/Test Engineer/Junior Associate,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Test,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Shopdeck,GROWTH CONSULTANT,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Vodafone,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Beml,Junior Executive,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Nrt,Embedded Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Winman,Product Software Programmer,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Liquide,Business Development Associate,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Business Analyst,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Isteer Technologies,Gen AI,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Vnb,Dev,Tier-3,,,,,,,,,,nan,,,7.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Rapyuta Robotics,Infra Ops/SWE/Cyber Sec/Devops,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Xurmo,Software Engineer,Tier-3,,,,,,,,,,nan,,,8.5,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Next Wealth,Quality,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cognizant,nan,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cogent Infotech,US Staffing Recruiter,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Invictus,Junior Researcher,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Capgemini,Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Probe,Tech Lead,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Xpheno,Tech Support,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ashtaksha Labs,Junior AI/ML Engineer,Tier-3,,,,,,,,,,nan,,,8.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ltmindtree,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-ML/AI,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Hirepro,Python Developer,Tier-3,,,,,,,,,,nan,,,6.0,,,,,,,,False,False,False,,SDE-Core,2020-2024
-2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Temenos,Dev/Testing,Tier-3,,,,,,,,,,2 years Bond,,,7.5,,,,,,,,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Phonepe,SDE,Tier 1,,19.0,0.32,,,,,,,"Coding Test was Medium Hard Level, Shortlisted 25 for 1st Round, Open to All depts",8.0,,6.0,,27/7/24,FTE + Intern,3.0,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Vyapar Apps,SDE,Tier 1,,15.0,0.3,,,,,,,Technical Test was held 2 times. The first technical test was very easy. Second Techincal Test was held in Campus,10.0,,9.0,,30/7/24,FTE + Intern,4.0,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Couchbase,"SDE, QE, Support",Tier 1,,20.0,27.0,,,,,,,"Shortlisted 102 students (based on Resume), Support - Tested more on Project Understanding, Current Technologies, Theory Fundamentals (OS,CN, DBMS), Less of DSA. Dev tested more of DSA/Problem solving, QE was a mix",,,8.0,,2/8/24,FTE + Intern,12.0,False,False,False,False,False,False,Super-Dream,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Zomato,SDE,Tier 1,,24.0,0.56,,,,,,,https://www.geeksforgeeks.org/community/post/34351/zomato-x-blinkit-interview-experience-for-sde-i-on-campus-2024/,,,8.0,,3/8/24,FTE + Intern,3.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Arista Network,SDE,Tier 1,,,0.19,,,,,,,"3 Qs (LL, Greedy, Backtracking) + 20 MCQs (CN, OOPS, Cpp, Linux), Conducted 4 Rounds of interview (3DSA/Project - 1HR), Selected 6 out 7 PPL who reached HR round, Shortlisted around 30 PPL for first round interview",,,7.5,,2/8/24,FTE + Intern,6.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Okta,SDE,Tier 1,,14.0,0.28,,,,,,,"OA Tips: Majorly focus on coding quickly (70 min, 4 problems) and learn String manipulation in ur language (substr in cpp) only after which logic can be used , 2 Rounds, 1st was DSA (Tree DFS problem), 2nd Round was OOPS (system design) (Design building with floors, gym,cafe) Last was HR. ",,,8.0,,6/8/24,FTE + Intern,8.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Infosys (All India),SDE,Tier 2,,6.0,9.5,,,,,,,Questions Lifted Directly from Codeforces Problems. Shortlisted 18 ppl for interview,,,6.0,,4/8/24,FTE,8.0,False,False,False,False,False,False,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Stockx,Associate S/W Eng.,Tier 1,,20.0,0.22,,,,,,,"Resume Shortlisting, 30 Shortlisted for 1st Round",,,9.5,,4/8/24,FTE + Intern,4.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cbx1,SDE,Tier 1,,17.0,0.21,,,,,,,Shortlisted 24 people,,,8.0,,10/8/24,FTE + Intern,2.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Lam Research,"SDE, QA",Tier 1,,11.0,14.0,,,,,,,"Sectional Timer Test - I Applied for QA - All MCQ (Aptitude 15Q-20Min), Tech(45 Mcq - 60Min). For SDE they had Coding as well 2DSAI ",,,6.0,,7/8/24,FTE + Intern,1.0,False,False,False,False,False,False,Tier-1,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Societe Generale (Sg),SDE,Tier 1,,,0.12,,,,,,,"Sectional Timer Test - 3 Sections - Aptitude (15Q-20Min), Technical (10Q), DSA(2Coding-40Min) - String & Min Spanning Tree",,,6.5,,8/8/24,FTE + Intern,12.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Idfc Bank,Application Engineer,Tier 1,,14.0,18.0,,,,,,,"Sectional Timer Test - 3 Sections - Aptitude (15Q-20Min), Technical (10Q), DSA(2Coding-40Min)",,,6.0,,8/10/24,FTE + Intern,3.0,False,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cloudera,SDE,Tier 1,,17.0,19.0,,,,,,,70 Shortlisted for test,,,8.9,,16/8/24,FTE + Intern,6.0,False,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ibm (General),SDE,Tier 1,,,0.17,,,,,,,"Open for All, 2 coding in 1 hr, shortlisted 200+ PPL for Interview divided into Different roles/Domains (Automation, D&Ai)",,,7.0,,17/8/24,FTE + Intern,50.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Schneider Electric,Graduate Engineer Trainee (GET),Tier 1,,,0.12,,,,,,,nan,,,,,17/8/24,FTE + Intern,6.0,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Singularity Dynamics,"SDE (CSE) ,Chip Verification (R&D) (ECE,EEE)",Tier 1,,13.0,0.16,,,,,,,nan,,,8.5,,23/8/24,FTE + Intern,2.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Typeface.Ai,SDE & ML (Hyderabad office),Tier 1,,,0.2,,,,,,,"Open to all depts, Relocation to HYD on our own, Shortlisted 38 for next round. Includes Project Round where you had to complete a task given by the team in few days deadline",,,8.5,,20/8/24,FTE + Intern,0.0,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Apple (India),12-Roles-All named SDE Intern,Tier 1,,,0.8,,,,,,,"Shortlisted 90 People for Interviews (2 Round), Dream company (>60 lpa), Open for all (even ones holding offer), Had 2 tests, 1st one had 2 Coding (Greedy - https://leetcode.com/problems/jump-game/ , 1 Graph, 10 MCQs (DBMS, Oops, DSA) due to technical glitch had to retest, 2nd and Final test - Had 2 Coding (1-Similar to https://leetcode.com/problems/reverse-pairs/ , other one was Sliding window + Binary Search) and 5 MCQs (DSA, Os(kernal/system threads) in 1 hr 10 mins",,,7.0,,23/8/24,Internship (PBC),20.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Egnyte (Wfh Only),Backend Intern,Tier 1,,,0.14,,,,,,,"Asked DP, Graph, 1 SQL problem, 10 aptitude... Sectional wise",,,7.5,,23/8/24,FTE + Intern,4.0,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ibm (Female Only),SDE,Tier 1,,,0.17,,,,,,,"Shortlisted 108 for Interview, 2 Tests (1st - 4 coding, 23 MCQs, 1.5 hrs... 2nd - 3 coding(Valid BST Iterative, Addition of Binary strings, Youngest Member not in array), 15 MCQs 1.5 hrs)",,,7.0,,24/8/24,FTE + Intern,28.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Walmart,SDE - II,Tier 1,,16.0,22.6,,,,,,,"Shortlisted 9+ CGPA for OA (~100 people), Shortlisted 30 for Interview",,,9.0,,1/9/24,FTE + Intern ,6.0,False,False,False,False,False,False,Super-Dream,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,De Shaw,"SDE (Test Engineer).",Tier 1,,18.0,50.0,,,,,,,nan,,,7.0,,2/9/24,FTE + Intern,1.0,False,False,False,False,False,False,Super-Dream,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Infibeam,SDE,Tier 1,,10.0,0.12,,,,,,,"Oncampus, Shortlisted 18 PPL for Interview",,,8.8,,26/8/24,FTE + Intern ,2.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Bain Capability Network (Bcn),Non Tech - Intern Analyst,Tier 2,,9.0,0.11,,,,,,,"Shortlisted 45 people across dept for interview, Had 1 round interview 1 case study round, Questions asked on Guess estimate problems (Opening a Dress Shop in Bangalore, Profit margin in Tires)",,,6.0,,29/8/24,Internship (PBC),8.0,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Netradyne,Associate IT Engineer (Support Role),Tier 1,,10.0,0.14,,,,,,,Oncampus,,,8.7,,27/8/24,FTE + Intern ,12.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ltimindtree,Graduate Engineer Trainee,Tier 3,,,4.0,,,,,,,nan,,,6.0,,4/9/24,FTE,41.0,True,True,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Commvault,SDE,Tier 1,,16.0,0.32,,,,,,,"Shortlisted 7 for interview, Virtual Interview",16.0,,8.5,,2/9/24,FTE + Intern,0.0,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Meesho,SDE,Tier 1,,20.0,0.32,,,,,,,"Shortlisted 30+ ppl for Interview, 2 Rounds (2nd one being OOPS system design based round)",,,7.0,,29/8/24,FTE + Intern,4.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Sixt,SDE 1,Tier 1,,12.0,0.19,,,,,,,nan,,,7.0,,2/9/24,FTE + Intern,4.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cynlr (Https://Cynlr.Com/),"Design & Development
-Application Engineering
-Software Developer",Tier 1,,,18.0,,,,,,,"Open to all branches, Asked Physics questions in OA, Interesting Startup (https://cynlr.com/)",,,7.25,,2/9/24,FTE + Intern,,True,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Inmobi Technologies,SDE,Tier 1,,,0.22,,,,,,,nan,,,8.5,,2/9/24,FTE + Intern,8.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ge Healthcare,SDE,Tier 1,,,0.16,,,,,,,nan,,,7.0,,nan,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Baxter,"Digital, Embedded Engineer",Tier 1,,,0.12,,,,,,,"Shortlisted 44 people (27 CS for Digital Role, 17 other dept for Embedded Software)",,,8.5,,5/9/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Deloitte Us-India(T2),Technology Analyst,Tier 2,,6.0,7.6,,,,,,,"Interviews Tomorrow, Shortlisted 50 for Technology Analyst, 68 for USI Analyst, Conducted same test for both roles at a time",,,6.0,,5/9/24,FTE + Intern,10.0,False,False,False,False,False,False,Tier-2,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Hpe,SDE,Tier 1,,,0.175,,,,,,,nan,,,7.0,,6/9/24,"FTE + Intern, Internship (PBC)",,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Vyapar Apps (Second Hiring),SDE,Tier 1,,12.0,0.2,,,,,,,Reduced Base (15 -> 12) and CTC (30 -> 20) on Second Round Hiring,6.0,,8.5,,6/9/24,FTE + Intern,4.0,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Amadeus,SDE,Tier 1,,10.0,12.0,,,,,,,nan,,,7.5,,9/9/24,FTE,3.0,False,False,False,False,False,False,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Epsilon,SDE 1,Tier 1,,,0.12,,,,,,,nan,,,7.0,,12/9/24,FTE + Intern,11.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ig Group,Jr. Leadership Role,Tier 1,,12.0,13.0,,,,,,,nan,,,8.5,,10/9/24,FTE,,False,False,False,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cognizant (T2),nan,Tier 2,,5.0,7.0,,,,,,,nan,,,,,12/9/24,nan,11.0,False,False,False,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Goldman Sachs (T2),Seasonal Analyst Intern,Tier 2,,,0.0875,,,,,,,nan,,,6.5,,10/9/24,Internship (PBC),8.0,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Signify Innovation Lab,Assistant Development Engineer,Tier 1,,11.0,0.13,,,,,,,"Selected 15 girls for direct interview, Offered jobs to 2 ppl",,,9.0,,1/10/24,FTE + Intern,2.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Eurofins (T2),Associate Software Engineer,Tier 2,,,0.1,,,,,,,nan,,,6.5,,18/9/24,FTE,9.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Urban Company,SDE 1,Tier 1,,16.0,22.0,,,,,,,nan,,,7.0,,14/9/24,FTE + Intern,2.0,False,False,False,False,False,False,Super-Dream,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ibm (2Nd Visit) - Cloud Role,SDE (Cloud),Tier 1,,,0.17,,,,,,,2nd Visit,,,7.0,,18/9/24,FTE + Intern,2.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Tejas Networks (T2),"SW, HW and NMS",Tier 2,,,0.1,,,,,,,"Shortlisted 11 for Embedded SE role, 6 for HW role (ECE), 6 for Java NMS role. Programming languages were fixed for those particular test (Cpp only for Embedded, etc.)",,,7.5,,20/9/24,FTE + Intern,5.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Stockx (Product Mang Role),nan,Tier 1,,,,,,,,,,nan,,,,,20/9/24,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Superjoin.Ai,nan,Tier 1,,11.0,16.0,,,,,,,nan,,,,,20/9/24,nan,1.0,False,False,False,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Hpe (2Nd Visit) (Only Selected Students),nan,Tier 1,,,0.175,,,,,,,nan,,,,,27/9/24,FTE + Intern,7.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Coinbase,SDE,Tier 1,,,1.0,,,,,,,nan,,,8.0,,21/9/24,Internship (PBC),0.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Nvidia,Hardware Engineering Intern,Tier 1,,,0.8,,,,,,,nan,,,8.0,,25/9/24,Internship (PBC),0.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Samsung Semiconductors,"SW(Embd),HW(Dig,Analog)",Tier 1,,,0.19,,,,,,,"Initally was FTE+Int, but hired only Interns, Coding questions strictly to be coded in C Language itself, Shortlisted 6 for Embd (CSE), 7 for Dig & 5 for Analog (ECE), Virtual Interviews Conducted",,,7.0,,23/9/24,Internship (PBC),8.0,False,False,False,False,False,False,Tier-3,Hardware/Embedded,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Nxp Semiconductors,"Embedded, Digital, Analog",Tier 1,,,0.225,,,,,,,nan,,,7.5,,23/9/24,FTE + Intern,1.0,False,False,False,False,False,False,Tier-3,Hardware/Embedded,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Dish Network,SDE,Tier 1,,,0.141,,,,,,,Shortlisted 22 People,,,8.5,,19/9/24,FTE + Intern,4.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Apple Internship (Only For Pre-Listed Students),"Ai-ML, SDE",Tier 1,,,0.8,,,,,,,Shortlisted 4 PPL for Data Science (ML) role and 8 for Software Dev Engineering role,,,9.0,,27/9/24,Internship (PBC),0.0,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Guidewire,SDE 1,Tier 1,,,0.7,,,,,,,"12 Shortlisted for Interview, Interview rounds very Basic (Recursion/dp problem asked)",,,8.0,,18/10/24,Internship (PBC),6.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Kpmg (T3),"4 Roles - Digital Next, Digital Trust, TT DEQ, GRCS Telecom",Tier 2,,,0.07,,,,,,,nan,,,,,21/9/24,FTE + Intern,20.0,False,False,False,False,False,False,Tier-3,Hardware/Embedded,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Sap Labs,Associate - (Developer /DevOps /Support/QA),Tier 1,,10.0,0.25,,,,,,,"Shortlisted 66 PPL for interviews, 4 Rounds of Interview, Most of the Selected PPL interviews happened back to back, while the others did not get a chance to Interview for 3rd Round also",3.5,,7.0,,24/9/24,FTE + Intern,10.0,False,False,False,False,True,False,Tier-3,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Toshiba,Associate Software Engineer,Tier 2,,9.0,0.11,,,,,,,nan,,,7.0,,27/9/24,FTE + Intern,7.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Bt Group,nan,Tier 1,,,0.13,,,,,,,nan,,1.5,8.5,,30/9/24,FTE + Intern,10.0,False,False,False,False,False,True,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Accenture (T2),nan,Tier 3,,,4.0,,,,,,,nan,,,6.0,,30/9/24,FTE,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Dover (T2),Software Engineer,Tier 2,,,0.11,,,,,,,nan,,,8.0,,30/9/24,FTE + Intern,2.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Aveva,Software Developer Graduate,Tier 1,,,15.8,,,,,,,nan,,,8.5,,8/10/24,FTE + Intern,4.0,False,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Fidelity International (T2),Graduate Programmer,Tier 2,,8.0,9.0,,,,,,,nan,,,7.0,,16/10/24,FTE + Intern,,False,False,False,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Oracle Financial Services Ltd,nan,Tier 1,,,0.1918,,,,,,,"Shortlisted 30 ppl for Interview, Interviews went same Like SAP lab style",0.02,,8.0,,25/9/24,FTE + Intern,6.0,False,False,False,False,True,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Zscaler,Intern - Software Development,Tier 1,,,0.75,,,,,,,"Asked 2 DSA (C++/Java) and 2 Core Python questions (1 File handling/CSV handling, 1 DSA)",,,7.0,,29/9/24,Internship (PBC),1.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Komprise,"SDE, STE",Tier 1,,17.0,20.0,,,,,,,nan,,,8.0,,25/9/24,FTE + Intern,3.0,False,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Crestron (T2),"7 Roles - Firmware Developer, Front End Developer, Cloud Developer, Cloud DevOps Engineer, Quality Engineer, Automation (SDET), Security Testing, Cloud Testing",Tier 2,,,0.08,,,,,,,nan,,,,,23/9/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Telstra (T2),nan,Tier 2,,,10.0,,,,,,,nan,,,8.5,,4/10/24,FTE,10.0,False,False,False,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Inube Software Solutions,Software Analyst,Tier 1,,,0.12,,,,,,,nan,,,8.5,,8/10/24,FTE + Intern,3.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Mckinsey & Co,Analyst Role,Tier 1,,,0.12,,,,,,,nan,,,7.5,,28/9/24,FTE + Intern,3.0,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Renesas,"Verification Engineer, Analog Circuit Engineer",Tier 1,,15.0,0.24,,,,,,,nan,,,8.0,,30/10/24,"FTE + Intern, Internship (PBC)",5.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Broadridge (T2) (Female Only),nan,Tier 2,,,0.1,,,,,,,nan,,,8.0,,28/10/24,FTE + Intern,5.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Safran Technologies (T3),nan,Tier 3,,,4.5,,,,,,,nan,,,6.5,,7/11/24,FTE,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Boomi Software,"SE Intern, Systems Intern, Solution Eng Intern",Tier 1,,,0.35,,,,,,,nan,,,8.0,,19/10/24,Internship (PBC),6.0,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Conga Software,nan,Tier 2,,,0.10439999999999999,,,,,,,nan,,,,,19/10/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,E-Litmus,Software Developer,Tier 1,,,0.12,,,,,,,nan,,,8.0,,19/10/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Idfy (T2),Software Engineer,Tier 2,,,0.1,,,,,,,nan,,,6.0,,6/11/24,FTE + Intern,1.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Johns Lang Lasalle Technology (Jllt),SDE Intern,Tier 2,,,0.08,,,,,,,"Shortlisted 70 for GD, 24 Shortlisted for 1st interview. 2 rounds in total (Tech, Hr). SQL, Python asked. OA was Aptitude, SQL Mcqs, python mcqs",,,8.0,,4/10/24,Internship (PBC),9.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Volvo (T2),nan,Tier 2,,,7.5,,,,,,,nan,,,,,19/10/24,nan,,False,False,False,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Dezerv,Software Engineer,Tier 1,,15.0,0.16,,,,,,,nan,,,8.5,,5/10/24,FTE + Intern,5.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Confluent,4 Roles (Data Engineering Intern Business Intelligence Intern Cloud Infrastructure Engineer Intern Applications Engineer Intern),Tier 1,,,0.01,,,,,,,nan,,,,,16/10/24,Internship (PBC),6.0,False,False,False,False,False,False,Tier-3,SDE-Data,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Apple India (For 2 Roles),"2 Roles - Wireless Engineering Intern, Software Engineering & Machine Learning Intern",Tier 1,,,0.8,,,,,,,nan,,,,,20/9/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cars24,SDE 1,Tier 1,,10.0,0.12,,,,,,,"Special Shortlist made, OA, 2 rounds interview. Increased Package from 10CTC to 12 CTC thus making it T1 later",,,8.0,,18/10/2024,FTE + Intern,15.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Medibuddy,SDE Intern,Tier 1,,,0.25,,,,,,,nan,,,8.5,,5/10/24,Internship (PBC),0.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Aruva.Io,nan,nan,,,,,,,,,,nan,,,,,5/10/24,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Deloitte India,6 Roles,Tier 2,,,0.076,,,,,,,nan,,,6.0,,16/10/24,FTE + Intern,31.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Thorogood Associates,Data & Ai Consultant (Data Cleaning),Tier 1,,8.0,14.81,,,,,,,nan,,1.5,8.0,,5/10/24,FTE,2.0,False,False,False,False,False,True,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Applied Materials,IT Solutions Management,Tier 1,,9.0,0.17,,,,,,,nan,6.0,,8.25,,17/10/24,FTE + Intern,2.0,False,False,False,False,True,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Aptiv (T2),Associate Embedded Software Engineer,Tier 2,,,0.085,,,,,,,nan,,,8.0,,9/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Datacore Software,Software Intern,Tier 1,,,0.35,,,,,,,nan,,,7.5,,23/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Invisalign India (Align Technologies),"DevOps, Backend, Web Dev",Tier 1,,,0.5,,,,,,,All Roles in HYDERABAD,,,,,6/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Wayfair,Software Engineering Intern,Tier 1,,,0.75,,,,,,,nan,,,,,10/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Astrazeneca (T2),Statistical Programmer I,Tier 2,,,0.0843,,,,,,,Shortlisted 72 Students for Test (above 8.2 CGPA),,,8.2,,28/10/24,FTE,5.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Infosys (T3),Software Enginer,Tier 3,,,3.6,,,,,,,nan,,,,,12/11/24,FTE,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Nvidia,Software Intern,Tier 1,,,0.29,,,,,,,nan,,,8.0,,12/11/24,Internship (PBC),0.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Nouveau Labs,"Software Engineer, Python Dev",Tier 2,,,0.09,,,,,,,nan,,,,,22/10/24,FTE + Intern,1.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Amazon,AWS Cloud Support Associate,Tier 1,,10.0,0.26,,,,,,,nan,9.14,3.5,,,7/11/24,FTE + Intern,1.0,False,False,False,False,True,True,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Visa,SDE,Tier 1,,16.0,0.41,,,,,,,nan,15.0,,8.0,,16/10/24,FTE,3.0,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Zebra Technologies,SDET Intern,Tier 2,,,0.11,,,,,,,"1 OA ,2 Rounds of Interview, SQL, oops, Resume asked. Checked more on whether student is more flexible to work in other roles",,,7.5,,16/10/24,Internship (PBC),25.0,False,False,False,False,False,False,Tier-3,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,American Express,SDE,Tier 1,,13.0,19.0,,,,,,,nan,,,7.5,,25/10/24,FTE + Intern,6.0,False,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Licious,nan,Tier 1,,,0.16,,,,,,,nan,,,,,19/10/24,nan,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Bounteous X Accolite (T2),nan,Tier 2,,,0.08,,,,,,,nan,,,,,10/11/24,nan,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Consillio (T2),Associate Software Engineer,Tier 2,,5.0,8.0,,,,,,,nan,,,7.5,,17/10/24,FTE,15.0,False,False,False,False,False,False,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Siemens Eda,Student Intern (Analog + SW),Tier 1,,,0.5,,,,,,,nan,,,8.0,,23/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Hardware/Embedded,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Havells India (T2),"IOT(CS) , Power Electronics & Solar Roles",Tier 2,,8.0,0.08,,,,,,,nan,,,,,30/10/24,FTE + Intern,3.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Thorogood Associates,Data/Ai Consultant (Data Cleaning),Tier 1,,8.0,14.81,,,,,,,TOTALLY DIFF. TYPE OF SELECTIONS. 3 Rounds of Case Studies conducted in Final interviews. Sent a second mail individually for people who were shortlisted. Shortlisted 9 this time. further shortlisted 4 for office round,,1.5,8.0,,16/10/24,FTE,1.0,False,False,False,False,False,True,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Rsm Usi (T2),Business Applications,Tier 2,,,7.7,,,,,,,nan,,,6.0,,16/10/24,FTE,,True,False,False,False,False,False,Tier-2,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Hpe (T2),"Technical Solution Consultant, Managed Services",Tier 2,,,0.075,,,,,,,nan,,,7.0,,17/10/24,FTE + Intern,10.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Prime Numbers,SE 1,Tier 1,,,0.12,,,,,,,nan,3.0,,7.0,,24/10/24,FTE + Intern,,False,False,False,False,True,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Juniper Network,"COO Intern, DevOps Intern",Tier 1,,,0.155,,,,,,,nan,,,7.5,,22/10/24,Internship (PBC),16.0,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Progress,Software Engineer Intern,Tier 1,,,0.3,,,,,,,nan,,,,,20/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Celstream (T2),Software Engineer,Tier 2,,,0.08,,,,,,,"Shortlisted 110 people for Test.Then shortlisted 7 from ECE, 15 from CSE",,,7.7,,6/12/24,FTE + Intern,4.0,True,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Consecure (T2),SE-Next Gen GenAI,Tier 2,,,0.12,,,,,,,nan,,,6.0,,30/10/24,FTE + Intern,4.0,True,True,True,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ey India,Associate Consultant,Tier 2,,,8.5,,,,,,,nan,,,,,7/11/24,FTE + Intern,18.0,nan,nan,nan,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Netcore Cloud,nan,Tier 1,,,0.12,,,,,,,"(18 months Bond), Shortlisted 35 for interview, 8 from MCA, rest from CS",,,6.0,,8/11/24,FTE + Intern,,False,True,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Textron,nan,Tier 2,,,0.25,,,,,,,nan,,,7.0,,22/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Media.Net,SRE,Tier 1,,13.0,15.0,,,,,,,nan,,,6.0,,22/10/24,FTE + Intern,,True,False,True,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Fluidyn (T2),nan,Tier 2,,,0.06,,,,,,,nan,,,7.5,,25/10/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Kimberley Clark (Intern),Graduate Engineering Traineer,Tier 2,,,0.25,,,,,,,nan,,,8.0,,25/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Simplyfi Softech(T3),Innovation Trainee & Innovation Engineer,Tier 3,,,0.04,,,,,,,nan,,,6.0,,8/11/24,FTE + Intern,,True,True,True,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Hevo Data (Intern),SDE Intern,Tier 1,,,0.5,,,,,,,nan,,,8.0,,26/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Garett Motion (Intern),"CyberSec, Engineer, IT",Tier 1,,,0.3,,,,,,,Came with 10 Openings,,,8.0,,19/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Relx (Elsevier / Lnlp) (T2),SDE 1,Tier 2,,,8.0,,,,,,,nan,,,7.0,,20/11/24,FTE,,False,False,False,False,False,False,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,L7 Informatics (T2),nan,Tier 2,,4.0,0.065,,,,,,,nan,,,8.5,,30/10/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Gameberry,SDE,Tier 1,,13.0,0.15,,,,,,,Shortlisted 26 for Interview,,,8.5,,14/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Consuma.Ai,SDE Backend Intern,Tier 1,,9.0,0.3,,,,,,,nan,,,8.0,,15/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Sun Life (T2),Graduate Engineer Trainee,Tier 2,,,7.0,,,,,,,nan,,,7.0,,20/11/24,FTE,4.0,False,True,False,False,False,False,Tier-2,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Mphasis (T2),nan,Tier 2,,,0.07,,,,,,,nan,,,,,4/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Amagi,Product Software Engineer,Tier 1,,15.0,18.0,,,,,,,nan,,,,,6/11/24,FTE + Intern,3.0,False,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Amd (Intern),"SW, HW role",Tier 1,,,0.34,,,,,,,Shortlisted 3 for interview,,,7.5,,6/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Shadowfox (Intern),SDE Intern,Tier 2,,,0.2,,,,,,,Shortlisted 32 for writing Test,,,8.0,,14/11/24,Internship (PBC),5.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Truva (Porch Technologies),SDE Intern,Tier 1,,13.0,0.23,,,,,,,nan,10.0,,7.5,,14/11/24,Internship (PBC),,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Deltax,Product Engineer,Tier 2,,,7.0,,,,,,,nan,,,,,12/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cleartrip (Flipkart),SDE1,Tier 1,,18.0,32.0,,,,,,,nan,5.0,3.0,7.5,,9/11/24,FTE + Intern,4.0,False,False,False,False,True,True,Super-Dream,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Leadsquared (T2),SDE Intern,Tier 2,,,0.12,,,,,,,nan,,,7.0,,4/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Gigsky,Software Engineer,Tier 1,,7.0,0.15,,,,,,,Shortlisted 236 Students for test above 8 from 7,,,8.0,,5/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Tech Mahindra (T3),Graduate Engineer Trainee,Tier 3,,,3.25,,,,,,,Shortlisted 360+ for Test,,,6.5,,8/12/24,FTE,,True,True,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Columbia Sportswear Company (T2),Software Engineer Trainee,Tier 2,,5.0,6.0,,,,,,,Shortlisted 35 for Interview,,,7.0,,10/12/24,FTE,,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cubic Logics Company,SDE,Tier 2,,4.5,0.06,,,,,,,Shortlisted 37 for Interview,,,7.0,,26/11/24,FTE + Intern,,True,True,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Zynga Game Network,SDE Intern,Tier 1,,,0.8,,,,,,,nan,,,7.5,,29/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Logik.Io,SDE,Tier 1,,,0.12,,,,,,,nan,,,,,29/11/24,FTE + Intern,,True,True,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Aptos (Intern),SDE,nan,,,,,,,,,,nan,,,7.5,,11/11/24,Internship (PBC),,False,False,False,False,False,False,,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Moenage India Pvt Ltd,nan,Tier 1,,,0.5,,,,,,,Shortlisted 15 for Interview,,,8.1,,3/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Zeta,SDE Intern,Tier 1,,,0.6,,,,,,,nan,,,8.0,,30/11/24,Internship (PBC),,True,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Oracle Financial Services,Associate Consultant / Cloud Analyst,Tier 2,,,0.09,,,,,,,nan,,,,,20/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Infoblox,Apprentice,Tier 2,,,0.35,,,,,,,nan,,,7.0,,18/11/24,Internship (PBC),15.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Bizom,Sales Development Representative,Tier 2,,,0.07,,,,,,,nan,,,7.0,,22/11/24,FTE + Intern,4.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Zanskar,SDE Intern,Tier 2,,,0.4,,,,,,,nan,,,8.5,,19/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ust,nan,Tier 2,,,10.0,,,,,,,nan,,,6.0,,19/11/24,FTE,,False,False,False,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Hourglass,Patent Associate,Tier 2,,,0.07,,,,,,,nan,,,7.0,,19/11/24,FTE + Intern,1.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Phdata,nan,Tier 2,,,10.0,,,,,,,"Hired 10 from CS, 10 from MCA each, Shortlisted 46 for interview",,,,,14/11/24,FTE,20.0,False,True,False,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,At&T,Senior Associate,Tier 1,,,0.14,,,,,,,Shortlisted 35 for Interview,,,8.0,,20/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Surveyaan,Software Eng Intern,Tier 2,,,0.2,,,,,,,nan,,,,,20/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Altair India,Intern,Tier 2,,,0.3,,,,,,,Shortlisted 36 for Interview,,,6.0,,5/12/24,Internship (PBC),2.0,True,True,True,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Emids,Associate Software Engineer,Tier 2,,,6.0,,,,,,,Shortlisted 53 for Test. Further Shortlisted 6 for Interview in their Office,,,7.0,,22/12/24,FTE,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Makemytrip,Software Engineer,Tier 1,,12.0,0.22,,,,,,,Shortlisted 42 for Interview,10.0,,7.0,,21/11/24,FTE + Intern,2.0,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Apple Internship (Applecare Team),Software Eng & ML Intern,Tier 1,,,0.8,,,,,,,nan,,,9.0,,21/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Epam,Jr Software Engineer,Tier 2,,,0.08,,,,,,,nan,,,7.0,,23/11/24,FTE + Intern,,False,True,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Gw Deepconnect (Gowarm.Ai) (T2),Software Engineer Intern,Tier 2,,3.0,0.06,,,,,,,Shortlisted 28 for 1st Round Inteview. Then Shortlisted 6 for Final Round,,,7.5,,5/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Walmart Global Tech (Intern),CyberSec Intern,Tier 1,,,1.0,,,,,,,nan,,,7.0,,22/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,O9 Solutions,SDET,Tier 2,,,0.3,,,,,,,Shortlisted 14 for Interview,,,7.0,,4/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Wns Vurram,Associate Technical Consultant,Tier 2,,,0.08,,,,,,,nan,,,7.0,,22/11/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Kpmg Global Services,Consulting Intern,Tier 2,,,0.2,,,,,,,nan,,,6.0,,3/12/24,Internship (PBC),16.0,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ather Energy,Ride Experience Analyst Intern (Product Role),Tier 1,,,0.3,,,,,,,Shortlisted 53 for Test,,,,,22/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cimpress India (Diversity Hiring) (Remote),Software Engineer Intern,Tier 1,,12.0,0.45,,,,,,,nan,,,7.0,,24/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Udaan,SDE Intern,Tier 1,,,0.55,,,,,,,Shortlisted 19 for Interview,,,7.0,,7/1/25,Internship (PBC),4.0,True,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Guidewire (Intern),Product Security Intern (CyberSec),Tier 1,,,0.5,,,,,,,5 Shortlisted for Interview,,,8.0,,12/11/24,Internship (PBC),1.0,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Azentio,SDET - QA Intern,Tier 2,,,0.5,,,,,,,nan,,,8.0,,29/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Dealshare,SDE,Tier 1,,13.0,0.23,,,,,,,Shortlisted 17 for Interview,8.0,2.0,,,5/12/24,FTE + Intern,8.0,False,False,False,False,True,True,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Guidewire (Intern),SecOps Intern,Tier 1,,,0.5,,,,,,,"People with Strong CyberSec background was req, Shortlisted x for Interview",,,7.5,,27/11/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Palo Alto Networks,"SE, Business System Analyst (FinOps)",Tier 1,,14.0,1.0,,,,,,,nan,20.0,5.0,,,29/11/24,Internship (PBC),,False,False,False,False,True,True,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Mckesson Compile,SDE Intern (Data Engineering Team),Tier 1,,,0.15,,,,,,,nan,,,7.5,,19/12/24,FTE + Intern,2.0,False,False,False,False,False,False,Tier-3,SDE-Data,2020-2024
-2024,PES,Cross-College companies info - PES.csv,3Rditech Inc,Student Intern,Tier 2,,,0.25,,,,,,, (2 Openings),,,,,12/2/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Black Buck,nan,Tier 2,,,0.07,,,,,,,Shortlisted 45 for PPT/Test,,,8.0,,4/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Secpod,Test Automation Engineer,Tier 2,,,0.06,,,,,,,Shortlisted 40 PPL for interview ,,,,,2/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Harman Connected Services (Remote),Global Internship Program,Tier 2,,,0.4,,,,,,,Shortlisted 13 for Interview,,,8.0,,4/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,F5 Innovations,QA Engineer,Tier 1,,,0.2,,,,,,,nan,,,7.5,,5/12/24,FTE + Intern,6.0,False,False,False,False,False,False,Tier-3,SDE-Test,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Harman (T3),nan,Tier 2,,,0.25,,,,,,,nan,,,8.0,,6/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Jsw,Graduate Engineer Trainee,Tier 2,,6.0,8.0,,,,,,,nan,,,6.0,,7/12/24,FTE,,False,False,False,False,False,False,Tier-2,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Drongoai.Com,Intern,Tier 2,,,0.3,,,,,,,nan,,,,,7/12/24,Internship (PBC),,True,True,True,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Koeber Supply Chain Software,"SE Intern, Support Eng Intern",Tier 1,,11.0,0.5,,,,,,,Shortlisted 13 people for Interview,,,7.9,,16/12/24,Internship (PBC),10.0,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Akamai Technologies,nan,Tier 1,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Binocs.Co,"ML Intern, Product Designer, Product Manager",Tier 2,,,0.3,,,,,,,nan,,,3.0,,9/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Sandvine,nan,Tier 1,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Commonwealth Bank Of Australia,Graduate Software Engineer,Tier 1,,,12.0,,,,,,,Shortlisted 43 for Interview,,,8.0,,19/12/24,FTE,9.0,False,False,False,False,False,False,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Target,Apprentice Tech,Tier 1,,,0.3,,,,,,,nan,,,7.0,,14/1/25,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ab Inbev,Intern,Tier 2,,,0.3,,,,,,,"Shortlisted 130 for Test, Shortlisted 21 for GD",,,7.1,,20/1/25,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Mutiplier,Software Engineer Intern,nan,,15.0,0.8,,,,,,,Shortlisted 99 for test.,,,7.0,,nan,Internship (PBC),3.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Swiggy,Engineering Intern,Tier 1,,,0.4,,,,,,,"Shortlisted 58 for Interview, Then selected 11 partially from the List, Will later Hire more",,,7.0,,3/1/25,Internship (PBC),11.0,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,4Good.Ai,nan,Tier 2,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Peoplebox,nan,nan,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Allo Health,SE Intern,Tier 1,,,0.3,,,,,,,nan,,,,,15/12/24,Internship (PBC),,False,True,True,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Keysight,nan,nan,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Emplay Analytics Inc,Associate Data Scientist,Tier 2,,,0.08,,,,,,,nan,,,8.0,,16/12/24,FTE + Intern,,False,True,True,False,False,False,Tier-3,Data Scientist,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Matrecomm Technologies,Software Engineer - C++,Tier 2,,,0.25,,,,,,,"26 Students were selected for Assignment round. Assignment was given which was supposed to be completed in 7 days, which will be evaluated to give final offers",,,7.0,,23/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Alcon,Intern - IT & Digital Health,Tier 2,,,0.25,,,,,,,nan,,,7.0,,17/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Hardware/Embedded,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cashfree Payment,Devops Engineer 1,Tier 2,,,0.42,,,,,,,nan,,,7.5,,17/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-DevOps/SRE,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Industry Cover,Business Development Intern,Tier 2,,,0.15,,,,,,,nan,,,,,19/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Rapido,Backend Engineer,Tier 1,,15.0,18.0,,,,,,,nan,,,8.0,,3/1/24,FTE,,False,False,False,False,False,False,Tier-1,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Think41,Full Stack Engineer,Tier 2,,,0.07,,,,,,,nan,,,,,22/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Arcesium,SRE,Tier 1,,,1.0,,,,,,,Shortlisted 150 for Internship,,,7.0,,6/1/24,Internship (PBC),4.0,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Kpmg Global Services,TRM Analyst (Risk Services),Tier 2,,,5.0,,,,,,,nan,,,6.0,,24/12/24,FTE,,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Amuse Labs,SDE Intern,Tier 1,,,0.4,,,,,,,nan,,,8.5,,24/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Rl & C Technologies Private Limited,nan,nan,,,,,,,,,,nan,,,7.5,,nan,nan,,True,True,True,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Nike Itc,Data Engineer Intern,Tier 1,,,0.75,,,,,,,nan,,,,,26/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Data,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Cariad (Embitel Techn - Volkswagon Group),Trainee Engineer,Tier 2,,,0.08,,,,,,,nan,,,7.1,,20/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Superleap,Technical Product Analyst Intern,Tier 2,,6.0,0.25,,,,,,,nan,,,,,27/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Business Analyst,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Bitgo,SDE,Tier 1,,15.0,0.33,,,,,,,nan,6.0,,,,28/12/24,FTE + Intern,,False,False,False,False,True,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Bigendian Semiconductor,Software Engineer Intern,Tier 1,,,0.25,,,,,,,nan,,,7.0,,30/12/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Qest,Software Engineer,Tier 1,,7.0,0.12,,,,,,,Shortlisted 12 for Interview,,,,,30/12/24,FTE + Intern,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Juniper Networks,MIST(AIDE) Internship,Tier 1,,,0.4,,,,,,,Shortlised 50 people for Test. Shortlisted 6 for Interview,,,,,6/1/24,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Ascedion,nan,Tier 3,,,4.0,,,,,,,nan,,,7.0,,22/12/24,FTE,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Tesco (Offcampus) (Female) (All India),Diverse Graduate Hiring - Women in Tech Program,Tier 1,,,18.0,,,,,,,nan,,3.0,8.0,,13/1/25,FTE,,False,False,False,False,False,True,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,E-Litmus,Software Developer,Tier 1,,,0.12,,,,,,,nan,,,,,20/12/24,nan,,False,False,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Victoria Secrets,Data Scientist Intern,Tier 2,,,0.45,,,,,,,nan,,,7.5,,1/1/25,Internship (PBC),,False,False,False,False,False,False,Tier-3,Data Scientist,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Pratt & Collins (Collins Aerospace),"MRO, Electrification Intern",Tier 2,,,0.2,,,,,,,Shortlisted 26 for interview ,,,,,1/1/25,Internship (PBC),,False,True,True,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Gkn Aerospace,Graduate Engineer Trainee,Tier 2,,,10.0,,,,,,,nan,,,8.0,,5/1/25,FTE,,False,False,False,False,False,False,Tier-2,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Abb,Analytics Team - Associate Software Engineer,Tier 2,,,10.0,,,,,,,nan,,1.0,7.5,,nan,FTE,,False,False,False,False,False,True,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Akamai Technologies (Intern),SWE - IT/DevOps Team,Tier 1,,14.0,0.24,,,,,,,nan,8.0,2.0,8.5,,nan,FTE + Intern,,False,False,False,False,True,True,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Gomarble.Ai (T2),AI Engineer,Tier 2,,,0.1,,,,,,,nan,,,,,nan,FTE + Intern,,False,True,True,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Tsalla Aerospace (T2),Junior Engineer,Tier 3,,,0.05,,,,,,,nan,,,6.0,,nan,FTE + Intern,,True,True,True,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Microland (T3),Engineering Trainee,Tier 3,,,4.0,,,,,,,nan,,,6.0,,nan,FTE,,True,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Hcl Tech (T3),Graduate Engineer Trainee,Tier 3,,,4.0,,,,,,,Shortlisted 38 for interview,,,7.0,,nan,FTE,,True,False,False,False,False,False,Tier-3,SDE-ML/AI,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Kpmg Global Services (T2),Consulting Intern,Tier 2,,,0.2,,,,,,,Shortlised 23 People (on Some Unknown Criteria) who are still Unplaced for direct Interview. Role as unkownn as of now. Speculating it to be the same one which happened on 3rd Dec,,,,,9/1/24,Internship (PBC),,True,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Thinkinnov Solution Technologies (T2),nan,Tier 2,,,0.1,,,,,,,nan,,,7.5,,01/09/2025,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Greenway Health India,nan,Tier 2,,,0.06,,,,,,,nan,,,6.0,,1/10/2025,Internship (PBC),,True,True,True,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Webknot Technologies,nan,Tier 2,,6.0,0.07,,,,,,,nan,,,6.0,,1/11/2025,FTE + Intern,,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Mutiplier,Associate Product Manager,Tier 1,,15.0,0.8,,,,,,,nan,,,,,1/10/2025,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Digital.Ai,Intern.,Tier 2,,,0.25,,,,,,,nan,,,7.5,,1/11/2025,Internship (PBC),,False,True,True,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Kreditbee,Intern,Tier 2,,,0.25,,,,,,,nan,,,8.0,,1/11/2025,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Serko,SDE,Tier 1,,,0.21,,,,,,,nan,,,6.0,,1/14/2025,FTE + Intern,,True,True,False,False,False,False,Tier-3,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Candescent,"Dev, QA, Devops",Tier 1,,,0.12,,,,,,,nan,,,7.0,,1/14/2025,FTE + Intern,,True,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Raga.Ai,nan,Tier 2,,,0.2,,,,,,,nan,,,,,1/13/2025,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Wokelo.Ai,Data Scientist Intern,Tier 1,,,0.25,,,,,,,nan,,,7.5,,1/9/2025,Internship (PBC),,False,False,False,False,False,False,Tier-3,Data Scientist,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Rakuten India,nan,Tier 2,,,0.3,,,,,,,nan,,,7.0,,1/17/2025,Internship (PBC),,False,False,False,False,False,False,Tier-3,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Media.Net,Web Application Developer,Tier 2,,,8.0,,,,,,,nan,,,6.0,,1/16/2025,FTE,,True,False,False,False,False,False,Tier-2,SDE-Core,2020-2024
-2024,PES,Cross-College companies info - PES.csv,My Yoga Teacher,SE Intern,Tier 3,,,0.036000000000000004,,,,,,,nan,,,6.5,,1/16/2025,Internship (PBC),,False,False,False,False,False,False,Tier-3,Intern/Trainee,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Tredence,nan,nan,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Wns Analytics,nan,nan,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Jar App,nan,nan,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Kgs,nan,nan,,,,,,,,,,nan,,,,,nan,nan,,False,False,False,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Hpe (Catch Them Young - Cty),12 FTE,nan,,12.0,17.5,,,,,,,nan,,,,,---,nan,,nan,nan,nan,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Jpmc (Thru Hackathon),7 FTE,nan,,13.0,19.3,,,,,,,nan,,,,,---,nan,,nan,nan,nan,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Arista,4 FTE,nan,,16.0,19.5,,,,,,,nan,,,,,65000,nan,,nan,nan,nan,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Morgan Stanley,4 FTE,nan,,13.0,29.48,,,,,,,nan,,,,,87000,nan,,nan,nan,nan,False,False,False,Super-Dream,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Dover,1 FTE,nan,,11.0,13.0,,,,,,,nan,,,,,25000,nan,,nan,nan,nan,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Goldmansachs,1 FTE,nan,,,,,,,,,,nan,,,,,nan,nan,,nan,nan,nan,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,G2,1 FTE,nan,,,15.0,,,,,,,nan,,,,,40000,nan,,nan,nan,nan,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Fidelity,3 FTE,nan,,10.0,12.0,,,,,,,nan,,,,,35000,nan,,nan,nan,nan,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Akamai,5 FTE,nan,,12.0,18.0,,,,,,,nan,,,,,35000,nan,,nan,nan,nan,False,False,False,Tier-1,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Upl,1 FTE,nan,,,10.0,,,,,,,nan,,,,,20000,nan,,nan,nan,nan,False,False,False,Tier-2,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Bosch,nan,nan,,,,,,,,,,nan,,,,,35000,nan,,nan,nan,nan,False,False,False,,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Microsoft,1 FTE,nan,,,32.0,,,,,,,nan,,,,,nan,nan,,nan,nan,nan,False,False,False,Super-Dream,Other,2020-2024
-2024,PES,Cross-College companies info - PES.csv,Expedia,6 FTE,nan,,15.0,31.0,,,,,,,nan,,,,,30000,nan,,nan,nan,nan,False,False,False,Super-Dream,Other,2020-2024
+batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,is_internship_record,fte_ctc,internship_stipend_monthly,salary_category,role_type,academic_year
+2024,PES,PESU CSE Placements 2024 - Dream Tier.csv,Apple,IS&T,Dream,,,,,,,,,,Shortlisted 9.5+,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Dream Tier.csv,De Shaw,SDET,Dream,,,,,,,,,,Shortlisted 8.3+ ,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Confluent,Data Infra,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Makemytrip,Software Engineer,Internship-Spring,,,,,,,,,,"Performance Based FTE,Shortlisted 7.95+",,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Nvidia,System Software Intern | Hardware Engineering Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+(Came again for women for S/W role and NEXT Program for H/W role),,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Siemens Eda,Member Of Technical Staff,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Sap Labs,Associate Developer|DevOps|Support|QA,Internship-Spring,,,,,,,,,,"Performance Based FTE,They shortlisted 8+",,,,,,,,,,,False,False,False,True,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Samsung Semiconductors,Software Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zynga,Software Engineer,Internship-Spring,,,,,,,,,,"Only Internship,Shortlisted 7.5+",,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Intel,Intern,Internship-Spring,,,,,,,,,,"Offered as Tie-Up with CIE,Resume Based Shortlisting",,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Juniper Networks,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Samsung Electronics,Software R&D Intern,Internship-Spring,,,,,,,,,,Only Internship+Shortlisted 8.5+,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Intel,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+Resume Based Shortlisting,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,At&T,Technical Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Endor Labs,Intern,Internship-Spring,,,,,,,,,,"Performance Based FTE,Shortlisted by taking avg of 10th,12th and CGPA,8.85+ cutoff ",,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Garrett Motion,Engg IT,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Infoblox,Software Engineer Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Keysight,"Connectivity,SDET,R&D,Dev (1,2,3),IT,Simulation ROQ,SE (1,2),MST-LC,Hema",Internship-Spring,,,,,,,,,,Performance Based FTE+8.5 CGPA Cutoff,,,,,,,,,,,False,False,False,True,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Miq Digital,"AI,Analytics,Product Analytics",Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Walmart,SDE Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Bnp Paribas,Application Development,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Drongo Ai,Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Gsk Gcc,D&T Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Alcon India,"Business Analysis, Data Scientists, Business Intelligence",Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Data Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,F5 Innovation,Software Engineer-1,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Udaan,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Groww,SDE Intern - Backend,Internship-Spring,,,,,,,,,,Performance Based FTE+Shortlisted 8+,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Scaler,Business Development Trainee,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Digicert,"ASE,QA,DEV BACKEND,FRONTEND,UX DESIGNER",Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Q2,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Uidai,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Quicken,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Astr Defense Pvt Ltd,COMPUTER VISION INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Aptos,SOFTWARE INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,L7 India,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Philips,"SOFTWARE,CYBERSECURITY,ELECTRONICS,PROJECT MANAGEMENT",Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Target,TECH INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Victoria Secret,DATA SCIENCE INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Data Scientist,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Triomics,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Rattle,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Matrecomm,SOFTWARE DEVELOPER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Flatworld,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Biocliq,Deep Learning Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Meritic,SDE,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Iqvia,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Cmti,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Medibuddy,INTERN,Internship-Spring,,,,,,,,,,Internship Only+Shortlisted 8+,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Progress Residential,"SE SRE,FS,RPA,SALESFORCE,DATA ENGG,DATA ANALYST INTERN",Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Data Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hakimo.Ai,INTERN,Internship-Spring,,,,,,,,,,Resume Based Shortlist,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ab Inbev,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Cbx1,SOFTWARE INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Saaspay,PROGRAM MANAGEMENT INTERN,Internship-Spring,,,,,,,,,,"90% in 10th,80% in 12th",,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Allo Health,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Bigbasket,LEAD GENERATION INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Fluidyn,SOFTWARE DEVELOPMENT INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Byjus,INSIDE SALES INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Propheus.Ai,ENGINEERING/DATA SCIENCE INTERN,Internship-Spring,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,True,,,,SDE-Data,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Optiv,CYBER STRATEGY INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Equinix,SERVICENOW INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Argoid.Ai,DATA SCIENCE/JAVA INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Data Scientist,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Rohde And Schwarz,INTERN,Internship-Spring,,,,,,,,,,Internship Only+2 years Bond,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Metalmann,Mobile App Developer - Android,Internship-Spring,,,,,,,,,,Performance Based FTE+Resume Based Shortlisting,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Covrzy,FOUNDER'S OFFCICE INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Origin Medical,PRODUCT ANALYST,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Confidential,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Finvolv,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE+85% in Boards,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Rakuten,TECHNICAL INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Foundit,Content writer Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Intrnforte,Business development intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Unisys,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Msg Global,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Blockmagix,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hypergro.Ai,PRODUCT DESIGN INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ovii,FRONTEND DEVELOPER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Anko,INTERN,Internship-Spring,,,,,,,,,,Internship Only+Shortlisted Female Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Senara.Tv,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Kshana.Ai,BACKEND DEV INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Decathlon,JUNIOR SOFTWARE ARTIST,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Meesho,SOFTWARE DEVELOPMENT INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Pwc,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,O9 Solutions,ASSOCIATE SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Photon Interactive,AI INTERN,Internship-Spring,,,,,,,,,,Unpaid Internship,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Abell Ventures,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Aidash,DEVOPS INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Nike Itc,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zysk Tech,SOFTWARE DEVELOPER INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Practo Tech,BUSINESS ANALSYT INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Soroco,SOFTWARE ENGINEER INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Lg Soft India,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+ 8-12 Months Internship,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ca Grameen,Analyst Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Siemens,Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Xperin,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ansys,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Karboncard,Growth Operations - Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,4Good.Ai,Software Devleoper/Data Engineer/Mobile Developer,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,SDE-Data,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Fidler.Ai,SDET Intern,Internship-Spring,,,,,,,,,,Performance Based FTE+Women Only Drive,,,,,,,,,,,False,False,False,True,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Lemnisk,SE Intern,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Iqnext,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ap Moller Maersk Gsc,Data Science Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Data Scientist,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Phronetic.Ai,Data & ML Engineering/AI Technology Research/AI Business & Product Analysis,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,SDE-Data,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Airbus India,INTERN,Internship-Spring,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Indee Software Pvt Ltd,VIDEO ENG/FRONTEND/BACKEND/AUTOMATION ENG,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Wework,BUSINESS ANALYST,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ford Business Solutions,Embedded Software/Hardware Intern/HIL SImulation Testing Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Beyondsquare,Software Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ziroh Labs,Swift Intern/Java Intern/C# Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Newron.Ai,Java/Python/Gen Ai Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Singularity,Verification Engineer Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Wokelo.Ai,Backend Develoepr Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Manastu Space Tech,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zeta,Customer Success Engineer - Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Catalina Systems,INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Sentinelone,SWE/MALWARE/WINDOWS INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Multilex Tech,SDE INTERN,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Niro,Risk & Data Analytics,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Basal Analytics,Junior Python/AI Developer,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,75F Smart Innnovations,Manual Testing,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Wedez,Intern,Internship-Spring,,,,,,,,,,Internship Only,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Needibay,Business Development Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Blinkit,Assistant Store Manager,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Moengage,Software Engineer Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hevo,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Ntt Data,INTERN,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Primenumbers Tech,Python Devloper/Software Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Zluri,SDE/SDET,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Impact Analytics,Software Engineering Backend Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Symphony Ai,Full Stack/AI Engineer/Devops/Perf Engineer,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Hyperverge,Billings and Receivable /TA/Operation Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Sifive,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Froker,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Informatica,Associate Software Engineer Apprentice,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Spring Internships.csv,Blowhorn,Intern,Internship-Spring,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,True,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Zscaler(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Jpmc(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Goldman Sachs(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Gigsky(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Paypal(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Intuit(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Visa(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Pronisi(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Morgan Stanley(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Expedia,nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Adobe(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Summer Internships(PPO).csv,Fidelity(Ppo),nan,Internship-Summer,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Jpmc,Software Engineer,Tier-1,,,,,,,,,,Code for Good Hackathon,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Intuit,Engineer,Tier-1,,,,,,,,,,They shortlisted only 9 cgpa,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Commvault,Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Urban Company,Software Development Engineer - I,Tier-1,,,,,,,,,,They shortlisted only 8 cgpa,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Pure Storage,Engineer,Tier-1,,,,,,,,,,They shortlisted only 9 cgpa,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Ring Central,Associate Software Engineer,Tier-1,,,,,,,,,,They asked 90% in boards,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Couchbase,Dev,Tier-1,,,,,,,,,,8cgpa+Resume Shortlisting,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Deutshce Bank,Graduate Analyst,Tier-1,,,,,,,,,,They shortlisted only 8.5 cgpa,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Swym Tech Pvt Ltd,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Lam Research,Software Engineer,Tier-1,,,,,,,,,,Shortlisted 8+ for Dev role,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sandvine,Software Engineer/Test Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cynlr,Design and Development Associate,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Hyperface,SDE 1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Newfold Digital,Operations Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Tesco,Graduate Software Developer Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Arista Networks,Software Engineer,Tier-1,,,,,,,,,,They shortlisted only 8 cgpa,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cisco,Technical Consultant,Tier-1,,,,,,,,,,It was for women only as part of Boost 3.0 program,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Egnyte,Software Engineer I,Tier-1,,,,,,,,,,They shortlisted 8+,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cloudera,Software Engineer I,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Baxter,Engineer Trainee,Tier-1,,,,,,,,,,They shortlisted 8+,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sahaj,Solution Consultant,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Kickdrum,Software Developer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Epsilon,Software Engineer-1,Tier-1,,,,,,,,,,They shortlisted 8.5+,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cisco,Cloud Application Developer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Natwest,Software Engineer,Tier-1,,,,,,,,,,Shortlisted 9+ cgpa for Male and 8 cgpa for Female,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Schneider Electric,Graduate Engineer Trainee (GET),Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Hpe R&D | Aruba|Cty,Software Developer|Software Automation and Quality Assurance,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Amadeus,SDE-1,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Dish Technologies,Engineer,Tier-1,,,,,,,,,,They shortlisted 8.75+,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sprinklr,Devops Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-DevOps/SRE,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Bain Capability Network,Analyst,Tier-1,,,,,,,,,,Resume Shortlisting,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Societe Generale,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Ibm Isl Security,Software Developer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Thorogood,Data & Analytics Consultant,Tier-1,,,,,,,,,,They shortlisted 8.4+,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Morgan Stanley,Technology Analyst,Tier-1,,,,,,,,,,They shortlisted above 8.5 cgpa,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,British Telecom,GET Intern,Tier-1,,,,,,,,,,They shortlisted 8.6+,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Sap Labs,Associate Developer|DevOps|Support|QA,Tier-1,,,,,,,,,,They shortlisted 8+,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Dover,GET Intern,Tier-1,,,,,,,,,,They shortlisted 8.6+,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Infibeam,Software Development Engineer,Tier-1,,,,,,,,,,Shortlisted 8.5+,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Aurva.Io,Software Engineer-1,Tier-1,,,,,,,,,,Prefer Open Source Contributors,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Microchip Tech,"App (1,2,3,4,5),SDE(0,1),SE(Test,Quality),Firmware Testing,SW/FW Design",Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Blue Yonder,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Microchip Tech,"Software 1,2,3 ,Baan QA,Dynamics AX Analyst,Web Dev,ServiceNow Dev",Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Idfc First Bank,Application Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Netradyne,"Cloud-SDET,Embedded QA Engineer-SDET,QA IOT,Data Analyst,Bizz Systems",Tier-1,,,,,,,,,,Shortlisted 8.4+,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Reltio,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Akamai,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Observe.Ai,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Jar App,SDE Intern - Backend,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Netcore Cloud,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Cohesity,Member of Technical Staff(R&D),Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Palo Alto,Software Engineer -IT,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Rtbrick,Software Developer,Tier-1,,,,,,,,,,"90% in 10th,85% in 12th",,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Kangasys,Junior Software Developer,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Zscaler,Associate Security Researcher,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Lowe'S India,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Bitgo,Backend Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Flexera,Associate Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Tata Communications,Product Manager/Cyber Security/Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Gameskraft,Software Engineer Full Stack,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Coinswitch,SDE-1,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Motorola,Associate Software Engineer,Tier-1,,,,,,,,,,Shortlisted 8.5+ and 90% in Boards,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Amagi,SDET,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Rtcamp,Software Engineer Trainee,Tier-1,,,,,,,,,,Remote Work+Resume Based Shortlist,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Aveva,Software Engineer,Tier-1,,,,,,,,,,Resume Based Shortlisting,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Myntra,Software Engineer,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 1.csv,Meesho,Business Analyst,Tier-1,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Deloitte Usi,Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Deloitte India,ET&P F&P,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Applied Materials,IT Solutions Management,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ey,Associate Consultant,Tier-2,,,,,,,,,,Shortlisted (8.1-8.3)+,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Truminds,SDE-1,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Arup India Pvt Ltd,SOFTWARE DEVELOPER,Tier-2,,,,,,,,,,Shortlisted 8+,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Pwc India,ASSOCIATE TECHNOLOGY CONSULTANT,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Eli Lilly Services Pvt Ltd,ANALYST,Tier-2,,,,,,,,,,Shortlisted above 8 GPA and 90% in 10th and 12th,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Broadridge,MEMBER TECHNICAL,Tier-2,,,,,,,,,,"Male - 9 GPA,Female - 8.5 GPA",,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Goldman Sachs,ANALYST,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Subex,SOFTWARE ENGINEER,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Kpmg,Analyst GRCS - Digital Trust,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Collins Aerospace,Graduate Engineer Trainee,Tier-2,,,,,,,,,,Resume Based Shortlisting +  Only Female + GPA,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Pratt & Whitney,Graduate Engineer Trainee,Tier-2,,,,,,,,,,Resume Based Shortlisting +  Only Female + GPA,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hiver,Software Development Engineer 1,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Tejas Networks,Engineer R&D(Java),Tier-2,,,,,,,,,,Shortlisted 8+,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Perfios,Software Development Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hpe,Global Operations Role,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Idfy,Labs-Bangalore,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Astrazenca,Junior Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Zebra Tech Corp,Intern,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Crk Gida Tech,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Nextuple,Associate Software Engineer,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Mercedes Benz R&D,Graduate Engineer Trainee,Tier-2,,,,,,,,,,Only for Females,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Havells,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Berkadia,Associate Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Conde Nast,Technical Project Management,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Cyware Labs,Software Engineer Intern,Tier-2,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Aurigo,SDET,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Celstream,Developer/Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Shadowfax,SDE-1,Tier-2,,,,,,,,,,Shortlisted 8+ CGPA,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Innover,Associate Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Jll Tech,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Consilio Llc,Associate Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Oracle,Associate Consultant / Cloud Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ph Data,Associate Data Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Data,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Aptiv,Associate Embedded Software Engineer,Tier-2,,,,,,,,,,Women Only Drive,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Deltax,Associate Product Engineer,Tier-2,,,,,,,,,,4 Months Training Bootcamp Included,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Newstreet Tech,Engineering Intern,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Conga,Associate Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Creditnirvana,Product Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Atkins Realis,Graduate Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Dell,Technical Content Developer 1,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Onmobile,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Accolite,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hello24 Digicom,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Bizom,Associate Product Manager,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Health Asyst,Trainee Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Birla Pivot,Software Engineer,Tier-2,,,,,,,,,,Top 20% Students+80% in Boards,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Infosys,Specialist Programmer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Parablu,Junior Software Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Testsigma,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Falabella,Intern,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Palle Tech,Software Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Gkn Aerospace,Graduate Trainee,Tier-2,,,,,,,,,,Female Only Drive,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Turing,Delivery Data Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Data Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Tcs,Ninja,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Svasthiya Tech,SWE/SALES,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Transition Vc,RESEARCH ANALYST,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ushur Tech,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Course5,JUNIOR AI SCIENTIST,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Epam,ENGINEER,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Hfcl,Graduate Engineer Trainee,Tier-2,,,,,,,,,,"12 LPA in Second Year,15 LPA in Third Year",,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Adecco,Junior Automation Analyst/Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Flipkart,Application Engineer,Tier-2,,,,,,,,,,Female Only Drive,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Ribbon Communication,Intern,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Thoughtworks,Graduate Application Developer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Openmynz Sotlabs,Software Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Cube,B2B Account Manager,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Think41,Full Stack Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Exiger,Verification Engineer,Tier-2,,,,,,,,,,2 Years Bond,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Gnani.Ai,AIML ENGINEER/NLP ENGINEER/FROTNEND DEV/BACKEND DEV,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Jebpo,Trainee Business Analyst,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Blackbuck,Associate SDE,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Mavenir,Graduate Engineer Trainee,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Kaynes Tech,nan,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 2.csv,Volvo,Associate Engineer,Tier-2,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Accenture,Associate Software Engineer,Tier-3,,,,,,,,,,Another drive was conducted for PWD students also,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Dxc,Associate Professional,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Secpod,Product Content Marketer,Tier-3,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ibm-Cic,Associate System Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Gyansys,Associate Consultant/Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cubic Logics,Software/Support Specialist,Tier-3,,,,,,,,,,Performance Based FTE,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Microland,Engineering Trainee,Tier-3,,,,,,,,,,2 Year Bond,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Publicis Sapient,Trainee Technology,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ls Davar,Patent Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Rendered Ideas,Game Developer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Hcl,Graduate Engineer Trainee,Tier-3,,,,,,,,,,1 Year Bond,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Obhan & Associates,Technical Consultant,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Dexian,Tech Roles,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Miller Knoll,TRAINEE ENGINEER,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Hso,nan,Tier-3,,,,,,,,,,Second Year - 7.2 CTC,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Mphasis,Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Sagility,ASE/Analytics/Automation,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Logixal,Trainee Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Iqgateway,Associate Software Developer,Tier-3,,,,,,,,,,"2.4 LPA in first 3 Months,6 LPA afterwards+2 years Bond",,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Great Learning,Senior Executive Digital Marketing,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Hardware/Embedded,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Bigbasket,Associate Consultant,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Federal Bank,Associate in Non-Officer (Clerical) Cadre for Branch Banking Role,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Tech Mahindra,Graduate Trainee,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Intern/Trainee,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ascendion,Associate Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Gnani.Ai,AI Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Sophistex,Junior Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cgi,Associate Software Enigneer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Right Prompt Tech,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Eximietas,Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Adapt Ready,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Siemens Gamesa,BI Developer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Coforge,nan,Tier-3,,,,,,,,,,2 Years Bond for 1.5 Lakhs,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Pedalstart,Full Stack Developers/Graphic Designers/Social Media Manager,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Terralogic Sw Soln,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Tech Mahindra,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Skydo Tech,Customer Success Associate,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Rupeek,ARM,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Deltax,Customer Success/Support,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Humanetics,Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Eviden(Atos),Board Design Engineer/Test Engineer/Junior Associate,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Test,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Shopdeck,GROWTH CONSULTANT,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Vodafone,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Beml,Junior Executive,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Nrt,Embedded Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Winman,Product Software Programmer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Liquide,Business Development Associate,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Business Analyst,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Isteer Technologies,Gen AI,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Vnb,Dev,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Rapyuta Robotics,Infra Ops/SWE/Cyber Sec/Devops,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Xurmo,Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Next Wealth,Quality,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cognizant,nan,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Cogent Infotech,US Staffing Recruiter,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Invictus,Junior Researcher,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Capgemini,Software Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Probe,Tech Lead,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Xpheno,Tech Support,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ashtaksha Labs,Junior AI/ML Engineer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Ltmindtree,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-ML/AI,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Hirepro,Python Developer,Tier-3,,,,,,,,,,nan,,,,,,,,,,,False,False,False,False,,,,SDE-Core,2020-2024
+2024,PES,PESU CSE Placements 2024 - Tier 3.csv,Temenos,Dev/Testing,Tier-3,,,,,,,,,,2 years Bond,,,,,,,,,,,False,False,False,False,,,,Other,2020-2024

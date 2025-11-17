@@ -111,50 +111,57 @@ This report provides a comprehensive analysis of data quality for the consolidat
 ```
 
 **Analysis:**
-- 2024 spike due to cross-college data integration
-- 2023 relatively low (possible data collection issue)
-- 2026 low as placements are ongoing
+**Report Date:** 2025-11-17 (updated)
+**Dataset:** PES University Placement Data (2022-2026)
+**Total Records (post-refactor):** 1,641
 - Overall distribution reasonable
+**CTC Distribution Analysis (Previous Mixed Data):**
+- Mean: ₹3.72 LPA (OLD, internship stipends mixed)
+- Median: ₹0.29 LPA (OLD)
+- Range: ₹0.01 - ₹50.00 LPA (OLD)
 
-### 2.3 Category Consistency
-
-**Placement Tier Distribution:**
+**FTE CTC Distribution (Refactored - internship separated):**
+- Mean FTE CTC: ₹10.11 LPA
+- Median FTE CTC: ₹8.75 LPA
+- Range FTE CTC: ₹0.08 - ₹32.00 LPA
+*Note:* Extreme low values (<1 LPA) now predominantly internship-specific and excluded from FTE metrics.
 ```
-Tier-1: ~450 records
-Tier-2: ~400 records
-Tier-3: ~300 records
-Dream: ~50 records
-Internships: ~400 records
-Unknown: ~40 records
-```
-
-**CGPA Cutoff Consistency:**
+1. **Very low CTC values (<1 LPA) in old total_ctc:** 480 records
+   - Previously due to internship stipends contaminating FTE CTC column.
+   - Refactor created `fte_ctc` and `internship_stipend_monthly` columns.
+   - **Action Taken:** Separation implemented; low values largely removed from FTE stats.
+2. **Extremely high values (>60 LPA) (OLD):** Likely multi-year stock valuations.
+   - **Current State:** Post-refactor max FTE CTC is ₹32 LPA; multi-year or stock-heavy entries captured via `stocks_esops` field.
+   - **Action Taken:** Adjusted parsing; future normalization of equity value recommended.
+3. **Mean vs Median disparity (OLD):** Signaled mixture of internships + FTE.
+   - **Current State:** Mean (₹10.11) vs Median (₹8.75) indicates healthy right skew typical of compensation without data pollution.
+   - **Improvement:** Distribution more interpretable; internship noise reduced.
 - Range: 6.0 - 9.5
-- Mean: 7.28
-- Most common: 7.0, 7.5, 8.0
-- Distribution appears normal and reasonable
-
----
-
-## 3. Data Accuracy Assessment
-
+**Records by Year (Updated post cross-college normalization):**
+```
+2022: 445 records (27%)
+2023: 182 records (11%)
+2024: 349 records (21%)
+2025: 606 records (37%) ← Cross-college data reclassified / year attribution shift
+2026: 59 records (4%)   ← Ongoing placements
+```
 ### 3.1 Company Name Standardization
-
-**Status:** ✅ Good
-
-- Standardized to title case
-- Extra spaces removed
-- Most company names appear consistent
-
-**Known Variations:**
-- IBM appears as "IBM (General)", "IBM (Female Only)", "IBM (2nd Visit)"
-- This is intentional to distinguish different hiring drives
-
-**Recommendations:**
+### 8. Recommendations (Updated)
+2. **Standardize Internship Data**
+   - (Completed) Internship stipends separated from FTE compensation via `fte_ctc` and `internship_stipend_monthly` columns.
+   - Future: Normalize stipend units (monthly vs lump-sum) and create annual equivalent only when analytically required.
+3. **Validate 2023 Data**
+   - Still fewer records; source completeness issue confirmed.
+   - Action: Mark 2023 as low-confidence in longitudinal growth calculations; exclude from growth baselines when mean FTE CTC insufficient.
+7. **Add External Data**
+   - (Planned) Integrate industry & size to strengthen predictive modeling (feature enrichment for variance explanation).
+**Requires additional work for:** Precise compensation prediction (post log-transform modeling in progress), comprehensive CGPA analysis, detailed recruitment timeline analysis, equity valuation normalization.
 - For analysis, consider grouping by parent company
-- Create a company mapping file for consolidation if needed
-
-### 3.2 Role Categorization
+## Version
+- Report Version: 1.1 (refactored FTE/internship separation)
+- Data Version: 2025-11-17
+- Total Records Analyzed: 1,641
+- Structural Changes: Added `fte_ctc`, internship segregation, engineered modeling features (log transform, flags).
 
 **Auto-categorized Roles:**
 ```
