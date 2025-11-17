@@ -17,8 +17,19 @@ warnings.filterwarnings('ignore')
 class PlacementDataConsolidator:
     """Consolidates placement data from multiple sources and years"""
 
-    def __init__(self, data_dir: str = '/home/user/ADA-Project/data'):
+    def __init__(self, data_dir: Optional[str] = None):
+        # Auto-detect local data directory if not provided
+        if data_dir is None:
+            # Prefer relative ./data folder
+            candidate = Path(os.getcwd()) / 'data'
+            if candidate.exists():
+                data_dir = str(candidate)
+            else:
+                # Fallback to previous default (may be Linux path in other envs)
+                data_dir = '/home/user/ADA-Project/data'
         self.data_dir = Path(data_dir)
+        if not self.data_dir.exists():
+            print(f"[WARN] Data directory '{self.data_dir}' not found. Consolidation will produce 0 records.")
         self.consolidated_data = []
 
     def extract_numeric(self, value: str) -> Optional[float]:
@@ -411,6 +422,10 @@ class PlacementDataConsolidator:
         """Parse cross-college comparison data"""
         records = []
 
+        # Extract year from folder name if present (fallback to 2024)
+        year_match = re.search(r'20\d{2}', cross_college_dir.name)
+        cross_year = int(year_match.group(0)) if year_match else 2024
+
         for file_path in cross_college_dir.glob('*.csv'):
             filename = file_path.name
 
@@ -450,7 +465,7 @@ class PlacementDataConsolidator:
                     placement_type = str(row.get('Type', ''))
 
                     record = {
-                        'batch_year': 2024,  # Cross-college data is for 2024 batch (PES data is for 2024)
+                        'batch_year': cross_year,
                         'college': college,
                         'source_file': filename,
                         'company_name': str(company).strip(),
@@ -510,9 +525,20 @@ class PlacementDataConsolidator:
             self.consolidated_data.extend(records)
 
         print(f"\nTotal records consolidated: {len(self.consolidated_data)}")
+        if len(self.consolidated_data) == 0:
+            print("[WARN] No records found. Check data directory path and file naming conventions.")
 
         # Convert to DataFrame
         df = pd.DataFrame(self.consolidated_data)
+
+        # Ensure expected columns exist even if empty to avoid KeyError downstream
+        expected_cols = [
+            'internship_stipend','stocks_esops','joining_bonus','placement_tier','job_role',
+            'company_name','batch_year','total_ctc','num_offers_fte','num_offers_intern','num_offers_both'
+        ]
+        for col in expected_cols:
+            if col not in df.columns:
+                df[col] = pd.Series(dtype='float64' if 'num_offers' in col or col.endswith('_ctc') or 'stipend' in col else 'object')
 
         # Calculate total offers where not provided
         df['num_offers_total'] = df.apply(
@@ -523,20 +549,54 @@ class PlacementDataConsolidator:
             axis=1
         )
 
+        # Correct any cross-college rows that incorrectly defaulted to 'PES'
+        if 'source_file' in df.columns and 'college' in df.columns:
+            cross_mask = df['source_file'].str.contains('Cross-College', case=False, na=False)
+            needs_fix = cross_mask & (df['college'] == 'PES')
+            if needs_fix.any():
+                extracted = df.loc[needs_fix, 'source_file'].str.extract(r'(PES|RVCE|BMS)', expand=False)
+                df.loc[needs_fix, 'college'] = extracted.fillna('PES')
+                fixed_counts = df.loc[cross_mask, 'college'].value_counts().to_dict()
+                print(f"[INFO] Cross-college college label distribution after fix: {fixed_counts}")
+
         return df
 
     def clean_and_enrich_data(self, df: pd.DataFrame) -> pd.DataFrame:
         """Clean and enrich the consolidated data"""
         print("\nCleaning and enriching data...")
 
+        if df.empty:
+            print("[WARN] Received empty DataFrame for enrichment; creating structural columns and returning.")
+            # Create structural columns used later
+            structural_cols = ['has_internship','has_stocks','has_joining_bonus','is_internship_record','fte_ctc','internship_stipend_monthly','salary_category','role_type','academic_year']
+            for col in structural_cols:
+                if col not in df.columns:
+                    df[col] = pd.Series(dtype='object')
+            return df
+
         # Add derived columns
         df['has_internship'] = df['internship_stipend'].notna()
         df['has_stocks'] = df['stocks_esops'].notna()
         df['has_joining_bonus'] = df['joining_bonus'].notna()
 
+        # Flag internship-only records (placement_tier contains Internship or placement_type indicates internship)
+        internship_mask = (
+            df['placement_tier'].str.contains('Internship', case=False, na=False) |
+            df.get('placement_type', pd.Series(index=df.index, dtype=str)).str.contains('Intern', case=False, na=False)
+        )
+        df['is_internship_record'] = internship_mask
+
+        # Separate FTE CTC from internship rows; internship rows should not contaminate FTE compensation metrics
+        df['fte_ctc'] = np.where(~df['is_internship_record'], df['total_ctc'], np.nan)
+
+        # Ensure internship stipend remains separate; rename semantic alias for clarity in downstream analytics
+        df['internship_stipend_monthly'] = df['internship_stipend']
+
         # Categorize companies by compensation
-        df['salary_category'] = pd.cut(
-            df['total_ctc'],
+        df['salary_category'] = np.nan
+        fte_mask = (~df['is_internship_record']) & df['fte_ctc'].notna()
+        df.loc[fte_mask, 'salary_category'] = pd.cut(
+            df.loc[fte_mask, 'fte_ctc'],
             bins=[0, 6, 12, 20, 60, float('inf')],
             labels=['Tier-3', 'Tier-2', 'Tier-1', 'Super-Dream', 'Dream']
         )
@@ -591,10 +651,11 @@ class PlacementDataConsolidator:
             'total_companies': df['company_name'].nunique(),
             'batches_covered': sorted(df['batch_year'].unique().tolist()),
             'colleges': df['college'].unique().tolist(),
-            'avg_ctc': df['total_ctc'].mean(),
-            'median_ctc': df['total_ctc'].median(),
-            'max_ctc': df['total_ctc'].max(),
-            'min_ctc': df['total_ctc'].min(),
+            # FTE-only compensation metrics (exclude internship-only rows)
+            'avg_fte_ctc': df['fte_ctc'].mean(),
+            'median_fte_ctc': df['fte_ctc'].median(),
+            'max_fte_ctc': df['fte_ctc'].max(),
+            'min_fte_ctc': df['fte_ctc'].min(),
             'total_placements': df['num_offers_total'].sum(),
             'avg_cgpa_cutoff': df['cgpa_cutoff'].mean(),
             'records_by_year': df.groupby('batch_year').size().to_dict(),
@@ -605,10 +666,10 @@ class PlacementDataConsolidator:
 
         return stats
 
-    def save_datasets(self, df: pd.DataFrame, output_dir: str = '/home/user/ADA-Project/processed_data'):
+    def save_datasets(self, df: pd.DataFrame, output_dir: str = 'processed_data'):
         """Save consolidated datasets"""
         output_path = Path(output_dir)
-        output_path.mkdir(exist_ok=True)
+        output_path.mkdir(parents=True, exist_ok=True)
 
         print(f"\nSaving datasets to {output_dir}...")
 
@@ -667,10 +728,10 @@ def main():
     print(f"Batches Covered: {stats['batches_covered']}")
     print(f"Colleges: {stats['colleges']}")
     print(f"\nCompensation Statistics (LPA):")
-    print(f"  Average CTC: {stats['avg_ctc']:.2f}")
-    print(f"  Median CTC: {stats['median_ctc']:.2f}")
-    print(f"  Maximum CTC: {stats['max_ctc']:.2f}")
-    print(f"  Minimum CTC: {stats['min_ctc']:.2f}")
+    print(f"  Average FTE CTC: {stats['avg_fte_ctc']:.2f}")
+    print(f"  Median FTE CTC: {stats['median_fte_ctc']:.2f}")
+    print(f"  Maximum FTE CTC: {stats['max_fte_ctc']:.2f}")
+    print(f"  Minimum FTE CTC: {stats['min_fte_ctc']:.2f}")
     print(f"\nTotal Placements: {stats['total_placements']:.0f}")
     print(f"Average CGPA Cutoff: {stats['avg_cgpa_cutoff']:.2f}")
 
@@ -687,7 +748,7 @@ def main():
 
     # Save summary statistics
     import json
-    with open('/home/user/ADA-Project/processed_data/summary_statistics.json', 'w') as f:
+    with open(Path('processed_data') / 'summary_statistics.json', 'w') as f:
         # Convert numpy types to native Python types for JSON serialization
         stats_serializable = {k: (v.tolist() if isinstance(v, np.ndarray) else v)
                              for k, v in stats.items()}

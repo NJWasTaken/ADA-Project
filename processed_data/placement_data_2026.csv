@@ -1,65 +1,65 @@
-batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,salary_category,role_type,academic_year
+batch_year,college,source_file,company_name,job_role,placement_tier,internship_stipend,base_salary,total_ctc,num_offers_fte,num_offers_intern,num_offers_both,test_date,interview_date,ppt_date,additional_info,stocks_esops,joining_bonus,cgpa_cutoff,visit_date,oa_date,placement_type,num_offers_total,allows_ece,allows_mca,allows_mtech,has_internship,has_stocks,has_joining_bonus,is_internship_record,fte_ctc,internship_stipend_monthly,salary_category,role_type,academic_year
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Oracle (Ofss),Associate Application Developer,Internship,50000.0,,,,50000.0,,,,,"4 got PPO ( 1 of them rejected offer)
+CTC = ~40LPA (Not exactly 40) -> RSUs worth Rs 16L + 8L Insurance and other Benefits",,,,,,,,,,,True,False,False,True,,50000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Jpmc (Summer Internship),Software Engineer,Internship,75000.0,,,,75000.0,,,,,"13L Base + 1.5L JB + 1.25L Relocation 
++ 4L  Annual Incentive Compensation (Performace Based)",,,,,,,,,,,True,False,False,True,,75000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Jpmc (Cfg),Software Engineer,Internship,,,,,,,,,,This is from the Code for Good for FTE,,,,,,,,,,,False,False,False,True,,,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,G2,nan,Internship,40000.0,,,,40000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,40000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Intuit,nan,Internship,120000.0,,,,120000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,120000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,One App,nan,Internship,75000.0,,,,75000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,75000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Hewlett Packard Ent.,nan,Internship,,,,,,,,,,Took students through CTY program held on collaboration with CCBD (RR Campus Exclusive),,,,,,,,,,,False,False,False,True,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Fs Investments,nan,Internship,125000.0,,,,125000.0,,,,,3 of the 4 were given the offer and all 3 accepted it,,,,,,,,,,,True,False,False,True,,125000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Razorpay,nan,Internship,50000.0,,,,50000.0,,,,,2L Signing Bonus + Includes ESOPs worth 15L,,,,,,,,,,,True,False,False,True,,50000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Visa,nan,Internship,90000.0,,,,90000.0,,,,,Benefits included such as free cab and stuff. Additional 1.25L for Relocation Bonus,,,,,,,,,,,True,False,False,True,,90000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Fidelity Investments,nan,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Akamai,nan,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Walmart,nan,Internship,110000.0,,,,110000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,110000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Paypal,nan,Internship,100000.0,,,,100000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,100000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Cisco,nan,Internship,98000.0,,,,98000.0,,,,,nan,,,,,,,,,,,True,False,False,True,,98000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Total Visited,14,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Highest Package,45,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Average Package,27.88888889,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Median Package,27,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,True,,,,Other,2022-2026
 2026,PES,Placement Scene _26 - Tier 2.csv,Deloitte,USI,Tier-2,,,,,,,,,,"Company asked for role preference
 but shortlisted according to
-business requirements",,,6.0,,13/09/25,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,British Telecom ( Bt Group ),nan,Tier-2,50000.0,,,,50000.0,,,,,CTC given by the company is 7.64 while 10.64 is the money received post retention and joining bonus. So considered 10.64 as CTC with 7.64 as base,,,,,19/09/25,,,,,,True,False,False,,Other,2022-2026
+business requirements",,,6.0,,13/09/25,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,British Telecom ( Bt Group ),nan,Tier-2,50000.0,,,,50000.0,,,,,CTC given by the company is 7.64 while 10.64 is the money received post retention and joining bonus. So considered 10.64 as CTC with 7.64 as base,,,,,19/09/25,,,,,,True,False,False,False,,50000.0,,Other,2022-2026
 2026,PES,Placement Scene _26 - Tier 2.csv,"Dtici (Daimler Truck 
-Innovation Center India)",CS - Graduate Trainee,Tier-2,,,,,,,,,,nan,,,,,16/09/25,,,,,,False,False,False,,Intern/Trainee,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Collins Aerospace,Graduate Engineer Trainee,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,SDE-ML/AI,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Tejas Networks,Software Engineer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/09/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Ey,Associate Consultant,Tier-2,21200.0,,,,21200.0,,,,,nan,,,,,nan,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Kpmg,Tech Transformation DEQ,Tier-2,20000.0,,,,20000.0,,,,,"CTC: Total Earning Potential will be Base + Variable + Other benefits [Variable Pay - which depends on the individual’s performance, service line’s performance and the firm’s performance + Other Benefits (Gratuity & Insurance)]",,,6.5,,20/09/25,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Telstra,Associate Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,There are other allowances that might be provided which is not part of the CTC. Only a few have been offered the itnernship,,,8.0,,03/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Applied Materials,nan,Tier-2,55000.0,,,,55000.0,,,,,Additional 6000 USD stocks,,,,,13/10/25,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Toshiba,Associate Software Engineer,Tier-2,45000.0,,,,45000.0,,,,,Shortlisted 8.2+ for CSE ,,,,,07/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Broadridge Financial Solutions,SDE,Tier-2,30000.0,,,,30000.0,,,,,Additional 5 lacs medical insurance,,,,,16/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Hp,Transformation Intern,Tier-2,40000.0,,,,40000.0,,,,,Hiring for internship only with PBC,,,,,nan,,,,,,True,False,False,,Intern/Trainee,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Havells,Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,nan,,,,,17/11/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,7-Eleven,Associate Software Engineer,Tier-2,,,,,,,,,,"10 inclusive of fixed + variable, Additional 1.5 JB",,,,,nan,,,,,,False,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Hourglass,Patent Associate,Tier-2,,,,,,,,,,nan,,,,,27/10/25,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Insight Global Staffing Services,Software Engineer Trainee,Tier-2,,,,,,,,,,nan,,,,,24/10/25,,,,,,False,False,False,,SDE-ML/AI,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Pwc,Associate Engineer,Tier-2,35000.0,,,,35000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Phdata,Associate Engineer,Tier-2,,,,,,,,,,nan,,,,,10/11/25,,,,,,False,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Oracle (Ofss),Associate Consultant,Tier-2,,,,,,,,,,nan,,,,,08/11/25,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Itc Infotech,4 roles,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Hpe,IT Developer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/10/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Consecure Technologies,Software Engineer,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,06/11/25,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Maersk Gsc India Pvt. Ltd,Data Analyst Intern,Tier-2,50000.0,,,,50000.0,,,,,Internship with PBC. Internship duration - 6 months to 1 Yr,,,,,nan,,,,,,True,False,False,,Data Analyst,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Winman,Software Engineer L2,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Leadsquared,nan,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Swiggy,SDE,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,Tier-2,20000.0,,,,20000.0,,,,,ECE & EEE Only,,,,,nan,,,,,,True,False,False,,SDE-ML/AI,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Total Visited,27,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Highest Ctc,11.92,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Average Ctc,9.07625,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Median Ctc,9.66,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Wt. Average Ctc,TBD Error with formula,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 2.csv,Wt. Median Ctc,7.6,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 3.csv,Lti Mindtree,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,,,20/09/2025,,,,,,False,False,False,,SDE-ML/AI,2022-2026
-2026,PES,Placement Scene _26 - Tier 3.csv,Safran Engineering,nan,Tier-3,,,,,,,,,,nan,,,,,11/10/2025,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 3.csv,Winman,Software Engineer L1,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Tier 3.csv,Total Visited,3,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 3.csv,Highest Package,5,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 3.csv,Average Package,4.516666667,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Tier 3.csv,Median Package,4.5,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Oracle (Ofss),Associate Application Developer,Internship,50000.0,,,,50000.0,,,,,"4 got PPO ( 1 of them rejected offer)
-CTC = ~40LPA (Not exactly 40) -> RSUs worth Rs 16L + 8L Insurance and other Benefits",,,,,,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Jpmc (Summer Internship),Software Engineer,Internship,75000.0,,,,75000.0,,,,,"13L Base + 1.5L JB + 1.25L Relocation 
-+ 4L  Annual Incentive Compensation (Performace Based)",,,,,,,,,,,True,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Jpmc (Cfg),Software Engineer,Internship,,,,,,,,,,This is from the Code for Good for FTE,,,,,,,,,,,False,False,False,,SDE-Core,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,G2,nan,Internship,40000.0,,,,40000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Intuit,nan,Internship,120000.0,,,,120000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,One App,nan,Internship,75000.0,,,,75000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Hewlett Packard Ent.,nan,Internship,,,,,,,,,,Took students through CTY program held on collaboration with CCBD (RR Campus Exclusive),,,,,,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Fs Investments,nan,Internship,125000.0,,,,125000.0,,,,,3 of the 4 were given the offer and all 3 accepted it,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Razorpay,nan,Internship,50000.0,,,,50000.0,,,,,2L Signing Bonus + Includes ESOPs worth 15L,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Visa,nan,Internship,90000.0,,,,90000.0,,,,,Benefits included such as free cab and stuff. Additional 1.25L for Relocation Bonus,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Fidelity Investments,nan,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Akamai,nan,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Walmart,nan,Internship,110000.0,,,,110000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Paypal,nan,Internship,100000.0,,,,100000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Cisco,nan,Internship,98000.0,,,,98000.0,,,,,nan,,,,,,,,,,,True,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Total Visited,14,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Highest Package,45,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Average Package,27.88888889,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2022-2026
-2026,PES,Placement Scene _26 - Summer Internship PPO_s.csv,Median Package,27,Internship,,,,,,,,,,nan,,,,,,,,,,,False,False,False,,Other,2022-2026
+Innovation Center India)",CS - Graduate Trainee,Tier-2,,,,,,,,,,nan,,,,,16/09/25,,,,,,False,False,False,False,,,,Intern/Trainee,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Collins Aerospace,Graduate Engineer Trainee,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,20000.0,,SDE-ML/AI,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Tejas Networks,Software Engineer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/09/25,,,,,,True,False,False,False,,30000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Ey,Associate Consultant,Tier-2,21200.0,,,,21200.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,21200.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Kpmg,Tech Transformation DEQ,Tier-2,20000.0,,,,20000.0,,,,,"CTC: Total Earning Potential will be Base + Variable + Other benefits [Variable Pay - which depends on the individual’s performance, service line’s performance and the firm’s performance + Other Benefits (Gratuity & Insurance)]",,,6.5,,20/09/25,,,,,,True,False,False,False,,20000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Telstra,Associate Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,There are other allowances that might be provided which is not part of the CTC. Only a few have been offered the itnernship,,,8.0,,03/10/25,,,,,,True,False,False,False,,25000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Applied Materials,nan,Tier-2,55000.0,,,,55000.0,,,,,Additional 6000 USD stocks,,,,,13/10/25,,,,,,True,False,False,False,,55000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Toshiba,Associate Software Engineer,Tier-2,45000.0,,,,45000.0,,,,,Shortlisted 8.2+ for CSE ,,,,,07/10/25,,,,,,True,False,False,False,,45000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Broadridge Financial Solutions,SDE,Tier-2,30000.0,,,,30000.0,,,,,Additional 5 lacs medical insurance,,,,,16/10/25,,,,,,True,False,False,False,,30000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Hp,Transformation Intern,Tier-2,40000.0,,,,40000.0,,,,,Hiring for internship only with PBC,,,,,nan,,,,,,True,False,False,False,,40000.0,,Intern/Trainee,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Havells,Software Engineer,Tier-2,25000.0,,,,25000.0,,,,,nan,,,,,17/11/25,,,,,,True,False,False,False,,25000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,7-Eleven,Associate Software Engineer,Tier-2,,,,,,,,,,"10 inclusive of fixed + variable, Additional 1.5 JB",,,,,nan,,,,,,False,False,False,False,,,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Hourglass,Patent Associate,Tier-2,,,,,,,,,,nan,,,,,27/10/25,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Insight Global Staffing Services,Software Engineer Trainee,Tier-2,,,,,,,,,,nan,,,,,24/10/25,,,,,,False,False,False,False,,,,SDE-ML/AI,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Pwc,Associate Engineer,Tier-2,35000.0,,,,35000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,35000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Phdata,Associate Engineer,Tier-2,,,,,,,,,,nan,,,,,10/11/25,,,,,,False,False,False,False,,,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Oracle (Ofss),Associate Consultant,Tier-2,,,,,,,,,,nan,,,,,08/11/25,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Itc Infotech,4 roles,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,15000.0,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Hpe,IT Developer,Tier-2,30000.0,,,,30000.0,,,,,nan,,,,,29/10/25,,,,,,True,False,False,False,,30000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Consecure Technologies,Software Engineer,Tier-2,20000.0,,,,20000.0,,,,,nan,,,,,06/11/25,,,,,,True,False,False,False,,20000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Maersk Gsc India Pvt. Ltd,Data Analyst Intern,Tier-2,50000.0,,,,50000.0,,,,,Internship with PBC. Internship duration - 6 months to 1 Yr,,,,,nan,,,,,,True,False,False,False,,50000.0,,Data Analyst,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Winman,Software Engineer L2,Tier-2,15000.0,,,,15000.0,,,,,nan,,,,,nan,,,,,,True,False,False,False,,15000.0,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Leadsquared,nan,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Swiggy,SDE,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,Tier-2,20000.0,,,,20000.0,,,,,ECE & EEE Only,,,,,nan,,,,,,True,False,False,False,,20000.0,,SDE-ML/AI,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Total Visited,27,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Highest Ctc,11.92,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Average Ctc,9.07625,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Median Ctc,9.66,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Wt. Average Ctc,TBD Error with formula,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 2.csv,Wt. Median Ctc,7.6,Tier-2,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 3.csv,Lti Mindtree,Graduate Engineer Trainee,Tier-3,,,,,,,,,,nan,,,,,20/09/2025,,,,,,False,False,False,False,,,,SDE-ML/AI,2022-2026
+2026,PES,Placement Scene _26 - Tier 3.csv,Safran Engineering,nan,Tier-3,,,,,,,,,,nan,,,,,11/10/2025,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 3.csv,Winman,Software Engineer L1,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,SDE-Core,2022-2026
+2026,PES,Placement Scene _26 - Tier 3.csv,Total Visited,3,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 3.csv,Highest Package,5,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 3.csv,Average Package,4.516666667,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
+2026,PES,Placement Scene _26 - Tier 3.csv,Median Package,4.5,Tier-3,,,,,,,,,,nan,,,,,nan,,,,,,False,False,False,False,,,,Other,2022-2026
