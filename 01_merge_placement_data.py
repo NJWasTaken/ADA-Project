@@ -171,11 +171,15 @@ def merge_all_placement_data():
         year_path = f'data/{year}/'
 
         if not os.path.exists(year_path):
-            print(f"Year {year} directory not found")
+            print(f"⚠️  Year {year} directory not found at: {os.path.abspath(year_path)}")
             continue
 
         # Find all CSV files
         csv_files = glob(f'{year_path}*.csv')
+
+        if not csv_files:
+            print(f"⚠️  No CSV files found in: {year_path}")
+            continue
 
         for csv_file in csv_files:
             filename = os.path.basename(csv_file)
@@ -185,14 +189,28 @@ def merge_all_placement_data():
 
             # Skip non-tier files
             if tier == 'Unknown':
+                print(f"⚠️  Skipping (unknown tier): {filename}")
                 continue
 
             # Parse file
             records = parse_placement_file(csv_file, year, tier)
+            print(f"✓ Parsed {len(records)} records from {filename}")
             all_records.extend(records)
 
     # Create DataFrame
     df = pd.DataFrame(all_records)
+
+    # Check if we have any data
+    if len(df) == 0:
+        print("\n⚠️  WARNING: No records were parsed from the CSV files!")
+        print("Please check that the data files exist and have the correct format.")
+        return df
+
+    # Ensure required columns exist (in case some records are missing fields)
+    required_columns = ['internship_stipend_raw', 'base_salary_raw', 'total_ctc_raw', 'cgpa_cutoff_raw']
+    for col in required_columns:
+        if col not in df.columns:
+            df[col] = ''
 
     # Convert salary columns to numeric
     df['internship_stipend'] = df['internship_stipend_raw'].apply(extract_salary)
@@ -231,6 +249,15 @@ if __name__ == "__main__":
     print("=" * 80)
     print("PLACEMENT DATA MERGER - PESU 2022-2026")
     print("=" * 80)
+    print(f"\n📁 Current working directory: {os.getcwd()}")
+    print(f"📁 Looking for data in: {os.path.abspath('data/')}")
+
+    # Check if data directory exists
+    if not os.path.exists('data/'):
+        print("\n❌ ERROR: 'data/' directory not found!")
+        print("   Please make sure you're running this script from the project root directory.")
+        print(f"   Current directory: {os.getcwd()}")
+        exit(1)
 
     # Merge all data
     merged_df = merge_all_placement_data()
