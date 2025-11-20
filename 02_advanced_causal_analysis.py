@@ -41,7 +41,7 @@ print("ADVANCED CAUSAL INFERENCE & PATTERN DISCOVERY")
 print("=" * 100)
 print(f"\nDataset: {len(df)} placement records")
 print(f"Years: {sorted(df['year'].unique())}")
-print(f"Tiers: {sorted(df['tier'].unique())}")
+print(f"Categories: {sorted(df['category'].unique())}")
 print(f"Companies: {df['company_name'].nunique()}")
 
 
@@ -110,11 +110,11 @@ print("=" * 100)
 did_data = df[df['total_ctc'].notna()].copy()
 
 if len(did_data) > 20:
-    # Calculate year-over-year changes by tier
-    did_results = did_data.groupby(['year', 'tier'])['total_ctc'].agg(['mean', 'count']).reset_index()
+    # Calculate year-over-year changes by category
+    did_results = did_data.groupby(['year', 'category'])['total_ctc'].agg(['mean', 'count']).reset_index()
 
-    print("\nAverage CTC by Year and Tier:")
-    pivot = did_results.pivot(index='year', columns='tier', values='mean')
+    print("\nAverage CTC by Year and Category:")
+    pivot = did_results.pivot(index='year', columns='category', values='mean')
     print(pivot.round(2))
 
     # Calculate DiD for Tier 1 vs Tier 2 between consecutive years
@@ -125,12 +125,12 @@ if len(did_data) > 20:
         year1, year2 = years[0], years[-1]
 
         # Tier 1 (treatment group)
-        tier1_year1 = did_data[(did_data['year'] == year1) & (did_data['tier'] == 'Tier 1')]['total_ctc'].mean()
-        tier1_year2 = did_data[(did_data['year'] == year2) & (did_data['tier'] == 'Tier 1')]['total_ctc'].mean()
+        tier1_year1 = did_data[(did_data['year'] == year1) & (did_data['category'] == 'Tier 1')]['total_ctc'].mean()
+        tier1_year2 = did_data[(did_data['year'] == year2) & (did_data['category'] == 'Tier 1')]['total_ctc'].mean()
 
         # Tier 2 (control group)
-        tier2_year1 = did_data[(did_data['year'] == year1) & (did_data['tier'] == 'Tier 2')]['total_ctc'].mean()
-        tier2_year2 = did_data[(did_data['year'] == year2) & (did_data['tier'] == 'Tier 2')]['total_ctc'].mean()
+        tier2_year1 = did_data[(did_data['year'] == year1) & (did_data['category'] == 'Tier 2')]['total_ctc'].mean()
+        tier2_year2 = did_data[(did_data['year'] == year2) & (did_data['category'] == 'Tier 2')]['total_ctc'].mean()
 
         # DiD estimator
         did_estimate = (tier1_year2 - tier1_year1) - (tier2_year2 - tier2_year1)
@@ -151,11 +151,11 @@ print("\n" + "=" * 100)
 print("3. PROPENSITY SCORE MATCHING - What's the true effect of being in Tier 1 vs Tier 2?")
 print("=" * 100)
 
-psm_data = df[(df['total_ctc'].notna()) & (df['tier'].isin(['Tier 1', 'Tier 2']))].copy()
+psm_data = df[(df['total_ctc'].notna()) & (df['category'].isin(['Tier 1', 'Tier 2']))].copy()
 
 if len(psm_data) > 30:
     # Create treatment variable (1 = Tier 1, 0 = Tier 2)
-    psm_data['treatment'] = (psm_data['tier'] == 'Tier 1').astype(int)
+    psm_data['treatment'] = (psm_data['category'] == 'Tier 1').astype(int)
 
     # Create features for matching
     psm_data['year_numeric'] = psm_data['year']
@@ -242,7 +242,7 @@ if len(cluster_data) > 10:
     cluster_features['ctc'] = cluster_data['total_ctc']
     cluster_features['has_internship'] = cluster_data['has_internship'].astype(int)
     cluster_features['cgpa_cutoff'] = cluster_data['cgpa_cutoff'].fillna(cluster_data['cgpa_cutoff'].median())
-    cluster_features['tier_numeric'] = cluster_data['tier'].map({'Tier 1': 3, 'Tier 2': 2, 'Tier 3': 1, 'Dream': 4}).fillna(2)
+    cluster_features['category_numeric'] = cluster_data['category'].map({'Tier 1': 3, 'Tier 2': 2, 'Tier 3': 1, 'Dream': 4}).fillna(2)
 
     # Standardize
     scaler = StandardScaler()
@@ -265,7 +265,7 @@ if len(cluster_data) > 10:
             print(f"  - Average CTC: ₹{cluster_i['total_ctc'].mean():.2f}L")
             print(f"  - Internship rate: {cluster_i['has_internship'].mean()*100:.1f}%")
             print(f"  - Avg CGPA cutoff: {cluster_i['cgpa_cutoff'].mean():.2f}")
-            print(f"  - Most common tier: {cluster_i['tier'].mode().values[0] if len(cluster_i) > 0 else 'N/A'}")
+            print(f"  - Most common category: {cluster_i['category'].mode().values[0] if len(cluster_i) > 0 else 'N/A'}")
             print(f"  - Sample companies: {', '.join(cluster_i['company_name'].head(3).values)}")
 
 
@@ -283,7 +283,7 @@ if len(anomaly_data) > 10:
     anomaly_features = pd.DataFrame()
     anomaly_features['ctc'] = anomaly_data['total_ctc']
     anomaly_features['cgpa_cutoff'] = anomaly_data['cgpa_cutoff'].fillna(anomaly_data['cgpa_cutoff'].median())
-    anomaly_features['tier_numeric'] = anomaly_data['tier'].map({'Tier 1': 3, 'Tier 2': 2, 'Tier 3': 1, 'Dream': 4}).fillna(2)
+    anomaly_features['category_numeric'] = anomaly_data['category'].map({'Tier 1': 3, 'Tier 2': 2, 'Tier 3': 1, 'Dream': 4}).fillna(2)
 
     # Isolation Forest
     iso_forest = IsolationForest(contamination=0.1, random_state=42)
@@ -295,7 +295,7 @@ if len(anomaly_data) > 10:
 
     for idx, row in anomalies.head(5).iterrows():
         print(f"\n  - {row['company_name']} ({row['year']})")
-        print(f"    CTC: ₹{row['total_ctc']:.2f}L | Tier: {row['tier']} | CGPA: {row['cgpa_cutoff']}")
+        print(f"    CTC: ₹{row['total_ctc']:.2f}L | Category: {row['category']} | CGPA: {row['cgpa_cutoff']}")
         if row['job_title']:
             print(f"    Role: {row['job_title']}")
 
@@ -348,8 +348,8 @@ if len(multi_year) > 0:
     print(f"\nCompanies appearing in multiple years:")
     for company, count in multi_year.head(10).items():
         years = sorted(df[df['company_name'] == company]['year'].unique())
-        tiers = df[df['company_name'] == company]['tier'].unique()
-        print(f"  - {company}: {count} years ({years}) | Tiers: {list(tiers)}")
+        categories = df[df['company_name'] == company]['category'].unique()
+        print(f"  - {company}: {count} years ({years}) | Categories: {list(categories)}")
 
 
 # ============================================================================
@@ -370,9 +370,9 @@ if len(cgpa_data) > 0:
     print(f"  - Max: {cgpa_data['cgpa_cutoff'].max():.2f}")
 
     # Analyze by tier
-    print(f"\nCGPA Cutoff by Tier:")
-    tier_cgpa = cgpa_data.groupby('tier')['cgpa_cutoff'].agg(['mean', 'median', 'min', 'max'])
-    print(tier_cgpa.round(2))
+    print(f"\nCGPA Cutoff by Category:")
+    category_cgpa = cgpa_data.groupby('category')['cgpa_cutoff'].agg(['mean', 'median', 'min', 'max'])
+    print(category_cgpa.round(2))
 
     # Strategic insight
     percentiles = cgpa_data['cgpa_cutoff'].quantile([0.25, 0.5, 0.75])
@@ -405,11 +405,11 @@ if len(job_title_data) > 0:
             print(f"  - '{keyword}': {count} occurrences")
 
     # Highest paying roles
-    top_roles = job_title_data.nlargest(5, 'total_ctc')[['company_name', 'job_title', 'total_ctc', 'tier']]
+    top_roles = job_title_data.nlargest(5, 'total_ctc')[['company_name', 'job_title', 'total_ctc', 'category']]
     print(f"\nTop 5 highest-paying roles:")
     for idx, row in top_roles.iterrows():
         print(f"  {row['job_title']}")
-        print(f"    Company: {row['company_name']} | CTC: ₹{row['total_ctc']:.2f}L | Tier: {row['tier']}")
+        print(f"    Company: {row['company_name']} | CTC: ₹{row['total_ctc']:.2f}L | Category: {row['category']}")
 
 
 # ============================================================================
