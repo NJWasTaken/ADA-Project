@@ -57,11 +57,18 @@ def extract_salary(value):
 def standardize_tier(tier_name):
     """Standardize tier names"""
     tier_name = tier_name.lower()
-    if 'tier 1' in tier_name or 'tier-1' in tier_name or 'tier1' in tier_name:
+
+    # Skip internship-only files
+    if any(keyword in tier_name for keyword in ['spring internship', 'summer internship',
+                                                  'internship only', 'ppo_s', 'internship(ppo)']):
+        return 'Unknown'
+
+    # Identify tier files
+    if 'tier 1' in tier_name or 'tier-1' in tier_name or 'tier1' in tier_name or 'tier_1' in tier_name:
         return 'Tier 1'
-    elif 'tier 2' in tier_name or 'tier-2' in tier_name or 'tier2' in tier_name:
+    elif 'tier 2' in tier_name or 'tier-2' in tier_name or 'tier2' in tier_name or 'tier_2' in tier_name:
         return 'Tier 2'
-    elif 'tier 3' in tier_name or 'tier-3' in tier_name or 'tier3' in tier_name:
+    elif 'tier 3' in tier_name or 'tier-3' in tier_name or 'tier3' in tier_name or 'tier_3' in tier_name:
         return 'Tier 3'
     elif 'dream' in tier_name:
         return 'Dream'
