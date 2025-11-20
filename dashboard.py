@@ -1,15 +1,7 @@
 """
-Interactive Placement Analytics Dashboard
-==========================================
-Streamlit-based interactive tool for exploring placement data
-
-Features:
-- Data explorer with filters
-- Interactive visualizations
-- CTC prediction tool
-- Company comparison
-- Trend analysis
-- Export capabilities
+PES Placement Analytics Dashboard
+==================================
+Interactive Streamlit dashboard for exploring placement data (2022-2026)
 
 Run with: streamlit run dashboard.py
 """
@@ -19,11 +11,13 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import json
 from pathlib import Path
 
-# Page config
+# ============================================================================
+# PAGE CONFIG
+# ============================================================================
+
 st.set_page_config(
     page_title="PES Placement Analytics",
     page_icon="📊",
@@ -34,11 +28,25 @@ st.set_page_config(
 # Custom CSS
 st.markdown("""
 <style>
-    .main-header {font-size: 2.5rem; color: #1f77b4; font-weight: bold; margin-bottom: 0;}
-    .sub-header {font-size: 1.2rem; color: #666; margin-top: 0;}
-    .metric-card {background-color: #f0f2f6; padding: 20px; border-radius: 10px; margin: 10px 0;}
+    .main-header {
+        font-size: 2.5rem;
+        color: #1f77b4;
+        font-weight: bold;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .sub-header {
+        font-size: 1.2rem;
+        color: #666;
+        margin-top: 0;
+        text-align: center;
+    }
     .stTabs [data-baseweb="tab-list"] {gap: 24px;}
-    .stTabs [data-baseweb="tab"] {height: 50px; background-color: #f0f2f6; border-radius: 5px 5px 0 0;}
+    .stTabs [data-baseweb="tab"] {
+        height: 50px;
+        background-color: #f0f2f6;
+        border-radius: 5px 5px 0 0;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -48,55 +56,36 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    """Load cleaned placement data"""
+    """Load placement data"""
     try:
-        df = pd.read_csv('processed_data/cleaned_placement_data.csv')
+        df = pd.read_csv('processed_data/placement_data.csv')
         return df
     except FileNotFoundError:
-        st.error("❌ Data file not found! Please ensure 'processed_data/cleaned_placement_data.csv' exists.")
+        st.error("❌ Data file not found! Run `python3 consolidate_placement_data.py` first.")
         st.stop()
 
 @st.cache_data
-def load_analysis_results():
-    """Load analysis results if available"""
-    results = {}
-    
-    # Load RDD results
+def load_summary():
+    """Load summary statistics"""
     try:
-        with open('analysis_outputs/02_causal/rdd_results.json', 'r') as f:
-            results['rdd'] = json.load(f)
+        with open('processed_data/summary_statistics.json', 'r') as f:
+            return json.load(f)
     except FileNotFoundError:
-        results['rdd'] = None
-    
-    # Load clustering results
-    try:
-        with open('analysis_outputs/05_clustering/clustering_results.json', 'r') as f:
-            results['clustering'] = json.load(f)
-    except FileNotFoundError:
-        results['clustering'] = None
-    
-    # Load network results
-    try:
-        with open('analysis_outputs/04_network/network_metrics.json', 'r') as f:
-            results['network'] = json.load(f)
-    except FileNotFoundError:
-        results['network'] = None
-    
-    return results
+        return None
 
 df = load_data()
-analysis_results = load_analysis_results()
+summary = load_summary()
 
 # Separate FTE and internship data
-df_fte = df[~df['is_internship_record'] & df['fte_ctc'].notna()].copy()
-df_intern = df[df['is_internship_record']].copy()
+df_fte = df[~df['is_internship'] & df['has_ctc_data']].copy()
+df_intern = df[df['is_internship']].copy()
 
 # ============================================================================
 # HEADER
 # ============================================================================
 
-st.markdown('<p class="main-header">📊 PES Placement Analytics Dashboard</p>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Temporal and Statistical Insights into Talent Acquisition (2022-2026)</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">📊 PES Placement Analytics</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header">Data-Driven Insights | 2022-2026 Batches</p>', unsafe_allow_html=True)
 st.markdown("---")
 
 # ============================================================================
@@ -114,33 +103,33 @@ selected_years = st.sidebar.multiselect(
 )
 
 # Tier filter
-tiers = df['placement_tier'].dropna().unique().tolist()
+tiers = sorted(df['tier'].dropna().unique().tolist())
 selected_tiers = st.sidebar.multiselect(
     "Select Tiers",
     options=tiers,
     default=tiers
 )
 
-# Role filter
-roles = df['role_type'].dropna().unique().tolist()
-selected_roles = st.sidebar.multiselect(
-    "Select Role Types",
-    options=roles,
-    default=roles[:5] if len(roles) > 5 else roles
-)
+# Company search
+company_search = st.sidebar.text_input("Search Company (optional)", "")
 
 # Apply filters
 df_filtered = df[
     (df['batch_year'].isin(selected_years)) &
-    (df['placement_tier'].isin(selected_tiers)) &
-    (df['role_type'].isin(selected_roles))
+    (df['tier'].isin(selected_tiers))
 ]
 
-df_fte_filtered = df_filtered[~df_filtered['is_internship_record'] & df_filtered['fte_ctc'].notna()]
+if company_search:
+    df_filtered = df_filtered[
+        df_filtered['company_name'].str.contains(company_search, case=False, na=False)
+    ]
+
+df_fte_filtered = df_filtered[~df_filtered['is_internship'] & df_filtered['has_ctc_data']]
+df_intern_filtered = df_filtered[df_filtered['is_internship']]
 
 st.sidebar.markdown("---")
 st.sidebar.markdown(f"**Filtered Records:** {len(df_filtered):,}")
-st.sidebar.markdown(f"**FTE Records:** {len(df_fte_filtered):,}")
+st.sidebar.markdown(f"**FTE:** {len(df_fte_filtered):,} | **Internships:** {len(df_intern_filtered):,}")
 
 # ============================================================================
 # TOP METRICS
@@ -149,33 +138,29 @@ st.sidebar.markdown(f"**FTE Records:** {len(df_fte_filtered):,}")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-    st.metric(
-        "Total Records",
-        f"{len(df_filtered):,}",
-        delta=f"{len(df_filtered) - len(df)}" if len(df_filtered) != len(df) else None
-    )
+    st.metric("Total Records", f"{len(df_filtered):,}")
 
 with col2:
     if len(df_fte_filtered) > 0:
-        avg_ctc = df_fte_filtered['fte_ctc'].mean()
-        st.metric("Avg CTC", f"₹{avg_ctc:.2f}L")
+        avg_ctc = df_fte_filtered['total_ctc'].mean()
+        st.metric("Avg FTE CTC", f"₹{avg_ctc:.2f}L")
     else:
-        st.metric("Avg CTC", "N/A")
+        st.metric("Avg FTE CTC", "N/A")
 
 with col3:
     if len(df_fte_filtered) > 0:
-        max_ctc = df_fte_filtered['fte_ctc'].max()
-        st.metric("Max CTC", f"₹{max_ctc:.2f}L")
+        max_ctc = df_fte_filtered['total_ctc'].max()
+        st.metric("Max FTE CTC", f"₹{max_ctc:.2f}L")
     else:
-        st.metric("Max CTC", "N/A")
+        st.metric("Max FTE CTC", "N/A")
 
 with col4:
     unique_companies = df_filtered['company_name'].nunique()
-    st.metric("Companies", f"{unique_companies:,}")
+    st.metric("Unique Companies", f"{unique_companies:,}")
 
 with col5:
-    if 'cgpa_cutoff' in df_filtered.columns:
-        avg_cgpa = df_filtered['cgpa_cutoff'].mean()
+    if df_filtered['has_cgpa_data'].sum() > 0:
+        avg_cgpa = df_filtered[df_filtered['has_cgpa_data']]['cgpa_cutoff'].mean()
         st.metric("Avg CGPA Cutoff", f"{avg_cgpa:.2f}")
     else:
         st.metric("Avg CGPA Cutoff", "N/A")
@@ -183,12 +168,11 @@ with col5:
 st.markdown("---")
 
 # ============================================================================
-# MAIN CONTENT TABS
+# TABS
 # ============================================================================
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-    "📈 Overview", "🔮 Predictions", "🏢 Companies", 
-    "📊 Analysis Results", "🎯 Insights", "📂 Data Explorer"
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    "📈 Overview", "🏢 Companies", "💰 Salary Analysis", "🎯 Insights", "📂 Data Explorer"
 ])
 
 # ----------------------------------------------------------------------------
@@ -197,321 +181,332 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
 
 with tab1:
     st.header("📈 Placement Overview")
-    
+
     col1, col2 = st.columns(2)
-    
+
     with col1:
-        # CTC distribution
-        st.subheader("CTC Distribution")
+        st.subheader("FTE CTC Distribution")
         if len(df_fte_filtered) > 0:
             fig = px.histogram(
                 df_fte_filtered,
-                x='fte_ctc',
-                nbins=30,
+                x='total_ctc',
+                nbins=40,
                 title='FTE CTC Distribution',
-                labels={'fte_ctc': 'CTC (LPA)', 'count': 'Frequency'},
+                labels={'total_ctc': 'CTC (LPA)', 'count': 'Frequency'},
                 color_discrete_sequence=['#1f77b4']
             )
             fig.update_layout(showlegend=False, height=400)
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.info("No FTE data available for selected filters")
-    
+
     with col2:
-        # Year-wise trends
         st.subheader("Yearly CTC Trends")
         if len(df_fte_filtered) > 0:
-            yearly = df_fte_filtered.groupby('batch_year')['fte_ctc'].agg(['mean', 'median']).reset_index()
-            
+            yearly = df_fte_filtered.groupby('batch_year')['total_ctc'].agg(['mean', 'median', 'count']).reset_index()
+
             fig = go.Figure()
             fig.add_trace(go.Scatter(
                 x=yearly['batch_year'], y=yearly['mean'],
-                mode='lines+markers', name='Mean',
+                mode='lines+markers', name='Mean CTC',
                 line=dict(color='blue', width=3),
                 marker=dict(size=10)
             ))
             fig.add_trace(go.Scatter(
                 x=yearly['batch_year'], y=yearly['median'],
-                mode='lines+markers', name='Median',
+                mode='lines+markers', name='Median CTC',
                 line=dict(color='green', width=3),
                 marker=dict(size=10)
             ))
             fig.update_layout(
                 title='CTC Trends Over Years',
-                xaxis_title='Year',
+                xaxis_title='Batch Year',
                 yaxis_title='CTC (LPA)',
                 height=400
             )
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.info("No FTE data available")
-    
+
     # Tier distribution
-    st.subheader("Tier Distribution")
-    tier_counts = df_filtered['placement_tier'].value_counts()
-    
-    fig = px.pie(
-        values=tier_counts.values,
-        names=tier_counts.index,
-        title='Placement by Tier',
-        hole=0.4
-    )
-    fig.update_layout(height=400)
-    st.plotly_chart(fig, use_container_width=True)
+    st.subheader("Placement Distribution by Tier")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        tier_counts = df_filtered['tier'].value_counts()
+        fig = px.pie(
+            values=tier_counts.values,
+            names=tier_counts.index,
+            title='Records by Tier',
+            hole=0.4,
+            color_discrete_sequence=px.colors.qualitative.Set3
+        )
+        fig.update_layout(height=400)
+        st.plotly_chart(fig, use_container_width=True)
+
+    with col2:
+        # Year-wise breakdown
+        year_tier = df_filtered.groupby(['batch_year', 'tier']).size().reset_index(name='count')
+        fig = px.bar(
+            year_tier,
+            x='batch_year',
+            y='count',
+            color='tier',
+            title='Year-wise Tier Distribution',
+            labels={'batch_year': 'Batch Year', 'count': 'Number of Records'},
+            color_discrete_sequence=px.colors.qualitative.Set3
+        )
+        fig.update_layout(height=400, barmode='stack')
+        st.plotly_chart(fig, use_container_width=True)
 
 # ----------------------------------------------------------------------------
-# TAB 2: PREDICTIONS
+# TAB 2: COMPANIES
 # ----------------------------------------------------------------------------
 
 with tab2:
-    st.header("🔮 CTC Prediction Tool")
-    
-    st.markdown("""
-    Predict expected CTC based on student profile. This uses historical patterns 
-    from the placement data to estimate likely compensation.
-    """)
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        pred_cgpa = st.slider("CGPA", min_value=6.0, max_value=10.0, value=8.0, step=0.1)
-        pred_year = st.selectbox("Batch Year", options=list(range(2027, 2030)))
-        pred_tier = st.selectbox("Target Tier", options=['Tier-3', 'Tier-2', 'Tier-1', 'Dream'])
-    
-    with col2:
-        pred_role = st.selectbox("Role Type", options=df['role_type'].dropna().unique().tolist())
-        has_stocks_pred = st.checkbox("Stocks/ESOPs Included")
-        has_bonus_pred = st.checkbox("Joining Bonus Included")
-    
-    if st.button("🎯 Predict CTC", type="primary"):
-        # Simple prediction based on historical averages with adjustments
-        base_estimates = {
-            'Tier-3': 5.0,
-            'Tier-2': 9.0,
-            'Tier-1': 16.0,
-            'Dream': 35.0
-        }
-        
-        estimated_ctc = base_estimates[pred_tier]
-        
-        # Adjust for CGPA (10% increase per 0.5 CGPA above 7.5)
-        if pred_cgpa > 7.5:
-            estimated_ctc *= (1 + 0.1 * (pred_cgpa - 7.5) / 0.5)
-        
-        # Adjust for stocks
-        if has_stocks_pred:
-            estimated_ctc *= 1.15
-        
-        # Adjust for bonus
-        if has_bonus_pred:
-            estimated_ctc *= 1.08
-        
-        # Add uncertainty
-        lower_bound = estimated_ctc * 0.85
-        upper_bound = estimated_ctc * 1.15
-        
-        st.success(f"""
-        ### Predicted CTC: ₹{estimated_ctc:.2f} LPA
-        
-        **95% Confidence Interval:** ₹{lower_bound:.2f} - ₹{upper_bound:.2f} LPA
-        
-        *Note: This is a statistical estimate based on historical data. 
-        Actual offers may vary based on company, market conditions, and individual performance.*
-        """)
-
-# ----------------------------------------------------------------------------
-# TAB 3: COMPANIES
-# ----------------------------------------------------------------------------
-
-with tab3:
     st.header("🏢 Company Analysis")
-    
-    # Top recruiters
-    st.subheader("Top 15 Recruiters")
-    company_counts = df_filtered['company_name'].value_counts().head(15)
-    
-    fig = px.bar(
-        x=company_counts.values,
-        y=company_counts.index,
-        orientation='h',
-        title='Top 15 Companies by Placement Count',
-        labels={'x': 'Number of Placements', 'y': 'Company'},
-        color=company_counts.values,
-        color_continuous_scale='Blues'
-    )
-    fig.update_layout(showlegend=False, height=500)
-    st.plotly_chart(fig, use_container_width=True)
-    
-    # Top paying companies
-    if len(df_fte_filtered) > 0:
-        st.subheader("Top 15 Highest Paying Companies")
-        top_paying = df_fte_filtered.groupby('company_name')['fte_ctc'].agg(['mean', 'count']).reset_index()
-        top_paying = top_paying[top_paying['count'] >= 2]  # At least 2 placements
-        top_paying = top_paying.nlargest(15, 'mean')
-        
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.subheader("Top 15 Recruiters by Volume")
+        company_counts = df_filtered['company_name'].value_counts().head(15)
+
         fig = px.bar(
-            top_paying,
-            x='mean',
-            y='company_name',
+            x=company_counts.values,
+            y=company_counts.index,
             orientation='h',
-            title='Top 15 Highest Paying Companies (Avg CTC)',
-            labels={'mean': 'Average CTC (LPA)', 'company_name': 'Company'},
-            color='mean',
-            color_continuous_scale='Reds'
+            title='Top 15 Companies by Placement Count',
+            labels={'x': 'Number of Placements', 'y': 'Company'},
+            color=company_counts.values,
+            color_continuous_scale='Blues'
         )
         fig.update_layout(showlegend=False, height=500)
         st.plotly_chart(fig, use_container_width=True)
 
+    with col2:
+        st.subheader("Top 15 Highest Paying Companies")
+        if len(df_fte_filtered) > 0:
+            top_paying = df_fte_filtered.groupby('company_name')['total_ctc'].agg(['mean', 'count']).reset_index()
+            top_paying = top_paying[top_paying['count'] >= 2]  # At least 2 placements
+            top_paying = top_paying.nlargest(15, 'mean')
+
+            fig = px.bar(
+                top_paying,
+                x='mean',
+                y='company_name',
+                orientation='h',
+                title='Top 15 Highest Paying Companies (Avg CTC)',
+                labels={'mean': 'Average CTC (LPA)', 'company_name': 'Company'},
+                color='mean',
+                color_continuous_scale='Reds'
+            )
+            fig.update_layout(showlegend=False, height=500)
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.info("No FTE data available")
+
+    # Company details table
+    st.subheader("Company Details")
+    if len(df_fte_filtered) > 0:
+        company_stats = df_fte_filtered.groupby('company_name').agg({
+            'total_ctc': ['mean', 'median', 'max', 'count'],
+            'base_salary': 'mean',
+            'cgpa_cutoff': 'mean'
+        }).round(2)
+
+        company_stats.columns = ['Avg CTC', 'Median CTC', 'Max CTC', 'Placements', 'Avg Base', 'Avg CGPA Cutoff']
+        company_stats = company_stats.sort_values('Avg CTC', ascending=False)
+
+        st.dataframe(
+            company_stats.head(20),
+            use_container_width=True,
+            height=400
+        )
+
 # ----------------------------------------------------------------------------
-# TAB 4: ANALYSIS RESULTS
+# TAB 3: SALARY ANALYSIS
+# ----------------------------------------------------------------------------
+
+with tab3:
+    st.header("💰 Salary Analysis")
+
+    if len(df_fte_filtered) > 0:
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.subheader("CTC Distribution by Tier")
+            fig = px.box(
+                df_fte_filtered,
+                x='tier',
+                y='total_ctc',
+                title='CTC Distribution by Tier',
+                labels={'tier': 'Tier', 'total_ctc': 'CTC (LPA)'},
+                color='tier',
+                color_discrete_sequence=px.colors.qualitative.Set2
+            )
+            fig.update_layout(height=400, showlegend=False)
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            st.subheader("CTC Distribution by Year")
+            fig = px.box(
+                df_fte_filtered,
+                x='batch_year',
+                y='total_ctc',
+                title='CTC Distribution by Batch Year',
+                labels={'batch_year': 'Batch Year', 'total_ctc': 'CTC (LPA)'},
+                color='batch_year',
+                color_discrete_sequence=px.colors.qualitative.Pastel
+            )
+            fig.update_layout(height=400, showlegend=False)
+            st.plotly_chart(fig, use_container_width=True)
+
+        # Percentiles
+        st.subheader("Salary Percentiles")
+        percentiles = df_fte_filtered['total_ctc'].quantile([0.1, 0.25, 0.5, 0.75, 0.9, 0.95]).round(2)
+
+        col1, col2, col3, col4, col5, col6 = st.columns(6)
+        col1.metric("10th %ile", f"₹{percentiles[0.1]:.2f}L")
+        col2.metric("25th %ile", f"₹{percentiles[0.25]:.2f}L")
+        col3.metric("Median", f"₹{percentiles[0.5]:.2f}L")
+        col4.metric("75th %ile", f"₹{percentiles[0.75]:.2f}L")
+        col5.metric("90th %ile", f"₹{percentiles[0.9]:.2f}L")
+        col6.metric("95th %ile", f"₹{percentiles[0.95]:.2f}L")
+
+        # CGPA vs CTC scatter
+        if df_fte_filtered['has_cgpa_data'].sum() > 10:
+            st.subheader("CGPA Cutoff vs CTC")
+            cgpa_data = df_fte_filtered[df_fte_filtered['has_cgpa_data']]
+
+            fig = px.scatter(
+                cgpa_data,
+                x='cgpa_cutoff',
+                y='total_ctc',
+                title='CGPA Cutoff vs CTC',
+                labels={'cgpa_cutoff': 'CGPA Cutoff', 'total_ctc': 'CTC (LPA)'},
+                color='tier',
+                hover_data=['company_name'],
+                opacity=0.6
+            )
+            fig.update_layout(height=400)
+            st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.info("No FTE data available for selected filters")
+
+# ----------------------------------------------------------------------------
+# TAB 4: INSIGHTS
 # ----------------------------------------------------------------------------
 
 with tab4:
-    st.header("📊 Advanced Analysis Results")
-    
-    # RDD Results
-    if analysis_results['rdd']:
-        st.subheader("🔬 Causal Inference (Regression Discontinuity)")
-        rdd = analysis_results['rdd']
-        
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.metric("CGPA Cutoff", f"{rdd['cutoff']}")
-        with col2:
-            st.metric("Treatment Effect", f"₹{rdd['treatment_effect_lpa']:.2f} LPA")
-        with col3:
-            st.metric("Sample Size", f"{rdd['n_below']} + {rdd['n_above']}")
-        
-        st.success(f"""
-        **Key Finding:** Students meeting the CGPA cutoff of {rdd['cutoff']} 
-        experience a **causal increase** in CTC of ₹{rdd['treatment_effect_lpa']:.2f} LPA.
-        """)
-        
-        # Show image
-        rdd_img_path = Path('analysis_outputs/02_causal/rdd_analysis.png')
-        if rdd_img_path.exists():
-            st.image(str(rdd_img_path), caption='Regression Discontinuity Design')
-    
-    st.markdown("---")
-    
-    # Network Results
-    if analysis_results['network']:
-        st.subheader("🕸️ Network Analysis")
-        network = analysis_results['network']
-        
+    st.header("🎯 Key Insights")
+
+    if summary:
         col1, col2 = st.columns(2)
+
         with col1:
-            st.metric("Total Companies", f"{network['n_companies']}")
-            st.metric("Total Connections", f"{network['n_edges']}")
-        
+            st.subheader("📊 Overall Statistics")
+            st.markdown(f"""
+            - **Total Records:** {summary['total_records']:,}
+            - **FTE Records:** {summary['fte_records']:,}
+            - **Internship Records:** {summary['internship_records']:,}
+            - **Unique Companies:** {summary['unique_companies']:,}
+            - **Years Covered:** {', '.join(map(str, summary['years_covered']))}
+            """)
+
+            st.subheader("💰 FTE CTC Statistics")
+            st.markdown(f"""
+            - **Mean CTC:** ₹{summary['fte_statistics']['mean_ctc']:.2f} LPA
+            - **Median CTC:** ₹{summary['fte_statistics']['median_ctc']:.2f} LPA
+            - **Min CTC:** ₹{summary['fte_statistics']['min_ctc']:.2f} LPA
+            - **Max CTC:** ₹{summary['fte_statistics']['max_ctc']:.2f} LPA
+            - **Std Dev:** ₹{summary['fte_statistics']['std_ctc']:.2f} LPA
+            """)
+
         with col2:
-            st.markdown("**Top Connected Companies:**")
-            for i, comp in enumerate(network['top_connected_companies'][:5], 1):
-                st.markdown(f"{i}. {comp['company']} ({comp['score']:.3f})")
-    
+            st.subheader("📈 Data Completeness")
+            st.markdown(f"""
+            - **CTC Data:** {summary['data_completeness']['ctc_completeness']:.1f}%
+            - **Base Salary Data:** {summary['data_completeness']['base_completeness']:.1f}%
+            - **CGPA Data:** {summary['data_completeness']['cgpa_completeness']:.1f}%
+            """)
+
+            st.subheader("🏆 Top 10 Recruiters")
+            for i, (company, count) in enumerate(summary['top_10_companies'].items(), 1):
+                st.markdown(f"{i}. **{company}** - {count} placements")
+
+    # Generate insights from filtered data
     st.markdown("---")
-    
-    # Clustering Results
-    if analysis_results['clustering']:
-        st.subheader("🎯 Company Clustering")
-        clustering = analysis_results['clustering']
-        
-        st.metric("Number of Segments", clustering['n_clusters'])
-        st.info(f"Identified {clustering['n_clusters']} distinct company archetypes using Gaussian Mixture Model")
-        
-        # Show image
-        cluster_img_path = Path('analysis_outputs/05_clustering/clusters_3d_pca.png')
-        if cluster_img_path.exists():
-            st.image(str(cluster_img_path), caption='Company Segments (3D PCA)')
+    st.subheader("📌 Insights from Filtered Data")
+
+    insights = []
+
+    if len(df_fte_filtered) > 0:
+        avg_ctc = df_fte_filtered['total_ctc'].mean()
+        max_ctc = df_fte_filtered['total_ctc'].max()
+        top_company = df_fte_filtered.groupby('company_name')['total_ctc'].mean().idxmax()
+
+        insights.append(f"📊 Average FTE CTC: **₹{avg_ctc:.2f} LPA**")
+        insights.append(f"🏆 Highest CTC offered: **₹{max_ctc:.2f} LPA**")
+        insights.append(f"⭐ Top paying company (avg): **{top_company}**")
+
+        # Top tier analysis
+        if 'tier' in df_fte_filtered.columns:
+            tier_avg = df_fte_filtered.groupby('tier')['total_ctc'].mean().sort_values(ascending=False)
+            if len(tier_avg) > 0:
+                top_tier = tier_avg.index[0]
+                insights.append(f"📈 Highest paying tier: **{top_tier}** (avg ₹{tier_avg.iloc[0]:.2f} LPA)")
+
+    for insight in insights:
+        st.markdown(f"- {insight}")
 
 # ----------------------------------------------------------------------------
-# TAB 5: INSIGHTS
+# TAB 5: DATA EXPLORER
 # ----------------------------------------------------------------------------
 
 with tab5:
-    st.header("🎯 Key Insights")
-    
-    insights = []
-    
-    # Generate insights
-    if len(df_fte_filtered) > 0:
-        avg_ctc = df_fte_filtered['fte_ctc'].mean()
-        max_ctc = df_fte_filtered['fte_ctc'].max()
-        top_company = df_fte_filtered.groupby('company_name')['fte_ctc'].mean().idxmax()
-        
-        insights.append(f"📊 Average FTE CTC across all placements: **₹{avg_ctc:.2f} LPA**")
-        insights.append(f"🏆 Highest CTC offered: **₹{max_ctc:.2f} LPA**")
-        insights.append(f"⭐ Top paying company (avg): **{top_company}**")
-    
-    if analysis_results['rdd']:
-        rdd = analysis_results['rdd']
-        insights.append(f"🔬 Meeting CGPA cutoff ≥{rdd['cutoff']} **causally increases** CTC by ₹{rdd['treatment_effect_lpa']:.2f} LPA")
-    
-    # Top tier distribution
-    if len(df_filtered) > 0:
-        top_tier = df_filtered['placement_tier'].mode()[0]
-        tier_pct = (df_filtered['placement_tier'] == top_tier).sum() / len(df_filtered) * 100
-        insights.append(f"📈 Most common placement tier: **{top_tier}** ({tier_pct:.1f}%)")
-    
-    # Display insights
-    for insight in insights:
-        st.markdown(f"- {insight}")
-    
-    st.markdown("---")
-    
-    # Recommendations
-    st.subheader("💡 Recommendations for Students")
-    
-    st.markdown("""
-    1. **CGPA Matters**: Maintain CGPA above identified cutoffs for better opportunities
-    2. **Target High-Tier Companies**: Focus preparation on companies offering better packages
-    3. **Skill Development**: Align skills with high-demand role types
-    4. **Early Preparation**: Start placement prep well in advance
-    5. **Network**: Connect with companies showing consistent hiring patterns
-    """)
-
-# ----------------------------------------------------------------------------
-# TAB 6: DATA EXPLORER
-# ----------------------------------------------------------------------------
-
-with tab6:
     st.header("📂 Data Explorer")
-    
+
     st.markdown("Explore the raw placement data with interactive filters and sorting.")
-    
+
     # Display options
     col1, col2 = st.columns(2)
+
+    available_cols = ['batch_year', 'company_name', 'job_role', 'tier',
+                     'total_ctc', 'base_salary', 'num_fte', 'num_intern',
+                     'cgpa_cutoff', 'is_internship']
+
     with col1:
         show_columns = st.multiselect(
             "Select Columns to Display",
-            options=df_filtered.columns.tolist(),
-            default=['batch_year', 'company_name', 'job_role', 'fte_ctc', 
-                     'placement_tier', 'cgpa_cutoff']
+            options=available_cols,
+            default=['batch_year', 'company_name', 'job_role', 'total_ctc', 'tier', 'cgpa_cutoff']
         )
-    
+
     with col2:
-        sort_by = st.selectbox("Sort By", options=show_columns if show_columns else df_filtered.columns.tolist())
+        sort_by = st.selectbox("Sort By", options=show_columns if show_columns else available_cols)
         sort_order = st.radio("Order", options=['Descending', 'Ascending'], horizontal=True)
-    
+
     # Display dataframe
     if show_columns:
         display_df = df_filtered[show_columns].sort_values(
             by=sort_by,
             ascending=(sort_order == 'Ascending')
         )
-        
+
         st.dataframe(
             display_df,
             use_container_width=True,
             height=500
         )
-        
+
         # Download button
         csv = display_df.to_csv(index=False)
         st.download_button(
             label="📥 Download Filtered Data (CSV)",
             data=csv,
-            file_name=f"placement_data_filtered.csv",
+            file_name=f"placement_data_filtered_{len(display_df)}_records.csv",
             mime="text/csv"
         )
 
@@ -522,7 +517,7 @@ with tab6:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666;'>
-    <p>PES University Placement Analytics Dashboard | Data: 2022-2026 Batches</p>
-    <p>Built with Streamlit | © 2025 ADA Project Team</p>
+    <p><b>PES University Placement Analytics</b> | Data: 2022-2026 Batches | {total_records} Records</p>
+    <p>Built with Streamlit & Plotly | Powered by clean data pipeline</p>
 </div>
-""", unsafe_allow_html=True)
+""".format(total_records=len(df)), unsafe_allow_html=True)

@@ -1,790 +1,409 @@
+#!/usr/bin/env python3
 """
-Consolidate PES University Placement Data (2022-2026) and Cross-College Data
-This script processes multiple CSV files with varying structures and creates
-a unified, EDA-ready dataset for analysis and predictive modeling.
+PES Placement Data Consolidation Script
+Consolidates placement data from multiple years (2022-2026) into a clean, analysis-ready format.
 """
 
 import pandas as pd
 import numpy as np
-import os
 import re
+import json
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
-import warnings
-warnings.filterwarnings('ignore')
+from typing import Dict, List, Optional
 
 
 class PlacementDataConsolidator:
-    """Consolidates placement data from multiple sources and years"""
+    """Consolidates placement data from various sources into unified format."""
 
-    def __init__(self, data_dir: Optional[str] = None):
-        # Auto-detect local data directory if not provided
-        if data_dir is None:
-            # Prefer relative ./data folder
-            candidate = Path(os.getcwd()) / 'data'
-            if candidate.exists():
-                data_dir = str(candidate)
-            else:
-                # Fallback to previous default (may be Linux path in other envs)
-                data_dir = '/home/user/ADA-Project/data'
+    def __init__(self, data_dir: str = "data", output_dir: str = "processed_data"):
         self.data_dir = Path(data_dir)
-        if not self.data_dir.exists():
-            print(f"[WARN] Data directory '{self.data_dir}' not found. Consolidation will produce 0 records.")
-        self.consolidated_data = []
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(exist_ok=True)
 
-    def extract_numeric(self, value: str) -> Optional[float]:
-        """Extract numeric value from string (handles LPA, k, L, etc.)"""
-        if pd.isna(value) or value == '' or value == '-' or value == '.':
+    def clean_numeric(self, value: any) -> Optional[float]:
+        """Extract numeric value from various formats."""
+        if pd.isna(value) or value == '':
             return None
 
-        # Convert to string and clean
-        value = str(value).strip()
-
-        # Handle ranges (take the higher value)
-        if '-' in value and not value.startswith('-'):
-            parts = value.split('-')
-            value = parts[-1].strip()
-
-        # Remove common text
-        value = value.replace('LPA', '').replace('lpa', '').replace('CTC', '').replace('Base', '')
-        value = value.replace('Package', '').replace('Lakh', '').replace('L', '')
-
-        # Extract number
-        numbers = re.findall(r'[\d.]+', value)
-        if numbers:
+        # Convert to string
+        if not isinstance(value, str):
             try:
-                num = float(numbers[0])
-                # Handle thousands (k)
-                if 'k' in value.lower() or 'K' in value:
-                    num = num / 100  # Convert to LPA
-                return num
-            except ValueError:
+                return float(value)
+            except:
                 return None
+
+        value = str(value).strip()
+        if value == '' or value.lower() in ['na', 'nan', 'n/a', '-', 'nil', '.']:
+            return None
+
+        # Remove common currency symbols and text
+        value = re.sub(r'[₹$,\s]', '', value)
+        value = re.sub(r'(?i)(lpa|lakh|lakhs|k|per month)', '', value)
+
+        # Handle ranges - take the higher value (more conservative)
+        if '-' in value or '–' in value:
+            parts = re.split(r'[-–]', value)
+            try:
+                nums = [float(re.sub(r'[^\d.]', '', p)) for p in parts if re.search(r'\d', p)]
+                if nums:
+                    return max(nums)  # Take higher value
+            except:
+                pass
+
+        # Extract first number found
+        match = re.search(r'(\d+\.?\d*)', value)
+        if match:
+            try:
+                return float(match.group(1))
+            except:
+                return None
+
         return None
 
-    def extract_compensation_details(self, comp_str: str) -> Dict:
-        """Extract detailed compensation breakdown from string"""
-        result = {
-            'base_salary': None,
-            'total_ctc': None,
-            'stocks_esops': None,
-            'joining_bonus': None,
-            'relocation_bonus': None,
-            'variable_pay': None
-        }
-
-        if pd.isna(comp_str) or comp_str == '':
-            return result
-
-        comp_str = str(comp_str).lower()
-
-        # Extract base
-        base_match = re.search(r'(\d+\.?\d*)\s*(?:l\s*)?base', comp_str)
-        if base_match:
-            result['base_salary'] = float(base_match.group(1))
-
-        # Extract stocks/ESOs
-        stock_patterns = [
-            r'(\d+\.?\d*)\s*(?:l\s*)?esop',
-            r'(\d+\.?\d*)\s*(?:l\s*)?stock',
-            r'(\d+\.?\d*)\s*(?:l\s*)?rsu',
-            r'(\d+)\s*usd.*(?:stock|rsu)',
-            r'(\d+k?)\s*usd'
-        ]
-        for pattern in stock_patterns:
-            match = re.search(pattern, comp_str)
-            if match:
-                val = match.group(1)
-                if 'k' in val:
-                    result['stocks_esops'] = float(val.replace('k', '')) / 1000
-                else:
-                    result['stocks_esops'] = self.extract_numeric(val)
-                break
-
-        # Extract joining bonus
-        jb_match = re.search(r'(\d+\.?\d*)\s*(?:l\s*)?(?:jb|joining\s*bonus)', comp_str)
-        if jb_match:
-            result['joining_bonus'] = float(jb_match.group(1))
-
-        # Extract relocation bonus
-        rb_match = re.search(r'(\d+\.?\d*)\s*(?:l\s*)?(?:rb|relocation)', comp_str)
-        if rb_match:
-            result['relocation_bonus'] = float(rb_match.group(1))
-
-        return result
-
-    def parse_2022_files(self, year_dir: Path) -> List[Dict]:
-        """Parse 2022 batch data files"""
-        records = []
-
-        for file_path in year_dir.glob('*.csv'):
-            filename = file_path.name
-
-            # Determine tier from filename
-            if 'Dream' in filename:
-                tier = 'Dream'
-            elif 'Tier-1' in filename or 'Tier 1' in filename:
-                tier = 'Tier-1'
-            elif 'Tier-2' in filename or 'Tier 2' in filename:
-                tier = 'Tier-2'
-            elif 'Tier-3' in filename or 'Tier 3' in filename:
-                tier = 'Tier-3'
-            elif 'Summer' in filename:
-                tier = 'Internship-Summer'
-            elif 'Spring' in filename:
-                tier = 'Internship-Spring'
-            else:
-                tier = 'Unknown'
-
-            try:
-                df = pd.read_csv(file_path, skiprows=lambda x: x in [0, 1])
-
-                for _, row in df.iterrows():
-                    if pd.isna(row.get('Name')) or str(row.get('Name')).strip() == '':
-                        continue
-
-                    record = {
-                        'batch_year': 2022,
-                        'college': 'PES',
-                        'source_file': filename,
-                        'company_name': str(row.get('Name', '')).strip(),
-                        'job_role': str(row.get('Job Title', '')).strip(),
-                        'placement_tier': tier,
-                        'internship_stipend': self.extract_numeric(row.get('Internship Stipend', '')),
-                        'base_salary': self.extract_numeric(row.get('Base', '')),
-                        'total_ctc': self.extract_numeric(row.get('CTC', '')),
-                        'num_offers_fte': self.extract_numeric(row.get('FTE', '')),
-                        'num_offers_intern': self.extract_numeric(row.get('Intern', '')),
-                        'num_offers_both': self.extract_numeric(row.get('FTE+Intern', '')),
-                        'test_date': str(row.get('Test Date', '')),
-                        'interview_date': str(row.get('Interview', '')),
-                        'ppt_date': str(row.get('PPT', '')),
-                        'additional_info': str(row.get('Additional Information', ''))
-                    }
-
-                    records.append(record)
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
-
-        return records
-
-    def parse_2023_files(self, year_dir: Path) -> List[Dict]:
-        """Parse 2023 batch data files"""
-        records = []
-
-        for file_path in year_dir.glob('*.csv'):
-            filename = file_path.name
-
-            # Determine tier from filename
-            if 'Dream' in filename:
-                tier = 'Dream'
-            elif 'Tier 1' in filename:
-                tier = 'Tier-1'
-            elif 'Tier 2' in filename:
-                tier = 'Tier-2'
-            elif 'Tier 3' in filename:
-                tier = 'Tier-3'
-            elif 'Spring' in filename:
-                tier = 'Internship-Spring'
-            else:
-                tier = 'Unknown'
-
-            try:
-                # Read with skiprows=1 to skip the first row
-                df = pd.read_csv(file_path, skiprows=1)
-
-                # Clean column names
-                df.columns = df.columns.str.strip()
-
-                for _, row in df.iterrows():
-                    # Try different possible column names for company
-                    company = row.get('Company Name', row.get('Company', row.get('Name', '')))
-
-                    # Skip if no company name or if it's a number (row index)
-                    if pd.isna(company) or str(company).strip() == '' or str(company).strip() == '#':
-                        continue
-
-                    try:
-                        int(str(company).strip())
-                        continue  # Skip if it's just a number
-                    except ValueError:
-                        pass  # Not a number, proceed
-
-                    record = {
-                        'batch_year': 2023,
-                        'college': 'PES',
-                        'source_file': filename,
-                        'company_name': str(company).strip(),
-                        'job_role': str(row.get('Job Title', '')).strip(),
-                        'placement_tier': tier,
-                        'internship_stipend': self.extract_numeric(row.get('Internship', '')),
-                        'base_salary': self.extract_numeric(row.get('Base', '')),
-                        'total_ctc': self.extract_numeric(row.get('CTC', '')),
-                        'num_offers_fte': self.extract_numeric(row.get('FTE', '')),
-                        'num_offers_intern': self.extract_numeric(row.get('Intern', '')),
-                        'num_offers_both': self.extract_numeric(row.get('FTE + Intern', row.get('FTE+Intern', ''))),
-                        'test_date': str(row.get('Test Date', '')),
-                        'interview_date': str(row.get('Interview', '')),
-                        'ppt_date': str(row.get('PPT', '')),
-                        'additional_info': str(row.get('Additional Comments', ''))
-                    }
-
-                    records.append(record)
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
-
-        return records
-
-    def parse_2024_files(self, year_dir: Path) -> List[Dict]:
-        """Parse 2024 batch data files"""
-        records = []
-
-        for file_path in year_dir.glob('*.csv'):
-            filename = file_path.name
-
-            # Determine tier from filename
-            if 'Dream' in filename:
-                tier = 'Dream'
-            elif 'Tier 1' in filename:
-                tier = 'Tier-1'
-            elif 'Tier 2' in filename:
-                tier = 'Tier-2'
-            elif 'Tier 3' in filename:
-                tier = 'Tier-3'
-            elif 'Spring' in filename:
-                tier = 'Internship-Spring'
-            elif 'Summer' in filename:
-                tier = 'Internship-Summer'
-            else:
-                tier = 'Unknown'
-
-            try:
-                df = pd.read_csv(file_path)
-
-                for _, row in df.iterrows():
-                    company = row.get('Company Name', '')
-                    if pd.isna(company) or str(company).strip() == '' or str(company).strip() == '#':
-                        continue
-
-                    # Extract compensation details
-                    comp_str = f"{row.get('Internship', '')} {row.get('Base', '')} {row.get('CTC', '')}"
-                    comp_details = self.extract_compensation_details(comp_str)
-
-                    record = {
-                        'batch_year': 2024,
-                        'college': 'PES',
-                        'source_file': filename,
-                        'company_name': str(company).strip(),
-                        'job_role': str(row.get('Job Title', row.get('Job Role', ''))).strip(),
-                        'placement_tier': tier,
-                        'internship_stipend': self.extract_numeric(row.get('Internship', '')),
-                        'base_salary': self.extract_numeric(row.get('Base', '')) or comp_details['base_salary'],
-                        'total_ctc': self.extract_numeric(row.get('CTC', '')),
-                        'stocks_esops': comp_details['stocks_esops'],
-                        'joining_bonus': comp_details['joining_bonus'],
-                        'num_offers_fte': self.extract_numeric(row.get('FTE', '')),
-                        'num_offers_intern': self.extract_numeric(row.get('Intern', '')),
-                        'num_offers_both': self.extract_numeric(row.get('FTE+Intern', row.get('Both', ''))),
-                        'cgpa_cutoff': self.extract_numeric(row.get('CGPA \nCut-off', row.get('CGPA Cut-off', ''))),
-                        'additional_info': str(row.get('Remarks', ''))
-                    }
-
-                    records.append(record)
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
-
-        return records
-
-    def parse_2025_files(self, year_dir: Path) -> List[Dict]:
-        """Parse 2025 batch data files"""
-        records = []
-
-        for file_path in year_dir.glob('*.csv'):
-            filename = file_path.name
-
-            # Determine tier from filename
-            if 'Tier 1' in filename:
-                tier = 'Tier-1'
-            elif 'Tier 2' in filename:
-                tier = 'Tier-2'
-            elif 'Tier 3' in filename:
-                tier = 'Tier-3'
-            elif 'Spring' in filename:
-                tier = 'Internship-Spring'
-            elif 'Summer' in filename:
-                tier = 'Internship-Summer'
-            else:
-                tier = 'Unknown'
-
-            try:
-                df = pd.read_csv(file_path)
-
-                for _, row in df.iterrows():
-                    company = row.get('Company Name', '')
-                    if pd.isna(company) or str(company).strip() == '' or str(company).strip() == '#':
-                        continue
-
-                    # Extract compensation details
-                    ctc_str = str(row.get('Compensation (LPA)', row.get('CTC', '')))
-                    comp_details = self.extract_compensation_details(ctc_str)
-
-                    record = {
-                        'batch_year': 2025,
-                        'college': 'PES',
-                        'source_file': filename,
-                        'company_name': str(company).strip(),
-                        'job_role': str(row.get('Job Role', row.get('Role', ''))).strip(),
-                        'placement_tier': tier,
-                        'internship_stipend': self.extract_numeric(row.get('Internship', '')),
-                        'base_salary': self.extract_numeric(row.get('Base', '')) or comp_details['base_salary'],
-                        'total_ctc': self.extract_numeric(row.get('CTC', '')),
-                        'stocks_esops': comp_details['stocks_esops'],
-                        'joining_bonus': comp_details['joining_bonus'],
-                        'num_offers_fte': self.extract_numeric(row.get('FTE Only', row.get('FTE', ''))),
-                        'num_offers_intern': self.extract_numeric(row.get('Intern (PBC)', row.get('Intern', ''))),
-                        'num_offers_both': self.extract_numeric(row.get('FTE + Intern', row.get('Both', ''))),
-                        'cgpa_cutoff': self.extract_numeric(row.get('Final CGPA Cut-off', row.get('GPA Cutoff', ''))),
-                        'visit_date': str(row.get('Date of Visit', '')),
-                        'additional_info': str(row.get('Note', ''))
-                    }
-
-                    records.append(record)
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
-
-        return records
-
-    def parse_2026_files(self, year_dir: Path) -> List[Dict]:
-        """Parse 2026 batch data files"""
-        records = []
-
-        for file_path in year_dir.glob('*.csv'):
-            filename = file_path.name
-
-            # Determine tier from filename
-            if 'Tier 1' in filename:
-                tier = 'Tier-1'
-            elif 'Tier 2' in filename:
-                tier = 'Tier-2'
-            elif 'Tier 3' in filename:
-                tier = 'Tier-3'
-            elif 'Internship' in filename:
-                tier = 'Internship'
-            elif 'Summer' in filename:
-                tier = 'Internship-Summer'
-            else:
-                tier = 'Unknown'
-
-            try:
-                df = pd.read_csv(file_path)
-
-                for _, row in df.iterrows():
-                    company = row.get('Company', '')
-                    if pd.isna(company) or str(company).strip() == '':
-                        continue
-
-                    # Extract compensation details
-                    comp_str = f"{row.get('Internship', '')} {row.get('Base', '')} {row.get('CTC', '')} {row.get('Compensation (LPA)', '')}"
-                    comp_details = self.extract_compensation_details(comp_str)
-
-                    record = {
-                        'batch_year': 2026,
-                        'college': 'PES',
-                        'source_file': filename,
-                        'company_name': str(company).strip(),
-                        'job_role': str(row.get('Role', '')).strip(),
-                        'placement_tier': tier,
-                        'internship_stipend': self.extract_numeric(row.get('Internship', '')),
-                        'base_salary': self.extract_numeric(row.get('Base', '')) or comp_details['base_salary'],
-                        'total_ctc': self.extract_numeric(row.get('CTC', '')),
-                        'stocks_esops': comp_details['stocks_esops'],
-                        'joining_bonus': comp_details['joining_bonus'],
-                        'num_offers_fte': self.extract_numeric(row.get('FTE', '')),
-                        'num_offers_intern': self.extract_numeric(row.get('Intern', row.get('Internship', ''))),
-                        'num_offers_both': self.extract_numeric(row.get('Both', '')),
-                        'cgpa_cutoff': self.extract_numeric(row.get('GPA Cutoff', '')),
-                        'oa_date': str(row.get('OA Date', '')),
-                        'additional_info': str(row.get('Note', ''))
-                    }
-
-                    records.append(record)
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
-
-        return records
-
-    def parse_cross_college_files(self, cross_college_dir: Path) -> List[Dict]:
-        """Parse cross-college comparison data"""
-        records = []
-
-        # Extract year from folder name if present (fallback to 2024)
-        year_match = re.search(r'20\d{2}', cross_college_dir.name)
-        cross_year = int(year_match.group(0)) if year_match else 2024
-
-        for file_path in cross_college_dir.glob('*.csv'):
-            filename = file_path.name
-
-            # Determine college from filename
-            if 'PES' in filename:
-                college = 'PES'
-            elif 'RVCE' in filename:
-                college = 'RVCE'
-            elif 'BMS' in filename:
-                college = 'BMS'
-            else:
-                college = 'Unknown'
-
-            try:
-                # Read file with skiprows to skip header information
-                df = pd.read_csv(file_path, skiprows=lambda x: x in range(9))
-
-                # Clean column names
-                df.columns = df.columns.str.strip()
-
-                for _, row in df.iterrows():
-                    company = row.get('Company', '')
-
-                    # Skip if no company name or invalid row
-                    if pd.isna(company) or str(company).strip() == '':
-                        continue
-
-                    # Skip summary rows and headers
-                    if any(x in str(company).lower() for x in ['total', 'average', 'median', 'final', 'ppo', 'color', 'blue', 'yellow']):
-                        continue
-
-                    # Extract compensation details
-                    ctc_str = str(row.get('CTC', ''))
-                    comp_details = self.extract_compensation_details(ctc_str)
-
-                    # Determine placement type
-                    placement_type = str(row.get('Type', ''))
-
-                    record = {
-                        'batch_year': cross_year,
-                        'college': college,
-                        'source_file': filename,
-                        'company_name': str(company).strip(),
-                        'job_role': str(row.get('Role', '')).strip(),
-                        'placement_tier': str(row.get('Tier', '')),
-                        'placement_type': placement_type,
-                        'total_ctc': self.extract_numeric(row.get('CTC', '')),
-                        'base_salary': comp_details['base_salary'],
-                        'stocks_esops': comp_details['stocks_esops'],
-                        'joining_bonus': comp_details['joining_bonus'],
-                        'num_offers_total': self.extract_numeric(row.get('Total Offers', row.get('Offers (CSE only)', ''))),
-                        'cgpa_cutoff': self.extract_numeric(row.get('CGPA cutoff', '')),
-                        'oa_date': str(row.get('Date of OA', '')),
-                        'allows_ece': str(row.get('Allows ECE', '')),
-                        'allows_mca': str(row.get('MCA', '')),
-                        'allows_mtech': str(row.get('MTech (CS)', '')),
-                        'additional_info': str(row.get('Any comments/questions/topics asked', row.get('Any comments/questions/topics asked ', '')))
-                    }
-
-                    records.append(record)
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
-
-        return records
-
-    def consolidate_all_data(self):
-        """Main method to consolidate all placement data"""
-        print("Starting data consolidation...")
-
-        # Process year-wise PES data
-        for year in [2022, 2023, 2024, 2025, 2026]:
-            year_dir = self.data_dir / str(year)
-            if year_dir.exists():
-                print(f"\nProcessing {year} batch data...")
-
-                if year == 2022:
-                    records = self.parse_2022_files(year_dir)
-                elif year == 2023:
-                    records = self.parse_2023_files(year_dir)
-                elif year == 2024:
-                    records = self.parse_2024_files(year_dir)
-                elif year == 2025:
-                    records = self.parse_2025_files(year_dir)
-                elif year == 2026:
-                    records = self.parse_2026_files(year_dir)
-
-                print(f"  Found {len(records)} records")
-                self.consolidated_data.extend(records)
-
-        # Process cross-college data
-        cross_college_dir = self.data_dir / 'cross-college-pes-rvce-bms-2025'
-        if cross_college_dir.exists():
-            print(f"\nProcessing cross-college data...")
-            records = self.parse_cross_college_files(cross_college_dir)
-            print(f"  Found {len(records)} records")
-            self.consolidated_data.extend(records)
-
-        print(f"\nTotal records consolidated: {len(self.consolidated_data)}")
-        if len(self.consolidated_data) == 0:
-            print("[WARN] No records found. Check data directory path and file naming conventions.")
-
-        # Convert to DataFrame
-        df = pd.DataFrame(self.consolidated_data)
-
-        # Ensure expected columns exist even if empty to avoid KeyError downstream
-        expected_cols = [
-            'internship_stipend','stocks_esops','joining_bonus','placement_tier','job_role',
-            'company_name','batch_year','total_ctc','num_offers_fte','num_offers_intern','num_offers_both'
-        ]
-        for col in expected_cols:
-            if col not in df.columns:
-                df[col] = pd.Series(dtype='float64' if 'num_offers' in col or col.endswith('_ctc') or 'stipend' in col else 'object')
-
-        # Calculate total offers where not provided
-        df['num_offers_total'] = df.apply(
-            lambda row: row.get('num_offers_total') if pd.notna(row.get('num_offers_total'))
-            else sum([row.get('num_offers_fte', 0) or 0,
-                     row.get('num_offers_intern', 0) or 0,
-                     row.get('num_offers_both', 0) or 0]),
-            axis=1
-        )
-
-        # Correct any cross-college rows that incorrectly defaulted to 'PES'
-        if 'source_file' in df.columns and 'college' in df.columns:
-            cross_mask = df['source_file'].str.contains('Cross-College', case=False, na=False)
-            needs_fix = cross_mask & (df['college'] == 'PES')
-            if needs_fix.any():
-                extracted = df.loc[needs_fix, 'source_file'].str.extract(r'(PES|RVCE|BMS)', expand=False)
-                df.loc[needs_fix, 'college'] = extracted.fillna('PES')
-                fixed_counts = df.loc[cross_mask, 'college'].value_counts().to_dict()
-                print(f"[INFO] Cross-college college label distribution after fix: {fixed_counts}")
-
-        return df
-
-    def clean_and_enrich_data(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Clean and enrich the consolidated data"""
-        print("\nCleaning and enriching data...")
-
-        if df.empty:
-            print("[WARN] Received empty DataFrame for enrichment; creating structural columns and returning.")
-            # Create structural columns used later
-            structural_cols = ['has_internship','has_stocks','has_joining_bonus','is_internship_record','fte_ctc','internship_stipend_monthly','salary_category','role_type','academic_year']
-            for col in structural_cols:
-                if col not in df.columns:
-                    df[col] = pd.Series(dtype='object')
-            return df
-
-        # Add derived columns
-        df['has_internship'] = df['internship_stipend'].notna()
-        df['has_stocks'] = df['stocks_esops'].notna()
-        df['has_joining_bonus'] = df['joining_bonus'].notna()
-
-        # Flag internship-only records (placement_tier contains Internship or placement_type indicates internship)
-        internship_mask = (
-            df['placement_tier'].str.contains('Internship', case=False, na=False) |
-            df.get('placement_type', pd.Series(index=df.index, dtype=str)).str.contains('Intern', case=False, na=False)
-        )
-        df['is_internship_record'] = internship_mask
-
-        # Separate FTE CTC from internship rows; internship rows should not contaminate FTE compensation metrics
-        df['fte_ctc'] = np.where(~df['is_internship_record'], df['total_ctc'], np.nan)
-
-        # Ensure internship stipend remains separate; rename semantic alias for clarity in downstream analytics
-        df['internship_stipend_monthly'] = df['internship_stipend']
-
-        # Categorize companies by compensation
-        df['salary_category'] = np.nan
-        fte_mask = (~df['is_internship_record']) & df['fte_ctc'].notna()
-        df.loc[fte_mask, 'salary_category'] = pd.cut(
-            df.loc[fte_mask, 'fte_ctc'],
-            bins=[0, 6, 12, 20, 60, float('inf')],
-            labels=['Tier-3', 'Tier-2', 'Tier-1', 'Super-Dream', 'Dream']
-        )
-
-        # Categorize by role type
-        df['role_type'] = df['job_role'].apply(self._categorize_role)
-
-        # Clean company names (remove extra spaces, standardize)
-        df['company_name'] = df['company_name'].str.strip().str.title()
-
-        # Add academic year column (e.g., 2022 batch = 2018-2022)
-        df['academic_year'] = df['batch_year'].apply(lambda x: f"{x-4}-{x}")
-
-        # Deduplication
-        print(f"Records before deduplication: {len(df)}")
-        
-        # 1. Exact duplicates
-        df = df.drop_duplicates()
-        print(f"Records after exact deduplication: {len(df)}")
-
-        # 2. Semantic duplicates (Same Batch, College, Company, Role)
-        # Keep the one with the most data (least NaNs)
-        subset_cols = ['batch_year', 'college', 'company_name', 'job_role']
-        
-        # Calculate a "completeness" score for each row to help tie-breaking
-        # We prioritize rows that have CTC, Offers, or Tier info
-        df['completeness_score'] = df[['total_ctc', 'num_offers_total', 'placement_tier']].notna().sum(axis=1)
-        
-        # Sort by completeness (descending) so we keep the best one
-        df = df.sort_values(by=['batch_year', 'college', 'company_name', 'completeness_score'], ascending=[True, True, True, False])
-        
-        # Drop duplicates keeping the first (most complete)
-        df = df.drop_duplicates(subset=subset_cols, keep='first')
-        print(f"Records after semantic deduplication: {len(df)}")
-        
-        # Drop the helper column
-        df = df.drop(columns=['completeness_score'])
-
-        return df
-
-    def _categorize_role(self, role: str) -> str:
-        """Categorize job role into broader categories"""
-        if pd.isna(role):
+    def clean_company_name(self, name: str) -> str:
+        """Standardize company names."""
+        if pd.isna(name) or name == '':
             return 'Unknown'
 
-        role = str(role).lower()
+        name = str(name).strip()
+        # Remove extra whitespace and newlines
+        name = re.sub(r'\s+', ' ', name)
+        # Title case
+        name = name.title()
 
-        if any(x in role for x in ['sde', 'software', 'developer', 'engineer']):
-            if 'test' in role or 'qa' in role or 'sdet' in role:
-                return 'SDE-Test'
-            elif 'data' in role:
-                return 'SDE-Data'
-            elif 'ml' in role or 'ai' in role or 'machine learning' in role:
-                return 'SDE-ML/AI'
-            elif 'devops' in role or 'sre' in role:
-                return 'SDE-DevOps/SRE'
-            else:
-                return 'SDE-Core'
-        elif any(x in role for x in ['analyst', 'business']):
-            if 'data' in role:
-                return 'Data Analyst'
-            else:
-                return 'Business Analyst'
-        elif any(x in role for x in ['data scientist', 'data science']):
-            return 'Data Scientist'
-        elif any(x in role for x in ['hardware', 'embedded', 'vlsi', 'digital', 'analog']):
-            return 'Hardware/Embedded'
-        elif any(x in role for x in ['intern', 'trainee']):
-            return 'Intern/Trainee'
-        else:
-            return 'Other'
-
-    def generate_summary_statistics(self, df: pd.DataFrame) -> Dict:
-        """Generate summary statistics"""
-        stats = {
-            'total_records': len(df),
-            'total_companies': df['company_name'].nunique(),
-            'batches_covered': sorted(df['batch_year'].unique().tolist()),
-            'colleges': df['college'].unique().tolist(),
-            # FTE-only compensation metrics (exclude internship-only rows)
-            'avg_fte_ctc': df['fte_ctc'].mean(),
-            'median_fte_ctc': df['fte_ctc'].median(),
-            'max_fte_ctc': df['fte_ctc'].max(),
-            'min_fte_ctc': df['fte_ctc'].min(),
-            'total_placements': df['num_offers_total'].sum(),
-            'avg_cgpa_cutoff': df['cgpa_cutoff'].mean(),
-            'records_by_year': df.groupby('batch_year').size().to_dict(),
-            'records_by_tier': df.groupby('placement_tier').size().to_dict(),
-            'records_by_college': df.groupby('college').size().to_dict(),
-            'top_10_recruiters': df.groupby('company_name')['num_offers_total'].sum().nlargest(10).to_dict()
+        # Common standardizations
+        replacements = {
+            'Ibm': 'IBM',
+            'Hp ': 'HP ',
+            'Hpe': 'HPE',
+            'Sap': 'SAP',
+            'Ey ': 'EY ',
+            'Ai': 'AI',
+            'Aws': 'AWS',
+            'Gcp': 'GCP',
+            'Iot': 'IoT',
+            'Kpmg': 'KPMG',
+            'Pwc': 'PwC',
+            'Jpmc': 'JPMC',
+            'Jpmorgan': 'JPMorgan'
         }
 
-        return stats
+        for old, new in replacements.items():
+            name = re.sub(r'\b' + old + r'\b', new, name, flags=re.IGNORECASE)
 
-    def save_datasets(self, df: pd.DataFrame, output_dir: str = 'processed_data'):
-        """Save consolidated datasets"""
-        output_path = Path(output_dir)
-        output_path.mkdir(parents=True, exist_ok=True)
+        return name
 
-        print(f"\nSaving datasets to {output_dir}...")
+    def extract_tier_from_filename(self, filename: str) -> str:
+        """Extract tier from filename."""
+        filename_lower = filename.lower()
 
-        # Main consolidated dataset
-        df.to_csv(output_path / 'consolidated_placement_data.csv', index=False)
-        print(f"  Saved: consolidated_placement_data.csv ({len(df)} records)")
+        if 'dream' in filename_lower:
+            return 'Dream'
+        elif 'tier 1' in filename_lower or 'tier-1' in filename_lower or 'tier1' in filename_lower:
+            return 'Tier-1'
+        elif 'tier 2' in filename_lower or 'tier-2' in filename_lower or 'tier2' in filename_lower:
+            return 'Tier-2'
+        elif 'tier 3' in filename_lower or 'tier-3' in filename_lower or 'tier3' in filename_lower:
+            return 'Tier-3'
+        elif 'spring' in filename_lower:
+            return 'Internship-Spring'
+        elif 'summer' in filename_lower:
+            return 'Internship-Summer'
+        elif 'internship' in filename_lower:
+            return 'Internship'
 
-        # Year-wise datasets
-        for year in df['batch_year'].unique():
-            year_df = df[df['batch_year'] == year]
-            year_df.to_csv(output_path / f'placement_data_{year}.csv', index=False)
-            print(f"  Saved: placement_data_{year}.csv ({len(year_df)} records)")
+        return 'Unknown'
 
-        # College-wise datasets (for cross-college analysis)
-        for college in df['college'].unique():
-            college_df = df[df['college'] == college]
-            college_df.to_csv(output_path / f'placement_data_{college}.csv', index=False)
-            print(f"  Saved: placement_data_{college}.csv ({len(college_df)} records)")
+    def is_likely_row_number(self, value: str) -> bool:
+        """Check if a value is likely a row number."""
+        val_str = str(value).strip()
+        # Check if it's just a number (with optional .0)
+        if re.match(r'^\d+\.?0*$', val_str):
+            return True
+        # Check if it matches common row number patterns
+        if val_str in ['#', 'No', 'S.No', 'Sr.No']:
+            return True
+        return False
 
-        # Tier-wise datasets
-        tier_df = df[df['placement_tier'].str.contains('Tier', na=False)]
-        tier_df.to_csv(output_path / 'placement_data_tier_based.csv', index=False)
-        print(f"  Saved: placement_data_tier_based.csv ({len(tier_df)} records)")
+    def process_file(self, filepath: Path, batch_year: int) -> pd.DataFrame:
+        """Process a CSV file and extract placement data."""
+        try:
+            # Read CSV, skipping initial rows if needed
+            df = pd.read_csv(filepath)
 
-        # Internship-only dataset
-        intern_df = df[df['has_internship'] == True]
-        intern_df.to_csv(output_path / 'placement_data_internships.csv', index=False)
-        print(f"  Saved: placement_data_internships.csv ({len(intern_df)} records)")
+            # Try to detect header row
+            header_row = 0
+            for i in range(min(5, len(df))):
+                row_str = ' '.join([str(x).lower() for x in df.iloc[i].values])
+                if 'company' in row_str or 'name' in row_str:
+                    header_row = i
+                    break
 
-        print(f"\nAll datasets saved successfully!")
+            if header_row > 0:
+                df = pd.read_csv(filepath, skiprows=header_row)
+
+        except Exception as e:
+            print(f"    ✗ Could not read file: {e}")
+            return pd.DataFrame()
+
+        tier = self.extract_tier_from_filename(filepath.name)
+
+        records = []
+
+        for idx, row in df.iterrows():
+            # Find company name column (usually column 1 or 2, skip row numbers)
+            company_name = None
+            company_col_idx = None
+
+            for i in range(min(4, len(row))):
+                val = str(row.iloc[i]).strip()
+                if val and val not in ['', 'nan']:
+                    # Skip if it looks like a row number
+                    if self.is_likely_row_number(val):
+                        continue
+                    # Skip header-like values
+                    if val.lower() in ['company', 'name', 'company name', 'job title', 'job role']:
+                        continue
+                    # This is likely the company name
+                    company_name = val
+                    company_col_idx = i
+                    break
+
+            if not company_name or company_name == 'nan':
+                continue
+
+            company_name = self.clean_company_name(company_name)
+            if company_name == 'Unknown':
+                continue
+
+            # Skip header-like company names and job role terms
+            if company_name.lower() in ['internship', 'base', 'compensation', 'ctc', 'placed',
+                                        'fte', 'intern', 'job title', 'job role', 'company name',
+                                        'remarks', 'cgpa', 'cut-off', 'cutoff', 'sde', 'sdet',
+                                        'engineer', 'analyst', 'developer', 'trainee']:
+                continue
+
+            # Find job role (next non-numeric column after company name)
+            job_role = ''
+            if company_col_idx is not None and company_col_idx + 1 < len(row):
+                jr = str(row.iloc[company_col_idx + 1]).strip()
+                if jr and jr not in ['', 'nan'] and not jr.replace('.', '').isdigit():
+                    job_role = jr
+
+            # Extract numeric data starting from after job role column
+            start_col = (company_col_idx or 1) + 2
+            row_data = [self.clean_numeric(x) for x in row.iloc[start_col:start_col+10]]
+
+            # Typical order: internship_stipend, base, ctc, fte, intern, fte+intern, cgpa
+            record = {
+                'batch_year': batch_year,
+                'company_name': company_name,
+                'job_role': job_role,
+                'tier': tier,
+                'internship_stipend_monthly': row_data[0] if len(row_data) > 0 else None,
+                'base_salary': row_data[1] if len(row_data) > 1 else None,
+                'total_ctc': row_data[2] if len(row_data) > 2 else None,
+                'num_fte': row_data[3] if len(row_data) > 3 else None,
+                'num_intern': row_data[4] if len(row_data) > 4 else None,
+                'num_fte_intern': row_data[5] if len(row_data) > 5 else None,
+                'cgpa_cutoff': row_data[6] if len(row_data) > 6 else None,
+            }
+
+            records.append(record)
+
+        return pd.DataFrame(records)
+
+    def consolidate_all(self) -> pd.DataFrame:
+        """Consolidate all data files."""
+        all_records = []
+
+        for year in [2022, 2023, 2024, 2025, 2026]:
+            year_dir = self.data_dir / str(year)
+
+            if not year_dir.exists():
+                print(f"⚠️  Directory not found: {year_dir}")
+                continue
+
+            print(f"\n📂 Processing {year} data...")
+
+            csv_files = list(year_dir.glob("*.csv"))
+
+            for filepath in csv_files:
+                try:
+                    print(f"  - {filepath.name}")
+                    df = self.process_file(filepath, year)
+                    if len(df) > 0:
+                        all_records.append(df)
+                        print(f"    ✓ {len(df)} records")
+                    else:
+                        print(f"    ⚠ No valid records found")
+                except Exception as e:
+                    print(f"    ✗ Error: {e}")
+
+        if not all_records:
+            raise ValueError("No data was successfully processed!")
+
+        # Combine all records
+        combined_df = pd.concat(all_records, ignore_index=True)
+
+        return combined_df
+
+    def clean_and_validate(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Clean and validate the consolidated data."""
+        print("\n🧹 Cleaning and validating data...")
+
+        initial_count = len(df)
+
+        # Remove completely empty rows
+        df = df.dropna(how='all')
+
+        # Remove rows without company name
+        df = df[df['company_name'].notna() & (df['company_name'] != 'Unknown')]
+
+        # Data type conversions
+        numeric_cols = ['internship_stipend_monthly', 'base_salary', 'total_ctc',
+                       'num_fte', 'num_intern', 'num_fte_intern', 'cgpa_cutoff']
+        for col in numeric_cols:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+
+        # If total_ctc is missing but base is present, use base as ctc
+        mask = df['total_ctc'].isna() & df['base_salary'].notna()
+        df.loc[mask, 'total_ctc'] = df.loc[mask, 'base_salary']
+
+        # Validate CTC ranges
+        # Internship stipends might be in monthly format (need conversion)
+        # FTE should be annual (LPA)
+        is_internship = df['tier'].str.contains('Internship', case=False, na=False)
+
+        # For internships with suspiciously high CTC (>50), likely monthly stipend entered as annual
+        # For internships with very low CTC (<0.5), likely monthly stipend in thousands
+        df.loc[is_internship & (df['total_ctc'] > 0) & (df['total_ctc'] < 2), 'total_ctc'] = df.loc[is_internship & (df['total_ctc'] > 0) & (df['total_ctc'] < 2), 'total_ctc'] * 12
+
+        # Remove unrealistic values
+        df.loc[df['total_ctc'] <= 0, 'total_ctc'] = None  # Changed < to <=
+        df.loc[df['total_ctc'] > 250, 'total_ctc'] = None
+
+        # If CTC is way higher than base (> 10x), it's likely data entry error
+        # (placement count entered in CTC column)
+        suspicious = (df['base_salary'].notna()) & (df['total_ctc'] > df['base_salary'] * 10)
+        df.loc[suspicious, 'total_ctc'] = None
+
+        # Validate CGPA (should be between 0 and 10)
+        df.loc[(df['cgpa_cutoff'] < 0) | (df['cgpa_cutoff'] > 10), 'cgpa_cutoff'] = None
+
+        # Add derived fields
+        df['is_internship'] = is_internship
+        df['has_ctc_data'] = df['total_ctc'].notna()
+        df['has_base_data'] = df['base_salary'].notna()
+        df['has_cgpa_data'] = df['cgpa_cutoff'].notna()
+
+        removed_count = initial_count - len(df)
+        print(f"✓ Cleaned: {len(df)} valid records ({removed_count} removed)")
+
+        return df
+
+    def generate_summary_statistics(self, df: pd.DataFrame) -> Dict:
+        """Generate summary statistics."""
+        # Separate FTE and internship data
+        df_fte = df[~df['is_internship'] & df['total_ctc'].notna()]
+        df_intern = df[df['is_internship']]
+
+        summary = {
+            'total_records': int(len(df)),
+            'fte_records': int(len(df_fte)),
+            'internship_records': int(len(df_intern)),
+            'unique_companies': int(df['company_name'].nunique()),
+            'years_covered': sorted(df['batch_year'].unique().astype(int).tolist()),
+
+            'fte_statistics': {
+                'mean_ctc': round(float(df_fte['total_ctc'].mean()), 2) if len(df_fte) > 0 else None,
+                'median_ctc': round(float(df_fte['total_ctc'].median()), 2) if len(df_fte) > 0 else None,
+                'min_ctc': round(float(df_fte['total_ctc'].min()), 2) if len(df_fte) > 0 else None,
+                'max_ctc': round(float(df_fte['total_ctc'].max()), 2) if len(df_fte) > 0 else None,
+                'std_ctc': round(float(df_fte['total_ctc'].std()), 2) if len(df_fte) > 0 else None,
+            },
+
+            'records_by_year': {int(k): int(v) for k, v in df['batch_year'].value_counts().to_dict().items()},
+            'records_by_tier': {str(k): int(v) for k, v in df['tier'].value_counts().to_dict().items()},
+
+            'data_completeness': {
+                'ctc_completeness': round((df['total_ctc'].notna().sum() / len(df) * 100), 1),
+                'base_completeness': round((df['base_salary'].notna().sum() / len(df) * 100), 1),
+                'cgpa_completeness': round((df['cgpa_cutoff'].notna().sum() / len(df) * 100), 1),
+            },
+
+            'top_10_companies': {str(k): int(v) for k, v in df['company_name'].value_counts().head(10).to_dict().items()}
+        }
+
+        return summary
+
+    def save_outputs(self, df: pd.DataFrame):
+        """Save all output files."""
+        print("\n💾 Saving outputs...")
+
+        # Main consolidated file
+        output_path = self.output_dir / 'placement_data.csv'
+        df.to_csv(output_path, index=False)
+        print(f"✓ Saved: {output_path} ({len(df)} records)")
+
+        # Summary statistics
+        summary = self.generate_summary_statistics(df)
+        summary_path = self.output_dir / 'summary_statistics.json'
+        with open(summary_path, 'w') as f:
+            json.dump(summary, f, indent=2)
+        print(f"✓ Saved: {summary_path}")
+
+        return summary
+
+    def run(self):
+        """Run the complete consolidation pipeline."""
+        print("=" * 70)
+        print("         PES PLACEMENT DATA CONSOLIDATION")
+        print("=" * 70)
+
+        # Consolidate
+        df = self.consolidate_all()
+
+        # Clean and validate
+        df = self.clean_and_validate(df)
+
+        # Save outputs
+        summary = self.save_outputs(df)
+
+        # Print summary
+        print("\n" + "=" * 70)
+        print("         CONSOLIDATION COMPLETE")
+        print("=" * 70)
+        print(f"\n📊 TOTAL RECORDS: {summary['total_records']:,}")
+        print(f"   ├─ FTE Records: {summary['fte_records']:,}")
+        print(f"   └─ Internship Records: {summary['internship_records']:,}")
+        print(f"\n🏢 UNIQUE COMPANIES: {summary['unique_companies']:,}")
+        print(f"\n📅 YEARS COVERED: {', '.join(map(str, summary['years_covered']))}")
+
+        if summary['fte_statistics']['mean_ctc']:
+            print(f"\n💰 FTE CTC STATISTICS:")
+            print(f"   ├─ Mean:   ₹{summary['fte_statistics']['mean_ctc']:>6.2f} LPA")
+            print(f"   ├─ Median: ₹{summary['fte_statistics']['median_ctc']:>6.2f} LPA")
+            print(f"   ├─ Min:    ₹{summary['fte_statistics']['min_ctc']:>6.2f} LPA")
+            print(f"   └─ Max:    ₹{summary['fte_statistics']['max_ctc']:>6.2f} LPA")
+
+        print(f"\n📈 DATA COMPLETENESS:")
+        print(f"   ├─ CTC:  {summary['data_completeness']['ctc_completeness']:>5.1f}%")
+        print(f"   ├─ Base: {summary['data_completeness']['base_completeness']:>5.1f}%")
+        print(f"   └─ CGPA: {summary['data_completeness']['cgpa_completeness']:>5.1f}%")
+
+        print(f"\n🏆 TOP 5 RECRUITERS:")
+        for i, (company, count) in enumerate(list(summary['top_10_companies'].items())[:5], 1):
+            print(f"   {i}. {company:<30} {count:>3} placements")
+
+        print("\n" + "=" * 70)
 
 
 def main():
-    """Main execution function"""
-    print("=" * 80)
-    print("PES University Placement Data Consolidation")
-    print("=" * 80)
-
-    # Initialize consolidator
+    """Main entry point."""
     consolidator = PlacementDataConsolidator()
-
-    # Consolidate all data
-    df = consolidator.consolidate_all_data()
-
-    # Clean and enrich
-    df = consolidator.clean_and_enrich_data(df)
-
-    # Generate summary statistics
-    stats = consolidator.generate_summary_statistics(df)
-
-    print("\n" + "=" * 80)
-    print("Summary Statistics")
-    print("=" * 80)
-    print(f"Total Records: {stats['total_records']}")
-    print(f"Total Companies: {stats['total_companies']}")
-    print(f"Batches Covered: {stats['batches_covered']}")
-    print(f"Colleges: {stats['colleges']}")
-    print(f"\nCompensation Statistics (LPA):")
-    print(f"  Average FTE CTC: {stats['avg_fte_ctc']:.2f}")
-    print(f"  Median FTE CTC: {stats['median_fte_ctc']:.2f}")
-    print(f"  Maximum FTE CTC: {stats['max_fte_ctc']:.2f}")
-    print(f"  Minimum FTE CTC: {stats['min_fte_ctc']:.2f}")
-    print(f"\nTotal Placements: {stats['total_placements']:.0f}")
-    print(f"Average CGPA Cutoff: {stats['avg_cgpa_cutoff']:.2f}")
-
-    print(f"\nRecords by Year:")
-    for year, count in sorted(stats['records_by_year'].items()):
-        print(f"  {year}: {count}")
-
-    print(f"\nTop 10 Recruiters:")
-    for idx, (company, offers) in enumerate(stats['top_10_recruiters'].items(), 1):
-        print(f"  {idx}. {company}: {offers:.0f} offers")
-
-    # Save all datasets
-    consolidator.save_datasets(df)
-
-    # Save summary statistics
-    import json
-    with open(Path('processed_data') / 'summary_statistics.json', 'w') as f:
-        # Convert numpy types to native Python types for JSON serialization
-        stats_serializable = {k: (v.tolist() if isinstance(v, np.ndarray) else v)
-                             for k, v in stats.items()}
-        json.dump(stats_serializable, f, indent=2)
-
-    print("\n" + "=" * 80)
-    print("Data consolidation completed successfully!")
-    print("=" * 80)
-
-    return df
+    consolidator.run()
 
 
 if __name__ == "__main__":
-    df = main()
+    main()
