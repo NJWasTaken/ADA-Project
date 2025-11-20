@@ -1,0 +1,342 @@
+year,tier,company_name,job_title,internship_stipend_raw,base_salary_raw,total_ctc_raw,cgpa_cutoff_raw,fte_only,remarks,internship_stipend,base_salary,total_ctc,cgpa_cutoff,has_internship,has_base,has_ctc,has_cgpa_cutoff,ctc_to_base_ratio,timestamp
+2024,Dream,APPLE,IS&T,,,90000,7.0,,Shortlisted 9.5+,,,0.9,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Dream,DE SHAW,SDET,,,150000,8.0,,Shortlisted 8.3+,,,1.5,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,JPMC,Software Engineer,,,75000,,,Code for Good Hackathon,,,0.75,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,INTUIT,Engineer,,,100000,8.0,,They shortlisted only 9 cgpa,,,1.0,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,COMMVAULT,Engineer,,,50000,8.0,,,,,0.5,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,URBAN COMPANY,Software Development Engineer - I,,,50000,,,They shortlisted only 8 cgpa,,,0.5,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,PURE STORAGE,Engineer,,,100000,7.0,,They shortlisted only 9 cgpa,,,1.0,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,RING CENTRAL,Associate Software Engineer,,,50000,7.5,,They asked 90% in boards,,,0.5,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,COUCHBASE,Dev,,,125000,,,8cgpa+Resume Shortlisting,,,1.25,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,DEUTSHCE BANK,Graduate Analyst,,,0,7.0,,They shortlisted only 8.5 cgpa,,,0.0,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,SWYM TECH PVT LTD,Associate Software Engineer,,,50000,,,,,,0.5,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,LAM RESEARCH,Software Engineer,,,0,7.0,,Shortlisted 8+ for Dev role,,,0.0,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,SANDVINE,Software Engineer/Test Engineer,,,60000,7.5,,,,,0.6,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,CYNLR,Design and Development Associate,,,30000,,,,,,0.3,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,HYPERFACE,SDE 1,,,30000,8.0,,,,,0.3,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,NEWFOLD DIGITAL,Operations Engineer,,,50000,7.0,,,,,0.5,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,TESCO,Graduate Software Developer Engineer,,,0,8.0,,,,,0.0,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,ARISTA NETWORKS,Software Engineer,,,65000,7.5,,They shortlisted only 8 cgpa,,,0.65,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,CISCO,Technical Consultant,,,,,,It was for women only as part of Boost 3.0 program,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,EGNYTE,Software Engineer I,,,50000,7.5,,They shortlisted 8+,,,0.5,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,CLOUDERA,Software Engineer I,,,45000,8.0,,,,,0.45,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,BAXTER,Engineer Trainee,,,30000,7.0,,They shortlisted 8+,,,0.3,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,SAHAJ,Solution Consultant,,,30000,,,,,,0.3,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,KICKDRUM,Software Developer,,,35000,8.0,,,,,0.35,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,EPSILON,Software Engineer-1,,,30000,7.0,,They shortlisted 8.5+,,,0.3,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,CISCO,Cloud Application Developer,,,98000,,,,,,0.98,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,NATWEST,Software Engineer,,,0,6.0,,Shortlisted 9+ cgpa for Male and 8 cgpa for Female,,,0.0,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,SCHNEIDER ELECTRIC,Graduate Engineer Trainee (GET),,,35000,6.5,,,,,0.35,6.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,HPE R&D | ARUBA|CTY,Software Developer|Software Automation and Quality Assurance,,,40000,7.0,,,,,0.4,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,AMADEUS,SDE-1,,,30000,7.5,,,,,0.3,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,DISH TECHNOLOGIES,Engineer,,,25000,7.5,,They shortlisted 8.75+,,,0.25,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,SPRINKLR,Devops Engineer,,,40000,6.0,,,,,0.4,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,BAIN CAPABILITY NETWORK,Analyst,,,45000,,,Resume Shortlisting,,,0.45,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,SOCIETE GENERALE,Software Engineer,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,IBM ISL SECURITY,Software Developer,,,30000,7.0,,,,,0.3,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,THOROGOOD,Data & Analytics Consultant,,,35000,,,They shortlisted 8.4+,,,0.35,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,MORGAN STANLEY,Technology Analyst,,,87000,8.0,,They shortlisted above 8.5 cgpa,,,0.87,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,BRITISH TELECOM,GET Intern,,,60000,,,They shortlisted 8.6+,,,0.6,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,SAP LABS,Associate Developer|DevOps|Support|QA,,,35000,7.0,,They shortlisted 8+,,,0.35,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,DOVER,GET Intern,,,25000,,,They shortlisted 8.6+,,,0.25,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,INFIBEAM,Software Development Engineer,,,20000,8.0,,Shortlisted 8.5+,,,0.2,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,AURVA.IO,Software Engineer-1,,,30000,8.0,,Prefer Open Source Contributors,,,0.3,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,MICROCHIP TECH,"App (1,2,3,4,5),SDE(0,1),SE(Test,Quality),Firmware Testing,SW/FW Design",,,30000,,,,,,0.3,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,BLUE YONDER,Associate Software Engineer,,,50000,7.0,,,,,0.5,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,MICROCHIP TECH,"Software 1,2,3 ,Baan QA,Dynamics AX Analyst,Web Dev,ServiceNow Dev",,,30000,,,,,,0.3,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,IDFC FIRST BANK,Application Engineer,,,40000,6.0,,,,,0.4,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,NETRADYNE,"Cloud-SDET,Embedded QA Engineer-SDET,QA IOT,Data Analyst,Bizz Systems",,,,7.5,,Shortlisted 8.4+,,,,7.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,RELTIO,Associate Software Engineer,,,,8.0,,,,,,8.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,AKAMAI,Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,OBSERVE.AI,Software Engineer,,,75000,8.0,,,,,0.75,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,JAR APP,SDE Intern - Backend,,,40000,7.5,,,,,0.4,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,NETCORE CLOUD,Associate Software Engineer,,,20000,,,,,,0.2,,False,False,True,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,COHESITY,Member of Technical Staff(R&D),,,,8.0,,,,,,8.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,PALO ALTO,Software Engineer -IT,,,,,,Resume Based Shortlisting,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,RTBRICK,Software Developer,,,30000,8.0,,"90% in 10th,85% in 12th",,,0.3,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,KANGASYS,Junior Software Developer,,,30000,7.0,,Resume Based Shortlisting,,,0.3,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,ZSCALER,Associate Security Researcher,,,50000,6.5,,,,,0.5,6.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,LOWE'S INDIA,Associate Software Engineer,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,BITGO,Backend Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,FLEXERA,Associate Software Engineer,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,TATA COMMUNICATIONS,Product Manager/Cyber Security/Software Engineer,,,,6.5,,,,,,6.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,GAMESKRAFT,Software Engineer Full Stack,,,,7.0,,Resume Based Shortlisting,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,COINSWITCH,SDE-1,,,,,,Resume Based Shortlisting,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,MOTOROLA,Associate Software Engineer,,,,6.5,,Shortlisted 8.5+ and 90% in Boards,,,,6.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,AMAGI,SDET,,,,8.0,,Resume Based Shortlisting,,,,8.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,RTCAMP,Software Engineer Trainee,,,,,,Remote Work+Resume Based Shortlist,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2024,Tier 1,AVEVA,Software Engineer,,,,6.5,,Resume Based Shortlisting,,,,6.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,MYNTRA,Software Engineer,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2024,Tier 1,MEESHO,Business Analyst,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Infosys,Specialist Programmer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Bluebird,Software Engineer,25000.0,,6,7.0,,,0.25,,6.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Bain,Analyst,40000.0,,9.9,6.0,,,0.4,,9.9,6.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Deloitte,Analyst - Analytics & Technology,,,6,6.0,,,,,6.0,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Deloitte India,ET&P Oracle - Analyst,25000.0,,6,,,,0.25,,6.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Eurofins,Associate Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Tejas Networks,NMS,30000.0,,8.97,,,,0.3,,8.97,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Toshiba Software,Associate Software Engineer,45000.0,,10,7.0,,,0.45,,10.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,KPMG,Digital Solns. - Digital Next,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Dover,Software Engineer,25000.0,,,8.0,,,0.25,,,8.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Telstra,,,,9.43,,,,,,9.43,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Crestron,,30000.0,,,8.0,,,0.3,,,8.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Broadridge,,30000.0,,,7.0,,,0.3,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Conga,,12000.0,,,,,,0.12,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,IDfy,,25000.0,,,6.0,,,0.25,,,6.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Jones Lang Lasalle Technologies,,35000.0,,,8.0,,,0.35,,,8.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Aptiv,,25000.0,,,7.0,,,0.25,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Consilio,Associate,,,5,,,,,,5.0,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,AstraZeneca,,25000.0,,,,,,0.25,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Nouveau Labs,Software Engineer,25000.0,,,,,,0.25,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Bounteous x Accolite,,20000.0,,,6.0,,,0.2,,,6.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Havells India Limited,IoT and Software Roles,25000.0,,8,6.5,,,0.25,,8.0,6.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,HP,GIT Role,30000.0,,,,,,0.3,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,EY India,,,,7.5,6.5,,,,,7.5,6.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Celstream,Software Engineer,30000.0,,,,,,0.3,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,RSM USI,,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Fluidyn,,20000.0,,,7.5,,,0.2,,,7.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,DeltaX,,0.0,,,5.0,,,0.0,,,5.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Relx Group,,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,L7 Informatics,,25000.0,,3.25,8.5,,,0.25,,3.25,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Consuma,Analyst,40000.0,,6,6.5,,,0.4,,6.0,6.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Mphasis,,20000.0,,,7.0,,,0.2,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,PhData,Consultant,,,6.39,7.0,,,,,6.39,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Hourglass,,20000.0,,,7.0,,,0.2,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,ConSecure,Software Engineer (Next-Gen Cybersecurity),20000.0,,,6.5,,,0.2,,,6.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Cognizant,GenC,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Sun Life,Gradute Engineer Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Columbia Sportswear Company,Software Engineer Trainee,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Cubic Logics,Software Development Engineer,15000.0,,4.5,7.0,,,0.15,,4.5,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Oracle,Associate Consultant,50000.0,,9.34,7.0,,,0.5,,9.34,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Evam Labs,DS/DE/FS/UI,30000.0,,7.2,,,,0.3,,7.2,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Volvo,Associate Graduate Engineer,,,,6.5,,,,,,6.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Bizom,Sales Developement Representative,25000.0,,,,,,0.25,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,UST,,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Emids,Associate Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,EPAM,Junior Software Engineer,25000.0,,,,,,0.25,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,GW DeepConnect Technologies,Software Engineer,20000.0,,5,,,,0.2,,5.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Azentio,Software Development Engineer in Test,50000.0,,,8.0,,,0.5,,,8.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,BlackBuck,Associate Software Engineer,30000.0,,,,,,0.3,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,SecPod,Test automation Engineer,25000.0,,,,,,0.25,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,JSW Group,Graduate Engineer Trainee,,,6.8,6.0,,,,,6.8,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,PeopleBox,Software Engineer,20000.0,,8,,,,0.2,,8.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Emplay,Associate Data Scientist,20000.0,,,,,,0.2,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Embitel Technologies,Trainee Engineer,30000.0,,,6.5,,,0.3,,,6.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,KPMG,Analyst,,,5,6.0,,,,,5.0,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Think 41,Full Stack Engineer,25000.0,,,,,,0.25,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Superleap,Technical Product Analyst,25000.0,,6,,,,0.25,,6.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,GKN Aerospace,Graduate Trainee,,,,8.0,,,,,,8.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Webknot Technologies,Software Developer Trainee,15000.0,,6,,,,0.15,,6.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Krazybee Services,Software Engineer,25000.0,,7,8.0,,,0.25,,7.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Digital.ai,,25000.0,,,7.5,,,0.25,,,7.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Jar App,Data Analyst,,,8.1,,,,,,8.1,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Media.net,Web Application Developer,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Tsalla Aerospace,Junior Engineer,25000.0,,4.2,6.0,,,0.25,,4.2,6.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,KreditBee,Software Engineer,25000.0,,,8.0,,,0.25,,,8.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Tyfone,Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Merkle,Software Engineer,,,7,8.5,,,,,7.0,8.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,CreditAccess Grameen Limited,Data Analyst,,,5.2,6.0,,,,,5.2,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Goldman Sachs,Engineering Analyst,,,,6.5,,,,,,6.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Snapmint,Junior Analyst,,,5,7.5,,,,,5.0,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,BCE Global Tech,Dev,,,4,7.0,,,,,4.0,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Esyasoft Technologies,Software Engineer Trainee,,,,7.5,,,,,,7.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,AccioJob,Data Engineer,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Thoucentric,Supply Chain Consultant,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Happiest Minds Technologies,Software Engineer,,,,8.0,,,,,,8.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Edu-versity,Business Development Specialist,30000.0,,,6.0,,,0.3,,,6.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Orange Business,Graduate Engineer Trainee,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Edu-versity,Business Development Specialist,30000.0,,,,,,0.3,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Gnani.ai,Backend Developer (Python),,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Scaler,Business Development Associate,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Infosys,Specialist Programmer,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Cevo Technology,Software Engineer,,,8.5,7.0,,,,,8.5,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,CloudInvent,Full Stack Developer,40000.0,,,,,,0.4,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 2,Sonata Software,Trainee Digital Technology Specialist,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Whitefield Careers,Graduate Engineer Trainee,,,3.6,6.0,,,,,3.6,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 2,Trigent,Associate Software Engineer,,,,8.0,,,,,,8.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,Accenture,Associate Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,LTIMindTree,Graduate Engineer Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Cognizant,,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Safran Engineering service,,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Infosys,Systems Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,ConSecure,Software Engineer - Full Stack Dev,12000.0,,,,,,0.12,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,MathCo (The MathCompany),Trainee Analyst,,,4.5,,,,,,4.5,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,SimplyFI Softech,Innovation Trainee & Innovation Engineer,15000.0,,,,,,0.15,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Tech Mahindra,Graduate Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Harman,,30000.0,,,,,,0.3,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,PeopleBox,SDET,15000.0,,4.5,,,,0.15,,4.5,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,CGI,Associate Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Ascendion,Associate Engineer,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,HCLTech,GET,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Microland,Engineering Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Tsalla Aerospace,Junior Engineer,20000.0,,,,,,0.2,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Greenway Health India,Associate Software Engineer,40000.0,,5.5,,,,0.4,,5.5,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Winman Software,Software Engineer - L1,15000.0,,3.75,7.0,,,0.15,,3.75,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,Wipro,"Elite - Telecom, Automotive, Embedded & CPPE",,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,HCLTech,Graduate Engineer Trainee,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,Arys Garage,Software Engineer,,,,5.0,,,,,,5.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,Healthasyst,Software Developer Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,EverestIMS Technologies,Associate Software Engineer,12000.0,,,7.0,,,0.12,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,Eximietas Design,Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 3,Ninestars Information Technologies,Engineer - R&D,,,,6.0,,,,,,6.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,Atos,Junior Associate Tester,,,,7.5,,,,,,7.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 3,Aveto Consulting,SAP ABAP / Infor,,,,7.0,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,PhonePe,Software Engineer,80000.0,,19.5,6,,,0.8,,19.5,6.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Couchbase,Dev,125000.0,,20,8,,,1.25,,20.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Cisco,Software Engineer,98000.0,,,,,,0.98,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Zomato,Software Development Engineer - 1,60000.0,,24,~9,,,0.6,,24.0,9.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,StockX,Associate Software Engineer,60000.0,,20,9.5,,,0.6,,20.0,9.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Vyapar App,Software Engineer - 1,50000.0,,15,9,,,0.5,,15.0,9.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Okta,Software Engineer,100000.0,,13.75,8,,,1.0,,13.75,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Lam Research,Software Engineer - 1,,,10.9,6.5,,,,,10.9,6.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,IDFC First Bank,Application Engineer,40000.0,,14,6,,,0.4,,14.0,6.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Arista Networks,Software Engineer,65000.0,,15.9,7.5,,,0.65,,15.9,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,CBX1,Software Engineer,50000.0,,17,9,,,0.5,,17.0,9.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,IBM,Software Developer (Systems),30000.0,,17,7,,,0.3,,17.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Societe Generale,Software Engineer,32500.0,,10,7,,,0.325,,10.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,JPMorgan Chase & Co.,Software Engineer,75000.0,,13.5,8.5,,,0.75,,13.5,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Cloudera,Software Engineer - 1,45000.0,,17,9,,,0.45,,17.0,9.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Schneider Electric,Graduate Engineer Trainee,35000.0,,9,7,,,0.35,,9.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Singularity Dynamics,Software Development Engineer,30000.0,,13,8.5,,,0.3,,13.0,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Walmart,Software Development Engineer - 2,100000.0,,16.88,9,,,1.0,,16.88,9.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Typeface,Software Engineer,50000.0,,16,8.5,,,0.5,,16.0,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Egnyte,Software Engineer,50000.0,,13,7.5,,,0.5,,13.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Infibeam,Software Development Engineer,20000.0,,10,8.7,,,0.2,,10.0,8.7,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Netradyne,Software Development Engineer in Test,35000.0,,10,7.5,,,0.35,,10.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,D. E. Shaw,Software Development Engineer in Test,150000.0,,18,7,,,1.5,,18.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Meesho,Software Development Engineer,45000.0,,20,7,,,0.45,,20.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Commvault,Software Development Engineer,50000.0,,16,8.5,,,0.5,,16.0,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,SAP Labs,Dev,35000.0,,10,7,,,0.35,,10.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Sixt,Software Development Engineer - 1,40000.0,,13,8.65,,,0.4,,13.0,8.65,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Signify Innovation Lab,Assistant Development Engineer,32000.0,,11,9,,,0.32,,11.0,9.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Cynlr,Software Developer,30000.0,,14,7.75,,,0.3,,14.0,7.75,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,InMobi,Software Development Engineer - 1,45000.0,,22,7,,,0.45,,22.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Baxter Healthcare,Software Engineer - 1 (Digital),30000.0,,9.9,8,,,0.3,,9.9,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,GE Healthcare,Edison Engineering Developer,40000.0,,13,7,,,0.4,,13.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,HPE,Software Engineer (R&D),40000.0,,12,7,,,0.4,,12.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Amadeus,Software Development Engineer - 1,30000.0,,10,7.5,,,0.3,,10.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,IG Group,,,,12,8.5,,,,,12.0,8.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Epsilon,Software Engineer,30000.0,,10,7,,,0.3,,10.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Urban Company,Software Development Engineer - 1,50000.0,,16,8,,,0.5,,16.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Superjoin,Engineering Explorer,30000.0,,13,7,,,0.3,,13.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Oracle,Associate Application Developer,,,14.5,7,,,,,14.5,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,DISH Networks,Engineer,25000.0,,12,8.5,,,0.25,,12.0,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Samsung Semiconductors,Software Engineer (Embedded),50000.0,,19,7,,,0.5,,19.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,NXP Semiconductors,Software Engineer,42500.0,,15.5,7.5,,,0.425,,15.5,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Komprise,Software Engineer,50000.0,,17.41,8,,,0.5,,17.41,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Renesas,Analog Engineer,45000.0,,15,8,,,0.45,,15.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Aveva,Software Developer Graduate,,,,8.6,,,,,,8.6,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,iNube,Software Analyst,30000.0,,,8.5,,,0.3,,,8.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,McKinsey,Software Development Engineer,75000.0,,10.91,7,,,0.75,,10.91,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,BT Group,Software Engineering Professional,60000.0,,13,8,,,0.6,,13.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,eLitmus,Software Developer,29000.0,,8,8.5,,,0.29,,8.0,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Aurva,Software Engineer,40000.0,,,7,,,0.4,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Thorogood,Data and AI Consultant,,,,8.3,,,,,,8.3,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Applied Materials,IT Solutions Management,37500.0,,9.46,8.2,,,0.375,,9.46,8.2,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Dezerv,Software Engineer,75000.0,,15,8.5,,,0.75,,15.0,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Prime Numbers,Software Engineer - 1,30000.0,,12,7,,,0.3,,12.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Coinbase,Software Development Engineer - 1,140000.0,,16.05,7,,,1.4,,16.05,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Amazon,AWS Cloud Support Associate,50000.0,,10.46,6.5,,,0.5,,10.46,6.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Visa,Software Engineer,90000.0,,16.57,8,,,0.9,,16.57,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,American Express,Engineer Trainee - Software,100000.0,,13.87,7,,,1.0,,13.87,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Licious,Software Engineer,40000.0,,12,,,,0.4,,12.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Cars24,Software Development Engineer,30000.0,,11.4,8,,,0.3,,11.4,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,ConSecure,Software Engineer - NextGen Intelligence,25000.0,,,7.5,,,0.25,,,7.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Netcore,Associate Software Engineer,15000.0,,,6,,,0.15,,,6.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Media.net,Site Reliability Engineer,,,13,6,,,,,13.0,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Gameberry Labs,Software Development Engineer,50000.0,,13,8.5,,,0.5,,13.0,8.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Amagi,Product Software Engineer,,,15.17,,,,,,15.17,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Consuma,Software Engineer (Backend),35000.0,,9,6.5,,,0.35,,9.0,6.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Truva,Software Engineer,60000.0,,13,7.5,,,0.6,,13.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Cleartrip,Software Development Engineer - 1,100000.0,,18,7.5,,,1.0,,18.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Logik,Software Development Engineer,35000.0,,,,,,0.35,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Gigsky,Software Engineer,40000.0,,14,8,,,0.4,,14.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,MakeMyTrip,Software Engineer,50000.0,,12,7,,,0.5,,12.0,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,McKesson,Software Development Engineer (Data),60000.0,,,7.5,,,0.6,,,7.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Cimpress,Software Engineer,45000.0,,,7,,,0.45,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Palo Alto Networks,Software Engineer,100000.0,,14,7.5,,,1.0,,14.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Akamai Technologies,Software Engineer,35000.0,,14.36,7,,,0.35,,14.36,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,DealShare,Software Development Engineer,50000.0,,13,8,,,0.5,,13.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Körber,Software Engineer,50000.0,,11.26,7.9,,,0.5,,11.26,7.9,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Tesco,Graduate Engineer,,,18,8,,,,,18.0,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Multiplier,Associate Software Engineer,80000.0,,15,8,,,0.8,,15.0,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Sandvine,Software Engineer,,,12.5,8.5,,,,,12.5,8.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Commonwealth Bank of Australia,Graduate Software Engineer,,,,8,,,,,,8.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Rapido,Associate Product Engineer,,,15,8,,,,,15.0,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,BitGo,Software Engineer,42000.0,,15,,,,0.42,,15.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Qest,Software Engineer,30000.0,,7.2,,,,0.3,,7.2,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,ABB,Associate Software Engineer (Analytics),,,10,7.5,,,,,10.0,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,OneCap,Software Development Engineer,25000.0,,6,,,,0.25,,6.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Wokelo,Data Scientist,25000.0,,15,7.5,,,0.25,,15.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Serko,Software Engineer,50000.0,,,6,,,0.5,,,6.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Candescent,Software Engineer,30000.0,,,7,,,0.3,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,WNS Analytics,Analyst,,,10,,,,,,10.0,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Tredence,Data Analyst,,,,7,,,,,,7.0,False,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Rakuten,Software Engineer,30000.0,,,7.5,,,0.3,,,7.5,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Jar App,Software Development Engineer - 1,35000.0,,10,7.5,,,0.35,,10.0,7.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Phillips,Software Engineer,45000.0,,11.5,7,,,0.45,,11.5,7.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Physics Wallah,Software Development Trainee,35000.0,,,7,,,0.35,,,7.0,True,False,False,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Zeta,Software Development Engineer,,,14.4,8,,,,,14.4,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Lowe's,Associate Software Engineer,,,14.15,6,,,,,14.15,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Flipkart,Software Development Engineer - 1,100000.0,,18,,,,1.0,,18.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Eightfold.ai,Product Solutions Expert - 1,,,16.38,8,,,,,16.38,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Gajabuja,Associate Software Engineer,,,10,,,,,,10.0,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Nike,Software Engineer - 1,,,13.85,7,,,,,13.85,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,NetApp,Software Engineer (Cloud),,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Lemnisk,Software Engineer - 1,,,6,8,,,,,6.0,8.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Talkdesk,,100000.0,,12,6,,,1.0,,12.0,6.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Expedia Group,Software Development Engineer - 1,,,15,7.5,,,,,15.0,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,BigEndian Semiconductors,ASIC Developer,,,10,7.5,,,,,10.0,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Morgan Stanley,Technology Analyst,,,13,7.5,,,,,13.0,7.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,Flexera,Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,RapidClaims,Data Scientist,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,SAIGroup,Software Development Engineer,,,20,,,,,,20.0,,False,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Kraftx.ai,Frontend Developer,,,12,8.5,,,,,12.0,8.5,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,DocNexus,AI Engineer,,,45?,7,,,,,45.0,7.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2025,Tier 1,NextAlphaAi.com,Data Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Connectex,,30000.0,,10,,,,0.3,,10.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,S&P Global,Software Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2025,Tier 1,Lenovo,AI Experiences Engineer,,,,7.5,,,,,,7.5,False,False,False,True,,2025-11-20 09:13:00.848433
+2026,Tier 2,Deloitte,USI,,,6,6.0,,"Company asked for role preference
+but shortlisted according to
+business requirements",,,6.0,6.0,False,False,True,True,,2025-11-20 09:13:00.848433
+2026,Tier 2,British Telecom ( BT Group ),,50000,,7.64,,,CTC given by the company is 7.64 while 10.64 is the money received post retention and joining bonus. So considered 10.64 as CTC with 7.64 as base,0.5,,7.64,,True,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,"DTICI (Daimler Truck 
+Innovation Center India)",CS - Graduate Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Collins Aerospace,Graduate Engineer Trainee,20000,,,,,,0.2,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Tejas Networks,Software Engineer,30000,,,,,,0.3,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,EY,Associate Consultant,21200,,7.5,,,,0.212,,7.5,,True,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,KPMG,Tech Transformation DEQ,20000,,6,6.5,,"CTC: Total Earning Potential will be Base + Variable + Other benefits [Variable Pay - which depends on the individual’s performance, service line’s performance and the firm’s performance + Other Benefits (Gratuity & Insurance)]",0.2,,6.0,6.5,True,False,True,True,,2025-11-20 09:13:00.848433
+2026,Tier 2,Telstra,Associate Software Engineer,25000,,9.43,8.0,,There are other allowances that might be provided which is not part of the CTC. Only a few have been offered the itnernship,0.25,,9.43,8.0,True,False,True,True,,2025-11-20 09:13:00.848433
+2026,Tier 2,Applied Materials,,55000,,10,,,Additional 6000 USD stocks,0.55,,10.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Toshiba,Associate Software Engineer,45000,,10,,,Shortlisted 8.2+ for CSE,0.45,,10.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Broadridge Financial Solutions,SDE,30000,,,,,Additional 5 lacs medical insurance,0.3,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,HP,Transformation Intern,40000,,,,,Hiring for internship only with PBC,0.4,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Havells,Software Engineer,25000,,8,,,,0.25,,8.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,7-eleven,Associate Software Engineer,,,10,,,"10 inclusive of fixed + variable, Additional 1.5 JB",,,10.0,,False,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Hourglass,Patent Associate,,,7.22,,,,,,7.22,,False,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Insight Global Staffing Services,Software Engineer Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,PwC,Associate Engineer,35000,,,,,,0.35,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,phData,Associate Engineer,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Oracle (OFSS),Associate Consultant,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,ITC Infotech,4 roles,15000,,,,,,0.15,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,HPE,IT Developer,30000,,8,,,,0.3,,8.0,,True,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Consecure Technologies,Software Engineer,20000,,,,,,0.2,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Maersk GSC India Pvt. Ltd,Data Analyst Intern,50000,,,,,Internship with PBC. Internship duration - 6 months to 1 Yr,0.5,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Winman,Software Engineer L2,15000,,,,,,0.15,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Leadsquared,,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Swiggy,SDE,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,20000,,,,,ECE & EEE Only,0.2,,,,True,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Total Visited,27,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Highest CTC,11.92,Highest Base,,10,,,,,,10.0,,False,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Average CTC,9.07625,Average Base,,7.424375,,,,,,7.424375,,False,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Median CTC,9.66,Median Base,,7.36,,,,,,7.36,,False,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Wt. Average CTC,TBD Error with formula,Wt. Average Base,,TBD,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 2,Wt. Median CTC,7.6,Wt. Median Base,,6,,,,,,6.0,,False,False,True,False,,2025-11-20 09:13:00.848433
+2026,Tier 3,LTI Mindtree,Graduate Engineer Trainee,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 3,SAFRAN Engineering,,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 3,Winman,Software Engineer L1,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 3,Total Visited,3,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 3,Highest Package,5,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 3,Average Package,4.516666667,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
+2026,Tier 3,Median Package,4.5,,,,,,,,,,,False,False,False,False,,2025-11-20 09:13:00.848433
