@@ -1,6 +1,6 @@
 """
 Comprehensive Placement Data Merger
-Merges Tier 1, 2, 3 placement records from 2022-2026
+Merges ALL placement records including Tier 1/2/3, Internships, PPOs, and Cross-College data
 """
 
 import pandas as pd
@@ -58,6 +58,10 @@ def categorize_file(filename):
     """Categorize the placement file type"""
     filename_lower = filename.lower()
 
+    # Cross-college files
+    if 'cross-college' in filename_lower or 'rvce' in filename_lower or 'bms' in filename_lower:
+        return 'Cross-College'
+
     # Tier files
     if 'tier 1' in filename_lower or 'tier-1' in filename_lower or 'tier1' in filename_lower or 'tier_1' in filename_lower:
         return 'Tier 1'
@@ -67,7 +71,6 @@ def categorize_file(filename):
         return 'Tier 3'
     elif 'dream' in filename_lower:
         return 'Dream'
-
     # Internship files
     elif 'spring internship' in filename_lower:
         return 'Spring Internship'
@@ -77,94 +80,138 @@ def categorize_file(filename):
         return 'Internship Only'
     elif 'ppo' in filename_lower:
         return 'PPO'
-
     # Default
     else:
         return 'Other'
 
+def robust_csv_read(file_path):
+    """Robustly read CSV with various encodings and formats"""
+    encodings = ['utf-8', 'latin1', 'iso-8859-1', 'cp1252']
+
+    for encoding in encodings:
+        try:
+            df = pd.read_csv(file_path, encoding=encoding, header=None)
+            return df
+        except:
+            continue
+
+    # Last resort - read as bytes
+    try:
+        df = pd.read_csv(file_path, encoding='utf-8', errors='ignore', header=None)
+        return df
+    except:
+        return None
+
 def parse_placement_file(file_path, year, category):
-    """Parse a single placement CSV file"""
+    """Parse a single placement CSV file with robust extraction"""
 
     try:
-        # Try reading with different encodings
-        try:
-            df = pd.read_csv(file_path, encoding='utf-8')
-        except:
-            df = pd.read_csv(file_path, encoding='latin1')
+        # Read CSV without headers
+        df = robust_csv_read(file_path)
 
-        # Find the header row (look for common column names)
-        header_keywords = ['company', 'name', 'compensation', 'ctc', 'base', 'role', 'job', 'title']
-        header_row = 0
+        if df is None or len(df) == 0:
+            return []
 
-        for idx, row in df.iterrows():
-            row_str = ' '.join([str(x).lower() for x in row if pd.notna(x)])
-            if any(keyword in row_str for keyword in header_keywords):
-                header_row = idx
-                break
-
-        # Re-read with correct header
-        if header_row > 0:
-            try:
-                df = pd.read_csv(file_path, encoding='utf-8', skiprows=header_row)
-            except:
-                df = pd.read_csv(file_path, encoding='latin1', skiprows=header_row)
-
-        # Standardize column names
-        df.columns = [str(col).strip().lower() for col in df.columns]
-
-        # Map common column variations
-        column_mapping = {}
-        for col in df.columns:
-            if 'company' in col and 'company' not in column_mapping:
-                column_mapping[col] = 'company_name'
-            elif ('job' in col or 'role' in col or 'title' in col) and 'job_title' not in column_mapping:
-                column_mapping[col] = 'job_title'
-            elif 'intern' in col and 'stipend' not in col and 'internship_stipend' not in column_mapping:
-                column_mapping[col] = 'internship_stipend'
-            elif 'base' in col and 'base_salary' not in column_mapping:
-                column_mapping[col] = 'base_salary'
-            elif ('ctc' in col or 'compensation' in col) and 'total_ctc' not in column_mapping:
-                column_mapping[col] = 'total_ctc'
-            elif 'cgpa' in col or 'gpa' in col and 'cgpa_cutoff' not in column_mapping:
-                column_mapping[col] = 'cgpa_cutoff'
-            elif 'fte' in col and 'intern' not in col and 'fte_only' not in column_mapping:
-                column_mapping[col] = 'fte_only'
-
-        df = df.rename(columns=column_mapping)
-
-        # Extract relevant columns
         records = []
 
-        for _, row in df.iterrows():
-            # Skip empty rows
+        # Find company name column and data columns
+        # Usually: Column 0 = row number, Column 1 = company name, rest = data
+
+        for idx in range(len(df)):
+            row = df.iloc[idx]
+
+            # Skip completely empty rows
             if row.isna().all():
                 continue
 
-            # Get company name
+            # Try to get company name from column 1 (or column 0 if column 1 is empty)
             company = None
-            for col in ['company_name', 'company', 'name']:
-                if col in df.columns and pd.notna(row.get(col)) and str(row.get(col)).strip():
-                    company = str(row.get(col)).strip()
-                    break
 
-            if not company or str(company).lower() in ['', 'nan', 'company', 'none']:
+            # Check column 1 first (most common)
+            if len(row) > 1 and pd.notna(row.iloc[1]):
+                company = str(row.iloc[1]).strip()
+
+            # If not found, try column 0
+            if not company or company == '' and len(row) > 0 and pd.notna(row.iloc[0]):
+                company = str(row.iloc[0]).strip()
+
+            # Skip if no company or if it's a header-like value
+            if not company or company == '':
                 continue
 
-            # Create record
-            record = {
-                'year': year,
-                'category': category,
-                'company_name': company,
-                'job_title': str(row.get('job_title', '')).strip() if pd.notna(row.get('job_title')) else '',
-                'internship_stipend_raw': str(row.get('internship_stipend', '')).strip() if pd.notna(row.get('internship_stipend')) else '',
-                'base_salary_raw': str(row.get('base_salary', '')).strip() if pd.notna(row.get('base_salary')) else '',
-                'total_ctc_raw': str(row.get('total_ctc', '')).strip() if pd.notna(row.get('total_ctc')) else '',
-                'cgpa_cutoff_raw': str(row.get('cgpa_cutoff', '')).strip() if pd.notna(row.get('cgpa_cutoff')) else '',
-                'fte_only': str(row.get('fte_only', '')).strip() if pd.notna(row.get('fte_only')) else '',
-                'remarks': str(row.get('note', row.get('remarks', row.get('additional information', '')))).strip() if pd.notna(row.get('note', row.get('remarks', row.get('additional information', '')))) else ''
-            }
+            # Skip header rows and metadata
+            skip_keywords = ['tier', 'name', 'company', 'job', 'compensation', 'ctc', 'base',
+                           'stipend', 'fte', 'ppt', 'test', 'interview', 'cgpa', 'color', 'legend',
+                           'note', 'placements', 'batch', 'visited', 'highest', 'average', 'median']
 
-            records.append(record)
+            if any(keyword in company.lower() for keyword in skip_keywords):
+                continue
+
+            # Skip numeric-only company names (likely row numbers)
+            try:
+                float(company)
+                continue
+            except:
+                pass
+
+            # Extract salary information from subsequent columns
+            internship_stipend = ''
+            base_salary = ''
+            total_ctc = ''
+            cgpa_cutoff = ''
+            job_title = ''
+
+            # Try to extract values from various column positions
+            # Different files have different structures, so we try multiple positions
+
+            if len(row) > 2 and pd.notna(row.iloc[2]):
+                job_title = str(row.iloc[2]).strip()
+
+            # Look for numeric values in columns 3-10
+            for col_idx in range(3, min(len(row), 15)):
+                val = row.iloc[col_idx]
+                if pd.notna(val):
+                    val_str = str(val).strip()
+                    # Check if it looks like a salary (contains numbers)
+                    if re.search(r'\d', val_str):
+                        if not internship_stipend:
+                            internship_stipend = val_str
+                        elif not base_salary:
+                            base_salary = val_str
+                        elif not total_ctc:
+                            total_ctc = val_str
+                        else:
+                            break
+
+            # Look for CGPA (usually between 5-10)
+            for col_idx in range(3, min(len(row), 20)):
+                val = row.iloc[col_idx]
+                if pd.notna(val):
+                    val_str = str(val).strip()
+                    # Check if it's a CGPA-like value
+                    try:
+                        num = float(val_str)
+                        if 4.0 <= num <= 10.0:
+                            cgpa_cutoff = val_str
+                            break
+                    except:
+                        pass
+
+            # Create record only if we have at least a company name and some data
+            if company:
+                record = {
+                    'year': year,
+                    'category': category,
+                    'company_name': company,
+                    'job_title': job_title,
+                    'internship_stipend_raw': internship_stipend,
+                    'base_salary_raw': base_salary,
+                    'total_ctc_raw': total_ctc,
+                    'cgpa_cutoff_raw': cgpa_cutoff,
+                    'fte_only': '',
+                    'remarks': ''
+                }
+                records.append(record)
 
         return records
 
@@ -173,7 +220,7 @@ def parse_placement_file(file_path, year, category):
         return []
 
 def merge_all_placement_data():
-    """Merge all placement data from 2022-2026"""
+    """Merge all placement data from 2022-2026 including cross-college"""
 
     all_records = []
 
@@ -184,7 +231,7 @@ def merge_all_placement_data():
         year_path = f'data/{year}/'
 
         if not os.path.exists(year_path):
-            print(f"⚠️  Year {year} directory not found at: {os.path.abspath(year_path)}")
+            print(f"⚠️  Year {year} directory not found")
             continue
 
         # Find all CSV files
@@ -205,6 +252,28 @@ def merge_all_placement_data():
             print(f"✓ Parsed {len(records)} records from {filename} [{category}]")
             all_records.extend(records)
 
+    # Process cross-college data
+    cross_college_path = 'data/cross-college-pes-rvce-bms-2025/'
+    if os.path.exists(cross_college_path):
+        print(f"\n📊 Processing Cross-College Data...")
+        csv_files = glob(f'{cross_college_path}*.csv')
+
+        for csv_file in csv_files:
+            filename = os.path.basename(csv_file)
+            category = 'Cross-College'
+
+            # Determine which college from filename
+            if 'pes' in filename.lower():
+                category = 'Cross-College-PES'
+            elif 'rvce' in filename.lower():
+                category = 'Cross-College-RVCE'
+            elif 'bms' in filename.lower():
+                category = 'Cross-College-BMS'
+
+            records = parse_placement_file(csv_file, 2025, category)
+            print(f"✓ Parsed {len(records)} records from {filename} [{category}]")
+            all_records.extend(records)
+
     # Create DataFrame
     df = pd.DataFrame(all_records)
 
@@ -214,13 +283,14 @@ def merge_all_placement_data():
         print("Please check that the data files exist and have the correct format.")
         return df
 
-    # Ensure required columns exist (in case some records are missing fields)
+    # Ensure required columns exist
     required_columns = ['internship_stipend_raw', 'base_salary_raw', 'total_ctc_raw', 'cgpa_cutoff_raw']
     for col in required_columns:
         if col not in df.columns:
             df[col] = ''
 
     # Convert salary columns to numeric
+    print(f"\n💰 Converting salaries to numeric format...")
     df['internship_stipend'] = df['internship_stipend_raw'].apply(extract_salary)
     df['base_salary'] = df['base_salary_raw'].apply(extract_salary)
     df['total_ctc'] = df['total_ctc_raw'].apply(extract_salary)
@@ -231,7 +301,10 @@ def merge_all_placement_data():
             return np.nan
         match = re.search(r'([\d.]+)', str(value))
         if match:
-            return float(match.group(1))
+            cgpa = float(match.group(1))
+            # Sanity check - CGPA should be between 4 and 10
+            if 4.0 <= cgpa <= 10.0:
+                return cgpa
         return np.nan
 
     df['cgpa_cutoff'] = df['cgpa_cutoff_raw'].apply(extract_cgpa)
@@ -251,11 +324,14 @@ def merge_all_placement_data():
     # Add timestamp
     df['timestamp'] = pd.Timestamp.now()
 
+    # Remove duplicates (same company, year, category with no meaningful data)
+    df = df.drop_duplicates(subset=['company_name', 'year', 'category'], keep='first')
+
     return df
 
 if __name__ == "__main__":
     print("=" * 80)
-    print("PLACEMENT DATA MERGER - PESU 2022-2026")
+    print("COMPREHENSIVE PLACEMENT DATA MERGER - PESU 2022-2026")
     print("=" * 80)
     print(f"\n📁 Current working directory: {os.getcwd()}")
     print(f"📁 Looking for data in: {os.path.abspath('data/')}")
@@ -264,7 +340,6 @@ if __name__ == "__main__":
     if not os.path.exists('data/'):
         print("\n❌ ERROR: 'data/' directory not found!")
         print("   Please make sure you're running this script from the project root directory.")
-        print(f"   Current directory: {os.getcwd()}")
         exit(1)
 
     # Merge all data
@@ -289,14 +364,22 @@ if __name__ == "__main__":
     print(f"\nRecords by Category:")
     print(merged_df['category'].value_counts().sort_values(ascending=False))
 
-    print(f"\nTop 10 Companies by Frequency:")
-    print(merged_df['company_name'].value_counts().head(10))
+    print(f"\nTop 15 Companies by Frequency:")
+    print(merged_df['company_name'].value_counts().head(15))
 
     print(f"\nSalary Statistics (in Lakhs):")
-    print(f"Base Salary - Mean: {merged_df['base_salary'].mean():.2f}, Median: {merged_df['base_salary'].median():.2f}")
-    print(f"Total CTC - Mean: {merged_df['total_ctc'].mean():.2f}, Median: {merged_df['total_ctc'].median():.2f}")
+    ctc_valid = merged_df['total_ctc'].dropna()
+    base_valid = merged_df['base_salary'].dropna()
+    if len(ctc_valid) > 0:
+        print(f"Total CTC - Mean: ₹{ctc_valid.mean():.2f}L, Median: ₹{ctc_valid.median():.2f}L")
+    if len(base_valid) > 0:
+        print(f"Base Salary - Mean: ₹{base_valid.mean():.2f}L, Median: ₹{base_valid.median():.2f}L")
 
-    print(f"\nCGPA Cutoff Statistics:")
-    print(f"Mean: {merged_df['cgpa_cutoff'].mean():.2f}, Median: {merged_df['cgpa_cutoff'].median():.2f}")
+    cgpa_valid = merged_df['cgpa_cutoff'].dropna()
+    if len(cgpa_valid) > 0:
+        print(f"\nCGPA Cutoff Statistics:")
+        print(f"Mean: {cgpa_valid.mean():.2f}, Median: {cgpa_valid.median():.2f}")
 
     print("\n" + "=" * 80)
+    print(f"✅ Dataset ready for analysis with {len(merged_df)} total records!")
+    print("=" * 80)
