@@ -74,7 +74,7 @@
       "year": 2026,
       "total_placements": 177,
       "unique_companies": 166,
-      "mean_ctc": 14.167142857142858,
+      "mean_ctc": 14.167142857142856,
       "median_ctc": 12.0,
       "std_ctc": 7.804555578085697,
       "min_ctc": 1.0,
@@ -113,7 +113,7 @@
       "year": 2026,
       "placement_growth_%": -37.01067615658363,
       "company_growth_%": -37.121212121212125,
-      "mean_ctc_growth_%": 6.325028735332841,
+      "mean_ctc_growth_%": 6.325028735332827,
       "median_ctc_growth_%": 11.627906976744185
     }
   ],
@@ -161,7 +161,7 @@
       16.060502793296088,
       10.442130434782607,
       13.324372469635627,
-      14.167142857142858
+      14.167142857142856
     ],
     "training_median_ctc": [
       8.0,
@@ -170,29 +170,29 @@
       10.75,
       12.0
     ],
-    "slope_mean": 0.35489974958884124,
-    "intercept_mean": -705.3133476673695,
+    "slope_mean": 0.3548997495888408,
+    "intercept_mean": -705.3133476673687,
     "slope_median": 0.4750000000000002,
     "intercept_median": -950.8500000000005,
-    "r2_score_mean": 0.05919152293943453,
+    "r2_score_mean": 0.05919152293940699,
     "r2_score_median": 0.08341035120147455,
     "predictions": [
       {
         "year": 2027,
-        "predicted_mean_ctc": 14.068444749211722,
+        "predicted_mean_ctc": 14.068444749211608,
         "predicted_median_ctc": 11.974999999999909,
         "confidence_interval_mean": {
-          "lower": 10.146534814532671,
-          "upper": 17.99035468389077
+          "lower": 10.146534814532501,
+          "upper": 17.990354683890715
         }
       },
       {
         "year": 2028,
-        "predicted_mean_ctc": 14.423344498800589,
+        "predicted_mean_ctc": 14.423344498800475,
         "predicted_median_ctc": 12.449999999999932,
         "confidence_interval_mean": {
-          "lower": 10.501434564121539,
-          "upper": 18.34525443347964
+          "lower": 10.501434564121368,
+          "upper": 18.34525443347958
         }
       }
     ]
@@ -241,20 +241,13 @@
       "2023": 66.32141317097836,
       "2024": 71.95602469021925,
       "2025": 67.40522898743714,
-      "2026": 55.08912881577077
+      "2026": 55.089128815770785
     },
     "overall_trend_stability": "stable",
     "most_stable_year": 2026,
     "most_volatile_year": 2022
   },
   "emerging_companies": [
-    {
-      "company": "Consecure",
-      "first_appearance": 2025,
-      "total_hires": 3,
-      "avg_ctc": 8.333333333333334,
-      "tier": "Tier-1"
-    },
     {
       "company": "Total Visited",
       "first_appearance": 2026,
@@ -263,10 +256,38 @@
       "tier": "Tier-1"
     },
     {
-      "company": "Average Ctc",
-      "first_appearance": 2026,
+      "company": "Consecure",
+      "first_appearance": 2025,
+      "total_hires": 3,
+      "avg_ctc": 8.333333333333334,
+      "tier": "Tier-1"
+    },
+    {
+      "company": "Tsalla Aerospace",
+      "first_appearance": 2025,
+      "total_hires": 2,
+      "avg_ctc": 5.5,
+      "tier": "Tier-2"
+    },
+    {
+      "company": "Support",
+      "first_appearance": 2025,
       "total_hires": 2,
       "avg_ctc": null,
+      "tier": "Tier-1"
+    },
+    {
+      "company": "Commonwealth Bank Of Australia",
+      "first_appearance": 2025,
+      "total_hires": 2,
+      "avg_ctc": 18.65,
+      "tier": "Tier-1"
+    },
+    {
+      "company": "Stockx",
+      "first_appearance": 2025,
+      "total_hires": 2,
+      "avg_ctc": 22.3,
       "tier": "Tier-1"
     },
     {
@@ -277,45 +298,24 @@
       "tier": "Tier-1"
     },
     {
-      "company": "Elitmus",
-      "first_appearance": 2025,
-      "total_hires": 2,
-      "avg_ctc": 21.055,
-      "tier": "Tier-1"
-    },
-    {
-      "company": "Highest Ctc",
+      "company": "Wt. Average Ctc",
       "first_appearance": 2026,
-      "total_hires": 2,
-      "avg_ctc": 10.0,
-      "tier": "Tier-1"
-    },
-    {
-      "company": "Support",
-      "first_appearance": 2025,
       "total_hires": 2,
       "avg_ctc": null,
       "tier": "Tier-1"
-    },
-    {
-      "company": "Presales",
-      "first_appearance": 2025,
-      "total_hires": 2,
-      "avg_ctc": 7.0,
-      "tier": "Tier-2"
-    },
-    {
-      "company": "Hp",
-      "first_appearance": 2025,
-      "total_hires": 2,
-      "avg_ctc": 8.5,
-      "tier": "Tier-2"
     },
     {
       "company": "Relx Group",
       "first_appearance": 2025,
       "total_hires": 2,
       "avg_ctc": 13.19,
+      "tier": "Tier-1"
+    },
+    {
+      "company": "Elitmus",
+      "first_appearance": 2025,
+      "total_hires": 2,
+      "avg_ctc": 21.055,
       "tier": "Tier-1"
     }
   ],
@@ -341,17 +341,17 @@
       "hires_2026": 0
     },
     {
-      "company": "Data Scientist",
+      "company": "HPE",
       "total_hires": 6,
-      "years_active": 2,
-      "avg_hires_per_year": 3.0,
+      "years_active": 5,
+      "avg_hires_per_year": 1.2,
       "first_year": 2022,
       "last_year": 2026,
-      "trend": "decreasing",
-      "hires_2022": 4,
-      "hires_2023": 0,
-      "hires_2024": 0,
-      "hires_2025": 0,
+      "trend": "increasing",
+      "hires_2022": 1,
+      "hires_2023": 1,
+      "hires_2024": 1,
+      "hires_2025": 1,
       "hires_2026": 2
     },
     {
@@ -369,20 +369,6 @@
       "hires_2026": 1
     },
     {
-      "company": "HPE",
-      "total_hires": 6,
-      "years_active": 5,
-      "avg_hires_per_year": 1.2,
-      "first_year": 2022,
-      "last_year": 2026,
-      "trend": "increasing",
-      "hires_2022": 1,
-      "hires_2023": 1,
-      "hires_2024": 1,
-      "hires_2025": 1,
-      "hires_2026": 2
-    },
-    {
       "company": "KPMG",
       "total_hires": 6,
       "years_active": 5,
@@ -395,20 +381,6 @@
       "hires_2024": 1,
       "hires_2025": 2,
       "hires_2026": 1
-    },
-    {
-      "company": "Cognizant",
-      "total_hires": 6,
-      "years_active": 4,
-      "avg_hires_per_year": 1.5,
-      "first_year": 2022,
-      "last_year": 2025,
-      "trend": "increasing",
-      "hires_2022": 1,
-      "hires_2023": 2,
-      "hires_2024": 1,
-      "hires_2025": 2,
-      "hires_2026": 0
     },
     {
       "company": "Oracle",
@@ -425,35 +397,35 @@
       "hires_2026": 1
     },
     {
-      "company": "Cisco",
-      "total_hires": 5,
-      "years_active": 4,
-      "avg_hires_per_year": 1.25,
-      "first_year": 2022,
-      "last_year": 2025,
-      "trend": "decreasing",
-      "hires_2022": 1,
-      "hires_2023": 1,
-      "hires_2024": 2,
-      "hires_2025": 1,
-      "hires_2026": 0
-    },
-    {
-      "company": "Business Analyst",
-      "total_hires": 5,
-      "years_active": 4,
-      "avg_hires_per_year": 1.25,
+      "company": "Data Scientist",
+      "total_hires": 6,
+      "years_active": 2,
+      "avg_hires_per_year": 3.0,
       "first_year": 2022,
       "last_year": 2026,
-      "trend": "increasing",
-      "hires_2022": 1,
-      "hires_2023": 1,
+      "trend": "decreasing",
+      "hires_2022": 4,
+      "hires_2023": 0,
       "hires_2024": 0,
-      "hires_2025": 1,
+      "hires_2025": 0,
       "hires_2026": 2
     },
     {
-      "company": "Cloudera",
+      "company": "Cognizant",
+      "total_hires": 6,
+      "years_active": 4,
+      "avg_hires_per_year": 1.5,
+      "first_year": 2022,
+      "last_year": 2025,
+      "trend": "increasing",
+      "hires_2022": 1,
+      "hires_2023": 2,
+      "hires_2024": 1,
+      "hires_2025": 2,
+      "hires_2026": 0
+    },
+    {
+      "company": "Lam Research",
       "total_hires": 5,
       "years_active": 5,
       "avg_hires_per_year": 1.0,
@@ -467,7 +439,7 @@
       "hires_2026": 1
     },
     {
-      "company": "Conga",
+      "company": "Cloudera",
       "total_hires": 5,
       "years_active": 5,
       "avg_hires_per_year": 1.0,
@@ -495,6 +467,48 @@
       "hires_2026": 1
     },
     {
+      "company": "Cynlr",
+      "total_hires": 5,
+      "years_active": 4,
+      "avg_hires_per_year": 1.25,
+      "first_year": 2023,
+      "last_year": 2026,
+      "trend": "decreasing",
+      "hires_2022": 0,
+      "hires_2023": 2,
+      "hires_2024": 1,
+      "hires_2025": 1,
+      "hires_2026": 1
+    },
+    {
+      "company": "Business Analyst",
+      "total_hires": 5,
+      "years_active": 4,
+      "avg_hires_per_year": 1.25,
+      "first_year": 2022,
+      "last_year": 2026,
+      "trend": "increasing",
+      "hires_2022": 1,
+      "hires_2023": 1,
+      "hires_2024": 0,
+      "hires_2025": 1,
+      "hires_2026": 2
+    },
+    {
+      "company": "Cisco",
+      "total_hires": 5,
+      "years_active": 4,
+      "avg_hires_per_year": 1.25,
+      "first_year": 2022,
+      "last_year": 2025,
+      "trend": "decreasing",
+      "hires_2022": 1,
+      "hires_2023": 1,
+      "hires_2024": 2,
+      "hires_2025": 1,
+      "hires_2026": 0
+    },
+    {
       "company": "Dover",
       "total_hires": 5,
       "years_active": 4,
@@ -504,6 +518,34 @@
       "trend": "decreasing",
       "hires_2022": 2,
       "hires_2023": 0,
+      "hires_2024": 1,
+      "hires_2025": 1,
+      "hires_2026": 1
+    },
+    {
+      "company": "Conga",
+      "total_hires": 5,
+      "years_active": 5,
+      "avg_hires_per_year": 1.0,
+      "first_year": 2022,
+      "last_year": 2026,
+      "trend": "decreasing",
+      "hires_2022": 1,
+      "hires_2023": 1,
+      "hires_2024": 1,
+      "hires_2025": 1,
+      "hires_2026": 1
+    },
+    {
+      "company": "Applied Materials",
+      "total_hires": 5,
+      "years_active": 5,
+      "avg_hires_per_year": 1.0,
+      "first_year": 2022,
+      "last_year": 2026,
+      "trend": "decreasing",
+      "hires_2022": 1,
+      "hires_2023": 1,
       "hires_2024": 1,
       "hires_2025": 1,
       "hires_2026": 1
@@ -537,34 +579,6 @@
       "hires_2026": 0
     },
     {
-      "company": "Applied Materials",
-      "total_hires": 5,
-      "years_active": 5,
-      "avg_hires_per_year": 1.0,
-      "first_year": 2022,
-      "last_year": 2026,
-      "trend": "decreasing",
-      "hires_2022": 1,
-      "hires_2023": 1,
-      "hires_2024": 1,
-      "hires_2025": 1,
-      "hires_2026": 1
-    },
-    {
-      "company": "Cynlr",
-      "total_hires": 5,
-      "years_active": 4,
-      "avg_hires_per_year": 1.25,
-      "first_year": 2023,
-      "last_year": 2026,
-      "trend": "decreasing",
-      "hires_2022": 0,
-      "hires_2023": 2,
-      "hires_2024": 1,
-      "hires_2025": 1,
-      "hires_2026": 1
-    },
-    {
       "company": "Data Engineer",
       "total_hires": 5,
       "years_active": 2,
@@ -576,20 +590,6 @@
       "hires_2023": 0,
       "hires_2024": 0,
       "hires_2025": 0,
-      "hires_2026": 1
-    },
-    {
-      "company": "Lam Research",
-      "total_hires": 5,
-      "years_active": 5,
-      "avg_hires_per_year": 1.0,
-      "first_year": 2022,
-      "last_year": 2026,
-      "trend": "decreasing",
-      "hires_2022": 1,
-      "hires_2023": 1,
-      "hires_2024": 1,
-      "hires_2025": 1,
       "hires_2026": 1
     },
     {
@@ -608,16 +608,6 @@
     }
   ],
   "seasonal_patterns": {
-    "Internship-Summer": {
-      "total_count": 79,
-      "avg_per_year": 19.75,
-      "yearly_breakdown": {
-        "2022": 20,
-        "2024": 12,
-        "2025": 28,
-        "2026": 19
-      }
-    },
     "Internship-Spring": {
       "total_count": 397,
       "avg_per_year": 99.25,
@@ -626,6 +616,16 @@
         "2023": 17,
         "2024": 154,
         "2025": 134
+      }
+    },
+    "Internship-Summer": {
+      "total_count": 79,
+      "avg_per_year": 19.75,
+      "yearly_breakdown": {
+        "2022": 20,
+        "2024": 12,
+        "2025": 28,
+        "2026": 19
       }
     },
     "Internship": {

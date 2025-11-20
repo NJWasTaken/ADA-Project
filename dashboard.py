@@ -7,6 +7,7 @@ Run with: streamlit run dashboard.py
 """
 
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -21,7 +22,6 @@ from temporal_analysis import TemporalAnalyzer
 
 st.set_page_config(
     page_title="PES Placement Analytics",
-    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -101,7 +101,7 @@ df_intern = df[df['is_internship']].copy()
 # HEADER
 # ============================================================================
 
-st.markdown('<p class="main-header">📊 PES Placement Analytics</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header">PES Placement Analytics</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Data-Driven Insights | 2022-2026 Batches</p>', unsafe_allow_html=True)
 st.markdown("---")
 
@@ -188,8 +188,8 @@ st.markdown("---")
 # TABS
 # ============================================================================
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-    "📈 Overview", "🏢 Companies", "💰 Salary Analysis", "🎯 Insights", "📂 Data Explorer", "🔮 Temporal Analysis & Predictions"
+tab1, tab2, tab3, tab4, tab5, tab6, tab_interactive = st.tabs([
+    "Overview", "Companies", "Salary Analysis", "Insights", "Data Explorer", "Temporal Analysis & Predictions", "Interactive Visualizations"
 ])
 
 # ----------------------------------------------------------------------------
@@ -197,7 +197,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
 # ----------------------------------------------------------------------------
 
 with tab1:
-    st.header("📈 Placement Overview")
+    st.header("Placement Overview")
 
     col1, col2 = st.columns(2)
 
@@ -282,7 +282,7 @@ with tab1:
 # ----------------------------------------------------------------------------
 
 with tab2:
-    st.header("🏢 Company Analysis")
+    st.header("Company Analysis")
 
     col1, col2 = st.columns(2)
 
@@ -347,7 +347,7 @@ with tab2:
 # ----------------------------------------------------------------------------
 
 with tab3:
-    st.header("💰 Salary Analysis")
+    st.header("Salary Analysis")
 
     if len(df_fte_filtered) > 0:
         col1, col2 = st.columns(2)
@@ -417,13 +417,13 @@ with tab3:
 # ----------------------------------------------------------------------------
 
 with tab4:
-    st.header("🎯 Key Insights")
+    st.header("Key Insights")
 
     if summary:
         col1, col2 = st.columns(2)
 
         with col1:
-            st.subheader("📊 Overall Statistics")
+            st.subheader("Overall Statistics")
             st.markdown(f"""
             - **Total Records:** {summary['total_records']:,}
             - **FTE Records:** {summary['fte_records']:,}
@@ -432,7 +432,7 @@ with tab4:
             - **Years Covered:** {', '.join(map(str, summary['years_covered']))}
             """)
 
-            st.subheader("💰 FTE CTC Statistics")
+            st.subheader("FTE CTC Statistics")
             st.markdown(f"""
             - **Mean CTC:** ₹{summary['fte_statistics']['mean_ctc']:.2f} LPA
             - **Median CTC:** ₹{summary['fte_statistics']['median_ctc']:.2f} LPA
@@ -442,20 +442,20 @@ with tab4:
             """)
 
         with col2:
-            st.subheader("📈 Data Completeness")
+            st.subheader("Data Completeness")
             st.markdown(f"""
             - **CTC Data:** {summary['data_completeness']['ctc_completeness']:.1f}%
             - **Base Salary Data:** {summary['data_completeness']['base_completeness']:.1f}%
             - **CGPA Data:** {summary['data_completeness']['cgpa_completeness']:.1f}%
             """)
 
-            st.subheader("🏆 Top 10 Recruiters")
+            st.subheader("Top 10 Recruiters")
             for i, (company, count) in enumerate(summary['top_10_companies'].items(), 1):
                 st.markdown(f"{i}. **{company}** - {count} placements")
 
     # Generate insights from filtered data
     st.markdown("---")
-    st.subheader("📌 Insights from Filtered Data")
+    st.subheader("Insights from Filtered Data")
 
     insights = []
 
@@ -464,16 +464,16 @@ with tab4:
         max_ctc = df_fte_filtered['total_ctc'].max()
         top_company = df_fte_filtered.groupby('company_name')['total_ctc'].mean().idxmax()
 
-        insights.append(f"📊 Average FTE CTC: **₹{avg_ctc:.2f} LPA**")
-        insights.append(f"🏆 Highest CTC offered: **₹{max_ctc:.2f} LPA**")
-        insights.append(f"⭐ Top paying company (avg): **{top_company}**")
+        insights.append(f"Average FTE CTC: **₹{avg_ctc:.2f} LPA**")
+        insights.append(f"Highest CTC offered: **₹{max_ctc:.2f} LPA**")
+        insights.append(f"Top paying company (avg): **{top_company}**")
 
         # Top tier analysis
         if 'tier' in df_fte_filtered.columns:
             tier_avg = df_fte_filtered.groupby('tier')['total_ctc'].mean().sort_values(ascending=False)
             if len(tier_avg) > 0:
                 top_tier = tier_avg.index[0]
-                insights.append(f"📈 Highest paying tier: **{top_tier}** (avg ₹{tier_avg.iloc[0]:.2f} LPA)")
+                insights.append(f"Highest paying tier: **{top_tier}** (avg ₹{tier_avg.iloc[0]:.2f} LPA)")
 
     for insight in insights:
         st.markdown(f"- {insight}")
@@ -483,7 +483,7 @@ with tab4:
 # ----------------------------------------------------------------------------
 
 with tab5:
-    st.header("📂 Data Explorer")
+    st.header("Data Explorer")
 
     st.markdown("Explore the raw placement data with interactive filters and sorting.")
 
@@ -521,7 +521,7 @@ with tab5:
         # Download button
         csv = display_df.to_csv(index=False)
         st.download_button(
-            label="📥 Download Filtered Data (CSV)",
+            label="Download Filtered Data (CSV)",
             data=csv,
             file_name=f"placement_data_filtered_{len(display_df)}_records.csv",
             mime="text/csv"
@@ -532,19 +532,19 @@ with tab5:
 # ----------------------------------------------------------------------------
 
 with tab6:
-    st.header("🔮 Temporal Analysis & Predictions")
+    st.header("Temporal Analysis & Predictions")
 
     if temporal_data is None:
-        st.warning("⚠️ Temporal analysis not found. Run `python temporal_analysis.py` to generate insights.")
+        st.warning("Temporal analysis not found. Run `python temporal_analysis.py` to generate insights.")
         if st.button("Generate Temporal Analysis Now"):
             with st.spinner("Running temporal analysis..."):
                 from temporal_analysis import save_temporal_analysis
                 temporal_data = save_temporal_analysis()
-                st.success("✅ Analysis complete! Refresh the page to see results.")
+                st.success("Analysis complete! Refresh the page to see results.")
                 st.experimental_rerun()
     else:
         # Key Insights Summary
-        st.subheader("🎯 Key Insights")
+        st.subheader("Key Insights")
         if 'key_insights' in temporal_data and temporal_data['key_insights']:
             for insight in temporal_data['key_insights']:
                 st.info(f"💡 {insight}")
@@ -552,7 +552,7 @@ with tab6:
         st.markdown("---")
 
         # Yearly Statistics
-        st.subheader("📊 Yearly Statistics & Trends")
+        st.subheader("Yearly Statistics & Trends")
 
         col1, col2 = st.columns(2)
 
@@ -673,7 +673,7 @@ with tab6:
         st.markdown("---")
 
         # Year-over-Year Growth
-        st.subheader("📈 Year-over-Year Growth Analysis")
+        st.subheader("Year-over-Year Growth Analysis")
 
         col1, col2 = st.columns(2)
 
@@ -718,7 +718,7 @@ with tab6:
         st.markdown("---")
 
         # Tier Distribution Trends
-        st.subheader("🎯 Tier Distribution Trends Over Time")
+        st.subheader("Tier Distribution Trends Over Time")
 
         if 'tier_distribution_trends' in temporal_data:
             tier_trends = temporal_data['tier_distribution_trends']
@@ -752,7 +752,7 @@ with tab6:
         st.markdown("---")
 
         # Company Hiring Patterns
-        st.subheader("🏢 Top Company Hiring Patterns")
+        st.subheader("Top Company Hiring Patterns")
 
         if 'top_company_hiring_patterns' in temporal_data:
             company_patterns = pd.DataFrame(temporal_data['top_company_hiring_patterns'])
@@ -765,7 +765,7 @@ with tab6:
             )
 
             # Heatmap of hiring patterns
-            st.subheader("📊 Hiring Heatmap: Top 15 Companies Over Years")
+            st.subheader("Hiring Heatmap: Top 15 Companies Over Years")
 
             hire_cols = [c for c in company_patterns.columns if c.startswith('hires_')]
             if hire_cols:
@@ -785,7 +785,7 @@ with tab6:
         st.markdown("---")
 
         # Emerging Companies
-        st.subheader("🚀 Emerging Companies (Recently Started Hiring)")
+        st.subheader("Emerging Companies (Recently Started Hiring)")
 
         if 'emerging_companies' in temporal_data and temporal_data['emerging_companies']:
             emerging_df = pd.DataFrame(temporal_data['emerging_companies'])
@@ -812,7 +812,7 @@ with tab6:
         st.markdown("---")
 
         # Volatility Analysis
-        st.subheader("📉 CTC Volatility Analysis")
+        st.subheader("CTC Volatility Analysis")
 
         if 'volatility_analysis' in temporal_data:
             vol = temporal_data['volatility_analysis']
@@ -886,6 +886,38 @@ with tab6:
                     for pred in forecast['predictions']:
                         st.write(f"- **{pred['year']}:** {pred['predicted_placements']} placements")
 
+# ----------------------------------------------------------------------------
+# TAB 7: INTERACTIVE VISUALIZATIONS
+# ----------------------------------------------------------------------------
+
+with tab_interactive:
+    st.header("Interactive Visualizations")
+    st.markdown("Explore 3D and animated visualizations of the placement data.")
+
+    # Galaxy 3D Visualization
+    st.subheader("3D Visualization")
+    st.markdown("A 3D representation of placement data.")
+    
+    try:
+        with open('plots\INTERACTIVE1_3D.html', 'r', encoding='utf-8') as f:
+            galaxy_html = f.read()
+        components.html(galaxy_html, height=800, scrolling=True)
+    except FileNotFoundError:
+        st.error("INTERACTIVE1_3D.html not found.")
+
+    st.markdown("---")
+
+    # Animated Visualization
+    st.subheader("Animated Visualization")
+    st.markdown("An animated view of placement trends over time.")
+    
+    try:
+        with open('plots/INTERACTIVE2_Animated.html', 'r', encoding='utf-8') as f:
+            animated_html = f.read()
+        components.html(animated_html, height=800, scrolling=True)
+    except FileNotFoundError:
+        st.error("INTERACTIVE2_Animated.html not found.")
+
 # ============================================================================
 # FOOTER
 # ============================================================================
@@ -894,6 +926,6 @@ st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666;'>
     <p><b>PES University Placement Analytics</b> | Data: 2022-2026 Batches | {total_records} Records</p>
-    <p>Built with Streamlit & Plotly | Powered by clean data pipeline</p>
+    <p>Built with Streamlit & Plotly | Created by Not so Bayes-ic for Sem 5 ADA Mini Project</p>
 </div>
 """.format(total_records=len(df)), unsafe_allow_html=True)
