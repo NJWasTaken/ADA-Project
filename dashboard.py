@@ -13,6 +13,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import json
 from pathlib import Path
+from temporal_analysis import TemporalAnalyzer
 
 # ============================================================================
 # PAGE CONFIG
@@ -73,8 +74,24 @@ def load_summary():
     except FileNotFoundError:
         return None
 
+@st.cache_data
+def load_temporal_analysis():
+    """Load temporal analysis results"""
+    try:
+        with open('processed_data/temporal_analysis.json', 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None
+
+@st.cache_resource
+def get_temporal_analyzer():
+    """Get temporal analyzer instance"""
+    return TemporalAnalyzer()
+
 df = load_data()
 summary = load_summary()
+temporal_data = load_temporal_analysis()
+analyzer = get_temporal_analyzer()
 
 # Separate FTE and internship data
 df_fte = df[~df['is_internship'] & df['has_ctc_data']].copy()
@@ -171,8 +188,8 @@ st.markdown("---")
 # TABS
 # ============================================================================
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "📈 Overview", "🏢 Companies", "💰 Salary Analysis", "🎯 Insights", "📂 Data Explorer"
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    "📈 Overview", "🏢 Companies", "💰 Salary Analysis", "🎯 Insights", "📂 Data Explorer", "🔮 Temporal Analysis & Predictions"
 ])
 
 # ----------------------------------------------------------------------------
@@ -509,6 +526,365 @@ with tab5:
             file_name=f"placement_data_filtered_{len(display_df)}_records.csv",
             mime="text/csv"
         )
+
+# ----------------------------------------------------------------------------
+# TAB 6: TEMPORAL ANALYSIS & PREDICTIONS
+# ----------------------------------------------------------------------------
+
+with tab6:
+    st.header("🔮 Temporal Analysis & Predictions")
+
+    if temporal_data is None:
+        st.warning("⚠️ Temporal analysis not found. Run `python temporal_analysis.py` to generate insights.")
+        if st.button("Generate Temporal Analysis Now"):
+            with st.spinner("Running temporal analysis..."):
+                from temporal_analysis import save_temporal_analysis
+                temporal_data = save_temporal_analysis()
+                st.success("✅ Analysis complete! Refresh the page to see results.")
+                st.experimental_rerun()
+    else:
+        # Key Insights Summary
+        st.subheader("🎯 Key Insights")
+        if 'key_insights' in temporal_data and temporal_data['key_insights']:
+            for insight in temporal_data['key_insights']:
+                st.info(f"💡 {insight}")
+
+        st.markdown("---")
+
+        # Yearly Statistics
+        st.subheader("📊 Yearly Statistics & Trends")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            # CTC Trends
+            if 'yearly_statistics' in temporal_data:
+                yearly_df = pd.DataFrame(temporal_data['yearly_statistics'])
+
+                fig = go.Figure()
+                fig.add_trace(go.Scatter(
+                    x=yearly_df['year'],
+                    y=yearly_df['mean_ctc'],
+                    mode='lines+markers',
+                    name='Mean CTC',
+                    line=dict(color='blue', width=3),
+                    marker=dict(size=10)
+                ))
+                fig.add_trace(go.Scatter(
+                    x=yearly_df['year'],
+                    y=yearly_df['median_ctc'],
+                    mode='lines+markers',
+                    name='Median CTC',
+                    line=dict(color='green', width=3),
+                    marker=dict(size=10)
+                ))
+
+                # Add forecast if available
+                if 'ctc_forecast' in temporal_data and 'predictions' in temporal_data['ctc_forecast']:
+                    forecast = temporal_data['ctc_forecast']
+                    pred_years = [p['year'] for p in forecast['predictions']]
+                    pred_mean = [p['predicted_mean_ctc'] for p in forecast['predictions']]
+                    pred_median = [p['predicted_median_ctc'] for p in forecast['predictions']]
+
+                    # Combine historical with forecast
+                    all_years = list(yearly_df['year']) + pred_years
+                    hist_mean = list(yearly_df['mean_ctc']) + [None] * len(pred_years)
+                    hist_median = list(yearly_df['median_ctc']) + [None] * len(pred_years)
+                    forecast_mean = [None] * len(yearly_df) + pred_mean
+                    forecast_median = [None] * len(yearly_df) + pred_median
+
+                    fig.add_trace(go.Scatter(
+                        x=all_years,
+                        y=forecast_mean,
+                        mode='lines+markers',
+                        name='Predicted Mean',
+                        line=dict(color='red', width=2, dash='dash'),
+                        marker=dict(size=8, symbol='diamond')
+                    ))
+                    fig.add_trace(go.Scatter(
+                        x=all_years,
+                        y=forecast_median,
+                        mode='lines+markers',
+                        name='Predicted Median',
+                        line=dict(color='orange', width=2, dash='dash'),
+                        marker=dict(size=8, symbol='diamond')
+                    ))
+
+                    # Add confidence interval if available
+                    if 'confidence_interval_mean' in forecast['predictions'][0]:
+                        lower_bounds = [None] * len(yearly_df) + [p['confidence_interval_mean']['lower'] for p in forecast['predictions']]
+                        upper_bounds = [None] * len(yearly_df) + [p['confidence_interval_mean']['upper'] for p in forecast['predictions']]
+
+                        fig.add_trace(go.Scatter(
+                            x=all_years + all_years[::-1],
+                            y=upper_bounds + lower_bounds[::-1],
+                            fill='toself',
+                            fillcolor='rgba(255,0,0,0.1)',
+                            line=dict(color='rgba(255,255,255,0)'),
+                            name='95% Confidence',
+                            showlegend=True
+                        ))
+
+                fig.update_layout(
+                    title='CTC Trends & Forecast',
+                    xaxis_title='Year',
+                    yaxis_title='CTC (LPA)',
+                    height=400,
+                    hovermode='x unified'
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            # Placement Volume Trends
+            if 'yearly_statistics' in temporal_data:
+                yearly_df = pd.DataFrame(temporal_data['yearly_statistics'])
+
+                fig = go.Figure()
+                fig.add_trace(go.Bar(
+                    x=yearly_df['year'],
+                    y=yearly_df['total_placements'],
+                    name='Historical',
+                    marker_color='steelblue'
+                ))
+
+                # Add forecast
+                if 'placement_volume_forecast' in temporal_data and 'predictions' in temporal_data['placement_volume_forecast']:
+                    forecast = temporal_data['placement_volume_forecast']
+                    pred_years = [p['year'] for p in forecast['predictions']]
+                    pred_placements = [p['predicted_placements'] for p in forecast['predictions']]
+
+                    fig.add_trace(go.Bar(
+                        x=pred_years,
+                        y=pred_placements,
+                        name='Predicted',
+                        marker_color='lightcoral',
+                        marker_pattern_shape="/"
+                    ))
+
+                fig.update_layout(
+                    title='Placement Volume Trends & Forecast',
+                    xaxis_title='Year',
+                    yaxis_title='Number of Placements',
+                    height=400,
+                    hovermode='x unified'
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("---")
+
+        # Year-over-Year Growth
+        st.subheader("📈 Year-over-Year Growth Analysis")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            if 'year_over_year_growth' in temporal_data:
+                growth_df = pd.DataFrame(temporal_data['year_over_year_growth'])
+
+                fig = go.Figure()
+                fig.add_trace(go.Bar(
+                    x=growth_df['year'],
+                    y=growth_df['mean_ctc_growth_%'],
+                    name='Mean CTC Growth',
+                    marker_color=['green' if x > 0 else 'red' for x in growth_df['mean_ctc_growth_%']]
+                ))
+
+                fig.update_layout(
+                    title='Mean CTC Year-over-Year Growth (%)',
+                    xaxis_title='Year',
+                    yaxis_title='Growth (%)',
+                    height=350
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            if 'year_over_year_growth' in temporal_data:
+                fig = go.Figure()
+                fig.add_trace(go.Bar(
+                    x=growth_df['year'],
+                    y=growth_df['placement_growth_%'],
+                    name='Placement Volume Growth',
+                    marker_color=['green' if x > 0 else 'red' for x in growth_df['placement_growth_%']]
+                ))
+
+                fig.update_layout(
+                    title='Placement Volume Year-over-Year Growth (%)',
+                    xaxis_title='Year',
+                    yaxis_title='Growth (%)',
+                    height=350
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("---")
+
+        # Tier Distribution Trends
+        st.subheader("🎯 Tier Distribution Trends Over Time")
+
+        if 'tier_distribution_trends' in temporal_data:
+            tier_trends = temporal_data['tier_distribution_trends']
+
+            # Prepare data for stacked area chart
+            years = sorted([int(y) for y in tier_trends.keys()])
+            tiers = ['Dream', 'Tier-1', 'Tier-2', 'Tier-3']
+
+            fig = go.Figure()
+
+            for tier in tiers:
+                tier_values = [tier_trends[str(year)].get(tier, 0) for year in years]
+                fig.add_trace(go.Scatter(
+                    x=years,
+                    y=tier_values,
+                    mode='lines',
+                    name=tier,
+                    stackgroup='one',
+                    fillcolor='rgba(0,0,0,0.1)'
+                ))
+
+            fig.update_layout(
+                title='Tier Distribution Trends (Percentage)',
+                xaxis_title='Year',
+                yaxis_title='Percentage (%)',
+                height=400,
+                hovermode='x unified'
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("---")
+
+        # Company Hiring Patterns
+        st.subheader("🏢 Top Company Hiring Patterns")
+
+        if 'top_company_hiring_patterns' in temporal_data:
+            company_patterns = pd.DataFrame(temporal_data['top_company_hiring_patterns'])
+
+            # Interactive table
+            st.dataframe(
+                company_patterns[[c for c in company_patterns.columns if not c.startswith('hires_')]].head(15),
+                use_container_width=True,
+                height=400
+            )
+
+            # Heatmap of hiring patterns
+            st.subheader("📊 Hiring Heatmap: Top 15 Companies Over Years")
+
+            hire_cols = [c for c in company_patterns.columns if c.startswith('hires_')]
+            if hire_cols:
+                heatmap_data = company_patterns.head(15)[['company'] + hire_cols]
+                heatmap_data = heatmap_data.set_index('company')
+                heatmap_data.columns = [c.replace('hires_', '') for c in heatmap_data.columns]
+
+                fig = px.imshow(
+                    heatmap_data,
+                    labels=dict(x="Year", y="Company", color="Hires"),
+                    aspect="auto",
+                    color_continuous_scale="Blues"
+                )
+                fig.update_layout(height=500)
+                st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("---")
+
+        # Emerging Companies
+        st.subheader("🚀 Emerging Companies (Recently Started Hiring)")
+
+        if 'emerging_companies' in temporal_data and temporal_data['emerging_companies']:
+            emerging_df = pd.DataFrame(temporal_data['emerging_companies'])
+
+            col1, col2 = st.columns([2, 1])
+
+            with col1:
+                st.dataframe(emerging_df, use_container_width=True, height=400)
+
+            with col2:
+                st.metric("Total Emerging Companies", len(temporal_data['emerging_companies']))
+
+                if 'avg_ctc' in emerging_df.columns:
+                    avg_emerging_ctc = emerging_df['avg_ctc'].mean()
+                    st.metric("Avg CTC (Emerging)", f"₹{avg_emerging_ctc:.2f}L")
+
+                tier_dist = emerging_df['tier'].value_counts()
+                st.write("**Tier Distribution:**")
+                for tier, count in tier_dist.items():
+                    st.write(f"- {tier}: {count}")
+        else:
+            st.info("No emerging companies identified in the recent period.")
+
+        st.markdown("---")
+
+        # Volatility Analysis
+        st.subheader("📉 CTC Volatility Analysis")
+
+        if 'volatility_analysis' in temporal_data:
+            vol = temporal_data['volatility_analysis']
+
+            col1, col2, col3 = st.columns(3)
+
+            with col1:
+                if vol.get('overall_trend_stability'):
+                    st.metric("Overall Market", vol['overall_trend_stability'].title())
+
+            with col2:
+                if vol.get('most_stable_year'):
+                    st.metric("Most Stable Year", vol['most_stable_year'])
+
+            with col3:
+                if vol.get('most_volatile_year'):
+                    st.metric("Most Volatile Year", vol['most_volatile_year'])
+
+            # CV by year chart
+            if 'coefficient_of_variation_by_year' in vol:
+                cv_data = {k: v for k, v in vol['coefficient_of_variation_by_year'].items() if v is not None}
+
+                if cv_data:
+                    fig = go.Figure()
+                    fig.add_trace(go.Bar(
+                        x=list(cv_data.keys()),
+                        y=list(cv_data.values()),
+                        marker_color='purple'
+                    ))
+
+                    fig.update_layout(
+                        title='Coefficient of Variation by Year (Lower = More Stable)',
+                        xaxis_title='Year',
+                        yaxis_title='CV (%)',
+                        height=350
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+
+        st.markdown("---")
+
+        # Forecast Details
+        st.subheader("🔮 Detailed Forecast Information")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            if 'ctc_forecast' in temporal_data:
+                forecast = temporal_data['ctc_forecast']
+                st.write("**CTC Forecast Model:**")
+                st.write(f"- Model Type: {forecast.get('model_type', 'N/A')}")
+                st.write(f"- R² Score (Mean): {forecast.get('r2_score_mean', 0):.4f}")
+                st.write(f"- R² Score (Median): {forecast.get('r2_score_median', 0):.4f}")
+                st.write(f"- Slope (Mean): ₹{forecast.get('slope_mean', 0):.2f} LPA/year")
+
+                if 'predictions' in forecast:
+                    st.write("\n**Predictions:**")
+                    for pred in forecast['predictions']:
+                        st.write(f"- **{pred['year']}:** ₹{pred['predicted_mean_ctc']:.2f}L (mean), ₹{pred['predicted_median_ctc']:.2f}L (median)")
+
+        with col2:
+            if 'placement_volume_forecast' in temporal_data:
+                forecast = temporal_data['placement_volume_forecast']
+                st.write("**Placement Volume Forecast:**")
+                st.write(f"- Model Type: {forecast.get('model_type', 'N/A')}")
+                st.write(f"- R² Score: {forecast.get('r2_score', 0):.4f}")
+                st.write(f"- Trend: {forecast.get('trend', 'N/A').title()}")
+                st.write(f"- Avg Yearly Change: {forecast.get('avg_yearly_change', 0):.1f} placements/year")
+
+                if 'predictions' in forecast:
+                    st.write("\n**Predictions:**")
+                    for pred in forecast['predictions']:
+                        st.write(f"- **{pred['year']}:** {pred['predicted_placements']} placements")
 
 # ============================================================================
 # FOOTER
