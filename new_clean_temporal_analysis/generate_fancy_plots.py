@@ -23,7 +23,7 @@ plt.rcParams['font.sans-serif'] = ['Arial', 'DejaVu Sans']
 
 # Load data
 print("Loading data...")
-df = pd.read_csv('new_clean_data/cross_college_PES_cleaned.csv')
+df = pd.read_csv('cross_college_PES_cleaned.csv')
 df['Date_OA'] = pd.to_datetime(df['Date_OA'], format='%d-%m-%Y', errors='coerce')
 df_valid = df.dropna(subset=['Date_OA']).copy()
 df_valid = df_valid.sort_values('Date_OA')
