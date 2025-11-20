@@ -1,0 +1,7 @@
+{
+  "cutoff": 7.5,
+  "bandwidth": 1.0,
+  "treatment_effect_lpa": 4.175750000000001,
+  "n_below": 9,
+  "n_above": 31
+}

@@ -1,0 +1,89 @@
+{
+  "n_companies": 1073,
+  "n_colleges": 1,
+  "n_edges": 1073,
+  "top_connected_companies": [
+    {
+      "company": "Apple India",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Eightfold.Ai",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "American Express",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Amazon",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Zoom",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Samsung \r\nSemiconductor",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Nvidia",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Hpe",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Infoblox",
+      "score": 0.0009319664492078285
+    },
+    {
+      "company": "Digicert",
+      "score": 0.0009319664492078285
+    }
+  ],
+  "top_prestige_companies": [
+    {
+      "company": "Cisco",
+      "score": 0.001937485146501012
+    },
+    {
+      "company": "Zscaler",
+      "score": 0.001937485146501012
+    },
+    {
+      "company": "Kpmg",
+      "score": 0.001937485146501012
+    },
+    {
+      "company": "Hpe",
+      "score": 0.0016806536690679066
+    },
+    {
+      "company": "Morgan Stanley",
+      "score": 0.0016806536690679066
+    },
+    {
+      "company": "Goldman Sachs",
+      "score": 0.0016806536690679066
+    },
+    {
+      "company": "Intuit",
+      "score": 0.0016806536690679066
+    },
+    {
+      "company": "Walmart",
+      "score": 0.0016806536690679066
+    },
+    {
+      "company": "Infosys",
+      "score": 0.0016806536690679066
+    },
+    {
+      "company": "Oracle",
+      "score": 0.0016806536690679066
+    }
+  ]
+}
