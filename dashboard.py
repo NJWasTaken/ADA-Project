@@ -44,7 +44,7 @@ st.markdown("""
     .stTabs [data-baseweb="tab-list"] {gap: 24px;}
     .stTabs [data-baseweb="tab"] {
         height: 50px;
-        background-color: #f0f2f6;
+        background-color: #0f0f0f;
         border-radius: 5px 5px 0 0;
     }
 </style>
