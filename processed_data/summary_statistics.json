@@ -1,8 +1,8 @@
 {
-  "total_records": 1902,
-  "fte_records": 1162,
+  "total_records": 2760,
+  "fte_records": 1506,
   "internship_records": 511,
-  "unique_companies": 1327,
+  "unique_companies": 1757,
   "years_covered": [
     2022,
     2023,
@@ -11,43 +11,49 @@
     2026
   ],
   "fte_statistics": {
-    "mean_ctc": 12.51,
+    "mean_ctc": 13.28,
     "median_ctc": 10.0,
     "min_ctc": 1.0,
-    "max_ctc": 83.0,
-    "std_ctc": 8.91
+    "max_ctc": 123.0,
+    "std_ctc": 12.03
   },
   "records_by_year": {
+    "2025": 1301,
     "2022": 615,
-    "2025": 443,
     "2024": 400,
     "2026": 231,
     "2023": 213
   },
   "records_by_tier": {
-    "Tier-1": 665,
-    "Tier-2": 514,
+    "Tier-1": 794,
+    "Unknown": 625,
+    "Tier-2": 607,
     "Internship-Spring": 397,
-    "Tier-3": 205,
+    "Tier-3": 216,
     "Internship-Summer": 79,
     "Internship": 35,
     "Dream": 7
   },
+  "records_by_college": {
+    "PES": 2161,
+    "RVCE": 317,
+    "BMS": 282
+  },
   "data_completeness": {
-    "ctc_completeness": 70.0,
-    "base_completeness": 39.6,
-    "cgpa_completeness": 11.9
+    "ctc_completeness": 60.7,
+    "base_completeness": 30.0,
+    "cgpa_completeness": 14.9
   },
   "top_10_companies": {
-    "Oracle": 8,
-    "Cisco": 8,
+    "HPE": 14,
+    "Oracle": 14,
+    "Infosys": 10,
+    "Nvidia": 10,
+    "Cisco": 9,
+    "Walmart": 9,
+    "KPMG": 9,
     "Goldman Sachs": 8,
-    "Walmart": 7,
-    "Infosys": 7,
-    "Zscaler": 7,
-    "KPMG": 7,
-    "HPE": 7,
-    "Morgan Stanley": 6,
-    "Cognizant": 6
+    "Epsilon": 8,
+    "Dover": 8
   }
 }

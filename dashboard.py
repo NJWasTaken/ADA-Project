@@ -102,6 +102,14 @@ selected_years = st.sidebar.multiselect(
     default=years
 )
 
+# College filter
+colleges = sorted(df['college'].dropna().unique().tolist())
+selected_colleges = st.sidebar.multiselect(
+    "Select Colleges",
+    options=colleges,
+    default=colleges
+)
+
 # Tier filter
 tiers = sorted(df['tier'].dropna().unique().tolist())
 selected_tiers = st.sidebar.multiselect(
@@ -116,6 +124,7 @@ company_search = st.sidebar.text_input("Search Company (optional)", "")
 # Apply filters
 df_filtered = df[
     (df['batch_year'].isin(selected_years)) &
+    (df['college'].isin(selected_colleges)) &
     (df['tier'].isin(selected_tiers))
 ]
 
@@ -171,8 +180,8 @@ st.markdown("---")
 # TABS
 # ============================================================================
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "📈 Overview", "🏢 Companies", "💰 Salary Analysis", "🎯 Insights", "📂 Data Explorer"
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    "📈 Overview", "🏢 Companies", "💰 Salary Analysis", "🎓 Cross-College", "🎯 Insights", "📂 Data Explorer"
 ])
 
 # ----------------------------------------------------------------------------
@@ -396,10 +405,101 @@ with tab3:
         st.info("No FTE data available for selected filters")
 
 # ----------------------------------------------------------------------------
-# TAB 4: INSIGHTS
+# TAB 4: CROSS-COLLEGE COMPARISON
 # ----------------------------------------------------------------------------
 
 with tab4:
+    st.header("🎓 Cross-College Comparison")
+
+    # Only show if multiple colleges are in the data
+    if df['college'].nunique() > 1:
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.subheader("Average FTE CTC by College")
+            if len(df_fte_filtered) > 0:
+                college_avg = df_fte_filtered.groupby('college')['total_ctc'].agg(['mean', 'median', 'count']).reset_index()
+                college_avg = college_avg.sort_values('mean', ascending=False)
+
+                fig = px.bar(
+                    college_avg,
+                    x='college',
+                    y='mean',
+                    title='Average CTC by College',
+                    labels={'college': 'College', 'mean': 'Average CTC (LPA)'},
+                    color='mean',
+                    color_continuous_scale='Viridis',
+                    text='mean'
+                )
+                fig.update_traces(texttemplate='₹%{text:.2f}L', textposition='outside')
+                fig.update_layout(height=400, showlegend=False)
+                st.plotly_chart(fig, use_container_width=True)
+
+                # Show stats table
+                st.dataframe(
+                    college_avg.rename(columns={
+                        'college': 'College',
+                        'mean': 'Avg CTC',
+                        'median': 'Median CTC',
+                        'count': 'Placements'
+                    }).round(2),
+                    use_container_width=True,
+                    hide_index=True
+                )
+            else:
+                st.info("No FTE data available")
+
+        with col2:
+            st.subheader("Placement Distribution by College")
+            college_counts = df_filtered['college'].value_counts()
+
+            fig = px.pie(
+                values=college_counts.values,
+                names=college_counts.index,
+                title='Records by College',
+                hole=0.4,
+                color_discrete_sequence=px.colors.qualitative.Pastel
+            )
+            fig.update_layout(height=400)
+            st.plotly_chart(fig, use_container_width=True)
+
+        # CTC Distribution Comparison
+        st.subheader("CTC Distribution Comparison")
+        if len(df_fte_filtered) > 0:
+            fig = px.box(
+                df_fte_filtered,
+                x='college',
+                y='total_ctc',
+                title='CTC Distribution by College',
+                labels={'college': 'College', 'total_ctc': 'CTC (LPA)'},
+                color='college',
+                color_discrete_sequence=px.colors.qualitative.Set2
+            )
+            fig.update_layout(height=400, showlegend=False)
+            st.plotly_chart(fig, use_container_width=True)
+
+        # Top companies by college
+        st.subheader("Top Recruiters by College")
+
+        for college in sorted(df_filtered['college'].unique()):
+            with st.expander(f"📚 {college}"):
+                college_data = df_filtered[df_filtered['college'] == college]
+                top_companies = college_data['company_name'].value_counts().head(10)
+
+                st.markdown(f"**Total Records:** {len(college_data):,}")
+                st.markdown(f"**Unique Companies:** {college_data['company_name'].nunique():,}")
+
+                st.markdown("**Top 10 Recruiters:**")
+                for i, (company, count) in enumerate(top_companies.items(), 1):
+                    st.markdown(f"{i}. {company} - {count} placements")
+    else:
+        st.info("Cross-college comparison requires data from multiple colleges. Currently showing data from PES only.")
+
+# ----------------------------------------------------------------------------
+# TAB 5: INSIGHTS
+# ----------------------------------------------------------------------------
+
+with tab5:
     st.header("🎯 Key Insights")
 
     if summary:
@@ -462,10 +562,10 @@ with tab4:
         st.markdown(f"- {insight}")
 
 # ----------------------------------------------------------------------------
-# TAB 5: DATA EXPLORER
+# TAB 6: DATA EXPLORER
 # ----------------------------------------------------------------------------
 
-with tab5:
+with tab6:
     st.header("📂 Data Explorer")
 
     st.markdown("Explore the raw placement data with interactive filters and sorting.")
@@ -473,7 +573,7 @@ with tab5:
     # Display options
     col1, col2 = st.columns(2)
 
-    available_cols = ['batch_year', 'company_name', 'job_role', 'tier',
+    available_cols = ['batch_year', 'college', 'company_name', 'job_role', 'tier',
                      'total_ctc', 'base_salary', 'num_fte', 'num_intern',
                      'cgpa_cutoff', 'is_internship']
 
@@ -481,7 +581,7 @@ with tab5:
         show_columns = st.multiselect(
             "Select Columns to Display",
             options=available_cols,
-            default=['batch_year', 'company_name', 'job_role', 'total_ctc', 'tier', 'cgpa_cutoff']
+            default=['batch_year', 'college', 'company_name', 'job_role', 'total_ctc', 'tier']
         )
 
     with col2:

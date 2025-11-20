@@ -125,7 +125,93 @@ class PlacementDataConsolidator:
             return True
         return False
 
-    def process_file(self, filepath: Path, batch_year: int) -> pd.DataFrame:
+    def extract_college_from_filename(self, filename: str) -> str:
+        """Extract college name from cross-college filename."""
+        filename_upper = filename.upper()
+        if 'PES' in filename_upper:
+            return 'PES'
+        elif 'RVCE' in filename_upper:
+            return 'RVCE'
+        elif 'BMS' in filename_upper:
+            return 'BMS'
+        return 'PES'  # Default
+
+    def process_cross_college_file(self, filepath: Path) -> pd.DataFrame:
+        """Process cross-college format CSV files."""
+        try:
+            # Cross-college files have headers at row 10
+            df = pd.read_csv(filepath, skiprows=9)
+        except Exception as e:
+            print(f"    ✗ Could not read file: {e}")
+            return pd.DataFrame()
+
+        college = self.extract_college_from_filename(filepath.name)
+        records = []
+
+        for idx, row in df.iterrows():
+            # Company is in first column
+            company_name = str(row.iloc[0]).strip() if not pd.isna(row.iloc[0]) else None
+
+            if not company_name or company_name == 'nan' or company_name == '':
+                continue
+
+            company_name = self.clean_company_name(company_name)
+            if company_name == 'Unknown':
+                continue
+
+            # Extract tier from column 3 (Tier column)
+            tier_val = str(row.iloc[3]).strip() if len(row) > 3 and not pd.isna(row.iloc[3]) else 'Unknown'
+            if 'tier 1' in tier_val.lower() or tier_val.lower() == 't1':
+                tier = 'Tier-1'
+            elif 'tier 2' in tier_val.lower() or tier_val.lower() == 't2':
+                tier = 'Tier-2'
+            elif 'tier 3' in tier_val.lower() or tier_val.lower() == 't3':
+                tier = 'Tier-3'
+            elif 'dream' in tier_val.lower():
+                tier = 'Dream'
+            else:
+                tier = 'Unknown'
+
+            # Extract CTC from column 4 (CTC column)
+            ctc_str = str(row.iloc[4]) if len(row) > 4 else ''
+            total_ctc = self.clean_numeric(ctc_str)
+
+            # Try to extract base salary (usually in parentheses like "32 LPA (19 base)")
+            base_salary = None
+            if 'base' in ctc_str.lower():
+                base_match = re.search(r'(\d+\.?\d*)\s*base', ctc_str, re.IGNORECASE)
+                if base_match:
+                    base_salary = float(base_match.group(1))
+
+            # Job role from column 5
+            job_role = str(row.iloc[5]).strip() if len(row) > 5 and not pd.isna(row.iloc[5]) else ''
+
+            # Total offers from column 7
+            num_offers = self.clean_numeric(row.iloc[7]) if len(row) > 7 else None
+
+            # CGPA cutoff from column 8
+            cgpa_cutoff = self.clean_numeric(row.iloc[8]) if len(row) > 8 else None
+
+            record = {
+                'batch_year': 2025,  # Cross-college data is for 2025 batch
+                'college': college,
+                'company_name': company_name,
+                'job_role': job_role,
+                'tier': tier,
+                'internship_stipend_monthly': None,
+                'base_salary': base_salary,
+                'total_ctc': total_ctc,
+                'num_fte': num_offers,  # Using total offers
+                'num_intern': None,
+                'num_fte_intern': None,
+                'cgpa_cutoff': cgpa_cutoff,
+            }
+
+            records.append(record)
+
+        return pd.DataFrame(records)
+
+    def process_file(self, filepath: Path, batch_year: int, college: str = 'PES') -> pd.DataFrame:
         """Process a CSV file and extract placement data."""
         try:
             # Read CSV, skipping initial rows if needed
@@ -197,6 +283,7 @@ class PlacementDataConsolidator:
             # Typical order: internship_stipend, base, ctc, fte, intern, fte+intern, cgpa
             record = {
                 'batch_year': batch_year,
+                'college': college,
                 'company_name': company_name,
                 'job_role': job_role,
                 'tier': tier,
@@ -217,6 +304,7 @@ class PlacementDataConsolidator:
         """Consolidate all data files."""
         all_records = []
 
+        # Process year-based data
         for year in [2022, 2023, 2024, 2025, 2026]:
             year_dir = self.data_dir / str(year)
 
@@ -231,7 +319,26 @@ class PlacementDataConsolidator:
             for filepath in csv_files:
                 try:
                     print(f"  - {filepath.name}")
-                    df = self.process_file(filepath, year)
+                    df = self.process_file(filepath, year, college='PES')
+                    if len(df) > 0:
+                        all_records.append(df)
+                        print(f"    ✓ {len(df)} records")
+                    else:
+                        print(f"    ⚠ No valid records found")
+                except Exception as e:
+                    print(f"    ✗ Error: {e}")
+
+        # Process cross-college data
+        cross_college_dir = self.data_dir / "cross-college-pes-rvce-bms-2025"
+        if cross_college_dir.exists():
+            print(f"\n📂 Processing cross-college data (2025)...")
+
+            csv_files = list(cross_college_dir.glob("*.csv"))
+
+            for filepath in csv_files:
+                try:
+                    print(f"  - {filepath.name}")
+                    df = self.process_cross_college_file(filepath)
                     if len(df) > 0:
                         all_records.append(df)
                         print(f"    ✓ {len(df)} records")
@@ -325,6 +432,7 @@ class PlacementDataConsolidator:
 
             'records_by_year': {int(k): int(v) for k, v in df['batch_year'].value_counts().to_dict().items()},
             'records_by_tier': {str(k): int(v) for k, v in df['tier'].value_counts().to_dict().items()},
+            'records_by_college': {str(k): int(v) for k, v in df['college'].value_counts().to_dict().items()},
 
             'data_completeness': {
                 'ctc_completeness': round((df['total_ctc'].notna().sum() / len(df) * 100), 1),
