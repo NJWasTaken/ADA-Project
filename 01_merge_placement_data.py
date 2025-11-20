@@ -54,30 +54,36 @@ def extract_salary(value):
 
     return np.nan
 
-def standardize_tier(tier_name):
-    """Standardize tier names"""
-    tier_name = tier_name.lower()
+def categorize_file(filename):
+    """Categorize the placement file type"""
+    filename_lower = filename.lower()
 
-    # Skip internship-only files
-    if any(keyword in tier_name for keyword in ['spring internship', 'summer internship',
-                                                  'internship only', 'ppo_s', 'internship(ppo)']):
-        return 'Unknown'
-
-    # Identify tier files
-    if 'tier 1' in tier_name or 'tier-1' in tier_name or 'tier1' in tier_name or 'tier_1' in tier_name:
+    # Tier files
+    if 'tier 1' in filename_lower or 'tier-1' in filename_lower or 'tier1' in filename_lower or 'tier_1' in filename_lower:
         return 'Tier 1'
-    elif 'tier 2' in tier_name or 'tier-2' in tier_name or 'tier2' in tier_name or 'tier_2' in tier_name:
+    elif 'tier 2' in filename_lower or 'tier-2' in filename_lower or 'tier2' in filename_lower or 'tier_2' in filename_lower:
         return 'Tier 2'
-    elif 'tier 3' in tier_name or 'tier-3' in tier_name or 'tier3' in tier_name or 'tier_3' in tier_name:
+    elif 'tier 3' in filename_lower or 'tier-3' in filename_lower or 'tier3' in filename_lower or 'tier_3' in filename_lower:
         return 'Tier 3'
-    elif 'dream' in tier_name:
+    elif 'dream' in filename_lower:
         return 'Dream'
-    else:
-        return 'Unknown'
 
-def parse_placement_file(file_path, year, tier):
+    # Internship files
+    elif 'spring internship' in filename_lower:
+        return 'Spring Internship'
+    elif 'summer internship' in filename_lower:
+        return 'Summer Internship'
+    elif 'internship only' in filename_lower:
+        return 'Internship Only'
+    elif 'ppo' in filename_lower:
+        return 'PPO'
+
+    # Default
+    else:
+        return 'Other'
+
+def parse_placement_file(file_path, year, category):
     """Parse a single placement CSV file"""
-    print(f"Processing: {file_path}")
 
     try:
         # Try reading with different encodings
@@ -147,7 +153,7 @@ def parse_placement_file(file_path, year, tier):
             # Create record
             record = {
                 'year': year,
-                'tier': tier,
+                'category': category,
                 'company_name': company,
                 'job_title': str(row.get('job_title', '')).strip() if pd.notna(row.get('job_title')) else '',
                 'internship_stipend_raw': str(row.get('internship_stipend', '')).strip() if pd.notna(row.get('internship_stipend')) else '',
@@ -191,17 +197,12 @@ def merge_all_placement_data():
         for csv_file in csv_files:
             filename = os.path.basename(csv_file)
 
-            # Determine tier
-            tier = standardize_tier(filename)
+            # Categorize the file
+            category = categorize_file(filename)
 
-            # Skip non-tier files
-            if tier == 'Unknown':
-                print(f"⚠️  Skipping (unknown tier): {filename}")
-                continue
-
-            # Parse file
-            records = parse_placement_file(csv_file, year, tier)
-            print(f"✓ Parsed {len(records)} records from {filename}")
+            # Parse ALL files (no skipping)
+            records = parse_placement_file(csv_file, year, category)
+            print(f"✓ Parsed {len(records)} records from {filename} [{category}]")
             all_records.extend(records)
 
     # Create DataFrame
@@ -285,8 +286,8 @@ if __name__ == "__main__":
     print(f"\nRecords by Year:")
     print(merged_df['year'].value_counts().sort_index())
 
-    print(f"\nRecords by Tier:")
-    print(merged_df['tier'].value_counts())
+    print(f"\nRecords by Category:")
+    print(merged_df['category'].value_counts().sort_values(ascending=False))
 
     print(f"\nTop 10 Companies by Frequency:")
     print(merged_df['company_name'].value_counts().head(10))
