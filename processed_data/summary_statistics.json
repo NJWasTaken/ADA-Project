@@ -1,55 +1,53 @@
 {
-  "total_records": 1641,
-  "total_companies": 1073,
-  "batches_covered": [
+  "total_records": 1902,
+  "fte_records": 1162,
+  "internship_records": 511,
+  "unique_companies": 1327,
+  "years_covered": [
     2022,
     2023,
     2024,
     2025,
     2026
   ],
-  "colleges": [
-    "PES"
-  ],
-  "avg_fte_ctc": 10.108086,
-  "median_fte_ctc": 8.75,
-  "max_fte_ctc": 32.0,
-  "min_fte_ctc": 0.08,
-  "total_placements": 774.0,
-  "avg_cgpa_cutoff": 7.374468085106382,
+  "fte_statistics": {
+    "mean_ctc": 12.51,
+    "median_ctc": 10.0,
+    "min_ctc": 1.0,
+    "max_ctc": 83.0,
+    "std_ctc": 8.91
+  },
   "records_by_year": {
-    "2022": 445,
-    "2023": 182,
-    "2024": 349,
-    "2025": 606,
-    "2026": 59
+    "2022": 615,
+    "2025": 443,
+    "2024": 400,
+    "2026": 231,
+    "2023": 213
   },
   "records_by_tier": {
-    "Dream": 6,
-    "Internship": 19,
-    "Internship-Spring": 314,
-    "Internship-Summer": 53,
-    "Tier 1": 129,
-    "Tier 2": 92,
-    "Tier 3": 11,
-    "Tier-1": 430,
-    "Tier-2": 387,
-    "Tier-3": 177,
-    "nan": 23
+    "Tier-1": 665,
+    "Tier-2": 514,
+    "Internship-Spring": 397,
+    "Tier-3": 205,
+    "Internship-Summer": 79,
+    "Internship": 35,
+    "Dream": 7
   },
-  "records_by_college": {
-    "PES": 1641
+  "data_completeness": {
+    "ctc_completeness": 70.0,
+    "base_completeness": 39.6,
+    "cgpa_completeness": 11.9
   },
-  "top_10_recruiters": {
-    "Ibm (General)": 50.0,
-    "Ltimindtree": 41.0,
-    "Deloitte India": 31.0,
-    "Ibm (Female Only)": 28.0,
-    "Zebra Technologies": 25.0,
-    "Apple (India)": 20.0,
-    "Kpmg (T3)": 20.0,
-    "Phdata": 20.0,
-    "Ey India": 18.0,
-    "Juniper Network": 16.0
+  "top_10_companies": {
+    "Oracle": 8,
+    "Cisco": 8,
+    "Goldman Sachs": 8,
+    "Walmart": 7,
+    "Infosys": 7,
+    "Zscaler": 7,
+    "KPMG": 7,
+    "HPE": 7,
+    "Morgan Stanley": 6,
+    "Cognizant": 6
   }
 }
