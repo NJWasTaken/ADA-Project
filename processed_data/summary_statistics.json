@@ -39,15 +39,15 @@
     "cgpa_completeness": 11.9
   },
   "top_10_companies": {
-    "Oracle": 8,
     "Cisco": 8,
+    "Oracle": 8,
     "Goldman Sachs": 8,
-    "Walmart": 7,
-    "Infosys": 7,
     "Zscaler": 7,
     "KPMG": 7,
+    "Infosys": 7,
     "HPE": 7,
-    "Morgan Stanley": 6,
-    "Cognizant": 6
+    "Walmart": 7,
+    "Business Analyst": 6,
+    "Epsilon": 6
   }
 }

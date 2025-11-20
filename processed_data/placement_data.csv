@@ -2,327 +2,6 @@ batch_year,company_name,job_role,tier,internship_stipend_monthly,base_salary,tot
 2022,Internship Stipend,Base,Dream,,,,,,,,False,False,False,False
 2022,Apple India,Software Engineer,Dream,,16.0,65.0,,5.0,,,False,True,True,False
 2022,Eightfold.AI,Business Analyst,Dream,,25.0,60.5,,,,,False,True,True,False
-2022,Internship Stipend,Base,Tier-3,,,,,,,,False,False,False,False
-2022,Quest Global,Trainee Engineer,Tier-3,,,3.25,,,,,False,True,False,False
-2022,Tcs (Ninja Hiring),,Tier-3,,,3.36,,,,,False,True,False,False
-2022,The Math Company,,Tier-3,,4.5,4.5,,7.0,,,False,True,True,False
-2022,Mu Sigma,,Tier-3,,3.5,3.5,,,,,False,True,True,False
-2022,Cognizant,GenC Elevate,Tier-3,,,4.0,103.0,,,,False,True,False,False
-2022,Genc,-,Tier-3,,4.0,,,,,,False,False,True,False
-2022,Infosys,Systems Engineer,Tier-3,,,3.6,,,,,False,True,False,False
-2022,Robert Bosch,,Tier-3,,,5.0,53.0,,,,False,True,False,False
-2022,L&T Technology Services Limited,,Tier-3,,,4.0,,,,,False,True,False,False
-2022,Ey,Tech Consulting - Cyber,Tier-3,,,4.37,,,,,False,True,False,False
-2022,Risk Consulting - Tech Risk,,Tier-3,,,,,,,,False,False,False,False
-2022,Eox Vantage,Jr Developer,Tier-3,10.0,,6.0,,2.0,,,False,True,False,False
-2022,Data Security,,Tier-3,,,,3.0,,,,False,False,False,False
-2022,Deevia Software,Software Engineer,Tier-3,10.0,,5.0,1.0,,2.0,,False,True,False,False
-2022,Hcl,"GET - Identity and 
-Access Management",Tier-3,,,4.75,,,,,False,True,False,False
-2022,Get,,Tier-3,,,,,,,,False,False,False,False
-2022,Get - Dryice,,Tier-3,,,,,,,,False,False,False,False
-2022,Get - Infra,,Tier-3,,,,,,,,False,False,False,False
-2022,Get - Grc And Information Security,,Tier-3,,,,,,,,False,False,False,False
-2022,Atos,Trainee,Tier-3,,,3.1,,,,,False,True,False,False
-2022,Kofluence,Operations,Tier-3,10.0,4.0,5.0,,2.0,,,False,True,True,False
-2022,Product Management,,Tier-3,,,,4.0,,,,False,False,False,False
-2022,Software Engineer,,Tier-3,,,,3.0,,,,False,False,False,False
-2022,Atos Global,Software Engineer,Tier-3,,,3.1,,,,,False,True,False,False
-2022,Cgi,Software Engineer,Tier-3,,,4.25,,,,,False,True,False,False
-2022,Prodapt Solutions,Software Engineer,Tier-3,,,7.5,,,,,False,True,False,False
-2022,Infobell It Solutions,Jr. Systems Engineer,Tier-3,20.0,,5.0,,,,,False,True,False,False
-2022,Systems Engineer(Amd),15k,Tier-3,,4.8,4.8,,,,,False,True,True,False
-2022,Face Prep,Placement Mentor,Tier-3,,2.4,3.06,,,,,False,True,True,False
-2022,Moonraft Innovation Labs,Software Engineer,Tier-3,,,4.5,5.0,,,,False,True,False,False
-2022,Pk Global,"Software Engineer
-Level 2",Tier-3,,,5.0,,,,,False,True,False,False
-2022,Vrize,Associate Software Engineer,Tier-3,15.0,,4.5,,,,,False,True,False,False
-2022,Sasken,Associate Software Engineer,Tier-3,,,5.0,,,,,False,True,False,False
-2022,Bristlecone,Associate Consultant,Tier-3,,,4.25,,,,,False,True,False,False
-2022,Renault Nissan Technology Business Centre India,Graduate Engineer Trainee,Tier-3,,,4.75,,,,,False,True,False,False
-2022,Databeat,Data Analysts (.NET),Tier-3,,,6.0,,,,,False,True,False,False
-2022,Maveric Systems,"Technical Associate 
- Core Banking",Tier-3,15.0,,4.5,,,,,False,True,False,False
-2022,Diatoz Solutions,Software Engineer,Tier-3,14.9,,5.0,,,,,False,True,False,False
-2022,Apexon,Associate Trainee,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Infoview,Trainee,Tier-3,15.0,,3.5,,,,,False,True,False,False
-2022,Utthunga Technologies,Project Trainee,Tier-3,,4.4,5.0,,,,,False,True,True,False
-2022,Birlasoft,Trainee Engineer,Tier-3,,,3.6,,,,,False,True,False,False
-2022,Titan,Graduate Engineer Trainee,Tier-3,,,5.0,,,,,False,True,False,False
-2022,Anora,Graduate trainee,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Billsafe Technologies,Tech Development intern,Tier-3,20.0,3.6,4.0,,,,,False,True,True,False
-2022,Turingminds.AI,ML Analyst,Tier-3,,,4.0,,,,,False,True,False,False
-2022,Data Scientist,,Tier-3,,5.0,5.0,,,,,False,True,True,False
-2022,Mountblue Technologies,Software Engineer Trainee,Tier-3,,,4.0,,,,,False,True,False,False
-2022,Nivetti Systems,Software Engineer,Tier-3,,,4.0,,,,,False,True,False,False
-2022,Neosoft Technologies,Trainee Software Engineer,Tier-3,10.0,,3.6,,,,,False,True,False,False
-2022,Ericsson,Associate Engineer Trainee,Tier-3,20.0,,4.5,,12.0,,,False,True,False,False
-2022,Simplilearn,Software Development Engineer,Tier-3,,5.25,6.25,,,,,False,True,True,False
-2022,Software Development Engineer In Test,,Tier-3,4.5,5.5,5.5,,,,,False,True,True,False
-2022,Learning Designer -1,,Tier-3,4.5,5.5,5.5,,,,,False,True,True,False
-2022,Altisource,Software Engineer,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Itc Infotech,Associate IT consultant,Tier-3,,,4.25,2.0,,,,False,True,False,False
-2022,Axiscades,Graduate Engineer Trainee,Tier-3,,,3.2,,,,,False,True,False,False
-2022,7Edge,SDET,Tier-3,,,5.5,,,,,False,True,False,False
-2022,Tata Technologies,Graduate Engineer Trainee,Tier-3,,,4.65,15.0,,,,False,True,False,False
-2022,Monocept,Trainee Software Engineer,Tier-3,,,6.0,,,,,False,True,False,False
-2022,H3Mart,Sales,Tier-3,,,3.5,,,,,False,True,False,False
-2022,Inside Sales,,Tier-3,,4.0,4.0,,,,,False,True,True,False
-2022,Valued Epistemics,Graduate Sales Trainee,Tier-3,22.0,3.5,4.7,,,,,False,True,True,False
-2022,Pentagon Space,Full Stack Developer,Tier-3,,,10.0,,,,,False,True,False,False
-2022,Ditto Insurance,Insurance Advisor,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Merkle Sokrati,Associate Business Analyst,Tier-3,,,4.6,,,,,False,True,False,False
-2022,Kibbcom,Software Engineer,Tier-3,,3.29,3.5,,,,,False,True,True,False
-2022,Bosch Automotive Electronics,Graduate Apprentice,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Pepper Cloud,Full Stack Engineer,Tier-3,,,5.0,,,,,False,True,False,False
-2022,Careerlabs Technologies,Full Stack Java Developer,Tier-3,,,8.5,,,,,False,True,False,False
-2022,Full Stack Dot Net Developer,,Tier-3,,,,,,,,False,False,False,False
-2022,Full Stack Python Developer,,Tier-3,,,,,,,,False,False,False,False
-2022,Associate Software Engineer,,Tier-3,,,,,,,,False,False,False,False
-2022,Specbee,Software Developer,Tier-3,,,4.0,,,,,False,True,False,False
-2022,Mastek,Software Engineer,Tier-3,,,5.0,,,,,False,True,False,False
-2022,Acemicromatic Manufacturing Intelligence Technologies,Software Engineer,Tier-3,,,4.6,,,,,False,True,False,False
-2022,Field Engineer,,Tier-3,,,,,,,,False,False,False,False
-2022,Dxc Technology,"Senior Assistant Service 
-Delivery Coordinator",Tier-3,,2.8,3.0,,,,,False,True,True,False
-2022,Mastek,Software Engineer,Tier-3,,,5.0,,,,,False,True,False,False
-2022,Nsoft Services Pvt Ltd,Dot Net Developer,Tier-3,15.0,,3.0,,,,,False,True,False,False
-2022,Weir Ensci,Software Engineer,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Stratogent Technology Services,Software Engineer,Tier-3,,,3.6,,,,,False,True,False,False
-2022,Cube,"Business Development
- Executive",Tier-3,,,4.0,,,,,False,True,False,False
-2022,Bhanzu,"Marketing Strategic
- Partnership -Executive",Tier-3,,,3.0,,,,,False,True,False,False
-2022,Bosch Global Software Technologies,Embedded development,Tier-3,,,6.0,,,,,False,True,False,False
-2022,Application Development,,Tier-3,,,,,,,,False,False,False,False
-2022,System Testing,,Tier-3,,,,,,,,False,False,False,False
-2022,SAP,,Tier-3,,,,,,,,False,False,False,False
-2022,R&D,,Tier-3,,,,,,,,False,False,False,False
-2022,Apar Peopleworld,Software Engineer,Tier-3,,,4.0,,,,,False,True,False,False
-2022,Miller Knoll,Trainee Engineer,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Synchronoss Technologies,Trainee Software Engineer,Tier-3,,,4.6,,,,,False,True,False,False
-2022,Onedirect,"Associate, Client Care",Tier-3,,3.6,4.0,,,,,False,True,True,False
-2022,Square Yards,Associate Investment manager,Tier-3,,,4.5,,,,,False,True,False,False
-2022,Ntt Data Fa Insurance Systems,Software Engineer,Tier-3,,,3.76,,,,,False,True,False,False
-2022,Internship Stipend,Base,Tier-2,,,,,,,,False,False,False,False
-2022,Infosys,Specialist Programmer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Digital Specialist Engineer,,Tier-2,,5.0,5.0,,,,,False,True,True,False
-2022,Cognizant (Genc Next),Advanced Developer,Tier-2,,,6.75,,40.0,,,False,True,False,False
-2022,Full Stack Software Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Digital User Experience Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,IoT Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Data Scientist,,Tier-2,,,,,,,,False,False,False,False
-2022,Advanced C/Unix Dev,,Tier-2,,,,,,,,False,False,False,False
-2022,AWS Infra Dev,,Tier-2,,,,,,,,False,False,False,False
-2022,Google Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Cybersecurity Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Performance Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Quality Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Capgemini,Senior Analyst,Tier-2,,,7.5,67.0,,,,False,True,False,False
-2022,Abb,Management Trainee,Tier-2,,,6.0,,,,,False,True,False,False
-2022,R&D Engineer,,Tier-2,,7.5,7.5,,,,,False,True,True,False
-2022,Ushur,SDET,Tier-2,40.0,,8.0,,,,,False,True,False,False
-2022,IBM (Gbs),Associate Developer,Tier-2,30.0,,7.5,,14.0,,,False,True,False,False
-2022,Data Engineer,-,Tier-2,,5.5,5.5,,,,,False,True,True,False
-2022,Subex,Software Engineer,Tier-2,40.0,,8.5,,,,,False,True,False,False
-2022,Csg International,Software Development,Tier-2,25.0,,7.5,,,,,False,True,False,False
-2022,Wipro Turbo,Project Engineer,Tier-2,,5.5,6.5,130.0,,,,False,True,True,False
-2022,Deloitte Usi,"Technology Analyst - 
-USI Risk & Financial Advisory",Tier-2,,,7.6,20.0,,,,False,True,False,False
-2022,Analyst - Usi Consulting,,Tier-2,,,50.0,,,,,False,True,False,False
-2022,Analyst - It Services Group,,Tier-2,,,2.0,,,,,False,True,False,False
-2022,Analyst - Deloitte India Consulting,,Tier-2,,,27.0,,,,,False,True,False,False
-2022,PwC,Associate,Tier-2,,,6.0,,8.0,,,False,True,False,False
-2022,KPMG,Analyst - Digital Trust,Tier-2,15.0,,6.3,,,,,False,True,False,False
-2022,KPMG Gsd,Analyst,Tier-2,,5.0,7.0,12.0,,,,False,True,True,False
-2022,Cyber Security,,Tier-2,,,,,,,,False,False,False,False
-2022,Oracle,Associate Consultant,Tier-2,,8.22,8.92,22.0,,,,False,True,True,False
-2022,Accenture,"Advanced Application
- Engineering Analyst",Tier-2,,,,,,,,False,False,False,False
-2022,Data Engineering Analyst,-,Tier-2,,,,,,,,False,False,False,False
-2022,Eox Vantage,Jr Developer,Tier-2,10.0,,9.0,,4.0,,,False,True,False,False
-2022,Deloitte India,SAP Consulting,Tier-2,,5.0,6.2,,,,,False,True,True,False
-2022,Detect & Response Consulting,,Tier-2,,,,,,,,False,False,False,False
-2022,Rpa & Automation Consulting,,Tier-2,,,,,,,,False,False,False,False
-2022,Cyber Strategy Consulting,,Tier-2,,,,,,,,False,False,False,False
-2022,Data Privacy Consulting,,Tier-2,,,,,,,,False,False,False,False
-2022,Collins Aerospace,GET,Tier-2,,,6.25,,,30.0,,False,True,False,False
-2022,Conga,Software Engineer,Tier-2,12.0,,7.2,,,,,False,True,False,False
-2022,Talent Recruit Software Pvt. Ltd,Software Engineer,Tier-2,,6.0,8.0,,,,,False,True,True,False
-2022,314E It Solutions,Software Engineer,Tier-2,35.0,,8.0,,,1.0,,False,True,False,False
-2022,Microchip Technology,ERP - BaaN,Tier-2,21.0,8.0,8.55,,3.0,,,False,True,True,False
-2022,Dynamics Ax,,Tier-2,,,,,,,,False,False,False,False
-2022,Biztalk B2B Developer,,Tier-2,,,,,,,,False,False,False,False
-2022,Etl Quality Assurance,,Tier-2,,,,,,,,False,False,False,False
-2022,Micron,Associate Engineer,Tier-2,,5.94,8.2,,,,,False,True,True,False
-2022,Havells,IoT/AIML Engineer,Tier-2,,,7.0,,,,,False,True,False,False
-2022,Software Developer,,Tier-2,,,,,,,,False,False,False,False
-2022,Signify Innovation,Data Specialist,Tier-2,28.0,7.7,8.7,,,,,False,True,True,False
-2022,Project Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Viacom18,GET - Frontend,Tier-2,,8.0,8.0,7.0,,,,False,True,True,False
-2022,Get - Backend,,Tier-2,,,,,,,,False,False,False,False
-2022,Yara Digital Farming India,Software Engineering,Tier-2,,,7.2,,,,,False,True,False,False
-2022,Data Engineering,,Tier-2,,,,,,,,False,False,False,False
-2022,Devops Engineering,,Tier-2,,,,,,,,False,False,False,False
-2022,Data Analyst,,Tier-2,,,,,,,,False,False,False,False
-2022,Business Analyst,,Tier-2,,,,,,,,False,False,False,False
-2022,Data Science,,Tier-2,,,,,,,,False,False,False,False
-2022,Zensar,Software Developer,Tier-2,,6.5,9.0,6.0,,,,False,True,True,False
-2022,Nextuple,Associate Software Engineer,Tier-2,15.0,7.25,8.0,,,,,False,True,True,False
-2022,Associate Qa Engineer,,Tier-2,5.35,6.0,6.0,,,,,False,True,True,False
-2022,Tavant Technologies,Software Engineer Trainee,Tier-2,,6.28,6.93,3.0,,,,False,True,True,False
-2022,Visteon Corporation,Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Hardware Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Jsw,GET,Tier-2,,,8.0,8.0,,,,False,True,False,False
-2022,Secpod Technologies,Software Engineer – Systems,Tier-2,15.0,,9.0,1.0,3.0,,,False,True,False,False
-2022,Software Engineer – Ui,,Tier-2,,,,,,,,False,False,False,False
-2022,Product Content Marketer,,Tier-2,,,,,,,,False,False,False,False
-2022,Security Research Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Consilio,Associate Engineer,Tier-2,,6.0,6.11,,,,,False,True,True,False
-2022,Hdfc Bank,Executive / Management Trainee,Tier-2,,4.71,6.57,,,,,False,True,True,False
-2022,Scaler Academy,Business Development Trainee,Tier-2,30.0,,8.5,,,,,False,True,False,False
-2022,Cerner Corporation,Software Engineer,Tier-2,22.0,,7.0,,,,,False,True,False,False
-2022,Test Automation Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Netcracker,Trainee,Tier-2,25.0,5.5,6.0,,,,,False,True,True,False
-2022,Junior Software Engineer,-,Tier-2,6.5,8.0,8.0,,,,,False,True,True,False
-2022,Applied Materials,Performance Engineer,Tier-2,27.0,,8.19,,,,,False,True,False,False
-2022,Edgeverve Systems,Product Engineer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Pelatro Solutions,Trainee Engineer,Tier-2,,,6.5,,,,,False,True,False,False
-2022,Tekenlight Solutions,Java Developer,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Tejas Networks,Product Verification,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Vrize,Software Engineer,Tier-2,15.0,,15.0,,,,,False,True,False,False
-2022,Citiustech,Trainee Software Engineer,Tier-2,,,5.5,6.0,,,,False,True,False,False
-2022,Npci,Graduate Engineer Trainee,Tier-2,,5.0,6.85,,,,,False,True,True,False
-2022,Allstate,Associate Consultant,Tier-2,,5.5,6.5,,,,,False,True,True,False
-2022,Coffeebeans Consulting,Associate Consultant,Tier-2,,,9.0,,,,,False,True,False,False
-2022,Yara Digital Farming,Software Engineer,Tier-2,,,7.2,,,,,False,True,False,False
-2022,Byteridge,Software Development Engineer,Tier-2,,,5.33,,,,,False,True,False,False
-2022,Mphasis,Associate Software Engineer,Tier-2,,5.8,6.0,,,,,False,True,True,False
-2022,Indegene,SDE,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Wakefit,Associate Software Engineer,Tier-2,25.0,,8.0,,,,,False,True,False,False
-2022,Tata Iq,Analyst Analytics Services,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Tata Power,GET,Tier-2,,,,,,,,False,False,False,False
-2022,Axis Bank,IT Deputy Manager,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Adani Group,GET.,Tier-2,,5.62,6.0,,,,,False,True,True,False
-2022,Freightdeck,Product Delivery,Tier-2,12.0,,6.0,,,,,False,True,False,False
-2022,Software Developer,,Tier-2,,,,,,,,False,False,False,False
-2022,Uptycs,Software Engineer,Tier-2,25.0,8.0,8.0,,,,,False,True,True,False
-2022,Krypt,Associate Analyst,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Y Media Labs,Associate Software Engineer,Tier-2,,,6.5,,,,,False,True,False,False
-2022,Ischoolconnect,Full stack,Tier-2,15.0,,8.0,,,,,False,True,False,False
-2022,Platform Engineers,,Tier-2,,,,,,,,False,False,False,False
-2022,Automation Testers,12.5k,Tier-2,,,,,,,,False,False,False,False
-2022,Temenos,Software Engineer,Tier-2,,5.5,6.3,,,,,False,True,True,False
-2022,Kreditbee,Software Engineer,Tier-2,,6.0,8.0,,7.0,12.0,,False,True,True,False
-2022,Vlinder Labs,Associate Engineer,Tier-2,25.0,,7.0,,,,,False,True,False,False
-2022,Wakefit,Associate Software Engineer,Tier-2,25.0,,8.0,,,,,False,True,False,False
-2022,Manhattan Associates,Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Sonata,"Trainee Digital 
-Technology Specialist",Tier-2,,,6.0,,,,,False,True,False,False
-2022,Alshaya,Application systems engineer,Tier-2,,,7.6,,,,,False,True,False,False
-2022,Byju'S,Associate - Content Development,Tier-2,,5.0,6.0,,,,,False,True,True,False
-2022,Associate - Creatives,,Tier-2,,,,,,,,False,False,False,False
-2022,Academic Specialist,,Tier-2,4.0,,2.0,,,,,False,True,False,False
-2022,Infovity,Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Harman Connected Services,Associate Developer,Tier-2,10.0,,5.5,,3.0,,,False,True,False,False
-2022,Prodapt Solutions,Software Engineer,Tier-2,,,7.5,,,,,False,True,False,False
-2022,Krishworks,SDE 1,Tier-2,20.0,,6.0,,,,,False,True,False,False
-2022,Justdial,QA Testing,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Dell Technologies,Sales Operations Analyst,Tier-2,,,,,,,,False,False,False,False
-2022,Coditas Solutions Llp,Associate Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Prodapt Solutions,Software Engineer,Tier-2,,,7.5,,,,,False,True,False,False
-2022,More Retail,Engineering Trainee,Tier-2,,8.0,8.5,3.0,,,,False,True,True,False
-2022,Skuad Lab,Software Developer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Data Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Iopex Technologies,Trainee Engineer,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Just Energy,Business Analyst Trainee,Tier-2,,,7.0,,,,,False,True,False,False
-2022,Skypoint Cloud,Data Engineer,Tier-2,,,,,,,,False,False,False,False
-2022,Data Scientist,,Tier-2,,,,,,,,False,False,False,False
-2022,Application Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Neos Healthtech,Backend Developer,Tier-2,10.0,,8.4,,,,,False,True,False,False
-2022,Elsevier,Software Engineer 1,Tier-2,,,7.1,,,,,False,True,False,False
-2022,Relevance Labs,Junior Developer,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Freshworks,Software Engineer - Development,Tier-2,20.0,,7.5,,,,,False,True,False,False
-2022,Software Engineer - Test,,Tier-2,,,,,,,,False,False,False,False
-2022,Esi Software,Software Development Engineer,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Ivy,Trainee Software Engineer,Tier-2,,,8.11,,,,,False,True,False,False
-2022,Bluebird,Software Engineer,Tier-2,,,6.5,,,,,False,True,False,False
-2022,Microland,Graduate Engineering Trainee,Tier-2,,,7.0,,,,,False,True,False,False
-2022,Star Health And Allied Insurance,Software Engineer,Tier-2,,,7.5,,,,,False,True,False,False
-2022,Wns Global Services,"Data Engineering /
- Ingestion Team",Tier-2,,,5.0,,,,,False,True,False,False
-2022,Campaigns Team,,Tier-2,,,,,,,,False,False,False,False
-2022,Sigma Oss Systems,Associate Business Analyst,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Piramal Group,Graduate Engineer Trainee,Tier-2,,,6.8,,,,,False,True,False,False
-2022,Ecom Shopping Solutions Llp,Web Development,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Ge Healthcare,Software Engineer,Tier-2,,,7.0,,,,,False,True,False,False
-2022,Quality Assurance,,Tier-2,,,,,,,,False,False,False,False
-2022,Larsen & Toubro,Graduate Engineer Trainee,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Aakash Institute,Teacher,Tier-2,,,9.5,,,,,False,True,False,False
-2022,Federal Bank,"Associate in Non-Officer 
-(Clerical) Cadre for 
-Branch Banking Role",Tier-2,,,5.41,,,,,False,True,False,False
-2022,Alshaya,Application systems engineer,Tier-2,,,7.6,,,,,False,True,False,False
-2022,Magna Electronics,Trainee Engineer,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Tek Systems,Candidate Manager,Tier-2,,4.5,7.5,,,,,False,True,True,False
-2022,L&T Financial Services,Test Automation Engineer,Tier-2,,5.4,6.0,,,,,False,True,True,False
-2022,Software Developer,,Tier-2,,,,,,,,False,False,False,False
-2022,Data Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Phable,Software Engineer,Tier-2,,8.0,8.0,,,,,False,True,True,False
-2022,Indegene,Analysts,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Intersoft,Software Engineer,Tier-2,,,7.0,,,,,False,True,False,False
-2022,Codeyoung,Software Engineer,Tier-2,18.0,4.36,7.36,,,,,False,True,True,False
-2022,Augmont Goldtech Private Limited,Software Developer,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Hevo Data,Technical Writer,Tier-2,,,9.0,,,,,False,True,False,False
-2022,Sales Development Representative,,Tier-2,6.0,8.5,3.0,,,,,False,True,True,False
-2022,Latentview Analytics,Analyst L1 Entry,Tier-2,,6.0,6.5,,,,,False,True,True,False
-2022,Analyst L1 High,-,Tier-2,8.2,9.0,9.0,,,,,False,True,True,False
-2022,Cambium Networks,Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Tata Elxsi,Engineer,Tier-2,,,5.5,,,,,False,True,False,False
-2022,Bitslash Technologies (Factors.AI),Software Engineer,Tier-2,,7.5,8.0,,,,,False,True,True,False
-2022,Dyeus,Frontend Developer,Tier-2,30.0,,9.0,,,,,False,True,False,False
-2022,Carestack,DevOps Engineer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Product Engineer,,Tier-2,,,,,,,,False,False,False,False
-2022,Product Implementation,,Tier-2,,,,,,,,False,False,False,False
-2022,Novo Nordisk,"Associate Clinical 
-Data Programmer",Tier-2,,,7.0,,,,,False,True,False,False
-2022,Ecolab Digital Center,Trainee – Software developer,Tier-2,,,9.0,,,,,False,True,False,False
-2022,Design Engineers,,Tier-2,,,,,,,,False,False,False,False
-2022,Publicis Sapient,Junior Associate Technology,Tier-2,,,5.1,,,,,False,True,False,False
-2022,Infrrd,Trainee Software Engineer,Tier-2,,,6.5,,,,,False,True,False,False
-2022,Flexera,Associate Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Atos Origin,Junior Associate,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Greenlight Planet,Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Page Industries,Master Data,Tier-2,,,7.75,,,,,False,True,False,False
-2022,Retail Transformation,,Tier-2,,,,,,,,False,False,False,False
-2022,Front End,,Tier-2,,,,,,,,False,False,False,False
-2022,Cambium Networks,Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
-2022,Toshiba,Trainee Engineer,Tier-2,,,6.5,,,,,False,True,False,False
-2022,Nokia,Graduate Engineer Trainee,Tier-2,,,8.2,,,,,False,True,False,False
-2022,Kestone,Junior Developer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Logisticsnow,Full Stack Developer,Tier-2,,,8.0,,,,,False,True,False,False
-2022,Inmobi,Analyst,Tier-2,,,8.5,,,,,False,True,False,False
-2022,Flock,Product Support Engineer,Tier-2,,5.5,6.0,,,,,False,True,True,False
-2022,Stipend,Interns,Internship-Summer,,,,,,,,True,False,False,False
-2022,Morgan Stanley,Summer Intern,Internship-Summer,87.0,9.0,21.0,21.0,22.0,,,True,True,True,False
-2022,Goldman Sachs,Software Engineer Intern,Internship-Summer,75.0,5.0,20.0,30.0,20.0,,,True,True,True,False
-2022,Intuit,Summer Intern,Internship-Summer,60.0,1.0,,31.0,20.0,,,True,False,True,False
-2022,Samsung,Student Trainee R&D,Internship-Summer,50.0,10.0,20.0,20.0,20.0,,,True,True,True,False
-2022,Walmart,Software Engineer - 2 Intern,Internship-Summer,80.0,,20.0,20.0,20.0,,,True,True,False,False
-2022,SAP Labs,Intern,Internship-Summer,35.0,6.0,20.0,20.0,20.0,,,True,True,True,False
-2022,Groww,Summer Intern,Internship-Summer,30.0,5.0,20.0,20.0,20.0,,,True,True,True,False
-2022,Standard Chartered,Summer Intern,Internship-Summer,30.0,,,2013.0,20.0,,,True,False,False,False
-2022,Akamai,Software Engineer Intern,Internship-Summer,35.0,10.0,28.0,28.0,2002.0,,,True,True,True,False
-2022,Visa,Software Engineering Intern,Internship-Summer,60.0,8.0,8.0,20.0,20.0,,,True,True,True,False
-2022,Dell Technologies,Summer Intern,Internship-Summer,25.0,2.0,2.0,,20.0,,,True,True,True,False
-2022,Autodesk,Summer Intern,Internship-Summer,30.0,,,,,,,True,False,False,False
-2022,Target,Summer Intern Data Scientist,Internship-Summer,30.0,,,,21.0,,,True,False,False,False
-2022,Zscaler,Intern,Internship-Summer,30.0,5.0,21.0,21.0,21.0,,,True,True,True,False
-2022,Soroco,Summer Intern,Internship-Summer,50.0,,21.0,21.0,21.0,,,True,True,False,False
-2022,Epsilon,Intern,Internship-Summer,30.0,,24.0,24.0,25.0,,,True,True,False,False
-2022,Cisco,Software Engineer Intern,Internship-Summer,65.0,,,,,,,True,False,False,False
-2022,Jp Morgan,Software Engineering Intern,Internship-Summer,,,,,,,,True,False,False,False
-2022,Pronisi,Intern,Internship-Summer,,7.0,7.0,,,,,True,True,True,False
 2022,Stipend,Interns,Internship-Spring,,,,,,,,True,False,False,False
 2022,American Express,Technology Intern,Internship-Spring,70.0,,21.0,21.0,21.0,,,True,True,False,False
 2022,Amazon,SDE Intern,Internship-Spring,80.0,,,25.0,,,,True,False,False,False
@@ -417,6 +96,26 @@ Data Programmer",Tier-2,,,7.0,,,,,False,True,False,False
 2022,Software Test Intern,,Internship-Spring,,,,,,,,True,False,False,False
 2022,Java Intern,,Internship-Spring,,,,,,,,True,False,False,False
 2022,Python Intern,,Internship-Spring,,,,,,,,True,False,False,False
+2022,Stipend,Interns,Internship-Summer,,,,,,,,True,False,False,False
+2022,Morgan Stanley,Summer Intern,Internship-Summer,87.0,9.0,21.0,21.0,22.0,,,True,True,True,False
+2022,Goldman Sachs,Software Engineer Intern,Internship-Summer,75.0,5.0,20.0,30.0,20.0,,,True,True,True,False
+2022,Intuit,Summer Intern,Internship-Summer,60.0,1.0,,31.0,20.0,,,True,False,True,False
+2022,Samsung,Student Trainee R&D,Internship-Summer,50.0,10.0,20.0,20.0,20.0,,,True,True,True,False
+2022,Walmart,Software Engineer - 2 Intern,Internship-Summer,80.0,,20.0,20.0,20.0,,,True,True,False,False
+2022,SAP Labs,Intern,Internship-Summer,35.0,6.0,20.0,20.0,20.0,,,True,True,True,False
+2022,Groww,Summer Intern,Internship-Summer,30.0,5.0,20.0,20.0,20.0,,,True,True,True,False
+2022,Standard Chartered,Summer Intern,Internship-Summer,30.0,,,2013.0,20.0,,,True,False,False,False
+2022,Akamai,Software Engineer Intern,Internship-Summer,35.0,10.0,28.0,28.0,2002.0,,,True,True,True,False
+2022,Visa,Software Engineering Intern,Internship-Summer,60.0,8.0,8.0,20.0,20.0,,,True,True,True,False
+2022,Dell Technologies,Summer Intern,Internship-Summer,25.0,2.0,2.0,,20.0,,,True,True,True,False
+2022,Autodesk,Summer Intern,Internship-Summer,30.0,,,,,,,True,False,False,False
+2022,Target,Summer Intern Data Scientist,Internship-Summer,30.0,,,,21.0,,,True,False,False,False
+2022,Zscaler,Intern,Internship-Summer,30.0,5.0,21.0,21.0,21.0,,,True,True,True,False
+2022,Soroco,Summer Intern,Internship-Summer,50.0,,21.0,21.0,21.0,,,True,True,False,False
+2022,Epsilon,Intern,Internship-Summer,30.0,,24.0,24.0,25.0,,,True,True,False,False
+2022,Cisco,Software Engineer Intern,Internship-Summer,65.0,,,,,,,True,False,False,False
+2022,Jp Morgan,Software Engineering Intern,Internship-Summer,,,,,,,,True,False,False,False
+2022,Pronisi,Intern,Internship-Summer,,7.0,7.0,,,,,True,True,True,False
 2022,Internship Stipend,Base,Tier-1,,,,,,,,False,False,False,False
 2022,HPE (Through Project),,Tier-1,,,11.5,6.0,,,,False,True,False,False
 2022,Morgan Stanley(Through Summer Internship),,Tier-1,,13.0,25.0,16.0,,,,False,True,True,False
@@ -636,75 +335,309 @@ Engineering",Tier-1,50.0,18.5,22.5,,,,,False,True,True,False
 2022,Lookout,Software Engineer,Tier-1,,9.0,9.45,,,,,False,True,True,False
 2022,Exiger Technologies,"CPU Architecture 
 Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
-2023,Adobe (Ppo),Associate Technical Consultant,Tier-2,,9.0,11.71,,5.0,,,False,True,True,False
-2023,Bosch (Ppo),Eminent,Tier-2,25.0,,7.0,,5.0,,,False,True,False,False
-2023,Infosys,Specialist Programmer,Tier-2,,,9.5,,,,,False,True,False,False
-2023,Digital Specialist Engineer,,Tier-2,,6.25,6.25,,,,,False,True,True,False
-2023,Tcs,Digital,Tier-2,,,7.6,,,,,False,True,False,False
-2023,Mindtree,Graduate Engineer Trainee,Tier-2,,,6.5,1.0,,,,False,True,False,False
-2023,IBM,Cloud Engineer,Tier-2,,,11.0,1.0,5.0,8.0,,False,True,False,False
-2023,Deloitte Usi,USI Risk and Financial Advisory,Tier-2,,,7.6,8.0,,,,False,True,False,False
-2023,Usi Consulting,,Tier-2,,7.6,54.0,,,,,False,True,True,False
-2023,Deloitte India,,Tier-2,,7.6,18.0,,,,,False,True,True,False
-2023,PwC,Risk Consulting,Tier-2,40.0,7.0,9.23,,10.0,,,False,True,True,False
-2023,Technology Consulting,,Tier-2,,,,100.0,,,,False,False,False,False
-2023,Wipro,,Tier-2,,5.5,6.5,,,,,False,True,True,False
-2023,Schneider Electric,Graduate Engineer Trainee,Tier-2,25.0,,9.0,9.0,13.0,,,False,True,False,False
-2023,Adobe Systems,Associate Technical Consultant,Tier-2,60.0,,11.0,,,,,False,True,False,False
-2023,Hiver,Software Development Engineer,Tier-2,21.5,4.0,11.69,,,,,False,True,True,False
-2023,Ather Energy,Electrical Engineer,Tier-2,,,10.0,,4.0,,,False,True,False,False
-2023,Juspay Technology,Technical Product Analyst,Tier-2,30.0,,10.0,,,,,False,True,False,False
-2023,Oracle Acs,Technical Analyst,Tier-2,,,10.01,17.0,,,,False,True,False,False
-2023,Affinsys,Solution Consultant,Tier-2,25.0,,8.5,,,,,False,True,False,False
-2023,Volvo,GET & PGET,Tier-2,,7.5,7.5,,,,,False,True,True,False
-2023,KPMG,Analyst TE - MS,Tier-2,,5.0,7.0,15.0,,,,False,True,True,False
-2023,Analyst Grcs - Tech,,Tier-2,6.0,7.0,7.0,,,202208.0,,False,True,True,False
-2023,Subex,,Tier-2,40.0,,8.5,1.0,,,,False,True,False,False
-2023,Cynlr,Application Engineer,Tier-2,30.0,,9.0,,,,,False,True,False,False
-2023,Deloitte India,Senior Analyst,Tier-2,,6.1,7.01,,6.0,,,False,True,True,False
-2023,Amadeus Labs,,Tier-2,30.0,10.0,11.77,,5.0,8.0,,False,True,True,False
-2023,Csg India,SDE Grad,Tier-2,25.0,,7.5,,,,,False,True,False,False
-2023,Nextuple,Associate Software Engineer,Tier-2,20.0,,8.0,,,,,False,True,False,False
-2023,Associate Qa Engineer,20k,Tier-2,,7.0,7.0,,,,,False,True,True,False
-2023,Genpact,Business Analyst,Tier-2,25.0,,10.0,,,,,False,True,False,False
-2023,Software Engineer,25k,Tier-2,,10.0,10.0,18.0,,,,False,True,True,False
-2023,At&T,Technical Intern,Tier-2,45.0,,11.5,,,13.0,,False,True,False,False
-2023,Brane Enterprises,Associated Solution Leader Trainee,Tier-2,30.0,10.0,10.0,,,,,False,True,True,False
-2023,Microchip Technology,,Tier-2,,,8.0,,,,,False,True,False,False
-2023,Wissen Technology,Associate Analyst,Tier-2,25.0,,8.0,,2.0,,,False,True,False,False
-2023,Hdfc Bank,Functional / Technical Analyst,Tier-2,,4.71,7.46,,,,,False,True,True,False
-2023,Broadridge Financial Solutions,Member Technical,Tier-2,30.0,10.0,10.0,,,,,False,True,True,False
-2023,Cognizant,GenC Elevate,Tier-2,,,6.0,11.0,,,,False,True,False,False
-2023,EY India,Analytics Consultant,Tier-2,,7.5,8.59,12.0,,,,False,True,True,False
-2023,Cyber Consultant,,Tier-2,,,10.0,,,,,False,True,False,False
-2023,Tech Risk Consultant,,Tier-2,,,9.0,,,,,False,True,False,False
-2023,Collins Aerospace,,Tier-2,,,6.25,,,,,False,True,False,False
-2023,Nokia,Graduate Engineer Trainee,Tier-2,25.0,,8.2,,5.0,,,False,True,False,False
-2023,Abb,Software Engineer,Tier-2,,8.5,10.5,,,,,False,True,True,False
-2023,Perfios,Software Development Engineer,Tier-2,15.5,9.0,10.0,,17.0,,,False,True,True,False
-2023,Mercedes Benz R&D,Graduate Intern Trainee,Tier-2,,,10.0,,16.0,,,False,True,False,False
-2023,Piramal Group,Data Scientist ( Support ),Tier-2,,5.0,6.05,,,,,False,True,True,False
-2023,Elsevier India Technology,SWE I,Tier-2,,,7.71,,,,,False,True,False,False
-2023,314E Corporation,Software Engineer,Tier-2,,,8.1,,,,,False,True,False,False
-2023,Hfcl,Graduate Engineer Trainee,Tier-2,25.0,9.0,10.0,,,,,False,True,True,False
-2023,Skylar Drones,,Tier-2,25.0,,,,,,,False,False,False,False
-2023,Exl Service,Analyst,Tier-2,,,6.5,17.0,,,,False,True,False,False
-2023,Havells,,Tier-2,25.0,,8.0,,,,,False,True,False,False
-2023,Standard Chartered,Development Engineer,Tier-2,,7.5,8.25,2.0,,,,False,True,True,False
-2023,Jsw,Graduate Engineer Trainee,Tier-2,,,8.5,,,,,False,True,False,False
-2023,Harman International,Associate Engineer,Tier-2,,,7.75,16.0,,,,False,True,False,False
-2023,Hexaware Technologies,,Tier-2,25.0,,6.0,,,,,False,True,False,False
-2023,Conga,,Tier-2,12.0,,7.2,,8.0,,,False,True,False,False
-2023,Phdata,Associate Data Engineer,Tier-2,,,7.0,5.0,,,,False,True,False,False
-2023,Fractal Analytics,Imagineer,Tier-2,,,7.0,,,,,False,True,False,False
-2023,Dell,Associate Sales Engineer Analyst,Tier-2,35.0,,8.47,,,,,False,True,False,False
-2023,Tvs Motor Company,Data Engineer/Data Scientist,Tier-2,,,8.0,,,,,False,True,False,False
-2023,Alcon Laboratories,Associate Analyst,Tier-2,20.0,6.11,7.28,,,,,False,True,True,False
-2023,Lseg,,Tier-2,,,10.0,,,,,False,True,False,False
-2023,Wns,Analyst,Tier-2,,,10.0,3.0,,,,False,True,False,False
-2023,Sonata,Trainee Digital Technology Specialist,Tier-2,,,6.0,0.0,0.0,0.0,,False,True,False,False
-2023,Zopsmart,SDE-I,Tier-2,30.0,,10.0,,8.0,,,False,True,False,False
-2023,Applied Materials,Engineer,Tier-2,,,9.67,,,,,False,True,False,False
+2022,Internship Stipend,Base,Tier-2,,,,,,,,False,False,False,False
+2022,Infosys,Specialist Programmer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Digital Specialist Engineer,,Tier-2,,5.0,5.0,,,,,False,True,True,False
+2022,Cognizant (Genc Next),Advanced Developer,Tier-2,,,6.75,,40.0,,,False,True,False,False
+2022,Full Stack Software Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Digital User Experience Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,IoT Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Data Scientist,,Tier-2,,,,,,,,False,False,False,False
+2022,Advanced C/Unix Dev,,Tier-2,,,,,,,,False,False,False,False
+2022,AWS Infra Dev,,Tier-2,,,,,,,,False,False,False,False
+2022,Google Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Cybersecurity Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Performance Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Quality Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Capgemini,Senior Analyst,Tier-2,,,7.5,67.0,,,,False,True,False,False
+2022,Abb,Management Trainee,Tier-2,,,6.0,,,,,False,True,False,False
+2022,R&D Engineer,,Tier-2,,7.5,7.5,,,,,False,True,True,False
+2022,Ushur,SDET,Tier-2,40.0,,8.0,,,,,False,True,False,False
+2022,IBM (Gbs),Associate Developer,Tier-2,30.0,,7.5,,14.0,,,False,True,False,False
+2022,Data Engineer,-,Tier-2,,5.5,5.5,,,,,False,True,True,False
+2022,Subex,Software Engineer,Tier-2,40.0,,8.5,,,,,False,True,False,False
+2022,Csg International,Software Development,Tier-2,25.0,,7.5,,,,,False,True,False,False
+2022,Wipro Turbo,Project Engineer,Tier-2,,5.5,6.5,130.0,,,,False,True,True,False
+2022,Deloitte Usi,"Technology Analyst - 
+USI Risk & Financial Advisory",Tier-2,,,7.6,20.0,,,,False,True,False,False
+2022,Analyst - Usi Consulting,,Tier-2,,,50.0,,,,,False,True,False,False
+2022,Analyst - It Services Group,,Tier-2,,,2.0,,,,,False,True,False,False
+2022,Analyst - Deloitte India Consulting,,Tier-2,,,27.0,,,,,False,True,False,False
+2022,PwC,Associate,Tier-2,,,6.0,,8.0,,,False,True,False,False
+2022,KPMG,Analyst - Digital Trust,Tier-2,15.0,,6.3,,,,,False,True,False,False
+2022,KPMG Gsd,Analyst,Tier-2,,5.0,7.0,12.0,,,,False,True,True,False
+2022,Cyber Security,,Tier-2,,,,,,,,False,False,False,False
+2022,Oracle,Associate Consultant,Tier-2,,8.22,8.92,22.0,,,,False,True,True,False
+2022,Accenture,"Advanced Application
+ Engineering Analyst",Tier-2,,,,,,,,False,False,False,False
+2022,Data Engineering Analyst,-,Tier-2,,,,,,,,False,False,False,False
+2022,Eox Vantage,Jr Developer,Tier-2,10.0,,9.0,,4.0,,,False,True,False,False
+2022,Deloitte India,SAP Consulting,Tier-2,,5.0,6.2,,,,,False,True,True,False
+2022,Detect & Response Consulting,,Tier-2,,,,,,,,False,False,False,False
+2022,Rpa & Automation Consulting,,Tier-2,,,,,,,,False,False,False,False
+2022,Cyber Strategy Consulting,,Tier-2,,,,,,,,False,False,False,False
+2022,Data Privacy Consulting,,Tier-2,,,,,,,,False,False,False,False
+2022,Collins Aerospace,GET,Tier-2,,,6.25,,,30.0,,False,True,False,False
+2022,Conga,Software Engineer,Tier-2,12.0,,7.2,,,,,False,True,False,False
+2022,Talent Recruit Software Pvt. Ltd,Software Engineer,Tier-2,,6.0,8.0,,,,,False,True,True,False
+2022,314E It Solutions,Software Engineer,Tier-2,35.0,,8.0,,,1.0,,False,True,False,False
+2022,Microchip Technology,ERP - BaaN,Tier-2,21.0,8.0,8.55,,3.0,,,False,True,True,False
+2022,Dynamics Ax,,Tier-2,,,,,,,,False,False,False,False
+2022,Biztalk B2B Developer,,Tier-2,,,,,,,,False,False,False,False
+2022,Etl Quality Assurance,,Tier-2,,,,,,,,False,False,False,False
+2022,Micron,Associate Engineer,Tier-2,,5.94,8.2,,,,,False,True,True,False
+2022,Havells,IoT/AIML Engineer,Tier-2,,,7.0,,,,,False,True,False,False
+2022,Software Developer,,Tier-2,,,,,,,,False,False,False,False
+2022,Signify Innovation,Data Specialist,Tier-2,28.0,7.7,8.7,,,,,False,True,True,False
+2022,Project Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Viacom18,GET - Frontend,Tier-2,,8.0,8.0,7.0,,,,False,True,True,False
+2022,Get - Backend,,Tier-2,,,,,,,,False,False,False,False
+2022,Yara Digital Farming India,Software Engineering,Tier-2,,,7.2,,,,,False,True,False,False
+2022,Data Engineering,,Tier-2,,,,,,,,False,False,False,False
+2022,Devops Engineering,,Tier-2,,,,,,,,False,False,False,False
+2022,Data Analyst,,Tier-2,,,,,,,,False,False,False,False
+2022,Business Analyst,,Tier-2,,,,,,,,False,False,False,False
+2022,Data Science,,Tier-2,,,,,,,,False,False,False,False
+2022,Zensar,Software Developer,Tier-2,,6.5,9.0,6.0,,,,False,True,True,False
+2022,Nextuple,Associate Software Engineer,Tier-2,15.0,7.25,8.0,,,,,False,True,True,False
+2022,Associate Qa Engineer,,Tier-2,5.35,6.0,6.0,,,,,False,True,True,False
+2022,Tavant Technologies,Software Engineer Trainee,Tier-2,,6.28,6.93,3.0,,,,False,True,True,False
+2022,Visteon Corporation,Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Hardware Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Jsw,GET,Tier-2,,,8.0,8.0,,,,False,True,False,False
+2022,Secpod Technologies,Software Engineer – Systems,Tier-2,15.0,,9.0,1.0,3.0,,,False,True,False,False
+2022,Software Engineer – Ui,,Tier-2,,,,,,,,False,False,False,False
+2022,Product Content Marketer,,Tier-2,,,,,,,,False,False,False,False
+2022,Security Research Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Consilio,Associate Engineer,Tier-2,,6.0,6.11,,,,,False,True,True,False
+2022,Hdfc Bank,Executive / Management Trainee,Tier-2,,4.71,6.57,,,,,False,True,True,False
+2022,Scaler Academy,Business Development Trainee,Tier-2,30.0,,8.5,,,,,False,True,False,False
+2022,Cerner Corporation,Software Engineer,Tier-2,22.0,,7.0,,,,,False,True,False,False
+2022,Test Automation Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Netcracker,Trainee,Tier-2,25.0,5.5,6.0,,,,,False,True,True,False
+2022,Junior Software Engineer,-,Tier-2,6.5,8.0,8.0,,,,,False,True,True,False
+2022,Applied Materials,Performance Engineer,Tier-2,27.0,,8.19,,,,,False,True,False,False
+2022,Edgeverve Systems,Product Engineer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Pelatro Solutions,Trainee Engineer,Tier-2,,,6.5,,,,,False,True,False,False
+2022,Tekenlight Solutions,Java Developer,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Tejas Networks,Product Verification,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Vrize,Software Engineer,Tier-2,15.0,,15.0,,,,,False,True,False,False
+2022,Citiustech,Trainee Software Engineer,Tier-2,,,5.5,6.0,,,,False,True,False,False
+2022,Npci,Graduate Engineer Trainee,Tier-2,,5.0,6.85,,,,,False,True,True,False
+2022,Allstate,Associate Consultant,Tier-2,,5.5,6.5,,,,,False,True,True,False
+2022,Coffeebeans Consulting,Associate Consultant,Tier-2,,,9.0,,,,,False,True,False,False
+2022,Yara Digital Farming,Software Engineer,Tier-2,,,7.2,,,,,False,True,False,False
+2022,Byteridge,Software Development Engineer,Tier-2,,,5.33,,,,,False,True,False,False
+2022,Mphasis,Associate Software Engineer,Tier-2,,5.8,6.0,,,,,False,True,True,False
+2022,Indegene,SDE,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Wakefit,Associate Software Engineer,Tier-2,25.0,,8.0,,,,,False,True,False,False
+2022,Tata Iq,Analyst Analytics Services,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Tata Power,GET,Tier-2,,,,,,,,False,False,False,False
+2022,Axis Bank,IT Deputy Manager,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Adani Group,GET.,Tier-2,,5.62,6.0,,,,,False,True,True,False
+2022,Freightdeck,Product Delivery,Tier-2,12.0,,6.0,,,,,False,True,False,False
+2022,Software Developer,,Tier-2,,,,,,,,False,False,False,False
+2022,Uptycs,Software Engineer,Tier-2,25.0,8.0,8.0,,,,,False,True,True,False
+2022,Krypt,Associate Analyst,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Y Media Labs,Associate Software Engineer,Tier-2,,,6.5,,,,,False,True,False,False
+2022,Ischoolconnect,Full stack,Tier-2,15.0,,8.0,,,,,False,True,False,False
+2022,Platform Engineers,,Tier-2,,,,,,,,False,False,False,False
+2022,Automation Testers,12.5k,Tier-2,,,,,,,,False,False,False,False
+2022,Temenos,Software Engineer,Tier-2,,5.5,6.3,,,,,False,True,True,False
+2022,Kreditbee,Software Engineer,Tier-2,,6.0,8.0,,7.0,12.0,,False,True,True,False
+2022,Vlinder Labs,Associate Engineer,Tier-2,25.0,,7.0,,,,,False,True,False,False
+2022,Wakefit,Associate Software Engineer,Tier-2,25.0,,8.0,,,,,False,True,False,False
+2022,Manhattan Associates,Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Sonata,"Trainee Digital 
+Technology Specialist",Tier-2,,,6.0,,,,,False,True,False,False
+2022,Alshaya,Application systems engineer,Tier-2,,,7.6,,,,,False,True,False,False
+2022,Byju'S,Associate - Content Development,Tier-2,,5.0,6.0,,,,,False,True,True,False
+2022,Associate - Creatives,,Tier-2,,,,,,,,False,False,False,False
+2022,Academic Specialist,,Tier-2,4.0,,2.0,,,,,False,True,False,False
+2022,Infovity,Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Harman Connected Services,Associate Developer,Tier-2,10.0,,5.5,,3.0,,,False,True,False,False
+2022,Prodapt Solutions,Software Engineer,Tier-2,,,7.5,,,,,False,True,False,False
+2022,Krishworks,SDE 1,Tier-2,20.0,,6.0,,,,,False,True,False,False
+2022,Justdial,QA Testing,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Dell Technologies,Sales Operations Analyst,Tier-2,,,,,,,,False,False,False,False
+2022,Coditas Solutions Llp,Associate Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Prodapt Solutions,Software Engineer,Tier-2,,,7.5,,,,,False,True,False,False
+2022,More Retail,Engineering Trainee,Tier-2,,8.0,8.5,3.0,,,,False,True,True,False
+2022,Skuad Lab,Software Developer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Data Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Iopex Technologies,Trainee Engineer,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Just Energy,Business Analyst Trainee,Tier-2,,,7.0,,,,,False,True,False,False
+2022,Skypoint Cloud,Data Engineer,Tier-2,,,,,,,,False,False,False,False
+2022,Data Scientist,,Tier-2,,,,,,,,False,False,False,False
+2022,Application Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Neos Healthtech,Backend Developer,Tier-2,10.0,,8.4,,,,,False,True,False,False
+2022,Elsevier,Software Engineer 1,Tier-2,,,7.1,,,,,False,True,False,False
+2022,Relevance Labs,Junior Developer,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Freshworks,Software Engineer - Development,Tier-2,20.0,,7.5,,,,,False,True,False,False
+2022,Software Engineer - Test,,Tier-2,,,,,,,,False,False,False,False
+2022,Esi Software,Software Development Engineer,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Ivy,Trainee Software Engineer,Tier-2,,,8.11,,,,,False,True,False,False
+2022,Bluebird,Software Engineer,Tier-2,,,6.5,,,,,False,True,False,False
+2022,Microland,Graduate Engineering Trainee,Tier-2,,,7.0,,,,,False,True,False,False
+2022,Star Health And Allied Insurance,Software Engineer,Tier-2,,,7.5,,,,,False,True,False,False
+2022,Wns Global Services,"Data Engineering /
+ Ingestion Team",Tier-2,,,5.0,,,,,False,True,False,False
+2022,Campaigns Team,,Tier-2,,,,,,,,False,False,False,False
+2022,Sigma Oss Systems,Associate Business Analyst,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Piramal Group,Graduate Engineer Trainee,Tier-2,,,6.8,,,,,False,True,False,False
+2022,Ecom Shopping Solutions Llp,Web Development,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Ge Healthcare,Software Engineer,Tier-2,,,7.0,,,,,False,True,False,False
+2022,Quality Assurance,,Tier-2,,,,,,,,False,False,False,False
+2022,Larsen & Toubro,Graduate Engineer Trainee,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Aakash Institute,Teacher,Tier-2,,,9.5,,,,,False,True,False,False
+2022,Federal Bank,"Associate in Non-Officer 
+(Clerical) Cadre for 
+Branch Banking Role",Tier-2,,,5.41,,,,,False,True,False,False
+2022,Alshaya,Application systems engineer,Tier-2,,,7.6,,,,,False,True,False,False
+2022,Magna Electronics,Trainee Engineer,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Tek Systems,Candidate Manager,Tier-2,,4.5,7.5,,,,,False,True,True,False
+2022,L&T Financial Services,Test Automation Engineer,Tier-2,,5.4,6.0,,,,,False,True,True,False
+2022,Software Developer,,Tier-2,,,,,,,,False,False,False,False
+2022,Data Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Phable,Software Engineer,Tier-2,,8.0,8.0,,,,,False,True,True,False
+2022,Indegene,Analysts,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Intersoft,Software Engineer,Tier-2,,,7.0,,,,,False,True,False,False
+2022,Codeyoung,Software Engineer,Tier-2,18.0,4.36,7.36,,,,,False,True,True,False
+2022,Augmont Goldtech Private Limited,Software Developer,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Hevo Data,Technical Writer,Tier-2,,,9.0,,,,,False,True,False,False
+2022,Sales Development Representative,,Tier-2,6.0,8.5,3.0,,,,,False,True,True,False
+2022,Latentview Analytics,Analyst L1 Entry,Tier-2,,6.0,6.5,,,,,False,True,True,False
+2022,Analyst L1 High,-,Tier-2,8.2,9.0,9.0,,,,,False,True,True,False
+2022,Cambium Networks,Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Tata Elxsi,Engineer,Tier-2,,,5.5,,,,,False,True,False,False
+2022,Bitslash Technologies (Factors.AI),Software Engineer,Tier-2,,7.5,8.0,,,,,False,True,True,False
+2022,Dyeus,Frontend Developer,Tier-2,30.0,,9.0,,,,,False,True,False,False
+2022,Carestack,DevOps Engineer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Product Engineer,,Tier-2,,,,,,,,False,False,False,False
+2022,Product Implementation,,Tier-2,,,,,,,,False,False,False,False
+2022,Novo Nordisk,"Associate Clinical 
+Data Programmer",Tier-2,,,7.0,,,,,False,True,False,False
+2022,Ecolab Digital Center,Trainee – Software developer,Tier-2,,,9.0,,,,,False,True,False,False
+2022,Design Engineers,,Tier-2,,,,,,,,False,False,False,False
+2022,Publicis Sapient,Junior Associate Technology,Tier-2,,,5.1,,,,,False,True,False,False
+2022,Infrrd,Trainee Software Engineer,Tier-2,,,6.5,,,,,False,True,False,False
+2022,Flexera,Associate Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Atos Origin,Junior Associate,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Greenlight Planet,Software Engineer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Page Industries,Master Data,Tier-2,,,7.75,,,,,False,True,False,False
+2022,Retail Transformation,,Tier-2,,,,,,,,False,False,False,False
+2022,Front End,,Tier-2,,,,,,,,False,False,False,False
+2022,Cambium Networks,Software Engineer,Tier-2,,,6.0,,,,,False,True,False,False
+2022,Toshiba,Trainee Engineer,Tier-2,,,6.5,,,,,False,True,False,False
+2022,Nokia,Graduate Engineer Trainee,Tier-2,,,8.2,,,,,False,True,False,False
+2022,Kestone,Junior Developer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Logisticsnow,Full Stack Developer,Tier-2,,,8.0,,,,,False,True,False,False
+2022,Inmobi,Analyst,Tier-2,,,8.5,,,,,False,True,False,False
+2022,Flock,Product Support Engineer,Tier-2,,5.5,6.0,,,,,False,True,True,False
+2022,Internship Stipend,Base,Tier-3,,,,,,,,False,False,False,False
+2022,Quest Global,Trainee Engineer,Tier-3,,,3.25,,,,,False,True,False,False
+2022,Tcs (Ninja Hiring),,Tier-3,,,3.36,,,,,False,True,False,False
+2022,The Math Company,,Tier-3,,4.5,4.5,,7.0,,,False,True,True,False
+2022,Mu Sigma,,Tier-3,,3.5,3.5,,,,,False,True,True,False
+2022,Cognizant,GenC Elevate,Tier-3,,,4.0,103.0,,,,False,True,False,False
+2022,Genc,-,Tier-3,,4.0,,,,,,False,False,True,False
+2022,Infosys,Systems Engineer,Tier-3,,,3.6,,,,,False,True,False,False
+2022,Robert Bosch,,Tier-3,,,5.0,53.0,,,,False,True,False,False
+2022,L&T Technology Services Limited,,Tier-3,,,4.0,,,,,False,True,False,False
+2022,Ey,Tech Consulting - Cyber,Tier-3,,,4.37,,,,,False,True,False,False
+2022,Risk Consulting - Tech Risk,,Tier-3,,,,,,,,False,False,False,False
+2022,Eox Vantage,Jr Developer,Tier-3,10.0,,6.0,,2.0,,,False,True,False,False
+2022,Data Security,,Tier-3,,,,3.0,,,,False,False,False,False
+2022,Deevia Software,Software Engineer,Tier-3,10.0,,5.0,1.0,,2.0,,False,True,False,False
+2022,Hcl,"GET - Identity and 
+Access Management",Tier-3,,,4.75,,,,,False,True,False,False
+2022,Get,,Tier-3,,,,,,,,False,False,False,False
+2022,Get - Dryice,,Tier-3,,,,,,,,False,False,False,False
+2022,Get - Infra,,Tier-3,,,,,,,,False,False,False,False
+2022,Get - Grc And Information Security,,Tier-3,,,,,,,,False,False,False,False
+2022,Atos,Trainee,Tier-3,,,3.1,,,,,False,True,False,False
+2022,Kofluence,Operations,Tier-3,10.0,4.0,5.0,,2.0,,,False,True,True,False
+2022,Product Management,,Tier-3,,,,4.0,,,,False,False,False,False
+2022,Software Engineer,,Tier-3,,,,3.0,,,,False,False,False,False
+2022,Atos Global,Software Engineer,Tier-3,,,3.1,,,,,False,True,False,False
+2022,Cgi,Software Engineer,Tier-3,,,4.25,,,,,False,True,False,False
+2022,Prodapt Solutions,Software Engineer,Tier-3,,,7.5,,,,,False,True,False,False
+2022,Infobell It Solutions,Jr. Systems Engineer,Tier-3,20.0,,5.0,,,,,False,True,False,False
+2022,Systems Engineer(Amd),15k,Tier-3,,4.8,4.8,,,,,False,True,True,False
+2022,Face Prep,Placement Mentor,Tier-3,,2.4,3.06,,,,,False,True,True,False
+2022,Moonraft Innovation Labs,Software Engineer,Tier-3,,,4.5,5.0,,,,False,True,False,False
+2022,Pk Global,"Software Engineer
+Level 2",Tier-3,,,5.0,,,,,False,True,False,False
+2022,Vrize,Associate Software Engineer,Tier-3,15.0,,4.5,,,,,False,True,False,False
+2022,Sasken,Associate Software Engineer,Tier-3,,,5.0,,,,,False,True,False,False
+2022,Bristlecone,Associate Consultant,Tier-3,,,4.25,,,,,False,True,False,False
+2022,Renault Nissan Technology Business Centre India,Graduate Engineer Trainee,Tier-3,,,4.75,,,,,False,True,False,False
+2022,Databeat,Data Analysts (.NET),Tier-3,,,6.0,,,,,False,True,False,False
+2022,Maveric Systems,"Technical Associate 
+ Core Banking",Tier-3,15.0,,4.5,,,,,False,True,False,False
+2022,Diatoz Solutions,Software Engineer,Tier-3,14.9,,5.0,,,,,False,True,False,False
+2022,Apexon,Associate Trainee,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Infoview,Trainee,Tier-3,15.0,,3.5,,,,,False,True,False,False
+2022,Utthunga Technologies,Project Trainee,Tier-3,,4.4,5.0,,,,,False,True,True,False
+2022,Birlasoft,Trainee Engineer,Tier-3,,,3.6,,,,,False,True,False,False
+2022,Titan,Graduate Engineer Trainee,Tier-3,,,5.0,,,,,False,True,False,False
+2022,Anora,Graduate trainee,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Billsafe Technologies,Tech Development intern,Tier-3,20.0,3.6,4.0,,,,,False,True,True,False
+2022,Turingminds.AI,ML Analyst,Tier-3,,,4.0,,,,,False,True,False,False
+2022,Data Scientist,,Tier-3,,5.0,5.0,,,,,False,True,True,False
+2022,Mountblue Technologies,Software Engineer Trainee,Tier-3,,,4.0,,,,,False,True,False,False
+2022,Nivetti Systems,Software Engineer,Tier-3,,,4.0,,,,,False,True,False,False
+2022,Neosoft Technologies,Trainee Software Engineer,Tier-3,10.0,,3.6,,,,,False,True,False,False
+2022,Ericsson,Associate Engineer Trainee,Tier-3,20.0,,4.5,,12.0,,,False,True,False,False
+2022,Simplilearn,Software Development Engineer,Tier-3,,5.25,6.25,,,,,False,True,True,False
+2022,Software Development Engineer In Test,,Tier-3,4.5,5.5,5.5,,,,,False,True,True,False
+2022,Learning Designer -1,,Tier-3,4.5,5.5,5.5,,,,,False,True,True,False
+2022,Altisource,Software Engineer,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Itc Infotech,Associate IT consultant,Tier-3,,,4.25,2.0,,,,False,True,False,False
+2022,Axiscades,Graduate Engineer Trainee,Tier-3,,,3.2,,,,,False,True,False,False
+2022,7Edge,SDET,Tier-3,,,5.5,,,,,False,True,False,False
+2022,Tata Technologies,Graduate Engineer Trainee,Tier-3,,,4.65,15.0,,,,False,True,False,False
+2022,Monocept,Trainee Software Engineer,Tier-3,,,6.0,,,,,False,True,False,False
+2022,H3Mart,Sales,Tier-3,,,3.5,,,,,False,True,False,False
+2022,Inside Sales,,Tier-3,,4.0,4.0,,,,,False,True,True,False
+2022,Valued Epistemics,Graduate Sales Trainee,Tier-3,22.0,3.5,4.7,,,,,False,True,True,False
+2022,Pentagon Space,Full Stack Developer,Tier-3,,,10.0,,,,,False,True,False,False
+2022,Ditto Insurance,Insurance Advisor,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Merkle Sokrati,Associate Business Analyst,Tier-3,,,4.6,,,,,False,True,False,False
+2022,Kibbcom,Software Engineer,Tier-3,,3.29,3.5,,,,,False,True,True,False
+2022,Bosch Automotive Electronics,Graduate Apprentice,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Pepper Cloud,Full Stack Engineer,Tier-3,,,5.0,,,,,False,True,False,False
+2022,Careerlabs Technologies,Full Stack Java Developer,Tier-3,,,8.5,,,,,False,True,False,False
+2022,Full Stack Dot Net Developer,,Tier-3,,,,,,,,False,False,False,False
+2022,Full Stack Python Developer,,Tier-3,,,,,,,,False,False,False,False
+2022,Associate Software Engineer,,Tier-3,,,,,,,,False,False,False,False
+2022,Specbee,Software Developer,Tier-3,,,4.0,,,,,False,True,False,False
+2022,Mastek,Software Engineer,Tier-3,,,5.0,,,,,False,True,False,False
+2022,Acemicromatic Manufacturing Intelligence Technologies,Software Engineer,Tier-3,,,4.6,,,,,False,True,False,False
+2022,Field Engineer,,Tier-3,,,,,,,,False,False,False,False
+2022,Dxc Technology,"Senior Assistant Service 
+Delivery Coordinator",Tier-3,,2.8,3.0,,,,,False,True,True,False
+2022,Mastek,Software Engineer,Tier-3,,,5.0,,,,,False,True,False,False
+2022,Nsoft Services Pvt Ltd,Dot Net Developer,Tier-3,15.0,,3.0,,,,,False,True,False,False
+2022,Weir Ensci,Software Engineer,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Stratogent Technology Services,Software Engineer,Tier-3,,,3.6,,,,,False,True,False,False
+2022,Cube,"Business Development
+ Executive",Tier-3,,,4.0,,,,,False,True,False,False
+2022,Bhanzu,"Marketing Strategic
+ Partnership -Executive",Tier-3,,,3.0,,,,,False,True,False,False
+2022,Bosch Global Software Technologies,Embedded development,Tier-3,,,6.0,,,,,False,True,False,False
+2022,Application Development,,Tier-3,,,,,,,,False,False,False,False
+2022,System Testing,,Tier-3,,,,,,,,False,False,False,False
+2022,SAP,,Tier-3,,,,,,,,False,False,False,False
+2022,R&D,,Tier-3,,,,,,,,False,False,False,False
+2022,Apar Peopleworld,Software Engineer,Tier-3,,,4.0,,,,,False,True,False,False
+2022,Miller Knoll,Trainee Engineer,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Synchronoss Technologies,Trainee Software Engineer,Tier-3,,,4.6,,,,,False,True,False,False
+2022,Onedirect,"Associate, Client Care",Tier-3,,3.6,4.0,,,,,False,True,True,False
+2022,Square Yards,Associate Investment manager,Tier-3,,,4.5,,,,,False,True,False,False
+2022,Ntt Data Fa Insurance Systems,Software Engineer,Tier-3,,,3.76,,,,,False,True,False,False
+2023,Apple India (?),,Dream,1.0,,,,,9.0,,False,False,False,False
+2023,Atlassian,,Dream,,20.8,83.0,1.0,,,,False,True,True,False
 2023,Digicert,Software Engineer Intern,Internship-Spring,40.0,,,,,,,True,False,False,False
 2023,Glance,Business/SDE/Product Intern,Internship-Spring,45.0,,,4.0,,,,True,False,False,False
 2023,Texas Instruments,Embedded Software/Analog Intern,Internship-Spring,60.0,16.75,34.64,,,,,True,True,True,False
@@ -722,8 +655,6 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2023,Drongo AI,Intern,Internship-Spring,15.0,,,3.0,,,,True,False,False,False
 2023,Centre For Smart Governance,Intern,Internship-Spring,20.0,,,6.0,,,,True,False,False,False
 2023,British Telecom,Intern,Internship-Spring,60.0,,17.0,4.0,,,,True,True,False,False
-2023,Apple India (?),,Dream,1.0,,,,,9.0,,False,False,False,False
-2023,Atlassian,,Dream,,20.8,83.0,1.0,,,,False,True,True,False
 2023,Morgan Stanley (Ppo),Technology Analyst,Tier-1,,13.0,29.48,8.0,,,,False,True,True,False
 2023,Natwest Group (Ppo),Software Development Engineer,Tier-1,,13.0,15.0,2.0,,,,False,True,True,False
 2023,Akamai (Ppo),Software Engineer,Tier-1,35.0,14.0,18.0,,15.0,,,False,True,True,False
@@ -840,6 +771,75 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2023,Landmark,Frontend/ Backend/ Automation Engineer,Tier-1,,,15.0,1.0,,,,False,True,False,False
 2023,Cashfree,SDE(Frontend)/SDET,Tier-1,35.0,10.0,14.5,,,,,False,True,True,False
 2023,Tredence Analytics,Analyst,Tier-1,,7.44,12.0,4.0,,,,False,True,True,False
+2023,Adobe (Ppo),Associate Technical Consultant,Tier-2,,9.0,11.71,,5.0,,,False,True,True,False
+2023,Bosch (Ppo),Eminent,Tier-2,25.0,,7.0,,5.0,,,False,True,False,False
+2023,Infosys,Specialist Programmer,Tier-2,,,9.5,,,,,False,True,False,False
+2023,Digital Specialist Engineer,,Tier-2,,6.25,6.25,,,,,False,True,True,False
+2023,Tcs,Digital,Tier-2,,,7.6,,,,,False,True,False,False
+2023,Mindtree,Graduate Engineer Trainee,Tier-2,,,6.5,1.0,,,,False,True,False,False
+2023,IBM,Cloud Engineer,Tier-2,,,11.0,1.0,5.0,8.0,,False,True,False,False
+2023,Deloitte Usi,USI Risk and Financial Advisory,Tier-2,,,7.6,8.0,,,,False,True,False,False
+2023,Usi Consulting,,Tier-2,,7.6,54.0,,,,,False,True,True,False
+2023,Deloitte India,,Tier-2,,7.6,18.0,,,,,False,True,True,False
+2023,PwC,Risk Consulting,Tier-2,40.0,7.0,9.23,,10.0,,,False,True,True,False
+2023,Technology Consulting,,Tier-2,,,,100.0,,,,False,False,False,False
+2023,Wipro,,Tier-2,,5.5,6.5,,,,,False,True,True,False
+2023,Schneider Electric,Graduate Engineer Trainee,Tier-2,25.0,,9.0,9.0,13.0,,,False,True,False,False
+2023,Adobe Systems,Associate Technical Consultant,Tier-2,60.0,,11.0,,,,,False,True,False,False
+2023,Hiver,Software Development Engineer,Tier-2,21.5,4.0,11.69,,,,,False,True,True,False
+2023,Ather Energy,Electrical Engineer,Tier-2,,,10.0,,4.0,,,False,True,False,False
+2023,Juspay Technology,Technical Product Analyst,Tier-2,30.0,,10.0,,,,,False,True,False,False
+2023,Oracle Acs,Technical Analyst,Tier-2,,,10.01,17.0,,,,False,True,False,False
+2023,Affinsys,Solution Consultant,Tier-2,25.0,,8.5,,,,,False,True,False,False
+2023,Volvo,GET & PGET,Tier-2,,7.5,7.5,,,,,False,True,True,False
+2023,KPMG,Analyst TE - MS,Tier-2,,5.0,7.0,15.0,,,,False,True,True,False
+2023,Analyst Grcs - Tech,,Tier-2,6.0,7.0,7.0,,,202208.0,,False,True,True,False
+2023,Subex,,Tier-2,40.0,,8.5,1.0,,,,False,True,False,False
+2023,Cynlr,Application Engineer,Tier-2,30.0,,9.0,,,,,False,True,False,False
+2023,Deloitte India,Senior Analyst,Tier-2,,6.1,7.01,,6.0,,,False,True,True,False
+2023,Amadeus Labs,,Tier-2,30.0,10.0,11.77,,5.0,8.0,,False,True,True,False
+2023,Csg India,SDE Grad,Tier-2,25.0,,7.5,,,,,False,True,False,False
+2023,Nextuple,Associate Software Engineer,Tier-2,20.0,,8.0,,,,,False,True,False,False
+2023,Associate Qa Engineer,20k,Tier-2,,7.0,7.0,,,,,False,True,True,False
+2023,Genpact,Business Analyst,Tier-2,25.0,,10.0,,,,,False,True,False,False
+2023,Software Engineer,25k,Tier-2,,10.0,10.0,18.0,,,,False,True,True,False
+2023,At&T,Technical Intern,Tier-2,45.0,,11.5,,,13.0,,False,True,False,False
+2023,Brane Enterprises,Associated Solution Leader Trainee,Tier-2,30.0,10.0,10.0,,,,,False,True,True,False
+2023,Microchip Technology,,Tier-2,,,8.0,,,,,False,True,False,False
+2023,Wissen Technology,Associate Analyst,Tier-2,25.0,,8.0,,2.0,,,False,True,False,False
+2023,Hdfc Bank,Functional / Technical Analyst,Tier-2,,4.71,7.46,,,,,False,True,True,False
+2023,Broadridge Financial Solutions,Member Technical,Tier-2,30.0,10.0,10.0,,,,,False,True,True,False
+2023,Cognizant,GenC Elevate,Tier-2,,,6.0,11.0,,,,False,True,False,False
+2023,EY India,Analytics Consultant,Tier-2,,7.5,8.59,12.0,,,,False,True,True,False
+2023,Cyber Consultant,,Tier-2,,,10.0,,,,,False,True,False,False
+2023,Tech Risk Consultant,,Tier-2,,,9.0,,,,,False,True,False,False
+2023,Collins Aerospace,,Tier-2,,,6.25,,,,,False,True,False,False
+2023,Nokia,Graduate Engineer Trainee,Tier-2,25.0,,8.2,,5.0,,,False,True,False,False
+2023,Abb,Software Engineer,Tier-2,,8.5,10.5,,,,,False,True,True,False
+2023,Perfios,Software Development Engineer,Tier-2,15.5,9.0,10.0,,17.0,,,False,True,True,False
+2023,Mercedes Benz R&D,Graduate Intern Trainee,Tier-2,,,10.0,,16.0,,,False,True,False,False
+2023,Piramal Group,Data Scientist ( Support ),Tier-2,,5.0,6.05,,,,,False,True,True,False
+2023,Elsevier India Technology,SWE I,Tier-2,,,7.71,,,,,False,True,False,False
+2023,314E Corporation,Software Engineer,Tier-2,,,8.1,,,,,False,True,False,False
+2023,Hfcl,Graduate Engineer Trainee,Tier-2,25.0,9.0,10.0,,,,,False,True,True,False
+2023,Skylar Drones,,Tier-2,25.0,,,,,,,False,False,False,False
+2023,Exl Service,Analyst,Tier-2,,,6.5,17.0,,,,False,True,False,False
+2023,Havells,,Tier-2,25.0,,8.0,,,,,False,True,False,False
+2023,Standard Chartered,Development Engineer,Tier-2,,7.5,8.25,2.0,,,,False,True,True,False
+2023,Jsw,Graduate Engineer Trainee,Tier-2,,,8.5,,,,,False,True,False,False
+2023,Harman International,Associate Engineer,Tier-2,,,7.75,16.0,,,,False,True,False,False
+2023,Hexaware Technologies,,Tier-2,25.0,,6.0,,,,,False,True,False,False
+2023,Conga,,Tier-2,12.0,,7.2,,8.0,,,False,True,False,False
+2023,Phdata,Associate Data Engineer,Tier-2,,,7.0,5.0,,,,False,True,False,False
+2023,Fractal Analytics,Imagineer,Tier-2,,,7.0,,,,,False,True,False,False
+2023,Dell,Associate Sales Engineer Analyst,Tier-2,35.0,,8.47,,,,,False,True,False,False
+2023,Tvs Motor Company,Data Engineer/Data Scientist,Tier-2,,,8.0,,,,,False,True,False,False
+2023,Alcon Laboratories,Associate Analyst,Tier-2,20.0,6.11,7.28,,,,,False,True,True,False
+2023,Lseg,,Tier-2,,,10.0,,,,,False,True,False,False
+2023,Wns,Analyst,Tier-2,,,10.0,3.0,,,,False,True,False,False
+2023,Sonata,Trainee Digital Technology Specialist,Tier-2,,,6.0,0.0,0.0,0.0,,False,True,False,False
+2023,Zopsmart,SDE-I,Tier-2,30.0,,10.0,,8.0,,,False,True,False,False
+2023,Applied Materials,Engineer,Tier-2,,,9.67,,,,,False,True,False,False
 2023,Tcs,Ninja,Tier-3,,,4.0,,,,,False,True,False,False
 2023,Capgemini,Software Analyst,Tier-3,,,4.52,,,,,False,True,False,False
 2023,Mindtree,Graduate Engineer Trainee,Tier-3,,,4.0,59.0,,,,False,True,False,False
@@ -851,80 +851,6 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2023,Brane Enterprises,Associate Process Leader - Trainee,Tier-3,20.0,5.0,5.0,,,,,False,True,True,False
 2024,Apple,IS&T,Dream,90000.0,,,,8.0,7.0,9.5,False,False,False,True
 2024,De Shaw,SDET,Dream,150000.0,18.0,52.0,3.0,,8.0,8.3,False,True,True,True
-2024,Urban Company,Software Development Engineer - I,Tier-1,50000.0,16.0,30.0,0.0,,,8.0,False,True,True,True
-2024,Pure Storage,Engineer,Tier-1,100000.0,16.0,27.16,3.0,,7.0,9.0,False,True,True,True
-2024,Ring Central,Associate Software Engineer,Tier-1,50000.0,20.5,24.15,2.0,,7.5,,False,True,True,False
-2024,Couchbase,Dev,Tier-1,125000.0,20.0,27.04,4.0,,,8.0,False,True,True,True
-2024,Qe,,Tier-1,20.0,27.04,2.0,,,,,False,True,True,False
-2024,Tech Support,,Tier-1,20.0,27.04,3.0,,,,,False,True,True,False
-2024,Deutshce Bank,Graduate Analyst,Tier-1,0.0,15.0,19.63,7.0,,7.0,8.5,False,True,True,True
-2024,Swym Tech Pvt Ltd,Associate Software Engineer,Tier-1,50000.0,15.0,20.0,2.0,,,,False,True,True,False
-2024,Customer Experience Engineer,,Tier-1,10.0,14.0,1.0,,,,,False,True,True,False
-2024,Lam Research,Software Engineer,Tier-1,0.0,,19.0,1.0,,7.0,8.0,False,True,False,True
-2024,Site Reliability Engineer,,Tier-1,8.2,13.26,1.0,,6.5,,,False,True,True,False
-2024,Sandvine,Software Engineer/Test Engineer,Tier-1,60000.0,12.5,16.37,6.0,,7.5,,False,True,True,False
-2024,Cynlr,Design and Development Associate,Tier-1,30000.0,15.0,15.0,1.0,,,,False,True,True,False
-2024,Hyperface,SDE 1,Tier-1,30000.0,14.0,20.0,3.0,,8.0,,False,True,True,False
-2024,Newfold Digital,Operations Engineer,Tier-1,50000.0,12.0,15.0,3.0,,7.0,,False,True,True,False
-2024,Tesco,Graduate Software Developer Engineer,Tier-1,0.0,16.5,21.0,8.0,,8.0,,False,True,True,False
-2024,Arista Networks,Software Engineer,Tier-1,65000.0,15.0,18.5,7.0,,7.5,8.0,False,True,True,True
-2024,Cisco,Technical Consultant,Tier-1,,12.47,17.97,2.0,,,3.0,False,True,True,True
-2024,Egnyte,Software Engineer I,Tier-1,50000.0,13.0,14.0,8.0,,7.5,8.0,False,True,True,True
-2024,Cloudera,Software Engineer I,Tier-1,45000.0,17.0,19.0,3.0,,8.0,,False,True,True,False
-2024,Baxter,Engineer Trainee,Tier-1,30000.0,9.91,12.0,15.0,,7.0,8.0,False,True,True,True
-2024,Sahaj,Solution Consultant,Tier-1,30000.0,12.0,13.04,2.0,,,,False,True,True,False
-2024,Kickdrum,Software Developer,Tier-1,35000.0,10.0,16.0,2.0,,8.0,,False,True,True,False
-2024,Epsilon,Software Engineer-1,Tier-1,30000.0,10.0,12.0,15.0,,7.0,8.5,False,True,True,True
-2024,Cisco,Cloud Application Developer,Tier-1,98000.0,16.44,24.73,4.0,,,,False,True,True,False
-2024,Natwest,Software Engineer,Tier-1,0.0,13.0,13.0,11.0,,6.0,9.0,False,True,True,True
-2024,Schneider Electric,Graduate Engineer Trainee (GET),Tier-1,35000.0,9.0,12.0,19.0,2.0,6.5,,False,True,True,False
-2024,HPE R&D | Aruba|Cty,Software Developer|Software Automation and Quality Assurance,Tier-1,40000.0,12.0,17.5,33.0,,7.0,,False,True,True,False
-2024,Amadeus,SDE-1,Tier-1,30000.0,10.0,12.62,3.0,,7.5,,False,True,True,False
-2024,Dish Technologies,Engineer,Tier-1,25000.0,12.0,14.11,4.0,,7.5,8.75,False,True,True,True
-2024,Sprinklr,Devops Engineer,Tier-1,40000.0,12.0,12.0,3.0,,6.0,,False,True,True,False
-2024,Bain Capability Network,Analyst,Tier-1,45000.0,9.9,14.0,3.0,,,,False,True,True,False
-2024,Societe Generale,Software Engineer,Tier-1,,,12.21,5.0,,6.0,,False,True,False,False
-2024,IBM Isl Security,Software Developer,Tier-1,30000.0,17.0,18.5,14.0,,7.0,,False,True,True,False
-2024,Data & AI,,Tier-1,17.0,185.0,3.0,,7.0,,,False,True,True,False
-2024,Partner Technical Specialist Sales,,Tier-1,17.0,18.5,8.0,,8.0,,,False,True,True,False
-2024,Thorogood,Data & Analytics Consultant,Tier-1,35000.0,,14.15,1.0,,,8.4,False,True,False,True
-2024,Morgan Stanley,Technology Analyst,Tier-1,87000.0,,29.48,4.0,4.0,8.0,8.5,False,True,False,True
-2024,British Telecom,GET Intern,Tier-1,60000.0,13.0,17.0,7.0,,,8.6,False,True,True,True
-2024,SAP Labs,Associate Developer|DevOps|Support|QA,Tier-1,35000.0,10.0,24.62,5.0,,7.0,8.0,False,True,True,True
-2024,Dover,GET Intern,Tier-1,25000.0,,12.0,2.0,,,8.6,False,True,False,True
-2024,Infibeam,Software Development Engineer,Tier-1,20000.0,10.0,12.0,1.0,1.0,8.0,8.5,False,True,True,True
-2024,Aurva.Io,Software Engineer-1,Tier-1,30000.0,14.0,16.0,,,8.0,,False,True,True,False
-2024,Microchip Tech,"App (1,2,3,4,5),SDE(0,1),SE(Test,Quality),Firmware Testing,SW/FW Design",Tier-1,30000.0,10.0,14.0,4.0,,,,False,True,True,False
-2024,Blue Yonder,Associate Software Engineer,Tier-1,50000.0,12.0,12.6,32.0,,7.0,,False,True,True,False
-2024,Microchip Tech,"Software 1,2,3 ,Baan QA,Dynamics AX Analyst,Web Dev,ServiceNow Dev",Tier-1,30000.0,8.0,12.0,3.0,,,,False,True,True,False
-2024,Idfc First Bank,Application Engineer,Tier-1,40000.0,14.0,18.1,28.0,,6.0,,False,True,True,False
-2024,Associate Project Manager,,Tier-1,14.0,18.1,1.0,,,,,False,True,True,False
-2024,Associate Process Strategy,,Tier-1,14.0,18.1,1.0,,,,,False,True,True,False
-2024,Netradyne,"Cloud-SDET,Embedded QA Engineer-SDET,QA IOT,Data Analyst,Bizz Systems",Tier-1,,,14.0,10.0,,7.5,8.4,False,True,False,True
-2024,Reltio,Associate Software Engineer,Tier-1,,,15.0,2.0,,8.0,,False,True,False,False
-2024,Akamai,Software Engineer,Tier-1,,12.67,17.94,4.0,,,,False,True,True,False
-2024,Observe.AI,Software Engineer,Tier-1,75000.0,30.0,33.0,2.0,,8.0,,False,True,True,False
-2024,Jar App,SDE Intern - Backend,Tier-1,40000.0,12.0,15.0,6.0,,7.5,,False,True,True,False
-2024,Netcore Cloud,Associate Software Engineer,Tier-1,20000.0,8.0,12.0,6.0,,,,False,True,True,False
-2024,Cohesity,Member of Technical Staff(R&D),Tier-1,,15.0,32.42,2.0,,8.0,,False,True,True,False
-2024,Palo Alto,Software Engineer -IT,Tier-1,,14.0,40.0,,,,,False,True,True,False
-2024,Rtbrick,Software Developer,Tier-1,30000.0,,12.5,3.0,,8.0,,False,True,False,False
-2024,Kangasys,Junior Software Developer,Tier-1,30000.0,,12.0,1.0,,7.0,,False,True,False,False
-2024,Zscaler,Associate Security Researcher,Tier-1,50000.0,14.0,28.5,,,6.5,,False,True,True,False
-2024,Lowe'S India,Associate Software Engineer,Tier-1,,11.5,18.68,,,6.0,,False,True,True,False
-2024,Bitgo,Backend Engineer,Tier-1,,15.0,20.5,2.0,,,,False,True,True,False
-2024,Flexera,Associate Software Engineer,Tier-1,,6.0,12.5,10.0,,6.0,,False,True,True,False
-2024,Tata Communications,Product Manager/Cyber Security/Software Engineer,Tier-1,,,13.0,,,6.5,,False,True,False,False
-2024,Gameskraft,Software Engineer Full Stack,Tier-1,,18.0,32.0,,,7.0,,False,True,True,False
-2024,Software Engineer Data Engineer,,Tier-1,18.0,32.0,32.0,,,,,False,True,True,False
-2024,Software Engineer Devops,,Tier-1,18.0,32.0,32.0,,,,,False,True,True,False
-2024,Coinswitch,SDE-1,Tier-1,,16.0,21.8,,,,,False,True,True,False
-2024,Motorola,Associate Software Engineer,Tier-1,,11.5,12.5,2.0,,6.5,8.5,False,True,True,True
-2024,Amagi,SDET,Tier-1,,,15.0,1.0,,8.0,,False,True,False,False
-2024,Rtcamp,Software Engineer Trainee,Tier-1,,,18.0,,,,,False,True,False,False
-2024,Aveva,Software Engineer,Tier-1,,,15.8,2.0,,6.5,,False,True,False,False
-2024,Myntra,Software Engineer,Tier-1,,17.0,30.0,,,7.0,,False,True,True,False
-2024,Meesho,Business Analyst,Tier-1,,13.0,21.0,,,,,False,True,True,False
 2024,Confluent,Data Infra,Internship-Spring,100000.0,15.0,18.5,,1.0,,,True,True,True,False
 2024,Business Intelligence,,Internship-Spring,,,,1.0,,,,True,False,False,False
 2024,Project Management,,Internship-Spring,,,,2.0,,,,True,False,False,False
@@ -1079,6 +1005,92 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2024,Froker,Intern,Internship-Spring,,,,,,,,True,False,False,False
 2024,Informatica,Associate Software Engineer Apprentice,Internship-Spring,35000.0,11.0,17.0,,,,,True,True,True,False
 2024,Blowhorn,Intern,Internship-Spring,,,,,,,,True,False,False,False
+2024,Zscaler(Ppo),,Internship-Summer,,,,7.0,,,,True,False,False,False
+2024,JPMC(Ppo),,Internship-Summer,,,,9.0,,,,True,False,False,False
+2024,Goldman Sachs(Ppo),,Internship-Summer,,,,3.0,,,,True,False,False,False
+2024,Gigsky(Ppo),,Internship-Summer,,,,4.0,,,,True,False,False,False
+2024,Paypal(Ppo),,Internship-Summer,,,,3.0,,,,True,False,False,False
+2024,Intuit(Ppo),,Internship-Summer,,,,1.0,,,,True,False,False,False
+2024,Visa(Ppo),,Internship-Summer,,16.0,28.0,3.0,,,,True,True,True,False
+2024,Pronisi(Ppo),,Internship-Summer,,12.0,16.0,5.0,,,,True,True,True,False
+2024,Morgan Stanley(Ppo),,Internship-Summer,,,,4.0,,,,True,False,False,False
+2024,Expedia,,Internship-Summer,35000.0,14.5,31.0,2.0,,,,True,True,True,False
+2024,Adobe(Ppo),,Internship-Summer,,,,9.0,,,,True,False,False,False
+2024,Fidelity(Ppo),,Internship-Summer,,,,15.0,,,,True,False,False,False
+2024,Urban Company,Software Development Engineer - I,Tier-1,50000.0,16.0,30.0,0.0,,,8.0,False,True,True,True
+2024,Pure Storage,Engineer,Tier-1,100000.0,16.0,27.16,3.0,,7.0,9.0,False,True,True,True
+2024,Ring Central,Associate Software Engineer,Tier-1,50000.0,20.5,24.15,2.0,,7.5,,False,True,True,False
+2024,Couchbase,Dev,Tier-1,125000.0,20.0,27.04,4.0,,,8.0,False,True,True,True
+2024,Qe,,Tier-1,20.0,27.04,2.0,,,,,False,True,True,False
+2024,Tech Support,,Tier-1,20.0,27.04,3.0,,,,,False,True,True,False
+2024,Deutshce Bank,Graduate Analyst,Tier-1,0.0,15.0,19.63,7.0,,7.0,8.5,False,True,True,True
+2024,Swym Tech Pvt Ltd,Associate Software Engineer,Tier-1,50000.0,15.0,20.0,2.0,,,,False,True,True,False
+2024,Customer Experience Engineer,,Tier-1,10.0,14.0,1.0,,,,,False,True,True,False
+2024,Lam Research,Software Engineer,Tier-1,0.0,,19.0,1.0,,7.0,8.0,False,True,False,True
+2024,Site Reliability Engineer,,Tier-1,8.2,13.26,1.0,,6.5,,,False,True,True,False
+2024,Sandvine,Software Engineer/Test Engineer,Tier-1,60000.0,12.5,16.37,6.0,,7.5,,False,True,True,False
+2024,Cynlr,Design and Development Associate,Tier-1,30000.0,15.0,15.0,1.0,,,,False,True,True,False
+2024,Hyperface,SDE 1,Tier-1,30000.0,14.0,20.0,3.0,,8.0,,False,True,True,False
+2024,Newfold Digital,Operations Engineer,Tier-1,50000.0,12.0,15.0,3.0,,7.0,,False,True,True,False
+2024,Tesco,Graduate Software Developer Engineer,Tier-1,0.0,16.5,21.0,8.0,,8.0,,False,True,True,False
+2024,Arista Networks,Software Engineer,Tier-1,65000.0,15.0,18.5,7.0,,7.5,8.0,False,True,True,True
+2024,Cisco,Technical Consultant,Tier-1,,12.47,17.97,2.0,,,3.0,False,True,True,True
+2024,Egnyte,Software Engineer I,Tier-1,50000.0,13.0,14.0,8.0,,7.5,8.0,False,True,True,True
+2024,Cloudera,Software Engineer I,Tier-1,45000.0,17.0,19.0,3.0,,8.0,,False,True,True,False
+2024,Baxter,Engineer Trainee,Tier-1,30000.0,9.91,12.0,15.0,,7.0,8.0,False,True,True,True
+2024,Sahaj,Solution Consultant,Tier-1,30000.0,12.0,13.04,2.0,,,,False,True,True,False
+2024,Kickdrum,Software Developer,Tier-1,35000.0,10.0,16.0,2.0,,8.0,,False,True,True,False
+2024,Epsilon,Software Engineer-1,Tier-1,30000.0,10.0,12.0,15.0,,7.0,8.5,False,True,True,True
+2024,Cisco,Cloud Application Developer,Tier-1,98000.0,16.44,24.73,4.0,,,,False,True,True,False
+2024,Natwest,Software Engineer,Tier-1,0.0,13.0,13.0,11.0,,6.0,9.0,False,True,True,True
+2024,Schneider Electric,Graduate Engineer Trainee (GET),Tier-1,35000.0,9.0,12.0,19.0,2.0,6.5,,False,True,True,False
+2024,HPE R&D | Aruba|Cty,Software Developer|Software Automation and Quality Assurance,Tier-1,40000.0,12.0,17.5,33.0,,7.0,,False,True,True,False
+2024,Amadeus,SDE-1,Tier-1,30000.0,10.0,12.62,3.0,,7.5,,False,True,True,False
+2024,Dish Technologies,Engineer,Tier-1,25000.0,12.0,14.11,4.0,,7.5,8.75,False,True,True,True
+2024,Sprinklr,Devops Engineer,Tier-1,40000.0,12.0,12.0,3.0,,6.0,,False,True,True,False
+2024,Bain Capability Network,Analyst,Tier-1,45000.0,9.9,14.0,3.0,,,,False,True,True,False
+2024,Societe Generale,Software Engineer,Tier-1,,,12.21,5.0,,6.0,,False,True,False,False
+2024,IBM Isl Security,Software Developer,Tier-1,30000.0,17.0,18.5,14.0,,7.0,,False,True,True,False
+2024,Data & AI,,Tier-1,17.0,185.0,3.0,,7.0,,,False,True,True,False
+2024,Partner Technical Specialist Sales,,Tier-1,17.0,18.5,8.0,,8.0,,,False,True,True,False
+2024,Thorogood,Data & Analytics Consultant,Tier-1,35000.0,,14.15,1.0,,,8.4,False,True,False,True
+2024,Morgan Stanley,Technology Analyst,Tier-1,87000.0,,29.48,4.0,4.0,8.0,8.5,False,True,False,True
+2024,British Telecom,GET Intern,Tier-1,60000.0,13.0,17.0,7.0,,,8.6,False,True,True,True
+2024,SAP Labs,Associate Developer|DevOps|Support|QA,Tier-1,35000.0,10.0,24.62,5.0,,7.0,8.0,False,True,True,True
+2024,Dover,GET Intern,Tier-1,25000.0,,12.0,2.0,,,8.6,False,True,False,True
+2024,Infibeam,Software Development Engineer,Tier-1,20000.0,10.0,12.0,1.0,1.0,8.0,8.5,False,True,True,True
+2024,Aurva.Io,Software Engineer-1,Tier-1,30000.0,14.0,16.0,,,8.0,,False,True,True,False
+2024,Microchip Tech,"App (1,2,3,4,5),SDE(0,1),SE(Test,Quality),Firmware Testing,SW/FW Design",Tier-1,30000.0,10.0,14.0,4.0,,,,False,True,True,False
+2024,Blue Yonder,Associate Software Engineer,Tier-1,50000.0,12.0,12.6,32.0,,7.0,,False,True,True,False
+2024,Microchip Tech,"Software 1,2,3 ,Baan QA,Dynamics AX Analyst,Web Dev,ServiceNow Dev",Tier-1,30000.0,8.0,12.0,3.0,,,,False,True,True,False
+2024,Idfc First Bank,Application Engineer,Tier-1,40000.0,14.0,18.1,28.0,,6.0,,False,True,True,False
+2024,Associate Project Manager,,Tier-1,14.0,18.1,1.0,,,,,False,True,True,False
+2024,Associate Process Strategy,,Tier-1,14.0,18.1,1.0,,,,,False,True,True,False
+2024,Netradyne,"Cloud-SDET,Embedded QA Engineer-SDET,QA IOT,Data Analyst,Bizz Systems",Tier-1,,,14.0,10.0,,7.5,8.4,False,True,False,True
+2024,Reltio,Associate Software Engineer,Tier-1,,,15.0,2.0,,8.0,,False,True,False,False
+2024,Akamai,Software Engineer,Tier-1,,12.67,17.94,4.0,,,,False,True,True,False
+2024,Observe.AI,Software Engineer,Tier-1,75000.0,30.0,33.0,2.0,,8.0,,False,True,True,False
+2024,Jar App,SDE Intern - Backend,Tier-1,40000.0,12.0,15.0,6.0,,7.5,,False,True,True,False
+2024,Netcore Cloud,Associate Software Engineer,Tier-1,20000.0,8.0,12.0,6.0,,,,False,True,True,False
+2024,Cohesity,Member of Technical Staff(R&D),Tier-1,,15.0,32.42,2.0,,8.0,,False,True,True,False
+2024,Palo Alto,Software Engineer -IT,Tier-1,,14.0,40.0,,,,,False,True,True,False
+2024,Rtbrick,Software Developer,Tier-1,30000.0,,12.5,3.0,,8.0,,False,True,False,False
+2024,Kangasys,Junior Software Developer,Tier-1,30000.0,,12.0,1.0,,7.0,,False,True,False,False
+2024,Zscaler,Associate Security Researcher,Tier-1,50000.0,14.0,28.5,,,6.5,,False,True,True,False
+2024,Lowe'S India,Associate Software Engineer,Tier-1,,11.5,18.68,,,6.0,,False,True,True,False
+2024,Bitgo,Backend Engineer,Tier-1,,15.0,20.5,2.0,,,,False,True,True,False
+2024,Flexera,Associate Software Engineer,Tier-1,,6.0,12.5,10.0,,6.0,,False,True,True,False
+2024,Tata Communications,Product Manager/Cyber Security/Software Engineer,Tier-1,,,13.0,,,6.5,,False,True,False,False
+2024,Gameskraft,Software Engineer Full Stack,Tier-1,,18.0,32.0,,,7.0,,False,True,True,False
+2024,Software Engineer Data Engineer,,Tier-1,18.0,32.0,32.0,,,,,False,True,True,False
+2024,Software Engineer Devops,,Tier-1,18.0,32.0,32.0,,,,,False,True,True,False
+2024,Coinswitch,SDE-1,Tier-1,,16.0,21.8,,,,,False,True,True,False
+2024,Motorola,Associate Software Engineer,Tier-1,,11.5,12.5,2.0,,6.5,8.5,False,True,True,True
+2024,Amagi,SDET,Tier-1,,,15.0,1.0,,8.0,,False,True,False,False
+2024,Rtcamp,Software Engineer Trainee,Tier-1,,,18.0,,,,,False,True,False,False
+2024,Aveva,Software Engineer,Tier-1,,,15.8,2.0,,6.5,,False,True,False,False
+2024,Myntra,Software Engineer,Tier-1,,17.0,30.0,,,7.0,,False,True,True,False
+2024,Meesho,Business Analyst,Tier-1,,13.0,21.0,,,,,False,True,True,False
 2024,Deloitte Usi,Analyst,Tier-2,,6.0,7.6,32.0,6.5,,,False,True,True,False
 2024,Deloitte India,ET&P F&P,Tier-2,,6.0,7.6,4.0,6.5,,,False,True,True,False
 2024,Csad,,Tier-2,,,9.0,6.5,,,,False,True,False,False
@@ -1237,18 +1249,6 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2024,Ltmindtree,Graduate Engineer Trainee,Tier-3,,,4.0,,6.0,,,False,True,False,False
 2024,Hirepro,Python Developer,Tier-3,,,5.1,,6.0,,,False,True,False,False
 2024,Temenos,Dev/Testing,Tier-3,,,6.1,,7.5,2.0,,False,True,False,False
-2024,Zscaler(Ppo),,Internship-Summer,,,,7.0,,,,True,False,False,False
-2024,JPMC(Ppo),,Internship-Summer,,,,9.0,,,,True,False,False,False
-2024,Goldman Sachs(Ppo),,Internship-Summer,,,,3.0,,,,True,False,False,False
-2024,Gigsky(Ppo),,Internship-Summer,,,,4.0,,,,True,False,False,False
-2024,Paypal(Ppo),,Internship-Summer,,,,3.0,,,,True,False,False,False
-2024,Intuit(Ppo),,Internship-Summer,,,,1.0,,,,True,False,False,False
-2024,Visa(Ppo),,Internship-Summer,,16.0,28.0,3.0,,,,True,True,True,False
-2024,Pronisi(Ppo),,Internship-Summer,,12.0,16.0,5.0,,,,True,True,True,False
-2024,Morgan Stanley(Ppo),,Internship-Summer,,,,4.0,,,,True,False,False,False
-2024,Expedia,,Internship-Summer,35000.0,14.5,31.0,2.0,,,,True,True,True,False
-2024,Adobe(Ppo),,Internship-Summer,,,,9.0,,,,True,False,False,False
-2024,Fidelity(Ppo),,Internship-Summer,,,,15.0,,,,True,False,False,False
 2025,Apple,Software Development Intern (IS&T),Internship-Spring,90000.0,,,20.0,8.0,2024.0,,True,False,False,False
 2025,Software Development Intern (Ops),,Internship-Spring,,,12.0,9.0,2024.0,,,True,True,False,False
 2025,Data Science And Ml Intern (Ops),,Internship-Spring,,,12.0,9.0,2024.0,,,True,True,False,False
@@ -1383,6 +1383,34 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2025,Pod.AI,Full Stack Engineer,Internship-Spring,25000.0,,8.0,,,2025.0,,True,True,False,False
 2025,Tarana Wireless,Software Engineer Intern,Internship-Spring,50000.0,,,,,2025.0,,True,False,False,False
 2025,Seedlinglabs,Engineering Intern,Internship-Spring,30000.0,,,,7.5,2025.0,,True,False,False,False
+2025,Trilogy Innovations,Software Development Engineer Intern,Internship-Summer,75000.0,30.0,36.5,0.0,,,,True,True,True,False
+2025,Intuit,Software Engineer Intern,Internship-Summer,100000.0,,,0.0,8.5,,,True,False,False,False
+2025,Goldman Sachs,Intern,Internship-Summer,,,,1.0,,,,True,False,False,False
+2025,Arista Networks,Software Engineer Intern,Internship-Summer,65000.0,15.9,29.5,4.0,7.5,,,True,True,True,False
+2025,Fidelity Investments,Data Engineering Intern,Internship-Summer,35000.0,10.0,12.0,6.0,,,,True,True,True,False
+2025,Software Engineering Intern,,Internship-Summer,,,,,,,,True,False,False,False
+2025,Microsoft,Site Reliability Engineer Intern,Internship-Summer,,,,2.0,,,,True,False,False,False
+2025,Hardware Engineer Intern,,Internship-Summer,,,12.0,,,,,True,True,False,False
+2025,Morgan Stanley,Summer Analyst,Internship-Summer,87000.0,13.0,29.48,6.0,8.5,,,True,True,True,False
+2025,Gigsky,,Internship-Summer,35000.0,,,,7.0,,,True,False,False,False
+2025,Upl,NextGen Intern,Internship-Summer,40000.0,,10.0,2.0,9.0,,,True,True,False,False
+2025,Adobe,Technical Consultant Intern,Internship-Summer,60000.0,,,,7.0,,,True,False,False,False
+2025,JPMorgan Chase & Co.,Software Engineer Intern,Internship-Summer,75000.0,13.5,19.5,6.0,8.5,,,True,True,True,False
+2025,Oracle,Project Intern,Internship-Summer,50000.0,,,,6.0,,,True,False,False,False
+2025,Expedia Group,Mobile Engineering Intern,Internship-Summer,35000.0,15.0,31.0,6.0,7.5,,,True,True,True,False
+2025,Software Engineering Intern,,Internship-Summer,,,,,,,,True,False,False,False
+2025,Akamai Technologies,,Internship-Summer,35000.0,14.36,19.89,6.0,7.5,,,True,True,True,False
+2025,Paypal,Software Engineer Intern,Internship-Summer,100000.0,15.0,34.4,1.0,7.0,,,True,True,True,False
+2025,Data Science Intern,,Internship-Summer,,,,,,,,True,False,False,False
+2025,Dover,Graduate Engineer Trainee,Internship-Summer,25000.0,,,4.0,7.5,,,True,False,False,False
+2025,Aveva,Software Developer Intern,Internship-Summer,50000.0,,15.8,8.0,8.5,,,True,True,False,False
+2025,G2,,Internship-Summer,40000.0,,15.0,3.0,,,,True,True,False,False
+2025,Sahaj AI,Software Developer Intern,Internship-Summer,20000.0,,,1.0,8.0,,,True,False,False,False
+2025,Bosch,Software Intern,Internship-Summer,35000.0,,,3.0,8.0,,,True,False,False,False
+2025,Ziroh Labs,Swift Development Intern,Internship-Summer,20000.0,,,,,,,True,False,False,False
+2025,Java Development Intern,,Internship-Summer,,,,,,,,True,False,False,False
+2025,C# Development Intern,,Internship-Summer,,,,,,,,True,False,False,False
+2025,Kapiva,Intern,Internship-Summer,15000.0,,,4.0,,,,True,False,False,False
 2025,Phonepe,Software Engineer,Tier-1,80000.0,19.5,32.5,,3.0,,6.0,False,True,True,True
 2025,Couchbase,Dev,Tier-1,125000.0,20.0,27.15,,7.0,,8.0,False,True,True,True
 2025,Qe,,Tier-1,,,,2.0,,,,False,False,False,False
@@ -1526,34 +1554,6 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2025,Connectex,,Tier-1,30000.0,10.0,16.0,,,,,False,True,True,False
 2025,S&P Global,Software Engineer,Tier-1,,,,,,,,False,False,False,False
 2025,Lenovo,AI Experiences Engineer,Tier-1,,,12.0,,,,7.5,False,True,False,True
-2025,Trilogy Innovations,Software Development Engineer Intern,Internship-Summer,75000.0,30.0,36.5,0.0,,,,True,True,True,False
-2025,Intuit,Software Engineer Intern,Internship-Summer,100000.0,,,0.0,8.5,,,True,False,False,False
-2025,Goldman Sachs,Intern,Internship-Summer,,,,1.0,,,,True,False,False,False
-2025,Arista Networks,Software Engineer Intern,Internship-Summer,65000.0,15.9,29.5,4.0,7.5,,,True,True,True,False
-2025,Fidelity Investments,Data Engineering Intern,Internship-Summer,35000.0,10.0,12.0,6.0,,,,True,True,True,False
-2025,Software Engineering Intern,,Internship-Summer,,,,,,,,True,False,False,False
-2025,Microsoft,Site Reliability Engineer Intern,Internship-Summer,,,,2.0,,,,True,False,False,False
-2025,Hardware Engineer Intern,,Internship-Summer,,,12.0,,,,,True,True,False,False
-2025,Morgan Stanley,Summer Analyst,Internship-Summer,87000.0,13.0,29.48,6.0,8.5,,,True,True,True,False
-2025,Gigsky,,Internship-Summer,35000.0,,,,7.0,,,True,False,False,False
-2025,Upl,NextGen Intern,Internship-Summer,40000.0,,10.0,2.0,9.0,,,True,True,False,False
-2025,Adobe,Technical Consultant Intern,Internship-Summer,60000.0,,,,7.0,,,True,False,False,False
-2025,JPMorgan Chase & Co.,Software Engineer Intern,Internship-Summer,75000.0,13.5,19.5,6.0,8.5,,,True,True,True,False
-2025,Oracle,Project Intern,Internship-Summer,50000.0,,,,6.0,,,True,False,False,False
-2025,Expedia Group,Mobile Engineering Intern,Internship-Summer,35000.0,15.0,31.0,6.0,7.5,,,True,True,True,False
-2025,Software Engineering Intern,,Internship-Summer,,,,,,,,True,False,False,False
-2025,Akamai Technologies,,Internship-Summer,35000.0,14.36,19.89,6.0,7.5,,,True,True,True,False
-2025,Paypal,Software Engineer Intern,Internship-Summer,100000.0,15.0,34.4,1.0,7.0,,,True,True,True,False
-2025,Data Science Intern,,Internship-Summer,,,,,,,,True,False,False,False
-2025,Dover,Graduate Engineer Trainee,Internship-Summer,25000.0,,,4.0,7.5,,,True,False,False,False
-2025,Aveva,Software Developer Intern,Internship-Summer,50000.0,,15.8,8.0,8.5,,,True,True,False,False
-2025,G2,,Internship-Summer,40000.0,,15.0,3.0,,,,True,True,False,False
-2025,Sahaj AI,Software Developer Intern,Internship-Summer,20000.0,,,1.0,8.0,,,True,False,False,False
-2025,Bosch,Software Intern,Internship-Summer,35000.0,,,3.0,8.0,,,True,False,False,False
-2025,Ziroh Labs,Swift Development Intern,Internship-Summer,20000.0,,,,,,,True,False,False,False
-2025,Java Development Intern,,Internship-Summer,,,,,,,,True,False,False,False
-2025,C# Development Intern,,Internship-Summer,,,,,,,,True,False,False,False
-2025,Kapiva,Intern,Internship-Summer,15000.0,,,4.0,,,,True,False,False,False
 2025,Infosys,Specialist Programmer,Tier-2,,,9.5,8.0,,,,False,True,False,False
 2025,Bluebird,Software Engineer,Tier-2,25000.0,6.0,10.0,,,,7.0,False,True,True,True
 2025,Bain,Analyst,Tier-2,40000.0,9.9,11.0,,,8.0,6.0,False,True,True,True
@@ -1692,56 +1692,60 @@ Verification Engineer",Tier-1,,,10.0,,,,,False,True,False,False
 2025,Ninestars Information Technologies,Engineer - R&D,Tier-3,,,5.0,,,,6.0,False,True,False,True
 2025,Atos,Junior Associate Tester,Tier-3,,,4.2,,,,7.5,False,True,False,True
 2025,Aveto Consulting,SAP ABAP / Infor,Tier-3,,,5.0,,,,7.0,False,True,False,True
-2026,Deloitte,USI,Tier-2,6.0,7.6,13.0,17.0,,,,False,True,True,False
-2026,AI,,Tier-2,,,,,,,,False,False,False,False
-2026,Oracle,,Tier-2,,,,,,,9.0,False,False,False,True
-2026,Csad,,Tier-2,,,,,,,3.0,False,False,False,True
-2026,Eda Admm,,Tier-2,,,,,,,,False,False,False,False
-2026,Pdicsm,,Tier-2,,,,,,,5.0,False,False,False,True
-2026,Et&P SAP,,Tier-2,,,,,,,10.0,False,False,False,True
-2026,Et&P Ft Gbs,,Tier-2,,,,,,,8.0,False,False,False,True
-2026,Ead Qe,,Tier-2,,,,,,,7.0,False,False,False,True
-2026,British Telecom ( Bt Group ),,Tier-2,7.64,10.64,19.0,19.0,,,10.0,False,True,True,True
-2026,Dtici (Daimler Truck Innovation Center India),CS - Graduate Trainee,Tier-2,,10.0,16.0,,,,2.0,False,True,True,True
-2026,Ece/Eee - Gradute Trainee,,Tier-2,,10.0,10.0,,,,,False,True,True,False
-2026,Collins Aerospace,Graduate Engineer Trainee,Tier-2,,8.0,8.0,,,,,False,True,True,False
-2026,Tejas Networks,Software Engineer,Tier-2,,10.0,29.0,29.0,,,,False,True,True,False
-2026,Hardware Engineer,,Tier-2,,10.0,10.0,,,,,False,True,True,False
-2026,Ey,Associate Consultant,Tier-2,7.5,9.2,9.2,,,,,False,True,True,False
-2026,KPMG,Tech Transformation DEQ,Tier-2,6.0,,20.0,24.0,,,,False,True,False,False
-2026,Digital Soln- Strategy & Insight - Cb,,Tier-2,6.0,,,,,,,False,False,False,False
-2026,Grcs Tmt,,Tier-2,6.0,,,,,,,False,False,False,False
-2026,Te_Sap,,Tier-2,5.0,,9.0,,,,,False,True,False,False
-2026,Digital Trust - Cyber Assurance,,Tier-2,5.0,7.0,20.0,25.0,,,,False,True,True,False
-2026,Telstra,Associate Software Engineer,Tier-2,9.43,10.0,3.0,9.0,,,,False,True,True,False
-2026,Applied Materials,,Tier-2,10.0,11.92,13.0,15.0,15.0,,,False,True,True,False
-2026,Toshiba,Associate Software Engineer,Tier-2,10.0,11.5,7.0,8.0,,,,False,True,True,False
-2026,Broadridge Financial Solutions,SDE,Tier-2,,10.0,16.0,17.0,16.0,,,False,True,True,False
-2026,Automation Testing & Sdet,,Tier-2,,10.0,10.0,,,,,False,True,True,False
-2026,Hp,Transformation Intern,Tier-2,,9.0,9.0,10.0,,,,False,True,True,False
-2026,Havells,Software Engineer,Tier-2,8.0,11.5,17.0,,,,,False,True,True,False
-2026,Core Engineer,,Tier-2,7.0,9.5,9.5,,,,,False,True,True,False
-2026,7-Eleven,Associate Software Engineer,Tier-2,10.0,11.5,11.5,,,,,False,True,True,False
-2026,Hourglass,Patent Associate,Tier-2,7.22,7.5,27.0,27.0,,,8.0,False,True,True,True
-2026,Insight Global Staffing Services,Software Engineer Trainee,Tier-2,,6.0,24.0,24.0,,,,False,True,True,False
-2026,PwC,Associate Engineer,Tier-2,,6.0,6.0,,,,,False,True,True,False
-2026,Phdata,Associate Engineer,Tier-2,,7.0,10.0,15.0,,,,False,True,True,False
-2026,Oracle (Ofss),Associate Consultant,Tier-2,,9.82,8.0,8.0,,,,False,True,True,False
-2026,Itc Infotech,4 roles,Tier-2,,8.5,8.5,,,,,False,True,True,False
-2026,HPE,IT Developer,Tier-2,8.0,8.42,29.0,4.0,29.0,,,False,True,True,False
-2026,Consecure Technologies,Software Engineer,Tier-2,,8.0,6.0,7.0,6.0,,,False,True,True,False
-2026,Maersk Gsc India Pvt. Ltd,Data Analyst Intern,Tier-2,,10.84,10.84,,,,,False,True,True,False
-2026,Winman,Software Engineer L2,Tier-2,,6.0,6.0,,,,,False,True,True,False
-2026,Product Engineer,,Tier-2,,8.0,8.0,,,,,False,True,True,False
-2026,Leadsquared,,Tier-2,,11.0,11.0,,,,,False,True,True,False
-2026,Swiggy,SDE,Tier-2,,11.0,11.0,,,,,False,True,True,False
-2026,Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,Tier-2,,5.0,5.0,,,,,False,True,True,False
-2026,Total Visited,,Tier-2,,,,,2.0,0.0,,False,False,False,False
-2026,Highest Ctc,,Tier-2,10.0,10.0,10.0,6.0,,,,False,True,True,False
-2026,Average Ctc,,Tier-2,7.424375,,,,,,,False,False,False,False
-2026,Median Ctc,,Tier-2,7.36,,,1.0,,,,False,False,False,False
-2026,Wt. Average Ctc,TBD Error with formula,Tier-2,,,,1.0,,,3.0,False,False,False,True
-2026,Wt. Median Ctc,,Tier-2,6.0,,,,,,,False,False,False,False
+2026,Role,Internship,Internship,,,,,,,,True,False,False,False
+2026,Infineon,,Internship,,,15.0,20.0,,9.0,,True,True,False,False
+2026,Vectraai,Software Engineering Intern,Internship,,,,24.0,,3.0,,True,False,False,False
+2026,Medibuddy,Student Intern,Internship,,,,,,,,True,False,False,False
+2026,Textron,,Internship,,,,,,,,True,False,False,False
+2026,Nokia,,Internship,,,,,,16.0,10.0,True,False,False,True
+2026,Goldman Sachs,Seasonal Analyst,Internship,,,,,,6.0,,True,False,False,False
+2026,Nasdaq,,Internship,,,,,,,,True,False,False,False
+2026,Myntra,,Internship,,,,,,,,True,False,False,False
+2026,Accenture,KAI Internship,Internship,,,,,,,,True,False,False,False
+2026,Lending Labs,Software Engineer Intern,Internship,,,,,,,,True,False,False,False
+2026,Ather,Data Science Intern,Internship,,,,,,1.0,,True,False,False,False
+2026,System Engineering Intern,,Internship,,,,,,1.0,,True,False,False,False
+2026,Zebra Technologies,Software Intern,Internship,,,31.0,3.0,31.0,28.0,,True,True,False,False
+2026,Toshiba Tec Corporation,Cloud Backend Intern,Internship,,,30.0,31.0,30.0,,,True,True,False,False
+2026,Zeta,,Internship,,,4.0,,4.0,,,True,True,False,False
+2026,Cimpress,,Internship,12.0,12.6,12.6,,,3.0,,True,True,True,False
+2026,Bajaj Finserv,,Internship,,,,,,,,True,False,False,False
+2026,Flam,,Internship,,,,,,,,True,False,False,False
+2026,Big Basket,,Internship,,,,,,,,True,False,False,False
+2026,Garrett Motion Inc.,,Internship,,,,,,,,True,False,False,False
+2026,Aptos,,Internship,,,,,,,,True,False,False,False
+2026,Rakuten,,Internship,,,,,,,,True,False,False,False
+2026,Inkle,FrontEnd Intern,Internship,,,,,,,,True,False,False,False
+2026,Backend Intern,,Internship,,,,,,,,True,False,False,False
+2026,AI Intern,,Internship,,,,,,,,True,False,False,False
+2026,Quicken,,Internship,,,12.0,,,,,True,True,False,False
+2026,Zynga Game Network,,Internship,,,,,,,,True,False,False,False
+2026,Vidal Health,Technology Intern,Internship,,12.0,12.0,,,,,True,True,True,False
+2026,Maximus Gcc Technology & Business System,Intern,Internship,,7.5,7.5,,,,,True,True,True,False
+2026,Hsbc Edpi,Ananlyst Intern,Internship,,,,,,,,True,False,False,False
+2026,Total Visited,,Internship,,,,,,67.0,,True,False,False,False
+2026,Highest Stipend,,Internship,,,,,,,,True,False,False,False
+2026,Average Stipend,,Internship,,,,,,,,True,False,False,False
+2026,Median Stipend,,Internship,,,,,,,,True,False,False,False
+2026,Oracle (Ofss),Associate Application Developer,Internship-Summer,15.3,40.0,12.0,3.0,414040.0,,,True,True,True,False
+2026,JPMC (Summer Internship),Software Engineer,Internship-Summer,13.0,19.75,19.75,6.0,13.0,,,True,True,True,False
+2026,JPMC (Cfg),Software Engineer,Internship-Summer,13.0,19.75,2.0,8.0,,,,True,True,True,False
+2026,G2,,Internship-Summer,15.0,15.0,15.0,4.0,,,,True,True,True,False
+2026,Intuit,,Internship-Summer,20.5,45.0,45.0,1.0,,,,True,True,True,False
+2026,One App,,Internship-Summer,,,,1.0,,,,True,False,False,False
+2026,Hewlett Packard Ent.,,Internship-Summer,12.0,17.5,17.5,17.0,,,,True,True,True,False
+2026,Fs Investments,,Internship-Summer,17.0,27.0,12.0,2.0,3.0,,,True,True,True,False
+2026,Razorpay,,Internship-Summer,18.0,35.0,2.0,4.0,2.0,,,True,True,True,False
+2026,Visa,,Internship-Summer,16.57,32.0,32.0,5.0,1.25,,,True,True,True,False
+2026,Fidelity Investments,,Internship-Summer,,,2.0,1.0,,,,True,True,False,False
+2026,Akamai,,Internship-Summer,,,,5.0,,,,True,False,False,False
+2026,Walmart,,Internship-Summer,,,,2.0,,,,True,False,False,False
+2026,Paypal,,Internship-Summer,,,,3.0,,,,True,False,False,False
+2026,Cisco,,Internship-Summer,16.4,24.7,12.0,1.0,,,,True,True,True,False
+2026,Total Visited,,Internship-Summer,,,9.0,63.0,,,,True,True,False,False
+2026,Highest Package,,Internship-Summer,,,,,,,,True,False,False,False
+2026,Average Package,,Internship-Summer,,,,,,,,True,False,False,False
+2026,Median Package,,Internship-Summer,,,,,,,,True,False,False,False
 2026,Role,Internship,Tier-1,,,,,,,,False,False,False,False
 2026,Meesho,Data Scientist,Tier-1,24.0,60.0,4.0,4.0,3.0,,,False,True,True,False
 2026,Business Analyst,,Tier-1,14.0,23.5,18.0,,,,,False,True,True,False
@@ -1863,25 +1867,56 @@ Support & QE",Tier-1,22.0,32.48,32.48,8.0,,17.0,,False,True,True,False
 2026,Median Ctc,,Tier-1,14.0,,,2.0,,,,False,False,False,False
 2026,Wt. Average Ctc,,Tier-1,12.15,,,6.0,,,,False,False,False,False
 2026,Wt. Median Ctc,,Tier-1,16.3,,,,,,,False,False,False,False
-2026,Oracle (Ofss),Associate Application Developer,Internship-Summer,15.3,40.0,12.0,3.0,414040.0,,,True,True,True,False
-2026,JPMC (Summer Internship),Software Engineer,Internship-Summer,13.0,19.75,19.75,6.0,13.0,,,True,True,True,False
-2026,JPMC (Cfg),Software Engineer,Internship-Summer,13.0,19.75,2.0,8.0,,,,True,True,True,False
-2026,G2,,Internship-Summer,15.0,15.0,15.0,4.0,,,,True,True,True,False
-2026,Intuit,,Internship-Summer,20.5,45.0,45.0,1.0,,,,True,True,True,False
-2026,One App,,Internship-Summer,,,,1.0,,,,True,False,False,False
-2026,Hewlett Packard Ent.,,Internship-Summer,12.0,17.5,17.5,17.0,,,,True,True,True,False
-2026,Fs Investments,,Internship-Summer,17.0,27.0,12.0,2.0,3.0,,,True,True,True,False
-2026,Razorpay,,Internship-Summer,18.0,35.0,2.0,4.0,2.0,,,True,True,True,False
-2026,Visa,,Internship-Summer,16.57,32.0,32.0,5.0,1.25,,,True,True,True,False
-2026,Fidelity Investments,,Internship-Summer,,,2.0,1.0,,,,True,True,False,False
-2026,Akamai,,Internship-Summer,,,,5.0,,,,True,False,False,False
-2026,Walmart,,Internship-Summer,,,,2.0,,,,True,False,False,False
-2026,Paypal,,Internship-Summer,,,,3.0,,,,True,False,False,False
-2026,Cisco,,Internship-Summer,16.4,24.7,12.0,1.0,,,,True,True,True,False
-2026,Total Visited,,Internship-Summer,,,9.0,63.0,,,,True,True,False,False
-2026,Highest Package,,Internship-Summer,,,,,,,,True,False,False,False
-2026,Average Package,,Internship-Summer,,,,,,,,True,False,False,False
-2026,Median Package,,Internship-Summer,,,,,,,,True,False,False,False
+2026,Deloitte,USI,Tier-2,6.0,7.6,13.0,17.0,,,,False,True,True,False
+2026,AI,,Tier-2,,,,,,,,False,False,False,False
+2026,Oracle,,Tier-2,,,,,,,9.0,False,False,False,True
+2026,Csad,,Tier-2,,,,,,,3.0,False,False,False,True
+2026,Eda Admm,,Tier-2,,,,,,,,False,False,False,False
+2026,Pdicsm,,Tier-2,,,,,,,5.0,False,False,False,True
+2026,Et&P SAP,,Tier-2,,,,,,,10.0,False,False,False,True
+2026,Et&P Ft Gbs,,Tier-2,,,,,,,8.0,False,False,False,True
+2026,Ead Qe,,Tier-2,,,,,,,7.0,False,False,False,True
+2026,British Telecom ( Bt Group ),,Tier-2,7.64,10.64,19.0,19.0,,,10.0,False,True,True,True
+2026,Dtici (Daimler Truck Innovation Center India),CS - Graduate Trainee,Tier-2,,10.0,16.0,,,,2.0,False,True,True,True
+2026,Ece/Eee - Gradute Trainee,,Tier-2,,10.0,10.0,,,,,False,True,True,False
+2026,Collins Aerospace,Graduate Engineer Trainee,Tier-2,,8.0,8.0,,,,,False,True,True,False
+2026,Tejas Networks,Software Engineer,Tier-2,,10.0,29.0,29.0,,,,False,True,True,False
+2026,Hardware Engineer,,Tier-2,,10.0,10.0,,,,,False,True,True,False
+2026,Ey,Associate Consultant,Tier-2,7.5,9.2,9.2,,,,,False,True,True,False
+2026,KPMG,Tech Transformation DEQ,Tier-2,6.0,,20.0,24.0,,,,False,True,False,False
+2026,Digital Soln- Strategy & Insight - Cb,,Tier-2,6.0,,,,,,,False,False,False,False
+2026,Grcs Tmt,,Tier-2,6.0,,,,,,,False,False,False,False
+2026,Te_Sap,,Tier-2,5.0,,9.0,,,,,False,True,False,False
+2026,Digital Trust - Cyber Assurance,,Tier-2,5.0,7.0,20.0,25.0,,,,False,True,True,False
+2026,Telstra,Associate Software Engineer,Tier-2,9.43,10.0,3.0,9.0,,,,False,True,True,False
+2026,Applied Materials,,Tier-2,10.0,11.92,13.0,15.0,15.0,,,False,True,True,False
+2026,Toshiba,Associate Software Engineer,Tier-2,10.0,11.5,7.0,8.0,,,,False,True,True,False
+2026,Broadridge Financial Solutions,SDE,Tier-2,,10.0,16.0,17.0,16.0,,,False,True,True,False
+2026,Automation Testing & Sdet,,Tier-2,,10.0,10.0,,,,,False,True,True,False
+2026,Hp,Transformation Intern,Tier-2,,9.0,9.0,10.0,,,,False,True,True,False
+2026,Havells,Software Engineer,Tier-2,8.0,11.5,17.0,,,,,False,True,True,False
+2026,Core Engineer,,Tier-2,7.0,9.5,9.5,,,,,False,True,True,False
+2026,7-Eleven,Associate Software Engineer,Tier-2,10.0,11.5,11.5,,,,,False,True,True,False
+2026,Hourglass,Patent Associate,Tier-2,7.22,7.5,27.0,27.0,,,8.0,False,True,True,True
+2026,Insight Global Staffing Services,Software Engineer Trainee,Tier-2,,6.0,24.0,24.0,,,,False,True,True,False
+2026,PwC,Associate Engineer,Tier-2,,6.0,6.0,,,,,False,True,True,False
+2026,Phdata,Associate Engineer,Tier-2,,7.0,10.0,15.0,,,,False,True,True,False
+2026,Oracle (Ofss),Associate Consultant,Tier-2,,9.82,8.0,8.0,,,,False,True,True,False
+2026,Itc Infotech,4 roles,Tier-2,,8.5,8.5,,,,,False,True,True,False
+2026,HPE,IT Developer,Tier-2,8.0,8.42,29.0,4.0,29.0,,,False,True,True,False
+2026,Consecure Technologies,Software Engineer,Tier-2,,8.0,6.0,7.0,6.0,,,False,True,True,False
+2026,Maersk Gsc India Pvt. Ltd,Data Analyst Intern,Tier-2,,10.84,10.84,,,,,False,True,True,False
+2026,Winman,Software Engineer L2,Tier-2,,6.0,6.0,,,,,False,True,True,False
+2026,Product Engineer,,Tier-2,,8.0,8.0,,,,,False,True,True,False
+2026,Leadsquared,,Tier-2,,11.0,11.0,,,,,False,True,True,False
+2026,Swiggy,SDE,Tier-2,,11.0,11.0,,,,,False,True,True,False
+2026,Secure Meters Limited,Graduate Engineer Trainee - Sales & Marketing,Tier-2,,5.0,5.0,,,,,False,True,True,False
+2026,Total Visited,,Tier-2,,,,,2.0,0.0,,False,False,False,False
+2026,Highest Ctc,,Tier-2,10.0,10.0,10.0,6.0,,,,False,True,True,False
+2026,Average Ctc,,Tier-2,7.424375,,,,,,,False,False,False,False
+2026,Median Ctc,,Tier-2,7.36,,,1.0,,,,False,False,False,False
+2026,Wt. Average Ctc,TBD Error with formula,Tier-2,,,,1.0,,,3.0,False,False,False,True
+2026,Wt. Median Ctc,,Tier-2,6.0,,,,,,,False,False,False,False
 2026,Lti Mindtree,Graduate Engineer Trainee,Tier-3,,4.05,20.0,,,,,False,True,True,False
 2026,Safran Engineering,,Tier-3,,5.0,11.0,13.0,,,,False,True,True,False
 2026,Winman,Software Engineer L1,Tier-3,,4.5,4.5,,,,,False,True,True,False
@@ -1889,38 +1924,3 @@ Support & QE",Tier-1,22.0,32.48,32.48,8.0,,17.0,,False,True,True,False
 2026,Highest Package,,Tier-3,,,,,,,,False,False,False,False
 2026,Average Package,,Tier-3,,,,,,,,False,False,False,False
 2026,Median Package,,Tier-3,,,,,,,,False,False,False,False
-2026,Role,Internship,Internship,,,,,,,,True,False,False,False
-2026,Infineon,,Internship,,,15.0,20.0,,9.0,,True,True,False,False
-2026,Vectraai,Software Engineering Intern,Internship,,,,24.0,,3.0,,True,False,False,False
-2026,Medibuddy,Student Intern,Internship,,,,,,,,True,False,False,False
-2026,Textron,,Internship,,,,,,,,True,False,False,False
-2026,Nokia,,Internship,,,,,,16.0,10.0,True,False,False,True
-2026,Goldman Sachs,Seasonal Analyst,Internship,,,,,,6.0,,True,False,False,False
-2026,Nasdaq,,Internship,,,,,,,,True,False,False,False
-2026,Myntra,,Internship,,,,,,,,True,False,False,False
-2026,Accenture,KAI Internship,Internship,,,,,,,,True,False,False,False
-2026,Lending Labs,Software Engineer Intern,Internship,,,,,,,,True,False,False,False
-2026,Ather,Data Science Intern,Internship,,,,,,1.0,,True,False,False,False
-2026,System Engineering Intern,,Internship,,,,,,1.0,,True,False,False,False
-2026,Zebra Technologies,Software Intern,Internship,,,31.0,3.0,31.0,28.0,,True,True,False,False
-2026,Toshiba Tec Corporation,Cloud Backend Intern,Internship,,,30.0,31.0,30.0,,,True,True,False,False
-2026,Zeta,,Internship,,,4.0,,4.0,,,True,True,False,False
-2026,Cimpress,,Internship,12.0,12.6,12.6,,,3.0,,True,True,True,False
-2026,Bajaj Finserv,,Internship,,,,,,,,True,False,False,False
-2026,Flam,,Internship,,,,,,,,True,False,False,False
-2026,Big Basket,,Internship,,,,,,,,True,False,False,False
-2026,Garrett Motion Inc.,,Internship,,,,,,,,True,False,False,False
-2026,Aptos,,Internship,,,,,,,,True,False,False,False
-2026,Rakuten,,Internship,,,,,,,,True,False,False,False
-2026,Inkle,FrontEnd Intern,Internship,,,,,,,,True,False,False,False
-2026,Backend Intern,,Internship,,,,,,,,True,False,False,False
-2026,AI Intern,,Internship,,,,,,,,True,False,False,False
-2026,Quicken,,Internship,,,12.0,,,,,True,True,False,False
-2026,Zynga Game Network,,Internship,,,,,,,,True,False,False,False
-2026,Vidal Health,Technology Intern,Internship,,12.0,12.0,,,,,True,True,True,False
-2026,Maximus Gcc Technology & Business System,Intern,Internship,,7.5,7.5,,,,,True,True,True,False
-2026,Hsbc Edpi,Ananlyst Intern,Internship,,,,,,,,True,False,False,False
-2026,Total Visited,,Internship,,,,,,67.0,,True,False,False,False
-2026,Highest Stipend,,Internship,,,,,,,,True,False,False,False
-2026,Average Stipend,,Internship,,,,,,,,True,False,False,False
-2026,Median Stipend,,Internship,,,,,,,,True,False,False,False

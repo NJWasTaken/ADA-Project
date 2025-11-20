@@ -8,6 +8,7 @@ Clean, robust pipeline for analyzing PES University placement data (2022-2026 ba
 ADA-Project/
 ├── consolidate_placement_data.py  # Data consolidation pipeline
 ├── dashboard.py                   # Interactive Streamlit dashboard
+├── temporal_analysis.py           # Temporal analysis & predictions
 ├── data/                          # Raw CSV files (2022-2026)
 │   ├── 2022/ (6 files)
 │   ├── 2023/ (5 files)
@@ -16,7 +17,8 @@ ADA-Project/
 │   └── 2026/ (5 files)
 └── processed_data/                # Generated outputs
     ├── placement_data.csv         # Clean consolidated data
-    └── summary_statistics.json    # Summary statistics
+    ├── summary_statistics.json    # Summary statistics
+    └── temporal_analysis.json     # Temporal insights & forecasts
 ```
 
 ## 🚀 Quick Start
@@ -35,7 +37,28 @@ python3 consolidate_placement_data.py
 - `processed_data/placement_data.csv` - Clean dataset (1,902 records)
 - `processed_data/summary_statistics.json` - Summary stats
 
-### 2. Launch Dashboard
+### 2. Run Temporal Analysis (Optional but Recommended)
+
+```bash
+# Install analysis dependencies
+pip install pandas numpy scipy scikit-learn
+
+# Run temporal analysis and generate predictions
+python3 temporal_analysis.py
+```
+
+**Output:**
+- `processed_data/temporal_analysis.json` - Trends, forecasts, and insights
+
+**Features:**
+- Year-over-year growth analysis
+- CTC trend forecasting (Linear & Polynomial regression)
+- Placement volume predictions
+- Company hiring pattern detection
+- Emerging company identification
+- Volatility analysis
+
+### 3. Launch Dashboard
 
 ```bash
 # Install dashboard dependencies
@@ -98,13 +121,21 @@ The consolidation script handles:
 
 ## 📈 Dashboard Features
 
-**5 Interactive Tabs:**
+**6 Interactive Tabs:**
 
 1. **Overview** - Distribution charts, yearly trends, tier analysis
 2. **Companies** - Top recruiters, highest paying, company details
 3. **Salary Analysis** - Box plots, percentiles, CGPA vs CTC
 4. **Insights** - Key statistics and auto-generated insights
 5. **Data Explorer** - Filterable table with CSV export
+6. **Temporal Analysis & Predictions** - 🔮 NEW!
+   - CTC trend forecasting with confidence intervals
+   - Placement volume predictions
+   - Year-over-year growth visualization
+   - Tier distribution trends
+   - Company hiring pattern heatmaps
+   - Emerging companies analysis
+   - Market volatility metrics
 
 **Filters:**
 - Year selection

@@ -1,0 +1,262 @@
+Year,College,Company,Date_OA,Offline_Test,Tier,CTC_LPA,Base_LPA,Internship_Stipend_Monthly_INR,Role,Type,Total_Offers,CGPA_Cutoff,Allows_ECE,Allows_MCA,Allows_MTech_CS,Comments,Source_File
+2025,PES,PhonePe,27-07-2024,FALSE,Tier 1,32,19,80000,SDE,FTE + Intern,3,6,FALSE,FALSE,FALSE,"Coding Test was Medium Hard Level, Shortlisted 25 for 1st Round, Open to All depts",Cross-College companies info - PES.csv
+2025,PES,Vyapar Apps,30-07-2024,FALSE,Tier 1,30,15,50000,SDE,FTE + Intern,4,9,FALSE,FALSE,FALSE,Technical Test was held 2 times. The first technical test was very easy. Second Techincal Test was held in Campus,Cross-College companies info - PES.csv
+2025,PES,CouchBase,02-08-2024,FALSE,Tier 1,27,20,120000,"SDE, QE, Support",FTE + Intern,3,9,FALSE,FALSE,FALSE,"Shortlisted 102 students (based on Resume), Support - Tested more on Project Understanding, Current Technologies, Theory Fundamentals (OS,CN, DBMS), Less of DSA. Dev tested more of DSA/Problem solving, QE was a mix",Cross-College companies info - PES.csv
+2025,PES,Zomato,03-08-2024,TRUE,Tier 1,56,24,60000,SDE,FTE + Intern,3,8,FALSE,FALSE,FALSE,https://www.geeksforgeeks.org/community/post/34351/zomato-x-blinkit-interview-experience-for-sde-i-on-campus-2024/,Cross-College companies info - PES.csv
+2025,PES,Arista Network,02-08-2024,TRUE,Tier 1,19,,65000,SDE,FTE + Intern,6,7.5,FALSE,FALSE,FALSE,"3 Qs (LL, Greedy, Backtracking) + 20 MCQs (CN, OOPS, Cpp, Linux), Conducted 4 Rounds of interview (3DSA/Project - 1HR), Selected 6 out 7 PPL who reached HR round, Shortlisted around 30 PPL for first round interview",Cross-College companies info - PES.csv
+2025,PES,Okta,06-08-2024,TRUE,Tier 1,28,14,80000,SDE,FTE + Intern,8,8,FALSE,FALSE,FALSE,"OA Tips: Majorly focus on coding quickly (70 min, 4 problems) and learn String manipulation in ur language (substr in cpp) only after which logic can be used , 2 Rounds, 1st was DSA (Tree DFS problem), 2nd Round was OOPS (system design) (Design building with floors, gym,cafe) Last was HR.",Cross-College companies info - PES.csv
+2025,PES,Infosys (All India),04-08-2024,FALSE,Tier 2,9.5,6,,SDE,FTE,8,6,FALSE,FALSE,FALSE,Questions Lifted Directly from Codeforces Problems. Shortlisted 18 ppl for interview,Cross-College companies info - PES.csv
+2025,PES,StockX,04-08-2024,FALSE,Tier 1,22,20,60000,Associate S/W Eng.,FTE + Intern,4,9.5,FALSE,FALSE,FALSE,"Resume Shortlisting, 30 Shortlisted for 1st Round",Cross-College companies info - PES.csv
+2025,PES,CBX1,10-08-2024,TRUE,Tier 1,21,17,50000,SDE,FTE + Intern,2,8,FALSE,FALSE,FALSE,Shortlisted 24 people,Cross-College companies info - PES.csv
+2025,PES,LAM Research,07-08-2024,FALSE,Tier 1,14,11,,"SDE, QA",FTE + Intern,1,6,FALSE,FALSE,FALSE,"Sectional Timer Test - I Applied for QA - All MCQ (Aptitude 15Q-20Min), Tech(45 Mcq - 60Min). For SDE they had Coding as well 2DSAI",Cross-College companies info - PES.csv
+2025,PES,Societe Generale (SG),08-08-2024,FALSE,Tier 1,12,,30000,SDE,FTE + Intern,15,6.5,FALSE,FALSE,FALSE,"Sectional Timer Test - 3 Sections - Aptitude (15Q-20Min), Technical (10Q), DSA(2Coding-40Min) - String & Min Spanning Tree",Cross-College companies info - PES.csv
+2025,PES,IDFC Bank,08-10-2024,FALSE,Tier 1,18,14,,Application Engineer,FTE + Intern,3,6,FALSE,FALSE,FALSE,"Sectional Timer Test - 3 Sections - Aptitude (15Q-20Min), Technical (10Q), DSA(2Coding-40Min)",Cross-College companies info - PES.csv
+2025,PES,Cloudera,16-08-2024,FALSE,Tier 1,19,17,,SDE,FTE + Intern,6,8.9,FALSE,FALSE,FALSE,70 Shortlisted for test,Cross-College companies info - PES.csv
+2025,PES,IBM (General),17-08-2024,FALSE,Tier 1,17,,30000,SDE,FTE + Intern,2,7,FALSE,FALSE,FALSE,"Open for All, 2 coding in 1 hr, shortlisted 200+ PPL for Interview divided into Different roles/Domains (Automation, D&Ai)",Cross-College companies info - PES.csv
+2025,PES,Schneider electric,17-08-2024,FALSE,Tier 1,12,,35000,Graduate Engineer Trainee (GET),FTE + Intern,6,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Singularity Dynamics,23-08-2024,FALSE,Tier 1,16,13,30000,"SDE (CSE) ,Chip Verification (R&D) (ECE,EEE)",FTE + Intern,2,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Typeface.ai,20-08-2024,FALSE,Tier 1,20,,35000,SDE & ML (Hyderabad office),FTE + Intern,0,8.5,FALSE,FALSE,FALSE,"Open to all depts, Relocation to HYD on our own, Shortlisted 38 for next round. Includes Project Round where you had to complete a task given by the team in few days deadline",Cross-College companies info - PES.csv
+2025,PES,Apple (India),23-08-2024,FALSE,Tier 1,,,80000,12-Roles-All named SDE Intern,Internship (PBC),20,7,FALSE,FALSE,FALSE,"Shortlisted 90 People for Interviews (2 Round), Dream company (>60 lpa), Open for all (even ones holding offer), Had 2 tests, 1st one had 2 Coding (Greedy - https://leetcode.com/problems/jump-game/ , 1 Graph, 10 MCQs (DBMS, Oops, DSA) due to technical glitch had to retest, 2nd and Final test - Had 2 Coding (1-Similar to https://leetcode.com/problems/reverse-pairs/ , other one was Sliding window + Binary Search) and 5 MCQs (DSA, Os(kernal/system threads) in 1 hr 10 mins",Cross-College companies info - PES.csv
+2025,PES,Egnyte (WFH only),23-08-2024,FALSE,Tier 1,14,,50000,Backend Intern,FTE + Intern,4,7.5,FALSE,FALSE,FALSE,"Asked DP, Graph, 1 SQL problem, 10 aptitude... Sectional wise",Cross-College companies info - PES.csv
+2025,PES,IBM (Female Only),24-08-2024,FALSE,Tier 1,17,,30000,SDE,FTE + Intern,28,7,FALSE,FALSE,FALSE,"Shortlisted 108 for Interview, 2 Tests (1st - 4 coding, 23 MCQs, 1.5 hrs... 2nd - 3 coding(Valid BST Iterative, Addition of Binary strings, Youngest Member not in array), 15 MCQs 1.5 hrs)",Cross-College companies info - PES.csv
+2025,PES,Walmart,01-09-2024,TRUE,Tier 1,22.6,16,100000,SDE - II,FTE + Intern,6,9,FALSE,FALSE,FALSE,"Shortlisted 9+ CGPA for OA (~100 people), Shortlisted 30 for Interview",Cross-College companies info - PES.csv
+2025,PES,DE Shaw,02-09-2024,FALSE,Tier 1,50,18,2000000,"SDE (Test Engineer).",FTE + Intern,1,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Infibeam,26-08-2024,TRUE,Tier 1,12,10,20000,SDE,FTE + Intern,2,8.8,FALSE,FALSE,FALSE,"Oncampus, Shortlisted 18 PPL for Interview",Cross-College companies info - PES.csv
+2025,PES,Bain Capability Network (Bcn),29-08-2024,FALSE,Tier 2,11,9,40000,Non Tech - Intern Analyst,Internship (PBC),8,6,FALSE,FALSE,FALSE,"Shortlisted 45 people across dept for interview, Had 1 round interview 1 case study round, Questions asked on Guess estimate problems (Opening a Dress Shop in Bangalore, Profit margin in Tires)",Cross-College companies info - PES.csv
+2025,PES,Netradyne,27-08-2024,TRUE,Tier 1,14,10,35000,Associate IT Engineer (Support Role),FTE + Intern,12,8.7,FALSE,FALSE,FALSE,Oncampus,Cross-College companies info - PES.csv
+2025,PES,LTIMindTree,04-09-2024,TRUE,Tier 3,4,,,Graduate Engineer Trainee,FTE,41,6,TRUE,TRUE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,CommVault,02-09-2024,TRUE,Tier 1,32,16,50000,SDE,FTE + Intern,0,8.5,FALSE,FALSE,FALSE,"Shortlisted 7 for interview, Virtual Interview",Cross-College companies info - PES.csv
+2025,PES,Meesho,29-08-2024,TRUE,Tier 1,32,20,35000,SDE,FTE + Intern,4,7,FALSE,FALSE,FALSE,"Shortlisted 30+ ppl for Interview, 2 Rounds (2nd one being OOPS system design based round)",Cross-College companies info - PES.csv
+2025,PES,Sixt,02-09-2024,TRUE,Tier 1,19,12,40000,SDE 1,FTE + Intern,4,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Cynlr (https://cynlr.com/),02-09-2024,FALSE,Tier 1,14,,,"Design & Development
+Application Engineering
+Software Developer",FTE + Intern,1,7.25,TRUE,FALSE,FALSE,"Open to all branches, Asked Physics questions in OA, Interesting Startup (https://cynlr.com/)",Cross-College companies info - PES.csv
+2025,PES,Inmobi Technologies,02-09-2024,TRUE,Tier 1,,,45000,SDE,FTE + Intern,8,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,GE Healthcare,,FALSE,Tier 1,16,,40000,SDE,FTE + Intern,,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Baxter,05-09-2024,TRUE,Tier 1,12,,30000,"Digital, Embedded Engineer",FTE + Intern,3,8.5,FALSE,FALSE,FALSE,"Shortlisted 44 people (27 CS for Digital Role, 17 other dept for Embedded Software)",Cross-College companies info - PES.csv
+2025,PES,Deloitte US-India(T2),05-09-2024,FALSE,Tier 2,7.6,6,,Technology Analyst,FTE + Intern,10,6,FALSE,FALSE,FALSE,"Interviews Tomorrow, Shortlisted 50 for Technology Analyst, 68 for USI Analyst, Conducted same test for both roles at a time",Cross-College companies info - PES.csv
+2025,PES,HPE,06-09-2024,FALSE,Tier 1,17.5,,40000,SDE,"FTE + Intern, Internship (PBC)",5,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Vyapar Apps (Second Hiring),06-09-2024,FALSE,Tier 1,20,12,40000,SDE,FTE + Intern,4,8.5,FALSE,FALSE,FALSE,Reduced Base (15 -> 12) and CTC (30 -> 20) on Second Round Hiring,Cross-College companies info - PES.csv
+2025,PES,Amadeus,09-09-2024,TRUE,Tier 1,12,10,40000,SDE,FTE,3,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Epsilon,12-09-2024,FALSE,Tier 1,12,,30000,SDE 1,FTE + Intern,1,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,IG Group,10-09-2024,FALSE,Tier 1,13,12,,Jr. Leadership Role,FTE,,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Cognizant (T2),12-09-2024,FALSE,Tier 2,7,5,,,,11,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Goldman Sachs (T2),10-09-2024,FALSE,Tier 2,8.75,,60000,Seasonal Analyst Intern,Internship (PBC),8,6.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Signify Innovation Lab,01-10-2024,FALSE,Tier 1,13,11,30000,Assistant Development Engineer,FTE + Intern,2,9,FALSE,FALSE,FALSE,"Selected 15 girls for direct interview, Offered jobs to 2 ppl",Cross-College companies info - PES.csv
+2025,PES,Eurofins (T2),18-09-2024,TRUE,Tier 2,10,,75000,Associate Software Engineer,FTE,9,6.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Urban Company,14-09-2024,FALSE,Tier 1,22,16,,SDE 1,FTE + Intern,2,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,IBM (2nd Visit) - Cloud Role,18-09-2024,FALSE,Tier 1,17,,30000,SDE (Cloud),FTE + Intern,2,7,FALSE,FALSE,FALSE,2nd Visit,Cross-College companies info - PES.csv
+2025,PES,Tejas Networks (T2),20-09-2024,TRUE,Tier 2,10,,30000,"SW, HW and NMS",FTE + Intern,0,7.5,FALSE,FALSE,FALSE,"Shortlisted 11 for Embedded SE role, 6 for HW role (ECE), 6 for Java NMS role. Programming languages were fixed for those particular test (Cpp only for Embedded, etc.)",Cross-College companies info - PES.csv
+2025,PES,StockX (Product Mang Role),20-09-2024,FALSE,Tier 1,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Superjoin.ai,20-09-2024,FALSE,Tier 1,16,11,,,,1,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,HPE (2nd Visit) (Only Selected Students),27-09-2024,FALSE,Tier 1,17.5,,40000,,FTE + Intern,7,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Coinbase,21-09-2024,FALSE,Tier 1,,,100000,SDE,Internship (PBC),0,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Nvidia,25-09-2024,FALSE,Tier 1,,,80000,Hardware Engineering Intern,Internship (PBC),0,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Samsung Semiconductors,23-09-2024,FALSE,Tier 1,19,,50000,"SW(Embd),HW(Dig,Analog)",Internship (PBC),0,7,FALSE,FALSE,FALSE,"Initally was FTE+Int, but hired only Interns, Coding questions strictly to be coded in C Language itself, Shortlisted 6 for Embd (CSE), 7 for Dig & 5 for Analog (ECE), Virtual Interviews Conducted",Cross-College companies info - PES.csv
+2025,PES,NXP Semiconductors,23-09-2024,FALSE,Tier 1,22.5,,45200,"Embedded, Digital, Analog",FTE + Intern,1,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Dish Network,19-09-2024,TRUE,Tier 1,14.1,,25000,SDE,FTE + Intern,4,8.5,FALSE,FALSE,FALSE,Shortlisted 22 People,Cross-College companies info - PES.csv
+2025,PES,Apple Internship (only for Pre-Listed students),27-09-2024,FALSE,Tier 1,,,80000,"Ai-ML, SDE",Internship (PBC),0,9,FALSE,FALSE,FALSE,Shortlisted 4 PPL for Data Science (ML) role and 8 for Software Dev Engineering role,Cross-College companies info - PES.csv
+2025,PES,GuideWire,18-10-2024,TRUE,Tier 1,,,70000,SDE 1,Internship (PBC),6,8,FALSE,FALSE,FALSE,"12 Shortlisted for Interview, Interview rounds very Basic (Recursion/dp problem asked)",Cross-College companies info - PES.csv
+2025,PES,KPMG (T3),21-09-2024,FALSE,Tier 2,7,,20000,"4 Roles - Digital Next, Digital Trust, TT DEQ, GRCS Telecom",FTE + Intern,11,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,SAP Labs,24-09-2024,FALSE,Tier 1,25,10,35000,Associate - (Developer /DevOps /Support/QA),FTE + Intern,10,7,FALSE,FALSE,FALSE,"Shortlisted 66 PPL for interviews, 4 Rounds of Interview, Most of the Selected PPL interviews happened back to back, while the others did not get a chance to Interview for 3rd Round also",Cross-College companies info - PES.csv
+2025,PES,Toshiba,27-09-2024,TRUE,Tier 2,11,9,20000,Associate Software Engineer,FTE + Intern,7,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,BT Group,30-09-2024,FALSE,Tier 1,13,,60000,,FTE + Intern,10,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Accenture (T2),30-09-2024,FALSE,Tier 3,4,,,,FTE,,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Dover (T2),30-09-2024,FALSE,Tier 2,11,,25000,Software Engineer,FTE + Intern,2,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Aveva,08-10-2024,TRUE,Tier 1,15.8,,,Software Developer Graduate,FTE + Intern,4,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Fidelity International (T2),16-10-2024,FALSE,Tier 2,9,8,,Graduate Programmer,FTE + Intern,,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Oracle Financial Services Ltd,25-09-2024,FALSE,Tier 1,19.18,,50000,,FTE + Intern,6,8,FALSE,FALSE,FALSE,"Shortlisted 30 ppl for Interview, Interviews went same Like SAP lab style",Cross-College companies info - PES.csv
+2025,PES,ZScaler,29-09-2024,FALSE,Tier 1,,,75000,Intern - Software Development,Internship (PBC),1,7,FALSE,FALSE,FALSE,"Asked 2 DSA (C++/Java) and 2 Core Python questions (1 File handling/CSV handling, 1 DSA)",Cross-College companies info - PES.csv
+2025,PES,Komprise,25-09-2024,FALSE,Tier 1,22,17,,"SDE, STE",FTE + Intern,1,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Crestron (T2),23-09-2024,FALSE,Tier 2,8,,30000,"7 Roles - Firmware Developer, Front End Developer, Cloud Developer, Cloud DevOps Engineer, Quality Engineer, Automation (SDET), Security Testing, Cloud Testing",FTE + Intern,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Telstra (T2),04-10-2024,FALSE,Tier 2,10,,,,FTE,10,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,iNube Software Solutions,08-10-2024,FALSE,Tier 1,12,,30000,Software Analyst,FTE + Intern,3,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,McKinsey & Co,28-09-2024,FALSE,Tier 1,12,,20000,Analyst Role,FTE + Intern,3,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Renesas,30-10-2024,FALSE,Tier 1,24,15,45000,"Verification Engineer, Analog Circuit Engineer","FTE + Intern, Internship (PBC)",1,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Broadridge (T2) (Female Only),28-10-2024,FALSE,Tier 2,10,,30000,,FTE + Intern,5,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Safran Technologies (T3),07-11-2024,FALSE,Tier 3,,,,,FTE,,6.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Boomi Software,19-10-2024,FALSE,Tier 1,,,35000,"SE Intern, Systems Intern, Solution Eng Intern",Internship (PBC),6,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Conga Software,19-10-2024,FALSE,Tier 2,10.44,,12000,,FTE + Intern,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,e-Litmus,19-10-2024,FALSE,Tier 1,12,,1200000,Software Developer,FTE + Intern,,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,IDfy (T2),06-11-2024,FALSE,Tier 2,10,,25000,Software Engineer,FTE + Intern,1,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Johns Lang LaSalle Technology (JLLT),04-10-2024,TRUE,Tier 2,8,,800000,SDE Intern,Internship (PBC),9,8,FALSE,FALSE,FALSE,"Shortlisted 70 for GD, 24 Shortlisted for 1st interview. 2 rounds in total (Tech, Hr). SQL, Python asked. OA was Aptitude, SQL Mcqs, python mcqs",Cross-College companies info - PES.csv
+2025,PES,Volvo (T2),19-10-2024,FALSE,Tier 2,7.5,,750000,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Dezerv,05-10-2024,FALSE,Tier 1,16,15,75000,Software Engineer,FTE + Intern,5,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Confluent,16-10-2024,FALSE,Tier 1,,,100000,4 Roles (Data Engineering Intern Business Intelligence Intern Cloud Infrastructure Engineer Intern Applications Engineer Intern),Internship (PBC),1,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Apple India (for 2 roles),20-09-2024,FALSE,Tier 1,,,80000,"2 Roles - Wireless Engineering Intern, Software Engineering & Machine Learning Intern",Internship (PBC),1,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Cars24,18-10-2024,TRUE,Tier 1,12,10,30000,SDE 1,FTE + Intern,15,8,FALSE,FALSE,FALSE,"Special Shortlist made, OA, 2 rounds interview. Increased Package from 10CTC to 12 CTC thus making it T1 later",Cross-College companies info - PES.csv
+2025,PES,MediBuddy,05-10-2024,FALSE,Tier 1,,,25000,SDE Intern,Internship (PBC),0,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Aruva.io,05-10-2024,FALSE,,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Deloitte India,16-10-2024,FALSE,Tier 2,7.6,,760000,6 Roles,FTE + Intern,31,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Thorogood Associates,05-10-2024,FALSE,Tier 1,14.81,8,150000,Data & Ai Consultant (Data Cleaning),FTE,2,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Applied Materials,17-10-2024,FALSE,Tier 1,17,9,600000,IT Solutions Management,FTE + Intern,2,8.25,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Aptiv (T2),09-11-2024,FALSE,Tier 2,8.5,,850000,Associate Embedded Software Engineer,FTE + Intern,,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,DataCore Software,23-10-2024,FALSE,Tier 1,,,35000,Software Intern,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,InvisAlign India (Align Technologies),06-10-2024,FALSE,Tier 1,,,50000,"DevOps, Backend, Web Dev",Internship (PBC),,,FALSE,FALSE,FALSE,All Roles in HYDERABAD,Cross-College companies info - PES.csv
+2025,PES,WayFair,10-10-2024,FALSE,Tier 1,,,75000,Software Engineering Intern,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,AstraZeneca (T2),28-10-2024,FALSE,Tier 2,8.43,,25000,Statistical Programmer I,FTE,5,8.2,FALSE,FALSE,FALSE,Shortlisted 72 Students for Test (above 8.2 CGPA),Cross-College companies info - PES.csv
+2025,PES,Infosys (T3),12-11-2024,FALSE,Tier 3,3.6,,,Software Enginer,FTE,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Nvidia,12-11-2024,FALSE,Tier 1,29,,2900000,Software Intern,Internship (PBC),0,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Nouveau Labs,22-10-2024,FALSE,Tier 2,9,,25000,"Software Engineer, Python Dev",FTE + Intern,1,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Amazon,07-11-2024,FALSE,Tier 1,26,,2600000,AWS Cloud Support Associate,FTE + Intern,1,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,VISA,16-10-2024,FALSE,Tier 1,41,16,1500000,SDE,FTE,3,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Zebra Technologies,16-10-2024,TRUE,Tier 2,11,,1100000,SDET Intern,Internship (PBC),25,7.5,FALSE,FALSE,FALSE,"1 OA ,2 Rounds of Interview, SQL, oops, Resume asked. Checked more on whether student is more flexible to work in other roles",Cross-College companies info - PES.csv
+2025,PES,American Express,25-10-2024,FALSE,Tier 1,19,13,100000,SDE,FTE + Intern,6,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Licious,19-10-2024,FALSE,Tier 1,16,,1600000,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Bounteous x Accolite (T2),10-11-2024,FALSE,Tier 2,8,,800000,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Consillio (T2),17-10-2024,FALSE,Tier 2,8,5,,Associate Software Engineer,FTE,15,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Siemens EDA,23-10-2024,FALSE,Tier 1,,,50000,Student Intern (Analog + SW),Internship (PBC),,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Havells India (T2),30-10-2024,FALSE,Tier 2,11.5,8,25000,"IOT(CS) , Power Electronics & Solar Roles",FTE + Intern,1,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Thorogood Associates,16-10-2024,FALSE,Tier 1,14.81,8,150000,Data/Ai Consultant (Data Cleaning),FTE,1,8,FALSE,FALSE,FALSE,TOTALLY DIFF. TYPE OF SELECTIONS. 3 Rounds of Case Studies conducted in Final interviews. Sent a second mail individually for people who were shortlisted. Shortlisted 9 this time. further shortlisted 4 for office round,Cross-College companies info - PES.csv
+2025,PES,RSM USI (T2),16-10-2024,TRUE,Tier 2,7.7,,,Business Applications,FTE,,6,TRUE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,HPE (T2),17-10-2024,FALSE,Tier 2,7.5,,20000,"Technical Solution Consultant, Managed Services",FTE + Intern,10,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Prime Numbers,24-10-2024,FALSE,Tier 1,12,,1200000,SE 1,FTE + Intern,,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Juniper Network,22-10-2024,FALSE,Tier 1,15.5,,1550000,"COO Intern, DevOps Intern",Internship (PBC),16,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Progress,20-10-2024,FALSE,Tier 1,,,30000,Software Engineer Intern,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Celstream (T2),06-12-2024,TRUE,Tier 2,8,,30000,Software Engineer,FTE + Intern,4,7.7,TRUE,FALSE,FALSE,"Shortlisted 110 people for Test.Then shortlisted 7 from ECE, 15 from CSE",Cross-College companies info - PES.csv
+2025,PES,ConSecure (T2),30-10-2024,FALSE,Tier 2,12,,25000,SE-Next Gen GenAI,FTE + Intern,4,6,TRUE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,EY India,07-11-2024,FALSE,Tier 2,,,850000,Associate Consultant,FTE + Intern,18,,,,,,Cross-College companies info - PES.csv
+2025,PES,NetCore Cloud,08-11-2024,FALSE,Tier 1,12,,15000,,FTE + Intern,,6,FALSE,TRUE,FALSE,"(18 months Bond), Shortlisted 35 for interview, 8 from MCA, rest from CS",Cross-College companies info - PES.csv
+2025,PES,TexTron,22-11-2024,FALSE,Tier 2,,,600000,,Internship (PBC),,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Media.net,22-10-2024,FALSE,Tier 1,15,13,,SRE,FTE + Intern,,6,TRUE,FALSE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,Fluidyn (T2),25-10-2024,FALSE,Tier 2,6,,20000,,FTE + Intern,,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Kimberley Clark (Intern),25-10-2024,FALSE,Tier 2,,,25000,Graduate Engineering Traineer,Internship (PBC),,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,SimplyFi Softech(T3),08-11-2024,FALSE,Tier 3,4,,15000,Innovation Trainee & Innovation Engineer,FTE + Intern,,6,TRUE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,Hevo Data (Intern),26-10-2024,FALSE,Tier 1,,,50000,SDE Intern,Internship (PBC),,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Garett Motion (Intern),19-11-2024,FALSE,Tier 1,,,30000,"CyberSec, Engineer, IT",Internship (PBC),,8,FALSE,FALSE,FALSE,Came with 10 Openings,Cross-College companies info - PES.csv
+2025,PES,Relx (Elsevier / LNLP) (T2),20-11-2024,FALSE,Tier 2,8,,,SDE 1,FTE,,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,L7 Informatics (T2),30-10-2024,FALSE,Tier 2,6.5,4,25000,,Internship (PBC),,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Gameberry,14-11-2024,FALSE,Tier 1,15,13,50000,SDE,FTE + Intern,,8.5,FALSE,FALSE,FALSE,Shortlisted 26 for Interview,Cross-College companies info - PES.csv
+2025,PES,Consuma.ai,15-11-2024,FALSE,Tier 1,12,9,30000,SDE Backend Intern,FTE + Intern,,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Sun Life (T2),20-11-2024,FALSE,Tier 2,7,,,Graduate Engineer Trainee,FTE,4,7,FALSE,TRUE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Mphasis (T2),04-11-2024,FALSE,Tier 2,7,,20000,,FTE + Intern,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Amagi,06-11-2024,FALSE,Tier 1,18,15,,Product Software Engineer,FTE + Intern,3,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,AMD (Intern),06-11-2024,FALSE,Tier 1,,,34000,"SW, HW role",Internship (PBC),,7.5,FALSE,FALSE,FALSE,Shortlisted 3 for interview,Cross-College companies info - PES.csv
+2025,PES,ShadowFox (Intern),14-11-2024,FALSE,Tier 2,8,,20000,SDE Intern,Internship (PBC),5,8,FALSE,FALSE,FALSE,Shortlisted 32 for writing Test,Cross-College companies info - PES.csv
+2025,PES,Truva (Porch Technologies),14-11-2024,FALSE,Tier 1,23,13,60000,SDE Intern,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,DeltaX,12-11-2024,FALSE,Tier 2,7,,7,Product Engineer,FTE + Intern,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,ClearTrip (Flipkart),09-11-2024,FALSE,Tier 1,32,18,100000,SDE1,FTE + Intern,2,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,LeadSquared (T2),04-12-2024,FALSE,Tier 2,12,,1200000,SDE Intern,FTE + Intern,,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Gigsky,05-12-2024,FALSE,Tier 1,15,7,40000,Software Engineer,FTE + Intern,,8,FALSE,FALSE,FALSE,Shortlisted 236 Students for test above 8 from 7,Cross-College companies info - PES.csv
+2025,PES,Tech Mahindra (T3),08-12-2024,TRUE,Tier 3,,,325000,Graduate Engineer Trainee,FTE,,6.5,TRUE,TRUE,FALSE,Shortlisted 360+ for Test,Cross-College companies info - PES.csv
+2025,PES,Columbia Sportswear Company (T2),10-12-2024,FALSE,Tier 2,6,5,,Software Engineer Trainee,FTE,,7,FALSE,FALSE,FALSE,Shortlisted 35 for Interview,Cross-College companies info - PES.csv
+2025,PES,Cubic Logics Company,26-11-2024,TRUE,Tier 2,6,4.5,15000,SDE,FTE + Intern,,7,TRUE,TRUE,FALSE,Shortlisted 37 for Interview,Cross-College companies info - PES.csv
+2025,PES,Zynga Game Network,29-11-2024,FALSE,Tier 1,,,80000,SDE Intern,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Logik.io,29-11-2024,FALSE,Tier 1,12,,35000,SDE,FTE + Intern,,,TRUE,TRUE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Aptos (Intern),11-11-2024,FALSE,,,,,SDE,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Moenage India Pvt Ltd,03-12-2024,FALSE,Tier 1,,,50000,,Internship (PBC),,8.1,FALSE,FALSE,FALSE,Shortlisted 15 for Interview,Cross-College companies info - PES.csv
+2025,PES,Zeta,30-11-2024,TRUE,Tier 1,,,60000,SDE Intern,Internship (PBC),,8,TRUE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Oracle Financial Services,20-11-2024,FALSE,Tier 2,9,,50000,Associate Consultant / Cloud Analyst,FTE + Intern,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Infoblox,18-11-2024,FALSE,Tier 2,,,35000,Apprentice,Internship (PBC),15,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Bizom,22-11-2024,FALSE,Tier 2,7,,700000,Sales Development Representative,FTE + Intern,4,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Zanskar,19-11-2024,FALSE,Tier 2,,,40000,SDE Intern,Internship (PBC),,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,UST,19-11-2024,FALSE,Tier 2,10,,1000000,,FTE,,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,HourGlass,19-11-2024,FALSE,Tier 2,7,,20000,Patent Associate,FTE + Intern,1,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,PhData,14-11-2024,TRUE,Tier 2,10,,,,FTE,20,,FALSE,TRUE,FALSE,"Hired 10 from CS, 10 from MCA each, Shortlisted 46 for interview",Cross-College companies info - PES.csv
+2025,PES,AT&T,20-11-2024,FALSE,Tier 1,14,,50000,Senior Associate,FTE + Intern,,8,FALSE,FALSE,FALSE,Shortlisted 35 for Interview,Cross-College companies info - PES.csv
+2025,PES,Surveyaan,20-11-2024,FALSE,Tier 2,7,,20000,Software Eng Intern,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Altair India,05-12-2024,TRUE,Tier 2,,,30000,Intern,Internship (PBC),2,6,TRUE,TRUE,TRUE,Shortlisted 36 for Interview,Cross-College companies info - PES.csv
+2025,PES,EMIDS,22-12-2024,FALSE,Tier 2,6,,,Associate Software Engineer,FTE,,7,FALSE,FALSE,FALSE,Shortlisted 53 for Test. Further Shortlisted 6 for Interview in their Office,Cross-College companies info - PES.csv
+2025,PES,MakeMyTrip,21-11-2024,FALSE,Tier 1,22,12,50000,Software Engineer,FTE + Intern,2,7,FALSE,FALSE,FALSE,Shortlisted 42 for Interview,Cross-College companies info - PES.csv
+2025,PES,Apple Internship (AppleCare Team),21-11-2024,FALSE,Tier 1,,,80000,Software Eng & ML Intern,Internship (PBC),,9,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,EPAM,23-11-2024,FALSE,Tier 2,8,,45000,Jr Software Engineer,FTE + Intern,,7,FALSE,TRUE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,GW DeepConnect (GoWarm.ai) (T2),05-12-2024,TRUE,Tier 2,6,3,20000,Software Engineer Intern,FTE + Intern,,7.5,FALSE,FALSE,FALSE,Shortlisted 28 for 1st Round Inteview. Then Shortlisted 6 for Final Round,Cross-College companies info - PES.csv
+2025,PES,Walmart Global Tech (Intern),22-11-2024,FALSE,Tier 1,,,100000,CyberSec Intern,Internship (PBC),,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,O9 Solutions,04-12-2024,FALSE,Tier 2,7,,30000,SDET,Internship (PBC),,7,FALSE,FALSE,FALSE,Shortlisted 14 for Interview,Cross-College companies info - PES.csv
+2025,PES,WNS Vurram,22-11-2024,FALSE,Tier 2,8,,25000,Associate Technical Consultant,FTE + Intern,,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,KPMG Global Services,03-12-2024,FALSE,Tier 2,,,20000,Consulting Intern,Internship (PBC),16,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Ather Energy,22-11-2024,FALSE,Tier 1,,,30000,Ride Experience Analyst Intern (Product Role),Internship (PBC),,,FALSE,FALSE,FALSE,Shortlisted 53 for Test,Cross-College companies info - PES.csv
+2025,PES,Cimpress India (Diversity Hiring) (Remote),24-11-2024,FALSE,Tier 1,,12,45000,Software Engineer Intern,Internship (PBC),,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Udaan,07-01-2025,FALSE,Tier 1,,,55000,SDE Intern,Internship (PBC),4,7,TRUE,FALSE,FALSE,Shortlisted 19 for Interview,Cross-College companies info - PES.csv
+2025,PES,GuideWire (Intern),12-11-2024,FALSE,Tier 1,,,50000,Product Security Intern (CyberSec),Internship (PBC),1,8,FALSE,FALSE,FALSE,5 Shortlisted for Interview,Cross-College companies info - PES.csv
+2025,PES,Azentio,29-11-2024,FALSE,Tier 2,10,,50000,SDET - QA Intern,Internship (PBC),,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,DealShare,05-12-2024,FALSE,Tier 1,,13,50000,SDE,FTE + Intern,8,,FALSE,FALSE,FALSE,Shortlisted 17 for Interview,Cross-College companies info - PES.csv
+2025,PES,GuideWire (Intern),27-11-2024,FALSE,Tier 1,,,50000,SecOps Intern,Internship (PBC),,7.5,FALSE,FALSE,FALSE,"People with Strong CyberSec background was req, Shortlisted x for Interview",Cross-College companies info - PES.csv
+2025,PES,Palo Alto Networks,29-11-2024,FALSE,Tier 1,,14,100000,"SE, Business System Analyst (FinOps)",Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,McKesson Compile,19-12-2024,FALSE,Tier 1,15,,60000,SDE Intern (Data Engineering Team),FTE + Intern,2,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,3rdiTech Inc,12-02-2024,FALSE,Tier 2,,,25000,Student Intern,Internship (PBC),,,FALSE,FALSE,FALSE,(2 Openings),Cross-College companies info - PES.csv
+2025,PES,Black Buck,04-12-2024,FALSE,Tier 2,7,,30000,,FTE + Intern,,8,FALSE,FALSE,FALSE,Shortlisted 45 for PPT/Test,Cross-College companies info - PES.csv
+2025,PES,SecPod,02-12-2024,FALSE,Tier 2,6,,25000,Test Automation Engineer,FTE + Intern,,,FALSE,FALSE,FALSE,Shortlisted 40 PPL for interview,Cross-College companies info - PES.csv
+2025,PES,Harman Connected Services (Remote),04-12-2024,FALSE,Tier 2,,,40000,Global Internship Program,Internship (PBC),,8,FALSE,FALSE,FALSE,Shortlisted 13 for Interview,Cross-College companies info - PES.csv
+2025,PES,F5 Innovations,05-12-2024,FALSE,Tier 1,20,,75000,QA Engineer,FTE + Intern,6,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Harman (T3),06-12-2024,FALSE,Tier 2,5.5,,25000,,FTE + Intern,,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,JSW,07-12-2024,FALSE,Tier 2,8,6,,Graduate Engineer Trainee,FTE,,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Drongoai.com,07-12-2024,FALSE,Tier 2,,,30000,Intern,Internship (PBC),,,TRUE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,Koeber Supply Chain Software,16-12-2024,FALSE,Tier 1,13,11,50000,"SE Intern, Support Eng Intern",Internship (PBC),10,7.9,FALSE,FALSE,FALSE,Shortlisted 13 people for Interview,Cross-College companies info - PES.csv
+2025,PES,Akamai Technologies,,FALSE,Tier 1,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Binocs.co,09-12-2024,FALSE,Tier 2,11,,1100000,"ML Intern, Product Designer, Product Manager",Internship (PBC),,3,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Sandvine,,FALSE,Tier 1,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,BlueBird (T2),16-12-2024,FALSE,Tier 2,10,,1000000,Software (Android & Gen),FTE + Intern,,7,FALSE,TRUE,FALSE,Shortlisted 70 for hiring process,Cross-College companies info - PES.csv
+2025,PES,Commonwealth Bank of Australia,19-12-2024,FALSE,Tier 1,12,,,Graduate Software Engineer,FTE,9,8,FALSE,FALSE,FALSE,Shortlisted 43 for Interview,Cross-College companies info - PES.csv
+2025,PES,Target,14-01-2025,FALSE,Tier 1,,,30000,Apprentice Tech,Internship (PBC),,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,AB InBev,20-01-2025,FALSE,Tier 2,,,30000,Intern,Internship (PBC),,7.1,FALSE,FALSE,FALSE,"Shortlisted 130 for Test, Shortlisted 21 for GD",Cross-College companies info - PES.csv
+2025,PES,Mutiplier,,FALSE,,20,15,80000,Software Engineer Intern,Internship (PBC),3,7,FALSE,FALSE,FALSE,Shortlisted 99 for test.,Cross-College companies info - PES.csv
+2025,PES,Swiggy,03-01-2025,FALSE,Tier 1,,,40000,Engineering Intern,Internship (PBC),11,7,FALSE,FALSE,FALSE,"Shortlisted 58 for Interview, Then selected 11 partially from the List, Will later Hire more",Cross-College companies info - PES.csv
+2025,PES,4Good.ai,,FALSE,Tier 2,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,PeopleBox,,FALSE,,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Allo Health,15-12-2024,TRUE,Tier 1,,,30000,SE Intern,Internship (PBC),,,FALSE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,KeySight,,FALSE,,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Emplay Analytics Inc,16-12-2024,FALSE,Tier 2,8,,20000,Associate Data Scientist,FTE + Intern,,8,FALSE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,MatreComm Technologies,23-12-2024,FALSE,Tier 2,,,25000,Software Engineer - C++,Internship (PBC),,7,FALSE,FALSE,FALSE,"26 Students were selected for Assignment round. Assignment was given which was supposed to be completed in 7 days, which will be evaluated to give final offers",Cross-College companies info - PES.csv
+2025,PES,Alcon,17-12-2024,FALSE,Tier 2,,,25000,Intern - IT & Digital Health,Internship (PBC),,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,CashFree Payment,17-12-2024,FALSE,Tier 2,11,,42000,Devops Engineer 1,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Industry Cover,19-12-2024,FALSE,Tier 2,,,15000,Business Development Intern,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Rapido,03-01-2024,FALSE,Tier 1,18,15,,Backend Engineer,FTE,,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Think41,22-12-2024,FALSE,Tier 2,7,,700000,Full Stack Engineer,FTE + Intern,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Arcesium,06-01-2024,FALSE,Tier 1,,,100000,SRE,Internship (PBC),4,8,FALSE,FALSE,FALSE,Shortlisted 150 for Internship,Cross-College companies info - PES.csv
+2025,PES,KPMG Global Services,24-12-2024,FALSE,Tier 2,5,,,TRM Analyst (Risk Services),FTE,,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Amuse Labs,24-12-2024,FALSE,Tier 1,,,40000,SDE Intern,Internship (PBC),,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,RL & C Technologies Private Limited,,FALSE,,,,,,,,7.5,TRUE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,Nike ITC,26-12-2024,FALSE,Tier 1,,,75000,Data Engineer Intern,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,CARIAD (Embitel Techn - Volkswagon Group),20-12-2024,FALSE,Tier 2,8,,30000,Trainee Engineer,FTE + Intern,,7.1,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,SuperLeap,27-12-2024,FALSE,Tier 2,11,6,25000,Technical Product Analyst Intern,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Bitgo,28-12-2024,FALSE,Tier 1,,15,40000,SDE,FTE + Intern,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,BigEndian Semiconductor,30-12-2024,FALSE,Tier 1,,,25000,Software Engineer Intern,Internship (PBC),,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Qest,30-12-2024,TRUE,Tier 1,12,7,30000,Software Engineer,FTE + Intern,,,FALSE,FALSE,FALSE,Shortlisted 12 for Interview,Cross-College companies info - PES.csv
+2025,PES,Juniper Networks,06-01-2024,FALSE,Tier 1,,,40000,MIST(AIDE) Internship,Internship (PBC),,,FALSE,FALSE,FALSE,Shortlised 50 people for Test. Shortlisted 6 for Interview,Cross-College companies info - PES.csv
+2025,PES,Ascedion,22-12-2024,FALSE,Tier 3,4,,,,FTE,,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Tesco (offCampus) (Female) (ALL India),13-01-2025,FALSE,Tier 1,18,,300000,Diverse Graduate Hiring - Women in Tech Program,FTE,,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,e-Litmus,20-12-2024,FALSE,Tier 1,12,,1200000,Software Developer,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Victoria Secrets,01-01-2025,FALSE,Tier 2,,,45000,Data Scientist Intern,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Pratt & Collins (Collins Aerospace),01-01-2025,FALSE,Tier 2,,,20000,"MRO, Electrification Intern",Internship (PBC),,,FALSE,TRUE,TRUE,Shortlisted 26 for interview,Cross-College companies info - PES.csv
+2025,PES,GKN Aerospace,05-01-2025,FALSE,Tier 2,10,,,Graduate Engineer Trainee,FTE,,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,ABB,,FALSE,Tier 2,10,,1000000,Analytics Team - Associate Software Engineer,FTE,,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Akamai Technologies (Intern),,FALSE,Tier 1,,14,800000,SWE - IT/DevOps Team,FTE + Intern,,8.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Gomarble.ai (T2),,FALSE,Tier 2,10,,30000,AI Engineer,FTE + Intern,,,FALSE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,Tsalla Aerospace (T2),,FALSE,Tier 3,5,,500000,Junior Engineer,FTE + Intern,,6,TRUE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,MicroLand (T3),,FALSE,Tier 3,4,,,Engineering Trainee,FTE,,6,TRUE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,HCL Tech (T3),,FALSE,Tier 3,4,,,Graduate Engineer Trainee,FTE,,7,TRUE,FALSE,FALSE,Shortlisted 38 for interview,Cross-College companies info - PES.csv
+2025,PES,KPMG Global Services (T2),09-01-2024,FALSE,Tier 2,,,20000,Consulting Intern,Internship (PBC),,,TRUE,FALSE,FALSE,Shortlised 23 People (on Some Unknown Criteria) who are still Unplaced for direct Interview. Role as unkownn as of now. Speculating it to be the same one which happened on 3rd Dec,Cross-College companies info - PES.csv
+2025,PES,Thinkinnov Solution Technologies (T2),01-09-2025,TRUE,Tier 2,,,10000,,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Greenway Health India,01-10-2025,FALSE,Tier 2,6,,40000,,Internship (PBC),,6,TRUE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,WebKnot Technologies,01-11-2025,TRUE,Tier 2,7,6,15000,,FTE + Intern,,6,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Mutiplier,01-10-2025,FALSE,Tier 1,20,15,80000,Associate Product Manager,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Digital.ai,01-11-2025,FALSE,Tier 2,8,,25000,Intern.,Internship (PBC),,7.5,FALSE,TRUE,TRUE,,Cross-College companies info - PES.csv
+2025,PES,KreditBee,01-11-2025,FALSE,Tier 2,7,,25000,Intern,Internship (PBC),,8,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Serko,14-01-2025,FALSE,Tier 1,21,,50000,SDE,FTE + Intern,,6,TRUE,TRUE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Candescent,14-01-2025,FALSE,Tier 1,12,,30000,"Dev, QA, Devops",FTE + Intern,,7,TRUE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Raga.ai,13-01-2025,FALSE,Tier 2,,,20000,,Internship (PBC),,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Wokelo.ai,01-09-2025,FALSE,Tier 1,17,,25000,Data Scientist Intern,Internship (PBC),,7.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Rakuten India,17-01-2025,TRUE,Tier 2,,,30000,,Internship (PBC),,7,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Media.net,16-01-2025,FALSE,Tier 2,8,,,Web Application Developer,FTE,,6,TRUE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,My Yoga Teacher,16-01-2025,FALSE,Tier 3,3.6,,30000,SE Intern,Internship (PBC),,6.5,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,Tredence,,FALSE,,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,WNS Analytics,,FALSE,,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,JAR App,,FALSE,,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,KGS,,FALSE,,,,,,,,,FALSE,FALSE,FALSE,,Cross-College companies info - PES.csv
+2025,PES,PPOs (Summer Internship),,,,,,,Offers Made (after Intern Work),,,,,,,,Cross-College companies info - PES.csv
+2025,PES,HPE (Catch Them Young - CTY),,,,17.5,12,,12 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,JPMC (thru Hackathon),,,,19.3,13,,7 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Arista,,,,19.5,16,,4 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Morgan Stanley,,,,29.48,13,,4 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Dover,,,,13,11,,1 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,GoldmanSachs,,,,,,,1 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,G2,,,,15,,,1 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Fidelity,,,,12,10,,3 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Akamai,,,,18,12,,5 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,UPL,,,,10,,,1 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Bosch,,,,,,,,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Microsoft,,,,32,,,1 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Expedia,,,,31,15,,6 FTE,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,Total (PPO offers),,,,,,,46,,,,,,,,Cross-College companies info - PES.csv
+2025,PES,FINAL,,,,,,,888,,,,,,,,Cross-College companies info - PES.csv
