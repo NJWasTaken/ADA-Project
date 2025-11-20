@@ -610,6 +610,31 @@ class PlacementDataConsolidator:
         # Add academic year column (e.g., 2022 batch = 2018-2022)
         df['academic_year'] = df['batch_year'].apply(lambda x: f"{x-4}-{x}")
 
+        # Deduplication
+        print(f"Records before deduplication: {len(df)}")
+        
+        # 1. Exact duplicates
+        df = df.drop_duplicates()
+        print(f"Records after exact deduplication: {len(df)}")
+
+        # 2. Semantic duplicates (Same Batch, College, Company, Role)
+        # Keep the one with the most data (least NaNs)
+        subset_cols = ['batch_year', 'college', 'company_name', 'job_role']
+        
+        # Calculate a "completeness" score for each row to help tie-breaking
+        # We prioritize rows that have CTC, Offers, or Tier info
+        df['completeness_score'] = df[['total_ctc', 'num_offers_total', 'placement_tier']].notna().sum(axis=1)
+        
+        # Sort by completeness (descending) so we keep the best one
+        df = df.sort_values(by=['batch_year', 'college', 'company_name', 'completeness_score'], ascending=[True, True, True, False])
+        
+        # Drop duplicates keeping the first (most complete)
+        df = df.drop_duplicates(subset=subset_cols, keep='first')
+        print(f"Records after semantic deduplication: {len(df)}")
+        
+        # Drop the helper column
+        df = df.drop(columns=['completeness_score'])
+
         return df
 
     def _categorize_role(self, role: str) -> str:
